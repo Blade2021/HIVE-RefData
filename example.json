@@ -1,5 +1,6 @@
 {
   "example_command": {
+    "alias":[],
     "installation": "This is how you install it",
     "links": ["https://github.com"],
     "description": "If you search very hard on github, you'll eventually find it.",
