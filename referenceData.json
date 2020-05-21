@@ -1,9 +1,9 @@
 {
-  "example": {
-    "installation": "How does one install it?  A how to, a link to a article.",
-    "links": [""],
-    "description": "A simple description of what 'IT' is",
-    "category": ["switching-applications"]
+  "reference": {
+    "installation": "Please try to include details in your submissions for approval.",
+    "links": ["https://github.com/Blade2021/HIVE-RefData","https://hivedev.roots.systems"],
+    "description": "Wanna help develop a database of helpful information for beginners starting out in the home automation field?  Help us grow the HIVE Reference Database by submitting commits/PRs to the link included.",
+    "category": ["utilities"]
   },
   "tasmota": {
     "installation": "To learn more about flashing tasmota onto your supported device, check out this article: https://tasmota.github.io/docs/Getting-Started/",
@@ -22,5 +22,12 @@
     "links": ["https://google.com"],
     "description": "A simple description of what 'IT' is",
     "category": ["switching-applications"]
+  },
+  "ESP8266": {
+    "alias":["ESP-8266","ESP8285","AI-Thinker","ESP-01","NodeMCU","Wemos","Wemos D1 Mini","Huzzah","ESP8266 Thing"],
+    "installation": [""],
+    "links": ["https://www.espressif.com/en/products/socs/esp8266/overview","https://en.wikipedia.org/wiki/ESP8266"],
+    "description": "The ESP8266 is a microcontroller with built-in 2.4GHz Wifi (802.11b/g/n) made by a company called Espressif.  It comes in several flavors, each one with its own part number, but most people refer them collectively as 'ESP8266'.\n\nIt was originally designed and released as a wifi bridge to be used in conjunction with other microcontrollers and was initially released with only 8 pins exposed on a module known as an ESP-01.  It is super cheap, and when everyone realized that it was much more capable than being just a wifi bridge, people started using it in projects and products.  Espressif heard about what was being done with their chips and started releasing different modules with all of the pins exposed.\n\nThere aren't very many pins, though, and some of them are a bit... quirky to use.  But, because they're cheap, many smart home gadget companies started using them as the main chip in their products.  (Sonoff, Shelly, and Tuya being three you'll see thrown around in here.)",
+    "category": ["microcontroller"]
   }
 }
