@@ -1,0 +1,26 @@
+{
+  "example": {
+    "installation": "How does one install it?  A how to, a link to a article.",
+    "links": [""],
+    "description": "A simple description of what 'IT' is",
+    "category": ["switching-applications"]
+  },
+  "tasmota": {
+    "installation": "To learn more about flashing tasmota onto your supported device, check out this article: https://tasmota.github.io/docs/Getting-Started/",
+    "links": ["https://tasmota.github.io/docs/","https://tasmota.github.io/docs/Getting-Started/"],
+    "description": "Tasmota is a type of firmware that can be flashed onto several types of devices for better functionallty and control verus the included firmware on a device.  Tasmota is 100% free and open source making it a great product for the home automation community",
+    "category": ["switching-applications"]
+  },
+  "nodered": {
+    "installation": "To learn how to install node-red check out this link: https://nodered.org/docs/getting-started/local",
+    "links": ["https://bit.ly/2XkGZMi","https://nodered.org/docs/getting-started/local","http://www.steves-internet-guide.com/node-red-overview/","http://www.steves-internet-guide.com/node-red-message-object/"],
+    "description": "Node-Red is a fantastic flow based visual tool for creating and linking automations and devices.  Node-Red works very well with Home-Assistant to provide a nice easy infrastructure for your wildest dreams.",
+    "category": ["infrastructure","super awesome gadget of the future!"]
+  },
+  "refTest": {
+    "installation": "How does one install it?  A how to, a link to a article.",
+    "links": ["https://google.com"],
+    "description": "A simple description of what 'IT' is",
+    "category": ["switching-applications"]
+  }
+}
