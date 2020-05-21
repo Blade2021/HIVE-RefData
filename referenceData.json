@@ -18,6 +18,7 @@
     "category": ["infrastructure","super awesome gadget of the future!"]
   },
   "refTest": {
+    "alias": [],
     "installation": "How does one install it?  A how to, a link to a article.",
     "links": ["https://google.com"],
     "description": "A simple description of what 'IT' is",
@@ -25,9 +26,16 @@
   },
   "ESP8266": {
     "alias":["ESP-8266","ESP8285","AI-Thinker","ESP-01","NodeMCU","Wemos","Wemos D1 Mini","Huzzah","ESP8266 Thing"],
-    "installation": [""],
+    "installation": "It should be known that some ESP chips do not come with soldered pins, So soldering may be required.",
     "links": ["https://www.espressif.com/en/products/socs/esp8266/overview","https://en.wikipedia.org/wiki/ESP8266"],
     "description": "The ESP8266 is a microcontroller with built-in 2.4GHz Wifi (802.11b/g/n) made by a company called Espressif.  It comes in several flavors, each one with its own part number, but most people refer them collectively as 'ESP8266'.\n\nIt was originally designed and released as a wifi bridge to be used in conjunction with other microcontrollers and was initially released with only 8 pins exposed on a module known as an ESP-01.  It is super cheap, and when everyone realized that it was much more capable than being just a wifi bridge, people started using it in projects and products.  Espressif heard about what was being done with their chips and started releasing different modules with all of the pins exposed.\n\nThere aren't very many pins, though, and some of them are a bit... quirky to use.  But, because they're cheap, many smart home gadget companies started using them as the main chip in their products.  (Sonoff, Shelly, and Tuya being three you'll see thrown around in here.)",
     "category": ["microcontroller"]
+  },
+  "Zigbee": {
+    "alias":["deconz","conbee-2","conbee"],
+    "installation": "Zigbee devices require a hub to communicate so be sure to have one ready!",
+    "links": ["https://www.amazon.com/dresden-elektronik-ConBee-Universal-Gateway/dp/B07PZ7ZHG5/","https://www.aliexpress.com/item/32865555473.html?"],
+    "description": "Zigbee is a communication protocol that has flourished in the home automation community.  Zigbee is often a preference due to its low power consumption.  The downside to using zigbee is you need to have a HUB to communicate with all of your devices.  In a way this is also and advantage as it keeps less devices on your wifi network.\n\nOne zigbee hub that has a high approval is the conbee 2.  Not the cheapest but fairly easy to configure and always performs very well with devices.  Be sure to make sure your device is supported before buying as it doesn't support every device.  Another great option is the Zigbee2MQTT hub which will relay zigbee data to your mqtt broker.\n\nIf nothing else, Zigbee is a very powerful protocol that opens the horizon to many types of sensors, switches, and other types of home automation devices.",
+    "category": ["infrastructure", "bridge", "utilities"]
   }
 }
