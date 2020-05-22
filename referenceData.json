@@ -37,5 +37,19 @@
     "links": ["https://www.amazon.com/dresden-elektronik-ConBee-Universal-Gateway/dp/B07PZ7ZHG5/","https://www.aliexpress.com/item/32865555473.html?"],
     "description": "Zigbee is a communication protocol that has flourished in the home automation community.  Zigbee is often a preference due to its low power consumption.  The downside to using zigbee is you need to have a HUB to communicate with all of your devices.  In a way this is also and advantage as it keeps less devices on your wifi network.\n\nOne zigbee hub that has a high approval is the conbee 2.  Not the cheapest but fairly easy to configure and always performs very well with devices.  Be sure to make sure your device is supported before buying as it doesn't support every device.  Another great option is the Zigbee2MQTT hub which will relay zigbee data to your mqtt broker.\n\nIf nothing else, Zigbee is a very powerful protocol that opens the horizon to many types of sensors, switches, and other types of home automation devices.",
     "category": ["infrastructure", "bridge", "utilities"]
-  }
+  },
+
+  "RF433": {
+
+    "alias":["RF315","Bond","RFBridge","Slampher"],
+
+    "installation": "There is a lot of information on this subject.  Check out the links section and the Community can lead your journey here.",
+
+    "links": ["https://bit.ly/DrZzsHow433Works","https://bit.ly/DrZzsFlashRFBridgeTasmota","https://youtu.be/OfSbIFIJPuc","https://youtu.be/w_CchtI-oK0","https://whatarewefixing.today/?p=134","https://bit.ly/DrZzsRFBridgeMultiSensorSetup"],
+
+      "description": "The 433 mhz RF (radio frequency) band and the 315 mhz RF band, depending on the country you live in, is designated for the same purpose.  Low power rf transmitters are allowed to broadcast within these frequency ranges.  In the SmartHome / IOT world, these small transmitters are usually binary type sensors because only a small message is able to be transmitted during an event.  Door/Window sensors, PIR sensors, push button transmitters, remote controls and the like are the typical devices using these frequencies.  There needs to be a receiver nearby to pick up these signals and act on the message received.\n\nDevices such as the Itead RFBridge (http://drzzs.com/RF_Bridge) and the Bond Bridge (https://bit.ly/DrZzsBondBridge) act as central hubs to collect information from these sensors and feed the data back to a program such as Home Assistant for further action.  With some devices like the Itead Sonoff Slampher (https://bit.ly/DrZzsSlampher), the device can ‘pair’ with a matching RF transmitter bought separately and act on the information provided.  Devices are not tied to a common standard (like Zwave) which 1, keeps the price very low, but 2, causes incompatibility between manufacturers.",
+
+      "category": ["microcontroller","infrastructure"]
+
+    }
 }
