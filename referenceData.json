@@ -107,5 +107,19 @@
       "microcontroller",
       "infrastructure"
     ]
+  },
+  "Pull-Request": {
+    "alias": [
+      "pr",
+      "pullrequest"
+    ],
+    "installation": "No installation required.",
+    "links": [
+      "https://github.com/Blade2021/HIVE-RefData"
+    ],
+    "description": "A pull request is a part of GIT workflow.  Developers collaborate on pieces of a project then when ready to update the master file, they submit pull requests to allow other devlopers in most cases, to review, adjust, and then commit the changes to the master file.  This allows multiple developers to work simultaneously on the same project without conflict in most cases.\n\nWith the HIVE-References project, we are accepting submissions from anyone and everyone.  Be sure to check out repo in the links section.",
+    "category": [
+      "infrastructure"
+    ]
   }
 }
