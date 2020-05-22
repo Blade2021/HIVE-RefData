@@ -1,55 +1,111 @@
 {
   "reference": {
     "installation": "Please try to include details in your submissions for approval.",
-    "links": ["https://github.com/Blade2021/HIVE-RefData","https://hivedev.roots.systems"],
+    "links": [
+      "https://github.com/Blade2021/HIVE-RefData",
+      "https://hivedev.roots.systems"
+    ],
     "description": "Wanna help develop a database of helpful information for beginners starting out in the home automation field?  Help us grow the HIVE Reference Database by submitting commits/PRs to the link included.",
-    "category": ["utilities"]
+    "category": [
+      "utilities"
+    ]
   },
   "tasmota": {
     "installation": "To learn more about flashing tasmota onto your supported device, check out this article: https://tasmota.github.io/docs/Getting-Started/",
-    "links": ["https://tasmota.github.io/docs/","https://tasmota.github.io/docs/Getting-Started/"],
+    "links": [
+      "https://tasmota.github.io/docs/",
+      "https://tasmota.github.io/docs/Getting-Started/"
+    ],
     "description": "Tasmota is a type of firmware that can be flashed onto several types of devices for better functionallty and control verus the included firmware on a device.  Tasmota is 100% free and open source making it a great product for the home automation community",
-    "category": ["switching-applications"]
+    "category": [
+      "switching-applications"
+    ]
   },
   "nodered": {
     "installation": "To learn how to install node-red check out this link: https://nodered.org/docs/getting-started/local",
-    "links": ["https://bit.ly/2XkGZMi","https://nodered.org/docs/getting-started/local","http://www.steves-internet-guide.com/node-red-overview/","http://www.steves-internet-guide.com/node-red-message-object/"],
+    "links": [
+      "https://bit.ly/2XkGZMi",
+      "https://nodered.org/docs/getting-started/local",
+      "http://www.steves-internet-guide.com/node-red-overview/",
+      "http://www.steves-internet-guide.com/node-red-message-object/"
+    ],
     "description": "Node-Red is a fantastic flow based visual tool for creating and linking automations and devices.  Node-Red works very well with Home-Assistant to provide a nice easy infrastructure for your wildest dreams.",
-    "category": ["infrastructure","super awesome gadget of the future!"]
+    "category": [
+      "infrastructure",
+      "super awesome gadget of the future!"
+    ]
   },
   "refTest": {
     "alias": [],
     "installation": "How does one install it?  A how to, a link to a article.",
-    "links": ["https://google.com"],
+    "links": [
+      "https://google.com"
+    ],
     "description": "A simple description of what 'IT' is",
-    "category": ["switching-applications"]
+    "category": [
+      "switching-applications"
+    ]
   },
   "ESP8266": {
-    "alias":["ESP-8266","ESP8285","AI-Thinker","ESP-01","NodeMCU","Wemos","Wemos D1 Mini","Huzzah","ESP8266 Thing"],
+    "alias": [
+      "ESP-8266",
+      "ESP8285",
+      "AI-Thinker",
+      "ESP-01",
+      "NodeMCU",
+      "Wemos",
+      "Wemos D1 Mini",
+      "Huzzah",
+      "ESP8266 Thing"
+    ],
     "installation": "It should be known that some ESP chips do not come with soldered pins, So soldering may be required.",
-    "links": ["https://www.espressif.com/en/products/socs/esp8266/overview","https://en.wikipedia.org/wiki/ESP8266"],
+    "links": [
+      "https://www.espressif.com/en/products/socs/esp8266/overview",
+      "https://en.wikipedia.org/wiki/ESP8266"
+    ],
     "description": "The ESP8266 is a microcontroller with built-in 2.4GHz Wifi (802.11b/g/n) made by a company called Espressif.  It comes in several flavors, each one with its own part number, but most people refer them collectively as 'ESP8266'.\n\nIt was originally designed and released as a wifi bridge to be used in conjunction with other microcontrollers and was initially released with only 8 pins exposed on a module known as an ESP-01.  It is super cheap, and when everyone realized that it was much more capable than being just a wifi bridge, people started using it in projects and products.  Espressif heard about what was being done with their chips and started releasing different modules with all of the pins exposed.\n\nThere aren't very many pins, though, and some of them are a bit... quirky to use.  But, because they're cheap, many smart home gadget companies started using them as the main chip in their products.  (Sonoff, Shelly, and Tuya being three you'll see thrown around in here.)",
-    "category": ["microcontroller"]
+    "category": [
+      "microcontroller"
+    ]
   },
   "Zigbee": {
-    "alias":["deconz","conbee-2","conbee"],
+    "alias": [
+      "deconz",
+      "conbee-2",
+      "conbee"
+    ],
     "installation": "Zigbee devices require a hub to communicate so be sure to have one ready!",
-    "links": ["https://www.amazon.com/dresden-elektronik-ConBee-Universal-Gateway/dp/B07PZ7ZHG5/","https://www.aliexpress.com/item/32865555473.html?"],
+    "links": [
+      "https://www.amazon.com/dresden-elektronik-ConBee-Universal-Gateway/dp/B07PZ7ZHG5/",
+      "https://www.aliexpress.com/item/32865555473.html?"
+    ],
     "description": "Zigbee is a communication protocol that has flourished in the home automation community.  Zigbee is often a preference due to its low power consumption.  The downside to using zigbee is you need to have a HUB to communicate with all of your devices.  In a way this is also and advantage as it keeps less devices on your wifi network.\n\nOne zigbee hub that has a high approval is the conbee 2.  Not the cheapest but fairly easy to configure and always performs very well with devices.  Be sure to make sure your device is supported before buying as it doesn't support every device.  Another great option is the Zigbee2MQTT hub which will relay zigbee data to your mqtt broker.\n\nIf nothing else, Zigbee is a very powerful protocol that opens the horizon to many types of sensors, switches, and other types of home automation devices.",
-    "category": ["infrastructure", "bridge", "utilities"]
+    "category": [
+      "infrastructure",
+      "bridge",
+      "utilities"
+    ]
   },
-
   "RF433": {
-
-    "alias":["RF315","Bond","RFBridge","Slampher"],
-
+    "alias": [
+      "RF315",
+      "Bond",
+      "RFBridge",
+      "Slampher"
+    ],
     "installation": "There is a lot of information on this subject.  Check out the links section and the Community can lead your journey here.",
-
-    "links": ["https://bit.ly/DrZzsHow433Works","https://bit.ly/DrZzsFlashRFBridgeTasmota","https://youtu.be/OfSbIFIJPuc","https://youtu.be/w_CchtI-oK0","https://whatarewefixing.today/?p=134","https://bit.ly/DrZzsRFBridgeMultiSensorSetup"],
-
-      "description": "The 433 mhz RF (radio frequency) band and the 315 mhz RF band, depending on the country you live in, is designated for the same purpose.  Low power rf transmitters are allowed to broadcast within these frequency ranges.  In the SmartHome / IOT world, these small transmitters are usually binary type sensors because only a small message is able to be transmitted during an event.  Door/Window sensors, PIR sensors, push button transmitters, remote controls and the like are the typical devices using these frequencies.  There needs to be a receiver nearby to pick up these signals and act on the message received.\n\nDevices such as the Itead RFBridge (http://drzzs.com/RF_Bridge) and the Bond Bridge (https://bit.ly/DrZzsBondBridge) act as central hubs to collect information from these sensors and feed the data back to a program such as Home Assistant for further action.  With some devices like the Itead Sonoff Slampher (https://bit.ly/DrZzsSlampher), the device can ‘pair’ with a matching RF transmitter bought separately and act on the information provided.  Devices are not tied to a common standard (like Zwave) which 1, keeps the price very low, but 2, causes incompatibility between manufacturers.",
-
-      "category": ["microcontroller","infrastructure"]
-
-    }
+    "links": [
+      "https://bit.ly/DrZzsHow433Works",
+      "https://bit.ly/DrZzsFlashRFBridgeTasmota",
+      "https://youtu.be/OfSbIFIJPuc",
+      "https://youtu.be/w_CchtI-oK0",
+      "https://whatarewefixing.today/?p=134",
+      "https://bit.ly/DrZzsRFBridgeMultiSensorSetup"
+    ],
+    "description": "The 433 mhz RF (radio frequency) band and the 315 mhz RF band, depending on the country you live in, is designated for the same purpose.  Low power rf transmitters are allowed to broadcast within these frequency ranges.  In the SmartHome / IOT world, these small transmitters are usually binary type sensors because only a small message is able to be transmitted during an event.  Door/Window sensors, PIR sensors, push button transmitters, remote controls and the like are the typical devices using these frequencies.  There needs to be a receiver nearby to pick up these signals and act on the message received.\n\nDevices such as the Itead RFBridge (http://drzzs.com/RF_Bridge) and the Bond Bridge (https://bit.ly/DrZzsBondBridge) act as central hubs to collect information from these sensors and feed the data back to a program such as Home Assistant for further action.  With some devices like the Itead Sonoff Slampher (https://bit.ly/DrZzsSlampher), the device can ‘pair’ with a matching RF transmitter bought separately and act on the information provided.  Devices are not tied to a common standard (like Zwave) which 1, keeps the price very low, but 2, causes incompatibility between manufacturers.",
+    "category": [
+      "microcontroller",
+      "infrastructure"
+    ]
+  }
 }
