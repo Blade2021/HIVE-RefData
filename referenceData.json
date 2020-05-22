@@ -62,7 +62,7 @@
   "NodeMCU": {
     "installation": "It should be known that some ESP chips do not come with soldered pins, So soldering may be required.",
     "links": ["https://en.wikipedia.org/wiki/NodeMCU","https://tinyurl.com/yal4c3a4"],
-    "description": "NodeMCU is a popular development board that has an ESP8266 Module on it.  It has a USB port for both power and Serial-to-USB connectivity, as well as duplicate power pins.  It's convenient for adding multiple accessories to because you don't need to deal with splicing the power pins.  Product link is available in the links list.\n\nSee also: ~ESP8266"
+    "description": "NodeMCU is a popular development board that has an ESP8266 Module on it.  It has a USB port for both power and Serial-to-USB connectivity, as well as duplicate power pins.  It's convenient for adding multiple accessories to because you don't need to deal with splicing the power pins.  Product link is available in the links list.\n\nSee also: ~ESP8266",
     "category": ["microcontroller"]
   },
   "WLED": {
@@ -72,7 +72,7 @@
     "category": ["lights","applications"]
   },
   "NeoPixel": {
-    "alias":["ws2811",'ws2812b',"ws2813","ws2815","sk9822","sk9812","apa106"],
+    "alias":["ws2811","ws2812b","ws2813","ws2815","sk9822","sk9812","apa106"],
     "installation": "DrZzs has a lot of great videos!  Check out this one to get started: https://youtu.be/tXvtxwK3jRk",
     "links": ["https://youtu.be/tXvtxwK3jRk","https://youtu.be/QnvircC22hU"],
     "description": "Individually Addressable LEDs come in many varieties; you may find them referred to as NeoPixels, or by their part numbers, which include WS2811, WS2812b, WS2813, WS2815, SK9822, SK9812, or APA106.  You will need a microcontroller of some kind to run them; the most popular in the home automation space are the ESP8266 and ESP32 Boards.  Depending upon the length of your installation, you may also need to procure a high-amperage power supply and additional wire for power injection.\n\nSee also ~WLED",
