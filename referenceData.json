@@ -32,8 +32,7 @@
 		],
 		"description": "Node-Red is a fantastic flow based visual tool for creating and linking automations and devices.  Node-Red works very well with Home-Assistant to provide a nice easy infrastructure for your wildest dreams.",
 		"category": [
-			"infrastructure",
-			"super awesome gadget of the future!"
+			"infrastructure"
 		]
 	},
 	"refTest": {
