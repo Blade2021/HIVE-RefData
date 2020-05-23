@@ -152,5 +152,16 @@
 			"infrastructure",
 			"switching-applications"
 		]
+	},
+	"Deconz": {
+		"alias":["deconz"],
+		"installation": "Decponz and the Phoscon Web App can be installed in Docker, within Home Assistant as an addon, or can even be bought as part of a hardware solution preinstalled on a dedicated Raspberry Pi",
+		"links": ["https://phoscon.de/en/conbee/software"],
+		"description": "Deconz, by Phoscon (the makers of the ConbeeII Zigbee USB stick) is a central hub for the integration of Zigbee devices.  The default installation includes the Deconz app as well the Phsocon web app for controlling devices from a browser.  aWhile the software can be used as a standalone app it is also available as a Home Assistant Addon.  With the ConbeeII stick and Deconz, you can take control of any Hue devices you already have or add new ones without using a Hue hub.  The software also support the Phoscon RaspBee and RaspBee II Pi hat devices.",
+		"category": [
+			"bridge", 
+			"infrastructure",
+			"switching-applications"
+		]
 	}
 }
