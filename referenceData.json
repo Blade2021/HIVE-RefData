@@ -143,7 +143,10 @@
 	"esphome": {
 		"alias":["esp-home"],
 		"installation": "ESPHome may be installed in Home Assistant as a supervisor add-on, or as a standalone installation.  Standalone install instructions can be found at https://esphome.io/guides/getting_started_command_line.html",
-		"links": ["https://esphome.io", "https://esphome.io/guides/getting_started_command_line.html"],
+		"links": [
+			"https://esphome.io", 
+			"https://esphome.io/guides/getting_started_command_line.html"
+		],
 		"description": "ESPHome provides a simple way to configure code to run on your (ESP8266 or ESP32 based) wireless devices.  These devices include the Sonoff range of wifi controllable products, along with many others.  The software is configured using YAML files with a very simple syntax.  Don't let that fool you though.  The resulting software can be very powerful, and can be used to set up devices for direct integration with Home Assistant without the need for an MQTT broker as with Tasmota.",
 		"category": [
 			"microcontroller", 
