@@ -55,7 +55,6 @@
   },
   "Zigbee": {
     "alias": [
-      "deconz",
       "conbee-2",
       "conbee"
     ],
