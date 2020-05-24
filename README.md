@@ -1,4 +1,5 @@
 # HIVE-RefData
+![Deploy](https://github.com/Blade2021/HIVE-RefData/workflows/Deploy/badge.svg)
 
 # How to contribute?
 Wanna help contribute to a short database of useful commands for HIVE?  Check out the example.json included with this repo.  This will give you the json object template that will be used for each defenition.  Now its time to "fill in the blanks", setup your defenition using the data structure below.  Then submit a PR (pull request) for review.  Please remember that all submissions **MUST** to conform to the data structure to be accepted.
