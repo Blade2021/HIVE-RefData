@@ -8,7 +8,7 @@
     "description": "Wanna help develop a database of helpful information for beginners starting out in the home automation field?  Help us grow the HIVE Reference Database by submitting commits/PRs to the link included.",
     "category": [
       "utilities"
-    
+    ]
   },
   "tasmota": {
     "alias": ["tasmoto"],
