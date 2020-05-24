@@ -163,13 +163,4 @@
       "switching-applications"
     ]
   }
-  "Testing": {
-    "alias":[],
-    "installation": "",
-    "links": [],
-    "description": "This is only a test for the automatic deployment feature",
-    "category": [
-      "bridge"
-    ]
-  }
 }
