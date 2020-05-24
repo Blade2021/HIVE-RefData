@@ -7,138 +7,129 @@
     "default": {},
     "examples": [
         {
-            "checked": false,
-            "dimensions": {
-                "width": 5,
-                "height": 10
-            },
-            "id": 1,
-            "name": "A green door",
-            "price": 12.5,
-            "tags": [
-                "home",
-                "green"
-            ]
+            "reference": {
+                "installation": "Please try to include details in your submissions for approval.",
+                "links": [
+                    "https://github.com/Blade2021/HIVE-RefData",
+                    "https://hivedev.roots.systems"
+                ],
+                "description": "Wanna help develop a database of helpful information for beginners starting out in the home automation field?  Help us grow the HIVE Reference Database by submitting commits/PRs to the link included.",
+                "category": [
+                    "utilities"
+                ]
+            }
         }
     ],
     "required": [
-        "checked",
-        "dimensions",
-        "id",
-        "name",
-        "price",
-        "tags"
+        "reference"
     ],
     "additionalProperties": true,
     "properties": {
-        "checked": {
-            "$id": "#/properties/checked",
-            "type": "boolean",
-            "title": "The checked schema",
-            "description": "An explanation about the purpose of this instance.",
-            "default": false,
-            "examples": [
-                false
-            ]
-        },
-        "dimensions": {
-            "$id": "#/properties/dimensions",
+        "reference": {
+            "$id": "#/properties/reference",
             "type": "object",
-            "title": "The dimensions schema",
+            "title": "The reference schema",
             "description": "An explanation about the purpose of this instance.",
             "default": {},
             "examples": [
                 {
-                    "width": 5,
-                    "height": 10
+                    "installation": "Please try to include details in your submissions for approval.",
+                    "links": [
+                        "https://github.com/Blade2021/HIVE-RefData",
+                        "https://hivedev.roots.systems"
+                    ],
+                    "description": "Wanna help develop a database of helpful information for beginners starting out in the home automation field?  Help us grow the HIVE Reference Database by submitting commits/PRs to the link included.",
+                    "category": [
+                        "utilities"
+                    ]
                 }
             ],
             "required": [
-                "width",
-                "height"
+                "installation",
+                "links",
+                "description",
+                "category"
             ],
             "additionalProperties": true,
             "properties": {
-                "width": {
-                    "$id": "#/properties/dimensions/properties/width",
-                    "type": "integer",
-                    "title": "The width schema",
+                "installation": {
+                    "$id": "#/properties/reference/properties/installation",
+                    "type": "string",
+                    "title": "The installation schema",
                     "description": "An explanation about the purpose of this instance.",
-                    "default": 0,
+                    "default": "",
                     "examples": [
-                        5
+                        "Please try to include details in your submissions for approval."
                     ]
                 },
-                "height": {
-                    "$id": "#/properties/dimensions/properties/height",
-                    "type": "integer",
-                    "title": "The height schema",
+                "links": {
+                    "$id": "#/properties/reference/properties/links",
+                    "type": "array",
+                    "title": "The links schema",
                     "description": "An explanation about the purpose of this instance.",
-                    "default": 0,
+                    "default": [],
                     "examples": [
-                        10
-                    ]
-                }
-            }
-        },
-        "id": {
-            "$id": "#/properties/id",
-            "type": "integer",
-            "title": "The id schema",
-            "description": "An explanation about the purpose of this instance.",
-            "default": 0,
-            "examples": [
-                1
-            ]
-        },
-        "name": {
-            "$id": "#/properties/name",
-            "type": "string",
-            "title": "The name schema",
-            "description": "An explanation about the purpose of this instance.",
-            "default": "",
-            "examples": [
-                "A green door"
-            ]
-        },
-        "price": {
-            "$id": "#/properties/price",
-            "type": "number",
-            "title": "The price schema",
-            "description": "An explanation about the purpose of this instance.",
-            "default": 0.0,
-            "examples": [
-                12.5
-            ]
-        },
-        "tags": {
-            "$id": "#/properties/tags",
-            "type": "array",
-            "title": "The tags schema",
-            "description": "An explanation about the purpose of this instance.",
-            "default": [],
-            "examples": [
-                [
-                    "home",
-                    "green"
-                ]
-            ],
-            "additionalItems": true,
-            "items": {
-                "anyOf": [
-                    {
-                        "$id": "#/properties/tags/items/anyOf/0",
-                        "type": "string",
-                        "title": "The first anyOf schema",
-                        "description": "An explanation about the purpose of this instance.",
-                        "default": "",
-                        "examples": [
-                            "home",
-                            "green"
+                        [
+                            "https://github.com/Blade2021/HIVE-RefData",
+                            "https://hivedev.roots.systems"
                         ]
+                    ],
+                    "additionalItems": true,
+                    "items": {
+                        "anyOf": [
+                            {
+                                "$id": "#/properties/reference/properties/links/items/anyOf/0",
+                                "type": "string",
+                                "title": "The first anyOf schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "https://github.com/Blade2021/HIVE-RefData",
+                                    "https://hivedev.roots.systems"
+                                ]
+                            }
+                        ],
+                        "$id": "#/properties/reference/properties/links/items"
                     }
-                ],
-                "$id": "#/properties/tags/items"
+                },
+                "description": {
+                    "$id": "#/properties/reference/properties/description",
+                    "type": "string",
+                    "title": "The description schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "Wanna help develop a database of helpful information for beginners starting out in the home automation field?  Help us grow the HIVE Reference Database by submitting commits/PRs to the link included."
+                    ]
+                },
+                "category": {
+                    "$id": "#/properties/reference/properties/category",
+                    "type": "array",
+                    "title": "The category schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": [],
+                    "examples": [
+                        [
+                            "utilities"
+                        ]
+                    ],
+                    "additionalItems": true,
+                    "items": {
+                        "anyOf": [
+                            {
+                                "$id": "#/properties/reference/properties/category/items/anyOf/0",
+                                "type": "string",
+                                "title": "The first anyOf schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "utilities"
+                                ]
+                            }
+                        ],
+                        "$id": "#/properties/reference/properties/category/items"
+                    }
+                }
             }
         }
     }
