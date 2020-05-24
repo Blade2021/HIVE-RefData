@@ -1,41 +1,144 @@
 {
-    "$schema": "https://json-schema.org/draft/2019-09/schema",
-    "$id": "https://json-schema.org/draft/2019-09/schema",
-    "$vocabulary": {
-        "https://json-schema.org/draft/2019-09/vocab/core": true,
-        "https://json-schema.org/draft/2019-09/vocab/applicator": true,
-        "https://json-schema.org/draft/2019-09/vocab/validation": true,
-        "https://json-schema.org/draft/2019-09/vocab/meta-data": true,
-        "https://json-schema.org/draft/2019-09/vocab/format": false,
-        "https://json-schema.org/draft/2019-09/vocab/content": true
-    },
-    "$recursiveAnchor": true,
-
-    "title": "Core and Validation specifications meta-schema",
-    "allOf": [
-        {"$ref": "meta/core"},
-        {"$ref": "meta/applicator"},
-        {"$ref": "meta/validation"},
-        {"$ref": "meta/meta-data"},
-        {"$ref": "meta/format"},
-        {"$ref": "meta/content"}
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "checked": false,
+            "dimensions": {
+                "width": 5,
+                "height": 10
+            },
+            "id": 1,
+            "name": "A green door",
+            "price": 12.5,
+            "tags": [
+                "home",
+                "green"
+            ]
+        }
     ],
-    "type": ["object", "boolean"],
+    "required": [
+        "checked",
+        "dimensions",
+        "id",
+        "name",
+        "price",
+        "tags"
+    ],
+    "additionalProperties": true,
     "properties": {
-        "definitions": {
-            "$comment": "While no longer an official keyword as it is replaced by $defs, this keyword is retained in the meta-schema to prevent incompatible extensions as it remains in common use.",
-            "type": "object",
-            "additionalProperties": { "$recursiveRef": "#" },
-            "default": {}
+        "checked": {
+            "$id": "#/properties/checked",
+            "type": "boolean",
+            "title": "The checked schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": false,
+            "examples": [
+                false
+            ]
         },
-        "dependencies": {
-            "$comment": "\"dependencies\" is no longer a keyword, but schema authors should avoid redefining it to facilitate a smooth transition to \"dependentSchemas\" and \"dependentRequired\"",
+        "dimensions": {
+            "$id": "#/properties/dimensions",
             "type": "object",
-            "additionalProperties": {
-                "anyOf": [
-                    { "$recursiveRef": "#" },
-                    { "$ref": "meta/validation#/$defs/stringArray" }
+            "title": "The dimensions schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+                {
+                    "width": 5,
+                    "height": 10
+                }
+            ],
+            "required": [
+                "width",
+                "height"
+            ],
+            "additionalProperties": true,
+            "properties": {
+                "width": {
+                    "$id": "#/properties/dimensions/properties/width",
+                    "type": "integer",
+                    "title": "The width schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [
+                        5
+                    ]
+                },
+                "height": {
+                    "$id": "#/properties/dimensions/properties/height",
+                    "type": "integer",
+                    "title": "The height schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [
+                        10
+                    ]
+                }
+            }
+        },
+        "id": {
+            "$id": "#/properties/id",
+            "type": "integer",
+            "title": "The id schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                1
+            ]
+        },
+        "name": {
+            "$id": "#/properties/name",
+            "type": "string",
+            "title": "The name schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "A green door"
+            ]
+        },
+        "price": {
+            "$id": "#/properties/price",
+            "type": "number",
+            "title": "The price schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0.0,
+            "examples": [
+                12.5
+            ]
+        },
+        "tags": {
+            "$id": "#/properties/tags",
+            "type": "array",
+            "title": "The tags schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": [],
+            "examples": [
+                [
+                    "home",
+                    "green"
                 ]
+            ],
+            "additionalItems": true,
+            "items": {
+                "anyOf": [
+                    {
+                        "$id": "#/properties/tags/items/anyOf/0",
+                        "type": "string",
+                        "title": "The first anyOf schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "home",
+                            "green"
+                        ]
+                    }
+                ],
+                "$id": "#/properties/tags/items"
             }
         }
     }
