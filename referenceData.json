@@ -41,7 +41,7 @@
     "links": [
       "https://google.com"
     ],
-    "description": "A simple description of what 'IT' is",
+    "description": "A simple description of what 'IT' is\n\nThis is just a test of the automatic deployment",
     "category": [
       "switching-applications"
     ]
