@@ -45,3 +45,6 @@ Does your defenition fit more then just one reference?  No problem, just add any
 * No spaces in the defention key  
   * "example-test" = OK
   * "example test" = **NOT** OK
+  
+# Automatic Deployment
+All commits to the master are validated and deployed upon successful validation.  After deployment, HIVE bot may be reloaded by any member of staff to reload the reference library. 
