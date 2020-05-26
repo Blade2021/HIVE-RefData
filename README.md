@@ -40,6 +40,9 @@ Does your defenition fit more then just one reference?  No problem, just add any
   },
 }
 ```
+# REGEX
+The following will be replaced automatically:
+{prefix} - Replaced with HIVE's current prefix, This keeps from having to hardcode the prefix.
 
 # Current Requirements:
 * No spaces in the defention key  
