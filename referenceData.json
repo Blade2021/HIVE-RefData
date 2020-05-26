@@ -41,7 +41,7 @@
     "links": [
       "https://google.com"
     ],
-    "description": "A simple description of what 'IT' is",
+    "description": "A simple description of what 'IT' is\n\nTesting the {prefix} function",
     "category": [
       "switching-applications"
     ]
