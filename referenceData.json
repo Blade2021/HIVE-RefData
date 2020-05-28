@@ -184,5 +184,5 @@
     "links": ["https://shelly.cloud/","https://tinyurl.com/drzzs-shellyone","https://tinyurl.com/drzzs-shellyonepm","https://tinyurl.com/drzzs-shellytwopointfive"],
     "description": "Shelly is a European company that manufactures smart home automation products for use in almost every country, many which are based upon the venerable ESP8266 microcontroller. Shelly's remote relay line-up consists of single, double, and quad relay options, some with and some without power monitoring.  They also manufacture various types of sensors, power monitoring modules, and RGBW LED controllers.\n\nThe stock firmware can be used with the Shelly app along with a HACS integration, or it can be set up to use a local MQTT Server -- no flashing is required!  If one does not wish to use the stock firmware, most of their products can be flashed with Tasmota, ESPHome, or other custom firmware.\n\n*CAUTION* Most Shelly devices are used in conjunction with Mains voltages and can be very hazardous if mishandled.",
     "category": ["microcontroller","infrastructure"]
-  },
+  }
 }
