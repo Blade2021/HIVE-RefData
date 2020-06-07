@@ -296,7 +296,8 @@
       "spinningcard",
       "spinningbutton",
       "spinning-button",
-      "spinning-card"
+      "spinning-card",
+      "sbc"
     ],
     "installation": "Install the custom button card using HACS.",
     "links": [
