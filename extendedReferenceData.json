@@ -208,9 +208,11 @@
     ],
     "installation": "No installation required.",
     "links": [
-      "https://github.com/Blade2021/HIVE-RefData"
+      "https://github.com/Blade2021/HIVE-RefData",
+      "https://youtu.be/rgbCcBNZcdQ",
+      "https://youtu.be/uUuTYDg9XoI"
     ],
-    "description": "A pull request is a part of GIT workflow.  Developers collaborate on pieces of a project then when ready to update the master file, they submit pull requests to allow other devlopers in most cases, to review, adjust, and then commit the changes to the master file.  This allows multiple developers to work simultaneously on the same project without conflict in most cases.\n\nWith the HIVE-References project, we are accepting submissions from anyone and everyone.  Be sure to check out repo in the links section.",
+    "description": "A pull request is a part of GIT workflow.  Developers collaborate on pieces of a project then when ready to update the master file, they submit pull requests to allow other developers in most cases, to review, adjust, and then commit the changes to the master file.  This allows multiple developers to work simultaneously on the same project without conflict in most cases.\n\nWith the HIVE-References project, we are accepting submissions from anyone and everyone.  Be sure to check out repo in the links section.",
     "category": [
       "infrastructure"
     ]
@@ -310,5 +312,27 @@
       "applications",
       "user-interface"
     ]
+  },
+  "No State History": {
+    "alias": [
+      "MariaDB",
+      "SQLite",
+      "DB Corrupt",
+      "Recorder"
+    ],
+  "installation": "Home Assistant comes with a built-in version of SQLite database.  If you suspect a database problem, the home-assistant_v2.DB file in your config folder can be deleted or renamed to disable it.  HA will rebuild it immediately.  I would wait 10 minutes after deleting (or renaming) the file before you restart HA to give the file a chance to rebuild.",
+  "links": [
+    "https://www.home-assistant.io/integrations/recorder/",
+    "https://github.com/home-assistant/hassio-addons/tree/master/mariadb",
+    "https://whatarewefixing.today/?p=240",
+    "https://www.home-assistant.io/docs/backend/database/",
+    "https://www.reddit.com/r/homeassistant/comments/9z0tof/what_are_the_advantages_of_using_a_nondefault/",
+    "https://youtu.be/4rsxnN8gkHk"
+  ],
+  "description": "The default database that is used to store all recorded data in Home Assistant is SQLite.  As you get into a few dozen devices and hundreds of sensor data points, SQLite begins to falter and this causes the occasional database corruption. If your Database file is over 1GB, if you are getting Recorder failures in the log, if sensor data randomly stops displaying in your user interface, it is probably time to purge the database.  See INSTALLATION above. If this continues to happen to you, it may be time to replace the database with something else.\n\n  The easiest way to replace the database is to use the Official Add-on MariaDB.  This is a mysql based program that can handle larger amounts of data better that the default.  Please see the links for more information.\n\n  If you are not running the supervised version of HA, there is a video for you in the links as well.  Also other database solutions will work with Home Assistant, see the link for the recorder integration for more details.",
+  "category": [
+    "applications",
+    "infrastructure"
+  ]
   }
 }
