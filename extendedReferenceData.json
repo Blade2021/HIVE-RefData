@@ -313,6 +313,29 @@
       "user-interface"
     ]
   },
+  "HA Supervised": {
+    "alias": [
+      "hainstall",
+      "ha_install",
+      "Home Assistant Supervised",
+      "Home Assistant Generic Linux",
+      "Home Assistant Docker Supervised",
+      "hasupervised",
+      "ha_supervised"
+    ],
+  "installation": "Home Assistant Supervised can be installed on top of Docker on any generic linux system, a Debian based system is recommended. Below you will find links to tutorials and resources.",
+  "links": [
+    "https://mathesonsteplock.ca/install-home-assistant-supervised-on-ubuntu-20-04/",
+    "https://youtu.be/ekVfLXnoM7k",
+    "https://github.com/home-assistant/supervised-installer",
+    "https://docs.docker.com/engine/install/"
+  ],
+  "description": "Home Assistant (Supervised) is the version of Home Assistant which runs the Home Assistant Supervisor.\n\nThe supervisor is is a container that runs in Docker which allows the use of Add-ons and manages updating and other maintenance of your Home Assistant Install.\n\nWith the help of the generic Linux install script you can install Home Assistant (Supervised) on any Linux System running Docker",
+  "category": [
+    "infrastructure",
+    "home-assistant"
+  ]
+  },
   "No State History": {
     "alias": [
       "MariaDB",
