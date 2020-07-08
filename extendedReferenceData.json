@@ -357,5 +357,22 @@
     "applications",
     "infrastructure"
   ]
+  },
+  "Power Over Ethernet": {
+    "alias": [
+      "POE",
+      "POE+",
+      "POE++",
+      "4PPOE",
+      "802.3af",
+      "802.3at",
+      "802.3bt"
+    ],
+    "installation": "Power Over Ethernet requires a POE capable device (Wifi Hotspot or Camera), as well as a power supply such as a POE Switch or a POE Power injector.",
+    "links": [
+      "https://en.wikipedia.org/wiki/Power_over_Ethernet"
+    ],
+    "description": "Power Over Ethernet is a way to supply power to devices over the network cable from a central point.  It enables us to use electronics where there are no electrical outlets nearby and increases ease of management by having power supplies centrally located for devices in hard-to-reach locations.\n\nPOE comes in three standard flavors:\n\n1) POE (802.3af) Delivers 15W @ 48V\n2)POE+ (802.3at) Delivers 30W @ 48V\n3)POE++ or 4PPoE (802.3bt) Delivers 60W-100W @ 48V (Depending upon type of 802.3bt used)\n\nThere are also vendor-specific proprietary POE systems that need a special proprietary injector, and these devices will not work with standard POE installations. Be certain to review the power requirements of any POE Device prior to purchase to ensure that you're getting everyting you need.\n\nThere is no special cabling requirement for POE -- Any 8 conductor Category 5e, Category 6, or Category 7 cable will work just fine. As in non-POE installations, care should be taken to not kink or bed the cable too sharply as it will create problems.\n\nDevices do not need to have ethernet ports!  There are POE Converters that can go from 48V DC to 5V DC or 12V DC, and can be plugged into ESP Wifi chips, or Single Board Computers.  This is especially convenient when you have sensor nodes or lighting controllers in hard-to-reach places.",
+    "category": ["infrastructure"]
   }
 }
