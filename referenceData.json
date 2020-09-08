@@ -113,6 +113,24 @@
     "category": [
       "user-base"
     ]
+  },
+  "suggestHelp": {
+    "alias": [
+    ],
+    "minRank": 0,
+    "description": "Wanna submit a suggestion?  Use ~suggest followed by your suggestion.  This will send your suggestion to our staff to review before being posted as a poll for the community to vote.",
+    "category": [
+      "information"
+    ]
+  },
+  "codeshare": {
+    "alias": [
+    ],
+    "minRank": 0,
+    "description": "Need to work with someone on writing code?  Try using https://codeshare.io",
+    "category": [
+      "information"
+    ]
   }
 
 }
