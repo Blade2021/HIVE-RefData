@@ -325,7 +325,7 @@
     ],
     "installation": "Home Assistant Supervised can be installed on top of Docker on any generic linux system, a Debian based system is recommended. Below you will find links to tutorials and resources.",
     "links": [
-      "https://mathesonsteplock.ca/install-home-assistant-supervised-on-ubuntu-20-04/",
+      "https://mathesonsteplock.ca/install-home-assistant-supervised-on-debian/",
       "https://youtu.be/ekVfLXnoM7k",
       "https://github.com/home-assistant/supervised-installer",
       "https://docs.docker.com/engine/install/"
