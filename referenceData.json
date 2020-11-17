@@ -225,4 +225,15 @@
       "LED"
     ]
   }
+  "LED_Props": {
+    "alias": [
+	"LED Props"
+          ],
+    "minRank": 0,
+    "description": "[boscoyostudio- props](https://boscoyostudio.com/)\n[gilbert engineering usa - props](https://gilbertengineeringusa.com/)\n[customchristmascreationsccc - props](https://customchristmascreationsccc.com/)\n[EFL Designs](https://www.facebook.com/EFLDesigns)",
+    "category": [
+      "LED"
+    ],
+    "keywords": [
+      "LED"
 }
