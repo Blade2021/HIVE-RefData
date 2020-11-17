@@ -204,7 +204,7 @@
 	"led hardware"
           ],
     "minRank": 0,
-    "description": "(RGBMan)[https://www.rgb-man.com/]\n(wallyslights)[https://www.wallyslights.com/]\n(wiredwatts)[https://www.wiredwatts.com/]\n(Ray wu's store)[https://www.aliexpress.com/store/701799?fbclid=IwAR1yDm6ygs_IuAz13ggWv2wPSHJH34M7205U4l473jGqtVUNjIbLjrQAdFM]\n(PIXELHEADS)[https://shop.pixelheads.info/]\n(Paul Zhang Direct-US)[https://www.amazon.com/s?i=merchant-items&me=A1HD6W29M3RXPC]\n(Hanson Electronics)[http://www.hansonelectronics.com.au/]\n(jboards)[https://jboards.ecwid.com/]\n(mattosdesigns)[https://mattosdesigns.com/]",
+    "description": "[RGBMan](https://www.rgb-man.com/)\n[wallyslights](https://www.wallyslights.com/)\n[wiredwatts](https://www.wiredwatts.com/)\n[Ray wu's store](https://www.aliexpress.com/store/701799?fbclid=IwAR1yDm6ygs_IuAz13ggWv2wPSHJH34M7205U4l473jGqtVUNjIbLjrQAdFM)\n[PIXELHEADS](https://shop.pixelheads.info/)\n[Paul Zhang Direct-US](https://www.amazon.com/s?i=merchant-items&me=A1HD6W29M3RXPC)\n[Hanson Electronics](http://www.hansonelectronics.com.au/)\n[jboards](https://jboards.ecwid.com/)\n[mattosdesigns](https://mattosdesigns.com/)",
     "category": [
       "LED"
     ],
@@ -217,7 +217,7 @@
 	"LED controller"
           ],
     "minRank": 0,
-    "description": "(USA-Dig-Uno)[https://drzzs.com/shop/dig-uno-diy-rgb-led-controller-w-wled-preassembled/]\n(USA-Dig-Quad)[https://drzzs.com/shop/digquad/]\n(kulplights controllers)[https://kulplights.com/]\n(Falcon Pixel controller)[https://www.pixelcontroller.com/store/index.php]\n(Pixel2Things- Ac to pixel controller)[https://www.pixel2things.com/]",
+    "description": "[USA-Dig-Uno](https://drzzs.com/shop/dig-uno-diy-rgb-led-controller-w-wled-preassembled/)\n[USA-Dig-Quad](https://drzzs.com/shop/digquad/)\n[kulplights controllers](https://kulplights.com/)\n[Falcon Pixel controller](https://www.pixelcontroller.com/store/index.php)\n[Pixel2Things- Ac to pixel controller](https://www.pixel2things.com/)",
     "category": [
       "LED"
     ],
