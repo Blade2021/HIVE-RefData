@@ -228,26 +228,26 @@
 		"keywords": [
 			"LED"
 		]
-	}
+	},
 	"LED_espdriver": {
 		"alias": [
 			"LED espdriver"
 		],
 		"minRank": 0,
-		"description": "[Wled esp driver download click here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
+		"description": "[Wled esp driver download click here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)",
 		"category": [
 			"LED"
 		],
 		"keywords": [
 			"LED"
 		]
-	}
+	},
 	"LED_hotglue": {
 		"alias": [
 			"LED hotglue"
 		],
 		"minRank": 0,
-		"description": "[ONLY ONE TRUE ANSWER](https://memegenerator.net/img/instances/36290779/hot-glue-everything.jpg)
+		"description": "[ONLY ONE TRUE ANSWER](https://memegenerator.net/img/instances/36290779/hot-glue-everything.jpg)",
 		"category": [
 			"LED"
 		],
