@@ -242,4 +242,17 @@
 			"LED"
 		]
 	}
+	"LED_hotglue": {
+		"alias": [
+			"LED hotglue"
+		],
+		"minRank": 0,
+		"description": "[ONLY ONE TRUE ANSWER](https://memegenerator.net/img/instances/36290779.jpg)
+		"category": [
+			"LED"
+		],
+		"keywords": [
+			"LED"
+		]
+	}
 }
