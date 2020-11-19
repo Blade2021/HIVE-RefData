@@ -228,5 +228,57 @@
 		"keywords": [
 			"LED"
 		]
+	},
+	"LED_espdriver": {
+		"alias": [
+			"LED espdriver"
+		],
+		"minRank": 0,
+		"description": "[Wled esp driver download click here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)",
+		"category": [
+			"LED"
+		],
+		"keywords": [
+			"LED"
+		]
+	},
+	"LED_xlights": {
+		"alias": [
+			"LED xlights"
+		],
+		"minRank": 0,
+		"description": "[xlights website](https://xlights.org/)",
+		"category": [
+			"LED"
+		],
+		"keywords": [
+			"LED"
+		]
+	},
+	"LED_sequences": {
+		"alias": [
+			"LED sequences"
+		],
+		"minRank": 0,
+		"description": "[xlights free sequences google drive ](https://drive.google.com/drive/folders/0B2ozCEidtWh3MUVzX0ZMc1pzY00?fref=gc&dti=628061113896314)\n[Pixel Pro Displays](https://www.pixelprodisplays.com/)\n[xtreame sequences](https://www.xtremesequences.com/)\n[Showstoppersequences](https://showstoppersequences-com.3dcartstores.com/)\n[magical light shows](https://magicallightshows.com/)\n[syracuselights](https://www.syracuselights.org/sequences)",
+		"category": [
+			"LED"
+		],
+		"keywords": [
+			"LED"
+		]
+	},
+	"LED_inject": {
+		"alias": [
+			"LED inject"
+		],
+		"minRank": 0,
+		"description": "[Solutions for Power Injection & Data Signal Boosting Permanent Christmas Lights:by Dr.zzs](https://www.youtube.com/watch?v=wSGfkL1AGKs)\n[Power Distro Power Injection by:Bill Porter](https://youtu.be/eR3QbzjpZy8)\n[Ever Wonder Why You Pixels Flicker and How to Fix It by:Keith Wesley](https://www.youtube.com/watch?v=9ttEAyiyTAI)",
+		"category": [
+			"LED"
+		],
+		"keywords": [
+			"LED"
+		]
 	}
 }
