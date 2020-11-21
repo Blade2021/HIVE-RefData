@@ -231,7 +231,7 @@
 	},
 	"LED_espdriver": {
 		"alias": [
-			"LED espdriver"
+			"LED espdriver", "led esp driver"
 		],
 		"minRank": 0,
 		"description": "WLED ESP Driver download [click here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)",
