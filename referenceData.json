@@ -257,7 +257,7 @@
 	},
 	"LED_sequences": {
 		"alias": [
-			"LED sequences"
+			"LED sequences", "led seq","led_seq"
 		],
 		"minRank": 0,
 		"description": "[Xlights Free Sequences (Google Drive)](https://drive.google.com/drive/folders/0B2ozCEidtWh3MUVzX0ZMc1pzY00?fref=gc&dti=628061113896314)\n[Pixel Pro Displays](https://www.pixelprodisplays.com/)\n[Xtreme Sequences](https://www.xtremesequences.com/)\n[ShowStopperSequences](https://showstoppersequences-com.3dcartstores.com/)\n[Magical Light Shows](https://magicallightshows.com/)\n[SyracuseLights](https://www.syracuselights.org/sequences)\n[VCS 2020 xLights: Basic Sequencing - Michael Stoffregen - VIDEO](https://www.youtube.com/watch?v=EvK7AUJ1Nrk)",
