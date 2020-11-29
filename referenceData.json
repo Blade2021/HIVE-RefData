@@ -273,7 +273,7 @@
 			"LED inject"
 		],
 		"minRank": 0,
-		"description": "Solutions for Power Injection & Data Signal Boosting Permanent Christmas Lights:by Dr.zzs [YouTube](https://www.youtube.com/watch?v=wSGfkL1AGKs)\nPower Distro Power Injection by:Bill Porter [YouTube](https://youtu.be/eR3QbzjpZy8)\nEver Wonder Why You Pixels Flicker and How to Fix It by:Keith Wesley [YouTube](https://www.youtube.com/watch?v=9ttEAyiyTAI)",
+		"description": "Solutions for Power Injection & Data Signal Boosting Permanent Christmas Lights:by Dr.zzs [YouTube](https://www.youtube.com/watch?v=wSGfkL1AGKs)\nPower Distro Power Injection by:Bill Porter [YouTube](https://youtu.be/eR3QbzjpZy8)\nEver Wonder Why You Pixels Flicker and How to Fix It by:Keith Wesley [YouTube](https://www.youtube.com/watch?v=9ttEAyiyTAI)\nThis is a great calculator to help with judging the size of wire , power supplies , distance ,votage drop and much more [RGB Pixel Power Calculator](http://spikerlights.com/calcpower.aspx)",
 		"category": [
 			"LED"
 		],
@@ -313,6 +313,32 @@
 		],
 		"minRank": 0,
 		"description": "[pixelcontroller.com](https://www.pixelcontroller.com/store/index.php) -Home of the Falcon controllers that can drive 1024 lights per port can drive many different types of pixels ie.WS,TM,SM,INK,TL,CY,LPD,D705,ETC.\n[Falcon controller support page](https://www.pixelcontroller.com/store/index.php?id_cms_category=5&controller=cms) *you will run these from fpp or your computer through xSchedule* *new firmware might change this*.\n\nF16V3- 16 port Pixel Controller- 1024 pixels per output pixel controller. [Link](https://www.pixelcontroller.com/store/index.php?id_product=48&controller=product)\nF48 Differential Controller- Can drive up to 16384 pixels. 48 Differential Outputs no local ports-Can connect up to 12 Falcon Differential Receivers. [Link](https://www.pixelcontroller.com/store/index.php?id_product=52&controller=product)\n\nFalcon PiCap for a pi3 or pi4 Can control two strings 800+ WS2811 pixels with fused and buffered outputs. Dedicated RS-485 DMX Output (Renard, DMX, LOR selectable). Input voltage 5, or 12V selectable.[Link](https://www.pixelcontroller.com/store/index.php?id_product=47&controller=product)\nFPP releases can be found here newest is at top.[Github](https://github.com/FalconChristmas/fpp/releases)\nFPP Installing and Configuring Your Controller Step by Step - Rick Harris [YouTube](https://www.youtube.com/watch?v=ZV4o11XiaU0)\nVCS 2020 Falcon Controllers - Scott Hanson- [YouTube](https://www.youtube.com/watch?v=J9KDQvYBoe0)",
+		"category": [
+			"LED"
+		],
+		"keywords": [
+			"LED"
+		]
+	},
+	"LED_calcpower": {
+		"alias": [
+			"LED calcpower","led power","led_power"
+		],
+		"minRank": 0,
+		"description": "What is Power Injection? At its lowest level power injection is nothing more than adding additional power to a string of lights at a point in which the voltage drop starts to affect the lights[more info here](http://spikerlights.com/pwrinjection.aspx)\nThis is a great calculator to help with judging the size of wire , power supplies , distance ,votage drop and much more [RGB Pixel Power Calculator](http://spikerlights.com/calcpower.aspx)\nHow much power do addressable LEDs use?, Digitally Addressable LED Sheet[info found here](https://quinled.info/2020/03/12/digital-led-power-usage/)",
+		"category": [
+			"LED"
+		],
+		"keywords": [
+			"LED"
+		]
+	},
+	"LED_prints": {
+		"alias": [
+			"LED prints","3d prints","3d_print"
+		],
+		"minRank": 0,
+		"description": "PIXELHEADS 3D PRINT COLLECTION[find them here](https://shop.pixelheads.info/pixelheads-3d-print-collection/)",
 		"category": [
 			"LED"
 		],
