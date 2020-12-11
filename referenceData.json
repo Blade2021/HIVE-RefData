@@ -346,4 +346,16 @@
 			"LED"
 		]
 	}
+	"helpdesk": {
+		"alias": [
+		],
+		"minRank": 0,
+		"description": "Need help with an order from DrZzs.com?  Submit a ticket to the helpdesk [here](https://helpdesk.drzzs.com)",
+		"category": [
+			"LED"
+		],
+		"keywords": [
+			"Helpdesk"
+		]
+	}
 }
