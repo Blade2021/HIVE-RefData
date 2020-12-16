@@ -1,9 +1,16 @@
 {
   "example_command": {
-    "alias":[],
+    "alias": [],
     "installation": "This is how you install it",
-    "links": ["https://github.com"],
+    "links": [
+      "https://github.com"
+    ],
     "description": "If you search very hard on github, you'll eventually find it.",
-    "category": ["switching-applications"]
+    "category": [
+      "switching-applications"
+    ],
+    "keywords": [
+      ""
+    ]
   }
 }
