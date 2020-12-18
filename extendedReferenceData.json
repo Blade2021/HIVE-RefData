@@ -2,8 +2,7 @@
   "reference": {
     "installation": "Please try to include details in your submissions for approval.",
     "links": [
-      "https://github.com/Blade2021/HIVE-RefData",
-      "https://hivedev.roots.systems/"
+      "https://github.com/Blade2021/HIVE-RefData"
     ],
     "description": "Wanna help develop a database of helpful information for beginners starting out in the home automation field?  Help us grow the HIVE Reference Database by submitting commits/PRs to the link included.",
     "category": [
@@ -20,9 +19,11 @@
     "installation": "To learn more about flashing tasmota onto your supported device, check out this article: https://tasmota.github.io/docs/Getting-Started/",
     "links": [
       "https://tasmota.github.io/docs/",
-      "https://tasmota.github.io/docs/Getting-Started/",
       "https://tasmota.github.io/docs/Supported-Peripherals/",
-      "https://thehackbox.org/tasmota/",
+      "https://tasmota.github.io/docs/#/Commands",
+      "https://github.com/arendst/Tasmota/releases",
+      "http://ota.tasmota.com/tasmota/release/",
+      "https://github.com/tasmota/binaries",
       "https://templates.blakadder.com/"
     ],
     "description": "Tasmota is a firmware that can be flashed onto ESP8266-based products created by Theo Arends.  It was originally used for Sonoff boards, but quickly snowballed to include all ESP8266 chips.  You can use it to control just about everything that you want (plugs, switches, dimmers, bulbs, et cetera).\n\nThe reason you'd load this firmware onto your devices is to keep your smart item traffic local to your premise, and not sending it to the cloud servers.  (So that when the internet goes out, the smartness of your things doesn't also).\n\nTasmota is 100% free and open source making it a great product for the home automation community.\n\nThe community submits configuration templates for devices to a site maintained by a user named Blakadder, so most things are pretty easy to configure.  If you run across a new product without a template, you will need to work out where things like LEDs, relays, and the like are by adjusting template settings manually -- but once you've got it, you can submit it to the repository!.\n\nBlakadder's team also maintains a 'naughty list' of devices that are not compatible.",
@@ -37,7 +38,6 @@
     "installation": "To learn how to install node-red check out this link: https://nodered.org/docs/getting-started/local",
     "links": [
       "https://bit.ly/2XkGZMi",
-      "https://nodered.org/docs/getting-started/local",
       "http://www.steves-internet-guide.com/node-red-overview/",
       "http://www.steves-internet-guide.com/node-red-message-object/"
     ],
@@ -92,14 +92,28 @@
   },
   "Zigbee": {
     "alias": [
-      "conbee-2",
-      "conbee"
+      "ohthezigbee!",
+      "conbee",
+      "CC2530",
+      "CC2531",
+      "XBee",
+      "RasBee",
+      "ZHA",
+      "Zigbee2MQTT",
+      "deCONZ",
+      "ZiGate",
+      "zig-a-zag-ah!"
     ],
     "installation": "Zigbee devices require a hub to communicate so be sure to have one ready!",
     "links": [
       "https://www.amazon.com/dresden-elektronik-ConBee-Universal-Gateway/dp/B07PZ7ZHG5/",
-      "https://www.aliexpress.com/item/32865555473.html?",
-      "https://www.youtube.com/watch?v=bVa6Yw1gCP0"
+      "https://amzn.to/2OEW9aV",
+      "https://s.click.aliexpress.com/e/qGr94VWg",
+      "https://s.click.aliexpress.com/e/_dTyeapN",
+      "https://www.youtube.com/watch?v=xc_HGvrOxp8",
+      "https://www.youtube.com/watch?v=bVa6Yw1gCP0",
+      "https://zigbee.blakadder.com/",
+      "https://zigbeealliance.org/zigbee_products/"
     ],
     "description": "OH THE ZIGBEE!\n\nZigbee is a communication protocol that has flourished in the home automation community.  Zigbee is often preferred to Wifi-based technologies due to its low power consumption and long battery life.  The downside to using zigbee is you need to have a HUB to communicate with all of your devices.  In some ways this is advantageous as it requires fewer devices connect to your wifi network.\n\nOne zigbee hub that has a high approval is the conbee 2.  It is not the cheapest option, but it is fairly easy to configure and always performs very well with devices.  Another great option is the Zigbee2MQTT hub which will relay zigbee data to your mqtt broker.  Whichever hub you select, be sure to verify that devices are supported by your hub before buying as most hubs do not support every device.\n\nIf nothing else, Zigbee is a very powerful protocol that opens the horizon to many types of sensors, switches, and other types of home automation devices.\n\n**CAUTION** Zigbee operates in the 2.4 GHz Spectrum, which is shared with Wifi, Bluetooth, Microwave Ovens, and some cordless telephones.  If you have a lot of 2.4 GHz present at your location, your Zigbee devices may be unreliable.",
     "category": [
@@ -108,7 +122,16 @@
       "utilities"
     ],
     "keywords": [
-      ""
+      "conbee-2",
+      "conbee",
+      "CC2530",
+      "CC2531",
+      "XBee",
+      "RasBee",
+      "ZHA",
+      "Zigbee2MQTT",
+      "ZiGate",
+      "zig-a-zag-ah!"
     ]
   },
   "ESP32": {
@@ -139,6 +162,10 @@
     ],
     "installation": "Installation instructions vary from item to item.",
     "links": [
+      "https://www.youtube.com/watch?v=bVa6Yw1gCP0&t=1s",
+      "https://www.youtube.com/watch?v=av84uORLB9Y",
+      "https://www.home-assistant.io/integrations/tuya/",
+      "https://www.youtube.com/watch?v=9E7QMz92aOI",
       "https://www.tuya.com/"
     ],
     "description": "Tuya is a company that makes a wide array of smart items including smart plugs, wall switches, and dimmers. Their main business is white-label manufacturing for other companies (be it just the chips, or the entire product), so you'll find Tuya devices sold under many different labels (Martin Jerry and Gosund are a couple).  Usually the product pages on retailer's websites will say that the devices work with Amazon's and Google's voice assistant platforms.\n\nSee also:  {prefix}TuyaConvert",
@@ -151,12 +178,13 @@
     ]
   },
   "TuyaConvert": {
-    "installation": "To see instructions on getting started with Tuya Convert, please check out this link: https://github.com/ct-Open-Source/tuya-convert",
+    "installation": "To see instructions on getting started with Tuya Convert & the links here",
     "links": [
       "https://github.com/ct-Open-Source/tuya-convert",
-      "https://youtu.be/dt5-iZc4_qU"
+      "https://youtu.be/dt5-iZc4_qU",
+      "https://templates.blakadder.com/"
     ],
-    "description": "Tuya Convert is a piece of free software that you can use to put (flash) new firmware onto a Tuya-type smart item 'Over the Air' (OTA).  This is terribly convenient, as you don't have to have any specialist equipment other than a Raspberry Pi or linux-based computer that has both Ethernet and Wifi.  Another reason to use Tuya Convert is a number of products are constructed in a way that prevents manual flashing with wires; they are not openable without actually destroying the product's housing.\n\nA digiblurdiy video explaining the process is in the links.",
+    "description": "Tuya convert is an exploit that attacks certain versions of Tuya firmware in order to replace the firmware with something we want.  The current release of the Tuya firmware has an encryption that prevents the exploit, so it works on fewer and fewer products currently being sold.  If someone can figure out the password....   Or someone at the factory would leak it, this may work again.  At this point only new-old-stock items that have not been used in the Tuya App might work.  Sadly most items will not and None that have been used in the Tuya App will convert./n/nTHEREFORE....../n/nDon't be shocked when the Tuya Convert doesn't work for you.  The man-in-the-middle attack that Tuys Convert was against Tuya Firmware has been patched by Tuya, and will likely not help you. /n/n Find a way to use the device as is, or find way to take the device apart and flash with a serial adapter.",
     "category": [
       "utilities"
     ]
@@ -176,7 +204,7 @@
     ]
   },
   "WLED": {
-    "installation": "Check out this link to get started: https://github.com/Aircoookie/WLED/wiki",
+    "installation": "Check out this link to get started",
     "links": [
       "https://github.com/Aircoookie/WLED/wiki"
     ],
@@ -199,10 +227,11 @@
       "sk9812",
       "apa106"
     ],
-    "installation": "DrZzs has a lot of great videos!  Check out this one to get started: https://youtu.be/tXvtxwK3jRk",
+    "installation": "DrZzs has a lot of great videos!  Check out this one to get started: https://youtu.be/tXvtxwK3jRk/n/nAlso in DrZzs Discord check out the #led-lighting-diy-🚥-🚥 channel and page the @PixelHeads for one on one help.",
     "links": [
       "https://youtu.be/tXvtxwK3jRk",
-      "https://youtu.be/QnvircC22hU"
+      "https://youtu.be/QnvircC22hU",
+      "https://discord.gg/3VtGk7KDv8"
     ],
     "description": "Individually Addressable LEDs come in many varieties; you may find them referred to as NeoPixels, or by their part numbers, which include WS2811, WS2812b, WS2813, WS2815, SK9822, SK9812, or APA106.  You will need a microcontroller of some kind to run them; the most popular in the home automation space are the ESP8266 and ESP32 Boards.  Depending upon the length of your installation, you may also need to procure a high-amperage power supply and additional wire for power injection.\n\nSee also {prefix}WLED",
     "category": [
@@ -228,7 +257,7 @@
       "https://whatarewefixing.today/?p=134",
       "https://bit.ly/DrZzsRFBridgeMultiSensorSetup"
     ],
-    "description": "The 433 mhz RF (radio frequency) band and the 315 mhz RF band, depending on the country you live in, is designated for the same purpose.  Low power rf transmitters are allowed to broadcast within these frequency ranges.  In the SmartHome / IOT world, these small transmitters are usually binary type sensors because only a small message is able to be transmitted during an event.  Door/Window sensors, PIR sensors, push button transmitters, remote controls and the like are the typical devices using these frequencies.  There needs to be a receiver nearby to pick up these signals and act on the message received.\n\nDevices such as the Itead RFBridge (http://drzzs.com/RF_Bridge) and the Bond Bridge (https://bit.ly/DrZzsBondBridge) act as central hubs to collect information from these sensors and feed the data back to a program such as Home Assistant for further action.  With some devices like the Itead Sonoff Slampher (https://bit.ly/DrZzsSlampher), the device can ‘pair’ with a matching RF transmitter bought separately and act on the information provided.  Devices are not tied to a common standard (like Zwave) which 1, keeps the price very low, but 2, causes incompatibility between manufacturers.",
+    "description": "The 433 mhz RF (radio frequency) band and the 315 mhz RF band, depending on the country you live in, is designated for the same purpose.  Low power rf transmitters are allowed to broadcast within these frequency ranges.  These small transmitters are usually binary type sensors because only a small message is able to be transmitted during an event.  Door/Window sensors, PIR sensors, push button transmitters, remote controls and the like are the typical devices using these frequencies.  There needs to be a receiver nearby to pick up these signals and act on the message received.\n\nDevices such as the Itead RFBridge (http://drzzs.com/RF_Bridge) and the Bond Bridge (https://bit.ly/DrZzsBondBridge) act as central hubs to collect information from these sensors and feed the data back to a program such as Home Assistant for further action.  With some devices like the Itead Sonoff Slampher (https://bit.ly/DrZzsSlampher), the device can ‘pair’ with a matching RF transmitter bought separately and act on the information provided.  Devices are not tied to a common standard (like Zwave) which 1, keeps the price very low, but 2, causes incompatibility between manufacturers.",
     "category": [
       "microcontroller",
       "infrastructure"
@@ -262,8 +291,7 @@
     ],
     "installation": "ESPHome may be installed in Home Assistant as a supervisor add-on, or as a standalone installation.  Standalone install instructions can be found at https://esphome.io/guides/getting_started_command_line.html",
     "links": [
-      "https://esphome.io",
-      "https://esphome.io/guides/getting_started_command_line.html"
+      "https://esphome.io"
     ],
     "description": "ESPHome provides a simple way to configure code to run on your (ESP8266 or ESP32 based) wireless devices.  These devices include the Sonoff range of wifi controllable products, along with many others.  The software is configured using YAML files with a very simple syntax.  Don't let that fool you though.  The resulting software can be very powerful, and can be used to set up devices for direct integration with Home Assistant without the need for an MQTT broker as with Tasmota.",
     "category": [
@@ -319,7 +347,8 @@
       "https://sonoff.tech/",
       "https://tinyurl.com/drzzs-sonoffbasic",
       "https://tinyurl.com/drzzs-sonoffmini",
-      "https://tasmota.github.io/docs/devices/Sonoff-Basic/"
+      "https://tasmota.github.io/docs/devices/Sonoff-Basic/",
+      "https://whatarewefixing.today/589/sonoff-diy-mode-flash-to-tasmota-using-linux-laptop-2020-updates/"
     ],
     "description": "Sonoff is a brand of smarthome products created by Itead.  They make a wide range of inexpensive smarthome gadgets, many are based upon the venerable ESP8266 microcontroller.\n\nSome of the most popular Sonoff producs are the Sonoff Basic and the Sonoff Mini, but they make a number of smaartplugs, wall switches, and in-wall controllable outlets.\n\nThe stock firmware uses an app called eWeLink, which integrates with Home Assistant.  If one does not wish to use the stock firmware, most of their products can be flashed with Tasmota, ESPHome, or other custom firmware.\n\n**CAUTION*\nMost Sonoff devices are used in conjunction with Mains voltages and can be very hazardous if mishandled. ",
     "category": [
@@ -396,9 +425,9 @@
       ""
     ]
   },
-  "No State History": {
+  "MariaDB": {
     "alias": [
-      "MariaDB",
+      "No State History",
       "SQLite",
       "DB Corrupt",
       "Recorder"
@@ -407,7 +436,7 @@
     "links": [
       "https://www.home-assistant.io/integrations/recorder/",
       "https://github.com/home-assistant/hassio-addons/tree/master/mariadb",
-      "https://whatarewefixing.today/?p=240",
+      "https://whatarewefixing.today/240/fixing-home-assistant-database-problems-with-mariadb-addon/",
       "https://www.home-assistant.io/docs/backend/database/",
       "https://www.reddit.com/r/homeassistant/comments/9z0tof/what_are_the_advantages_of_using_a_nondefault/",
       "https://youtu.be/4rsxnN8gkHk"
@@ -441,6 +470,27 @@
     ],
     "keywords": [
       ""
+    ]
+  },
+  "SonoffDIY": {
+    "alias": [
+      "DIYFlash"
+    ],
+    "installation": "See the links for articles and videos about installation.  Not enough room to exlain here.",
+    "links": [
+      "https://whatarewefixing.today/589/sonoff-diy-mode-flash-to-tasmota-using-linux-laptop-2020-updates/",
+      "https://www.youtube.com/watch?v=fsrT5o1C1w0",
+      "https://sigmdel.ca/michel/ha/sonoff/sonoff_mini_en.html",
+      "https://github.com/itead/Sonoff_Devices_DIY_Tools/blob/master/other/SONOFF%20DIY%20MODE%20Protocol%20Doc%20v1.4.md",
+      "https://tasmota.github.io/docs/Sonoff-DIY/"
+    ],
+    "description": "Sonoff has come up with a version of firmware that does not require soldering or an FTDI adapter.  This is nice, but the process is a bit complicated and involved.  There are articles and videos attached here to help you be sucessful in your attempt.",
+    "category": [
+      "switching-applications"
+    ],
+    "keywords": [
+      "itead",
+      "sonoff_flash"
     ]
   }
 }
