@@ -345,7 +345,7 @@
 		"keywords": [
 			"LED"
 		]
-	}
+	},
 	"helpdesk": {
 		"alias": ["order help"],
 		"minRank": 0,
@@ -354,7 +354,7 @@
 			"LED"
 		],
 		"keywords": [
-			"Helpdesk", "Support"
+			"Helpdesk"
 		]
 	}
 }
