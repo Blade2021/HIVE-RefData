@@ -347,15 +347,14 @@
 		]
 	}
 	"helpdesk": {
-		"alias": ["order help"
-		],
+		"alias": ["order help"],
 		"minRank": 0,
 		"description": "Need help with an order from [DrZzs.com](https://drzzs.com)?  Submit a ticket to the HelpDesk. [https://helpdesk.drzzs.com](https://helpdesk.drzzs.com)",
 		"category": [
 			"LED"
 		],
 		"keywords": [
-			"Helpdesk"
+			"Helpdesk", "Support"
 		]
 	}
 }
