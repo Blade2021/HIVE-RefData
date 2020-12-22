@@ -356,5 +356,16 @@
 		"keywords": [
 			"Helpdesk", "Support", "QuinDuo", "QuinQuad"
 		]
+	},
+	"justask": {
+		"alias": [],
+		"minRank": 0,
+		"description": "Need assistance with something?  Just ask your question, instead of asking for permission.  If anyone knows the answer, they will reply.  \n\nhttps://dontasktoask.com/",
+		"category": [
+			"general"
+		],
+		"keywords": [
+			"ask"
+		]
 	}
 }
