@@ -63,7 +63,7 @@
       ""
     ]
   },
-  "ESP8266": {
+  "esp8266": {
     "alias": [
       "ESP-8266",
       "ESP8285",
@@ -90,7 +90,7 @@
       ""
     ]
   },
-  "Zigbee": {
+  "zigbee": {
     "alias": [
       "ohthezigbee!",
       "conbee",
@@ -134,7 +134,7 @@
       "zig-a-zag-ah!"
     ]
   },
-  "ESP32": {
+  "esp32": {
     "alias": [
       "ESP-32",
       "WROVER",
@@ -156,7 +156,7 @@
       ""
     ]
   },
-  "Tuya": {
+  "tuya": {
     "alias": [
       "SmartLife"
     ],
@@ -177,7 +177,7 @@
       ""
     ]
   },
-  "TuyaConvert": {
+  "tuyaConvert": {
     "installation": "To see instructions on getting started with Tuya Convert & the links here",
     "links": [
       "https://github.com/ct-Open-Source/tuya-convert",
@@ -189,7 +189,7 @@
       "utilities"
     ]
   },
-  "NodeMCU": {
+  "nodeMCU": {
     "installation": "It should be known that some ESP chips do not come with soldered pins, So soldering may be required.",
     "links": [
       "https://en.wikipedia.org/wiki/NodeMCU",
@@ -203,7 +203,7 @@
       ""
     ]
   },
-  "WLED": {
+  "wled": {
     "installation": "Check out this link to get started",
     "links": [
       "https://github.com/Aircoookie/WLED/wiki"
@@ -217,7 +217,7 @@
       ""
     ]
   },
-  "NeoPixel": {
+  "neoPixel": {
     "alias": [
       "ws2811",
       "ws2812b",
@@ -241,7 +241,7 @@
       ""
     ]
   },
-  "RF433": {
+  "rf433": {
     "alias": [
       "RF315",
       "Bond",
@@ -266,7 +266,7 @@
       ""
     ]
   },
-  "Pull-Request": {
+  "pull-request": {
     "alias": [
       "pr",
       "pullrequest"
@@ -303,7 +303,7 @@
       ""
     ]
   },
-  "Deconz": {
+  "deconz": {
     "alias": [],
     "installation": "Decponz and the Phoscon Web App can be installed in Docker, within Home Assistant as an addon, or can even be bought as part of a hardware solution preinstalled on a dedicated Raspberry Pi",
     "links": [
@@ -319,7 +319,7 @@
       ""
     ]
   },
-  "MQTT": {
+  "mqtt": {
     "alias": [
       "Mosquitto"
     ],
@@ -341,7 +341,7 @@
       ""
     ]
   },
-  "Sonoff": {
+  "sonoff": {
     "installation": "Sonoff products are made in many form factors, and installation instructions differ between devices.  Consult the documentation that arrived with your device for more information.",
     "links": [
       "https://sonoff.tech/",
@@ -359,7 +359,7 @@
       ""
     ]
   },
-  "Shelly": {
+  "shelly": {
     "installation": "Shelly products are made in many form factors, and installation instructions differ between devices.  Consult the documentation that arrived with your device for more information.",
     "links": [
       "https://shelly.cloud/",
@@ -376,7 +376,7 @@
       ""
     ]
   },
-  "SpinningButtonCard": {
+  "spinningButtonCard": {
     "alias": [
       "spinningcard",
       "spinningbutton",
@@ -399,7 +399,7 @@
       ""
     ]
   },
-  "HA Supervised": {
+  "ha Supervised": {
     "alias": [
       "hainstall",
       "ha_install",
@@ -425,7 +425,7 @@
       ""
     ]
   },
-  "MariaDB": {
+  "mariaDB": {
     "alias": [
       "No State History",
       "SQLite",
@@ -450,7 +450,7 @@
       ""
     ]
   },
-  "Power Over Ethernet": {
+  "power Over Ethernet": {
     "alias": [
       "POE",
       "POE+",
@@ -472,7 +472,7 @@
       ""
     ]
   },
-  "SonoffDIY": {
+  "sonoffDIY": {
     "alias": [
       "DIYFlash"
     ],

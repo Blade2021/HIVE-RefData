@@ -119,7 +119,7 @@
 			"HIVE"
 		]
 	},
-	"DrZzzGithub": {
+	"drZzzGithub": {
 		"alias": [
 			"drzzz github",
 			"docs github"
@@ -190,7 +190,7 @@
 			""
 		]
 	},
-	"LED_Hardware": {
+	"led_Hardware": {
 		"alias": [
 			"led hardware"
 		],
@@ -203,7 +203,7 @@
 			"LED"
 		]
 	},
-	"LED_Controllers": {
+	"led_Controllers": {
 		"alias": [
 			"LED controller"
 		],
@@ -216,7 +216,7 @@
 			"LED"
 		]
 	},
-	"LED_Props": {
+	"led_Props": {
 		"alias": [
 			"LED Props"
 		],
@@ -229,7 +229,7 @@
 			"LED"
 		]
 	},
-	"LED_espdriver": {
+	"led_espdriver": {
 		"alias": [
 			"LED espdriver", "led esp driver"
 		],
@@ -242,7 +242,7 @@
 			"LED"
 		]
 	},
-	"LED_xlights": {
+	"led_xlights": {
 		"alias": [
 			"LED xlights"
 		],
@@ -255,7 +255,7 @@
 			"LED"
 		]
 	},
-	"LED_sequences": {
+	"led_sequences": {
 		"alias": [
 			"LED sequences", "led seq","led_seq"
 		],
@@ -268,7 +268,7 @@
 			"LED"
 		]
 	},
-	"LED_inject": {
+	"led_inject": {
 		"alias": [
 			"LED inject"
 		],
@@ -281,7 +281,7 @@
 			"LED"
 		]
 	},
-	"LED_fpp": {
+	"ledfpp": {
 		"alias": [
 			"LED fpp"
 		],
@@ -294,7 +294,7 @@
 			"LED"
 		]
 	},
-	"LED_kulp": {
+	"ledkulp": {
 		"alias": [
 			"LED kulp"
 		],
@@ -307,7 +307,7 @@
 			"LED"
 		]
 	},
-	"LED_falcon": {
+	"ledfalcon": {
 		"alias": [
 			"LED falcon"
 		],
@@ -320,7 +320,7 @@
 			"LED"
 		]
 	},
-	"LED_calcpower": {
+	"ledcalcpower": {
 		"alias": [
 			"LED calcpower","led power","led_power"
 		],
@@ -333,7 +333,7 @@
 			"LED"
 		]
 	},
-	"LED_prints": {
+	"ledprints": {
 		"alias": [
 			"LED prints","3d prints","3d_print"
 		],
