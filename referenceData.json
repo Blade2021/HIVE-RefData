@@ -367,5 +367,15 @@
 		"keywords": [
 			"ask"
 		]
+	},
+	"reply": {
+		"alias": [],
+		"minRank": 0,
+		"description": "If there are multiple conversations going at once, try using the reply feature in discord.  This helps everyone know who they are replying to and from.",
+		"category": [
+			"general"
+		],
+		"keywords": [
+		]
 	}
 }
