@@ -381,7 +381,7 @@
 		"alias": ["bug","bugs","requests"],
 		"minRank": 0,
 		"title": "Bug Report / Feature Requests",
-		"description": "Wanna request a new feature, or found a bug, Submit an issue on GitHub: https://github.com/Blade2021/HIVE/issues",
+		"description": "💡 Wanna request a new feature, or found a bug, Submit an issue on GitHub: https://github.com/Blade2021/HIVE/issues",
 		"category": [
 			"general"
 		],
