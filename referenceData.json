@@ -350,15 +350,15 @@
 			"icon"
 		],
 		"minRank": 0,
-		"description": "Here on Dr. Zzs Discord we would like everyone to have a good experience.  We strongly encourage you to pick an avatar that reflects you and not continue to use the default Clyde icon.\n\n-- First find a small picture that you like abd that you want to represent you.\n\n-- Click the gear next to your name near the bottom of the page.\n\n-- Hover over the icon and click it.\n\n-- Select your new picture file here.\n\n-- Save it and pop back and it will appear!",
+		"description": "Here on Dr. Zzs Discord we would like everyone to have a good experience.  We strongly encourage you to pick an avatar that reflects you and not continue to use the default Clyde icon.\n\n🔸 First find a small picture that you like and that you want to represent you.\n\n🔸 Click the gear next to your name near the bottom of the page.\n\n🔸 Hover over the icon and click it.\n\n🔸 Select your new picture file here.\n\n🔸 Save it and pop back and it will appear!",
 		"category": [
 			"information",
-			"Helpdesk"
+			"Helpdesk",
+			"general"
 		],
 		"keywords": [
 			"discord",
-			"change_avatar",
-			"Helpdesk"
+			"change_avatar"
 		]
 	},
 	"helpdesk": {
