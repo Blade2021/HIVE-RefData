@@ -119,7 +119,7 @@
 			"HIVE"
 		]
 	},
-	"DrZzsGithub": {
+	"drZzzGithub": {
 		"alias": [
 			"drzzs github",
 			"docs github"
@@ -130,7 +130,6 @@
 			"user-base"
 		],
 		"keywords": [
-			""
 		]
 	},
 	"points": {
@@ -190,7 +189,7 @@
 			""
 		]
 	},
-	"LED_Hardware": {
+	"led_Hardware": {
 		"alias": [
 			"led hardware"
 		],
@@ -203,7 +202,7 @@
 			"LED"
 		]
 	},
-	"LED_Controllers": {
+	"led_Controllers": {
 		"alias": [
 			"LED controller"
 		],
@@ -216,7 +215,7 @@
 			"LED"
 		]
 	},
-	"LED_Props": {
+	"led_Props": {
 		"alias": [
 			"LED Props"
 		],
@@ -229,7 +228,7 @@
 			"LED"
 		]
 	},
-	"LED_espdriver": {
+	"led_espdriver": {
 		"alias": [
 			"LED espdriver", "led esp driver"
 		],
@@ -242,7 +241,7 @@
 			"LED"
 		]
 	},
-	"LED_xlights": {
+	"led_xlights": {
 		"alias": [
 			"LED xlights"
 		],
@@ -255,7 +254,7 @@
 			"LED"
 		]
 	},
-	"LED_sequences": {
+	"led_sequences": {
 		"alias": [
 			"LED sequences", "led seq","led_seq"
 		],
@@ -268,7 +267,7 @@
 			"LED"
 		]
 	},
-	"LED_inject": {
+	"led_inject": {
 		"alias": [
 			"LED inject"
 		],
@@ -281,7 +280,7 @@
 			"LED"
 		]
 	},
-	"LED_fpp": {
+	"ledfpp": {
 		"alias": [
 			"LED fpp"
 		],
@@ -294,7 +293,7 @@
 			"LED"
 		]
 	},
-	"LED_kulp": {
+	"ledkulp": {
 		"alias": [
 			"LED kulp"
 		],
@@ -307,7 +306,7 @@
 			"LED"
 		]
 	},
-	"LED_falcon": {
+	"ledfalcon": {
 		"alias": [
 			"LED falcon"
 		],
@@ -320,7 +319,7 @@
 			"LED"
 		]
 	},
-	"LED_calcpower": {
+	"ledcalcpower": {
 		"alias": [
 			"LED calcpower","led power","led_power"
 		],
@@ -333,7 +332,7 @@
 			"LED"
 		]
 	},
-	"LED_prints": {
+	"ledprints": {
 		"alias": [
 			"LED prints","3d prints","3d_print"
 		],
@@ -374,7 +373,72 @@
 			"Helpdesk"
 		],
 		"keywords": [
-			"Helpdesk"
+			"Helpdesk", "Support", "QuinDuo", "QuinQuad"
+		]
+	},
+	"justask": {
+		"alias": [],
+		"minRank": 0,
+		"description": "Need assistance with something?  Just ask your question, instead of asking for permission.  If anyone knows the answer, they will reply.  \n\nhttps://dontasktoask.com/",
+		"category": [
+			"general"
+		],
+		"keywords": [
+			"ask"
+		]
+	},
+	"reply": {
+		"alias": [],
+		"minRank": 0,
+		"description": "If there are multiple conversations going at once, try using the reply feature in discord.  This helps everyone know who they are replying to and from.",
+		"category": [
+			"general"
+		],
+		"keywords": [
+		]
+	},
+	"request": {
+		"alias": ["bug","bugs","requests"],
+		"minRank": 0,
+		"title": "Bug Report / Feature Requests",
+		"description": "💡 Wanna request a new feature, or found a bug, Submit an issue on GitHub: https://github.com/Blade2021/HIVE/issues",
+		"category": [
+			"general"
+		],
+		"keywords": [
+		]
+	},
+	"code": {
+		"alias": [],
+		"minRank": 0,
+		"title": "Formatting code in Discord",
+		"description": "Paste your code in the following format Replacing `json` with your desired language:\n \\`\\`\\``json` \nCode Here\n\\`\\`\\`\n`Before:`\n{\"greeting\":\"Hello World\"}\n\n`After:` ```json\n{\"greeting\":\"Hello World\"}```[More information](https://github.com/Blade2021/HIVE/wiki/Code-Formatting-&-Validation)",
+		"category": [
+			"general"
+		],
+		"keywords": [
+		]
+	},
+	"twitchSub": {
+		"alias": [],
+		"minRank": 0,
+		"title": "Twitch Subscription",
+		"description":"To receive the twitch sub role, you **MUST** be a subscriber to the DrZzz's Twitch Channel.  This is **100% Free** if you have Amazon Prime.\n\nFind out more about Twitch Prime Here: https://twitch.amazon.com/tp\nDrZzz's Twitch Channel: https://www.twitch.tv/drzzs\n\n**Please remember to link your discord account to twitch to receive this role.**\nTwitch Integration Help: (Scroll down to `For Viewers`: https://support.discordapp.com/hc/en-us/articles/212112068-Twitch-Integration-FAQ\n\nRemember the Twitch subscriber roles are updated every hour automatically.",
+		"category": [
+			"general"
+		],
+		"keywords": [
+		]
+	},
+	"package": {
+		"alias": [],
+		"minRank": 0,
+		"title": "PACKAGE!",
+		"description":"\uD83D\uDCE6\uD83D\uDCE6\uD83D\uDCE6 Did someone recently help you?  If you Thank them using a reply or mention them HIVE will put a package emoji on the message.  If YOU click this reaction.  It will send them positive karma, increasing their \"helpfullness\" rating.  So be a good sport.  CLICK THE PACKAGE! \uD83D\uDCE6",
+		"category": [
+			"general"
+		],
+		"keywords": [
 		]
 	}
 }
