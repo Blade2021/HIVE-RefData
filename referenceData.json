@@ -121,7 +121,7 @@
 	},
 	"drZzzGithub": {
 		"alias": [
-			"drzzz github",
+			"drzzs github",
 			"docs github"
 		],
 		"minRank": 0,
@@ -344,13 +344,33 @@
 		"keywords": [
 			"LED"
 		]
+	},	
+	"avatar": {
+		"alias": [
+			"icon"
+		],
+		"minRank": 0,
+		"description": "Here on Dr. Zzs Discord we would like everyone to have a good experience.  We strongly encourage you to pick an avatar that reflects you and not continue to use the default Clyde icon.\n\n-- First find a small picture that you like abd that you want to represent you.\n\n-- Click the gear next to your name near the bottom of the page.\n\n-- Hover over the icon and click it.\n\n-- Select your new picture file here.\n\n-- Save it and pop back and it will appear!",
+		"category": [
+			"information",
+			"Helpdesk"
+		],
+		"keywords": [
+			"discord",
+			"change_avatar",
+			"Helpdesk"
+		]
 	},
 	"helpdesk": {
-		"alias": ["order help"],
+		"alias": [
+			"order help"
+		],
 		"minRank": 0,
 		"description": "Need help with an order from [DrZzs.com](https://drzzs.com)?  Submit a ticket to the HelpDesk. [https://helpdesk.drzzs.com](https://helpdesk.drzzs.com)",
 		"category": [
-			"LED"
+			"information",
+			"LED",
+			"Helpdesk"
 		],
 		"keywords": [
 			"Helpdesk", "Support", "QuinDuo", "QuinQuad"
