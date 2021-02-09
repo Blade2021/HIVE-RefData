@@ -26,7 +26,13 @@ Does your definition fit more then just one reference?  No problem, just add any
 - graphs
 - bridge
 - microcontroller
-
+- led
+- server
+- general
+- helpdesk
+- information
+- user-base
+- home-assistant
 (More as required)
 
 # Example Object
