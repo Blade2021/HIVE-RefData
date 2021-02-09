@@ -458,9 +458,57 @@
 			"integrations"
 		],
 		"keywords": [
-			"tasmota",
-			"tasmoto",
 			"upgrade"
+		]
+	},
+	"backend": {
+		"alias": [
+			"nginx",
+			"nat",
+			"upnp",
+			"https"
+		],
+		"minRank": 0,
+		"title": "Unix Backend Infrastructure",
+		"description":"🕯️ 🦉 Learn about nginx, nat, duckdns, https, upnp & tons of how your server works. \nUnderstanding this will help you be able to maintain your own system. \n[Software Engineering YouTube Channel](<https://www.youtube.com/user/GISIGeometry>)",
+		"category": [
+			"server"
+		],
+		"keywords": [
+			""
+		]
+	},
+	"lets_encrypt": {
+		"alias": [
+			"letsencrypt",
+			"duckdns",
+			"lets-encrypt"
+		],
+		"minRank": 0,
+		"title": "Let's Encrypt SSL Certificates",
+		"description":"💯 The best *How-to* for setting up Encryption and Home Assistant: \n[Juan M. Tech Video](<https://youtu.be/XdiGdC7K4sI>)",
+		"category": [
+			"Integrations"
+		],
+		"keywords": [
+			""
+		]
+	},
+	"tasmota_lights": {
+		"alias": [
+			"tasmota-lights",
+			"tasmota lights",
+			"mqtt_template_lights",
+			"mqtt-template-lights"
+		],
+		"minRank": 0,
+		"title": "Tasmota Lights in Home Assistant",
+		"description":"⚙️ ✅ Blakadder: The complex world of integrating Tasmota lights into Home Assistant using template schema. \nMQTT, RGB, Effects, Rules, json_attributes, transitions, RGBW, you name it, this has it. \n[Tasmota Lights in Home Assistant Using Template Schema](<https://blakadder.com/template_schema_lights/>)",
+		"category": [
+			"Integrations"
+		],
+		"keywords": [
+			""
 		]
 	},
 	"mqtt_explorer": {
