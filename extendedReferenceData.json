@@ -184,7 +184,7 @@
       "https://youtu.be/dt5-iZc4_qU",
       "https://templates.blakadder.com/"
     ],
-    "description": "Tuya convert is an exploit that attacks certain versions of Tuya firmware in order to replace the firmware with something we want.  The current release of the Tuya firmware has an encryption that prevents the exploit, so it works on fewer and fewer products currently being sold.  If someone can figure out the password....   Or someone at the factory would leak it, this may work again.  At this point only new-old-stock items that have not been used in the Tuya App might work.  Sadly most items will not and None that have been used in the Tuya App will convert./n/nTHEREFORE....../n/nDon't be shocked when the Tuya Convert doesn't work for you.  The man-in-the-middle attack that Tuys Convert was against Tuya Firmware has been patched by Tuya, and will likely not help you. /n/n Find a way to use the device as is, or find way to take the device apart and flash with a serial adapter.",
+    "description": "Tuya convert is an exploit that attacks certain versions of Tuya firmware in order to replace the firmware with something we want.  The current release of the Tuya firmware has an encryption that prevents the exploit, so it works on fewer and fewer products currently being sold.  If someone can figure out the password....   Or someone at the factory would leak it, this may work again.  At this point only new-old-stock items that have not been used in the Tuya App might work.  Sadly most items will not and None that have been used in the Tuya App will convert.\n\nTHEREFORE......\n\nDon't be shocked when the Tuya Convert doesn't work for you.  The man-in-the-middle attack that Tuys Convert was against Tuya Firmware has been patched by Tuya, and will likely not help you. \n\nFind a way to use the device as is, or find way to take the device apart and flash with a serial adapter.",
     "category": [
       "utilities"
     ]
@@ -227,7 +227,7 @@
       "sk9812",
       "apa106"
     ],
-    "installation": "DrZzs has a lot of great videos!  Check out this one to get started: https://youtu.be/tXvtxwK3jRk/n/nAlso in DrZzs Discord check out the #led-lighting-diy-🚥-🚥 channel and page the @PixelHeads for one on one help.",
+    "installation": "DrZzs has a lot of great videos!  Check out this one to get started: https://youtu.be/tXvtxwK3jRk  \n\nAlso in DrZzs Discord check out the #led-lighting-diy-🚥-🚥 channel and page the @PixelHeads for one on one help.",
     "links": [
       "https://youtu.be/tXvtxwK3jRk",
       "https://youtu.be/QnvircC22hU",
