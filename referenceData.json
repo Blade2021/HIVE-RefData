@@ -488,7 +488,7 @@
 		"title": "Let's Encrypt SSL Certificates",
 		"description":"💯 The best *How-to* for setting up Encryption and Home Assistant: \n[Juan M. Tech Video](<https://youtu.be/XdiGdC7K4sI>)",
 		"category": [
-			"Integrations"
+			"integrations"
 		],
 		"keywords": [
 			""
@@ -505,7 +505,7 @@
 		"title": "Tasmota Lights in Home Assistant",
 		"description":"⚙️ ✅ Blakadder: The complex world of integrating Tasmota lights into Home Assistant using template schema. \nMQTT, RGB, Effects, Rules, json_attributes, transitions, RGBW, you name it, this has it. \n[Tasmota Lights in Home Assistant Using Template Schema](<https://blakadder.com/template_schema_lights/>)",
 		"category": [
-			"Integrations"
+			"integrations"
 		],
 		"keywords": [
 			""
@@ -526,6 +526,24 @@
 			"mqtt",
 			"retain",
 			"topic"
+		]
+	},
+	"git_repo": {
+		"alias": [
+			"home assistant configuration"
+		],
+		"minRank": 0,
+		"description": "\u1F638 \nIntegrating your HA Configuration is a bit challenging, but having a way to trace back and remember what you did (when) is very useful.  \nHere are a couple of people that have made the step by step easier for you.  \n\n  🔷 [Bearded Tinker Pushing the Repo and Travis Integration](https://www.youtube.com/watch?v=RAvdsVg0u3E)  \n  🔷 [Doc showing the way on a LiveStream!](https://www.youtube.com/watch?v=Pe40iHjulMM)  \n  🔷 [An HA Community article on the process](https://community.home-assistant.io/t/sharing-your-configuration-on-github/195144)  \n  🔷 [Bearded Tinkerer setting up the GitHub Repo Sensor Integration](https://www.youtube.com/watch?v=rzE9WXZj6N8)",
+		"category": [
+			"home-assistant",
+			"integrations"
+		],
+		"keywords": [
+			"github",
+			"configuration",
+			"share",
+			"travis",
+			"repo"
 		]
 	}
 }
