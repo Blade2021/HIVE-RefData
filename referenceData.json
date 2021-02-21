@@ -519,7 +519,7 @@
 		],
 		"minRank": 0,
 		"title": "MQTT Explorer",
-		"description":"Troubleshooting 🇲 🇶 🇹 🇹?  Retains hanging you up?  \nCan't figure out the topic.  Is this thing *WORKING* ❔❓ ❔  \nThis tool will help you be sucessful!  \n\n  [Click here, and don't let the smile scare you.](http://mqtt-explorer.com/)",
+		"description":"Troubleshooting 🇲 🇶 🇹 🇹?  Retains hanging you up?  \nCan't figure out the topic.  Is this thing *WORKING* ❔❓ ❔  \nThis tool will help you be successful!  \n\n  [Click here, and don't let the smile scare you.](http://mqtt-explorer.com/)",
 		"category": [
 			"integrations"
 		],
