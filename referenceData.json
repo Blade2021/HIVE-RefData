@@ -31,7 +31,7 @@
 			"splitconfig"
 		],
 		"minRank": 0,
-		"description": "Split Configuration: <https://home-assistant.io/docs/configuration/splitting_configuration/>",
+		"description": "[Split Configuration HA Official Instructions](<https://home-assistant.io/docs/configuration/splitting_configuration/>)  \n\n[Doc and Frenck with a live Demo](https://youtu.be/FfjSA2o_0KA)",
 		"category": [
 			"home-assistant"
 		],
@@ -163,7 +163,8 @@
 			"information"
 		],
 		"keywords": [
-			"code", "code share"
+			"code",
+		    "code share"
 		]
 	},
 	"input_boolean": {
@@ -545,5 +546,24 @@
 			"travis",
 			"repo"
 		]
+	},
+	"discord_fonts": {
+		"alias": [
+			"fonts"
+		],
+		"minRank": 0,
+		"title": "Displaying emoji's in Discord using Linux",
+		"description":"If the icons next to names and reactions in Discord are showing as empty boxes or  mono color, try this.  \nInstall the font, in Debian this is the command:  \n\n```sudo apt update;sudo apt install fonts-noto-color-emoji -y```\n\n[Then follow the instructions on this page...](<https://victor.kropp.name/blog/emoji-on-linux/>)",
+		"category": [
+			"information",
+			"helpdesk",
+			"general"
+		],
+		"keywords": [
+			"fonts",
+			"emoji",
+			"linux"
+		]
 	}
 }
+
