@@ -34,8 +34,13 @@
       ""
     ]
   },
-  "nodered": {
-    "installation": "To learn how to install node-red check out this link: https://nodered.org/docs/getting-started/local",
+  "node_red": {
+    "alias": [
+      "node red",
+      "nodered",
+      "node-red"
+    ],
+  "installation": "To learn how to install node-red check out this link: https://nodered.org/docs/getting-started/local",
     "links": [
       "https://bit.ly/2XkGZMi",
       "http://www.steves-internet-guide.com/node-red-overview/",
@@ -177,14 +182,18 @@
       ""
     ]
   },
-  "tuyaConvert": {
+  "tuya_convert": {
+    "alias": [
+      "TuyaConvert",
+      "Tuya-Convert"
+    ],
     "installation": "To see instructions on getting started with Tuya Convert & the links here",
     "links": [
       "https://github.com/ct-Open-Source/tuya-convert",
       "https://youtu.be/dt5-iZc4_qU",
       "https://templates.blakadder.com/"
     ],
-    "description": "Tuya convert is an exploit that attacks certain versions of Tuya firmware in order to replace the firmware with something we want.  The current release of the Tuya firmware has an encryption that prevents the exploit, so it works on fewer and fewer products currently being sold.  If someone can figure out the password....   Or someone at the factory would leak it, this may work again.  At this point only new-old-stock items that have not been used in the Tuya App might work.  Sadly most items will not and None that have been used in the Tuya App will convert./n/nTHEREFORE....../n/nDon't be shocked when the Tuya Convert doesn't work for you.  The man-in-the-middle attack that Tuys Convert was against Tuya Firmware has been patched by Tuya, and will likely not help you. /n/n Find a way to use the device as is, or find way to take the device apart and flash with a serial adapter.",
+    "description": "Tuya convert is an exploit that attacks certain versions of Tuya firmware in order to replace the firmware with something we want.  The current release of the Tuya firmware has an encryption that prevents the exploit, so it works on fewer and fewer products currently being sold.  If someone can figure out the password....   Or someone at the factory would leak it, this may work again.  At this point only new-old-stock items that have not been used in the Tuya App might work.  Sadly most items will not and None that have been used in the Tuya App will convert.\n\nTHEREFORE......\n\nDon't be shocked when the Tuya Convert doesn't work for you.  The man-in-the-middle attack that Tuys Convert was against Tuya Firmware has been patched by Tuya, and will likely not help you. \n\nFind a way to use the device as is, or find way to take the device apart and flash with a serial adapter.",
     "category": [
       "utilities"
     ]
@@ -227,7 +236,7 @@
       "sk9812",
       "apa106"
     ],
-    "installation": "DrZzs has a lot of great videos!  Check out this one to get started: https://youtu.be/tXvtxwK3jRk/n/nAlso in DrZzs Discord check out the #led-lighting-diy-🚥-🚥 channel and page the @PixelHeads for one on one help.",
+    "installation": "DrZzs has a lot of great videos!  Check out this one to get started: https://youtu.be/tXvtxwK3jRk  \n\nAlso in DrZzs Discord check out the #led-lighting-diy-🚥-🚥 channel and page the @PixelHeads for one on one help.",
     "links": [
       "https://youtu.be/tXvtxwK3jRk",
       "https://youtu.be/QnvircC22hU",
@@ -250,12 +259,12 @@
     ],
     "installation": "There is a lot of information on this subject.  Check out the links section and the Community can lead your journey here.",
     "links": [
-      "https://bit.ly/DrZzsHow433Works",
-      "https://bit.ly/DrZzsFlashRFBridgeTasmota",
-      "https://youtu.be/OfSbIFIJPuc",
-      "https://youtu.be/w_CchtI-oK0",
-      "https://whatarewefixing.today/?p=134",
-      "https://bit.ly/DrZzsRFBridgeMultiSensorSetup"
+      "[How RF433 Works](https://bit.ly/DrZzsHow433Works)",
+      "[Flashing the RFBridge](https://bit.ly/DrZzsFlashRFBridgeTasmota)",
+      "[DrZzs Video](https://youtu.be/OfSbIFIJPuc)",
+      "[Digiblur Video](https://youtu.be/w_CchtI-oK0)",
+      "[WhatAreWeFixing.Today Video](https://whatarewefixing.today/?p=134)",
+      "[Multiple sensor setup](https://bit.ly/DrZzsRFBridgeMultiSensorSetup)"
     ],
     "description": "The 433 mhz RF (radio frequency) band and the 315 mhz RF band, depending on the country you live in, is designated for the same purpose.  Low power rf transmitters are allowed to broadcast within these frequency ranges.  These small transmitters are usually binary type sensors because only a small message is able to be transmitted during an event.  Door/Window sensors, PIR sensors, push button transmitters, remote controls and the like are the typical devices using these frequencies.  There needs to be a receiver nearby to pick up these signals and act on the message received.\n\nDevices such as the Itead RFBridge (http://drzzs.com/RF_Bridge) and the Bond Bridge (https://bit.ly/DrZzsBondBridge) act as central hubs to collect information from these sensors and feed the data back to a program such as Home Assistant for further action.  With some devices like the Itead Sonoff Slampher (https://bit.ly/DrZzsSlampher), the device can ‘pair’ with a matching RF transmitter bought separately and act on the information provided.  Devices are not tied to a common standard (like Zwave) which 1, keeps the price very low, but 2, causes incompatibility between manufacturers.",
     "category": [
@@ -266,10 +275,11 @@
       ""
     ]
   },
-  "pull-request": {
+  "pull_request": {
     "alias": [
       "pr",
-      "pullrequest"
+      "pullrequest",
+      "pull-request"
     ],
     "installation": "No installation required.",
     "links": [
@@ -376,14 +386,15 @@
       ""
     ]
   },
-  "spinningButtonCard": {
+  "spinning_button_card": {
     "alias": [
       "spinningcard",
       "spinningbutton",
       "spinning-button",
       "spinning-card",
       "sbc",
-      "spin"
+      "spin",
+      "spinningButtonCard"
     ],
     "installation": "Install the custom button card using HACS.",
     "links": [
@@ -399,7 +410,7 @@
       ""
     ]
   },
-  "ha Supervised": {
+  "ha_supervised": {
     "alias": [
       "hainstall",
       "ha_install",
@@ -407,7 +418,7 @@
       "Home Assistant Generic Linux",
       "Home Assistant Docker Supervised",
       "hasupervised",
-      "ha_supervised"
+      "ha supervised"
     ],
     "installation": "Home Assistant Supervised can be installed on top of Docker on any generic linux system, a Debian based system is recommended. Below you will find links to tutorials and resources.",
     "links": [
@@ -450,7 +461,7 @@
       ""
     ]
   },
-  "power Over Ethernet": {
+  "power_over_ethernet": {
     "alias": [
       "POE",
       "POE+",
@@ -458,7 +469,8 @@
       "4PPOE",
       "802.3af",
       "802.3at",
-      "802.3bt"
+      "802.3bt",
+      "power Over Ethernet"
     ],
     "installation": "Power Over Ethernet requires a POE capable device (Wifi Hotspot or Camera), as well as a power supply such as a POE Switch or a POE Power injector.",
     "links": [
@@ -478,11 +490,11 @@
     ],
     "installation": "See the links for articles and videos about installation.  Not enough room to exlain here.",
     "links": [
-      "https://whatarewefixing.today/589/sonoff-diy-mode-flash-to-tasmota-using-linux-laptop-2020-updates/",
-      "https://www.youtube.com/watch?v=fsrT5o1C1w0",
-      "https://sigmdel.ca/michel/ha/sonoff/sonoff_mini_en.html",
-      "https://github.com/itead/Sonoff_Devices_DIY_Tools/blob/master/other/SONOFF%20DIY%20MODE%20Protocol%20Doc%20v1.4.md",
-      "https://tasmota.github.io/docs/Sonoff-DIY/"
+      "[WhatAreWeFixing.Today Video](https://whatarewefixing.today/?p=589)",
+      "[DrZzs Video](https://www.youtube.com/watch?v=fsrT5o1C1w0)",
+      "[Flash Tasmota on a Sonoff in DIY mode in Linux](https://sigmdel.ca/michel/ha/sonoff/sonoff_mini_en.html)",
+      "[Sonoff-ITead GIT](https://github.com/itead/Sonoff_Devices_DIY_Tools/blob/master/other/SONOFF%20DIY%20MODE%20Protocol%20Doc%20v1.4.md)",
+      "[Tasmota Documentation](https://tasmota.github.io/docs/Sonoff-DIY/)"
     ],
     "description": "Sonoff has come up with a version of firmware that does not require soldering or an FTDI adapter.  This is nice, but the process is a bit complicated and involved.  There are articles and videos attached here to help you be sucessful in your attempt.",
     "category": [
