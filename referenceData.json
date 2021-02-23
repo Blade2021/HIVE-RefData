@@ -222,7 +222,7 @@
 			"LED Props","led-props"
 		],
 		"minRank": 0,
-		"description": "[BoscoyoStudio](https://boscoyostudio.com/) - Outdoor lightning display props for Residential and Commercial displays.\n[Gilbert Engineering USA](https://gilbertengineeringusa.com/) - Coro props, Pixel props, holiday coro, magical, holiday decor, holiday lighting, outdoor lighting, xlights, light o rama, Coro, Christmas Props, Animated Lighting\n[CustomChristmasCreationsCCC](https://customchristmascreationsccc.com/) - Unique Coro Christmas,Halloween,random props\n[EFL Designs](https://www.facebook.com/EFLDesigns) - custom coro cutter find him on facebook or xlights zoom room",
+		"description": "[BoscoyoStudio](https://boscoyostudio.com/) - Outdoor lightning display props for Residential and Commercial displays. \n[Gilbert Engineering USA](https://gilbertengineeringusa.com/) - Coro props, Pixel props, holiday coro, magical, holiday decor, holiday lighting, outdoor lighting, xlights, light o rama, Coro, Christmas Props, Animated Lighting \n[CustomChristmasCreationsCCC](https://customchristmascreationsccc.com/) - Unique Coro Christmas,Halloween,random props \n[Northern Lights Decor](https://www.nl-decor.com/) - PVC Props for a range of lights \n[EFL Designs](https://www.facebook.com/EFLDesigns) - custom coro cutter find him on facebook or xlights zoom room ",
 		"category": [
 			"led"
 		],
@@ -248,7 +248,7 @@
 			"LED xlights","led-xlights"
 		],
 		"minRank": 0,
-		"description": "[xlights website-xLights](https://xlights.org/) is a free and open source program that enables you to design, create and play amazing lighting displays through the use of DMX controllers, E1.31 Ethernet controllers and more.\n\n[Xlights download page](https://xlights.org/releases/)",
+		"description": "[xlights website-xLights](https://xlights.org/) is a free and open source program that enables you to design, create and play amazing lighting displays through the use of DMX controllers, E1.31 Ethernet controllers and more.\n\n[Xlights download page](https://xlights.org/releases/) ",
 		"category": [
 			"led"
 		],
@@ -261,7 +261,7 @@
 			"LED sequences", "led seq","led_seq","led-sequences"
 		],
 		"minRank": 0,
-		"description": "[Xlights Free Sequences (Google Drive)](https://drive.google.com/drive/folders/0B2ozCEidtWh3MUVzX0ZMc1pzY00?fref=gc&dti=628061113896314)\n[Pixel Pro Displays](https://www.pixelprodisplays.com/)\n[Xtreme Sequences](https://www.xtremesequences.com/)\n[ShowStopperSequences](https://showstoppersequences-com.3dcartstores.com/)\n[Magical Light Shows](https://magicallightshows.com/)\n[SyracuseLights](https://www.syracuselights.org/sequences)\n[VCS 2020 xLights: Basic Sequencing - Michael Stoffregen - VIDEO](https://www.youtube.com/watch?v=EvK7AUJ1Nrk)",
+		"description": "[Xlights Free Sequences (Google Drive)](https://drive.google.com/drive/folders/0B2ozCEidtWh3MUVzX0ZMc1pzY00?fref=gc&dti=628061113896314) \n[Pixel Pro Displays](https://www.pixelprodisplays.com/) \n[Xtreme Sequences](https://www.xtremesequences.com/) \n[ShowStopperSequences](https://showstoppersequences-com.3dcartstores.com/) \n[Magical Light Shows](https://magicallightshows.com/) \n[Animated Lumination Sequences](http://animatedillumination.com/) \n,[SyracuseLights](https://www.syracuselights.org/sequences) \nVCS 2020 xLights: Basic Sequencing \u1F5A5 [Michael Stoffregen - VIDEO](https://www.youtube.com/watch?v=EvK7AUJ1Nrk) ",
 		"category": [
 			"led"
 		],
@@ -339,7 +339,7 @@
 			"LED prints","3d prints","3d_print","ledprints","led-prints"
 		],
 		"minRank": 0,
-		"description": "PIXELHEADS 3D PRINT COLLECTION[find them here](https://shop.pixelheads.info/pixelheads-3d-print-collection/)",
+		"description": "PIXELHEADS 3D Print Collection[find them here \u1F3D7](https://shop.pixelheads.info/pixelheads-3d-print-collection/) /nViperts Creations 3d Models [right here \u1F3D7](https://cults3d.com/en/users/Viperts/creations) ",
 		"category": [
 			"led"
 		],
@@ -413,7 +413,7 @@
 		]
 	},
 	"code": {
-		"alias": [],
+		"alias": ["share"],
 		"minRank": 0,
 		"title": "Formatting code in Discord",
 		"description": "Paste your code in the following format Replacing `json` with your desired language:\n \\`\\`\\``json` \nCode Here\n\\`\\`\\`\n`Before:`\n{\"greeting\":\"Hello World\"}\n\n`After:` ```json\n{\"greeting\":\"Hello World\"}```[More information](https://github.com/Blade2021/HIVE/wiki/Code-Formatting-&-Validation)",
@@ -432,6 +432,9 @@
 			"general"
 		],
 		"keywords": [
+			"code",
+			"code share",
+			"share"
 		]
 	},
 	"package": {
