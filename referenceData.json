@@ -567,6 +567,23 @@
 			"emoji",
 			"linux"
 		]
+	},
+	"advice": {
+		"alias": [
+			"figure_it_out",
+			"figure it out",
+			"figure-it-out"
+		],
+		"minRank": 0,
+		"title": "Advice from DrZzs",
+		"description":"DIY Smart Home Advice - the Joy of Figuring Stuff Out for Yourself [YouTube Video Here \u1F5A5](<https://www.youtube.com/watch?v=GDIGlFL-kHk>)",
+		"category": [
+			"information",
+			"general"
+		],
+		"keywords": [
+		]
 	}
+
 }
 
