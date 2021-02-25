@@ -261,7 +261,7 @@
 			"LED sequences", "led seq","led_seq","led-sequences"
 		],
 		"minRank": 0,
-		"description": "[Xlights Free Sequences (Google Drive)](https://drive.google.com/drive/folders/0B2ozCEidtWh3MUVzX0ZMc1pzY00?fref=gc&dti=628061113896314) \n[Pixel Pro Displays](https://www.pixelprodisplays.com/) \n[Xtreme Sequences](https://www.xtremesequences.com/) \n[ShowStopperSequences](https://showstoppersequences-com.3dcartstores.com/) \n[Magical Light Shows](https://magicallightshows.com/) \n[Animated Lumination Sequences](http://animatedillumination.com/) \n,[SyracuseLights](https://www.syracuselights.org/sequences) \nVCS 2020 xLights: Basic Sequencing \u1F5A5 [Michael Stoffregen - VIDEO](https://www.youtube.com/watch?v=EvK7AUJ1Nrk) ",
+		"description": "[Xlights Free Sequences (Google Drive)](https://drive.google.com/drive/folders/0B2ozCEidtWh3MUVzX0ZMc1pzY00?fref=gc&dti=628061113896314) \n[Pixel Pro Displays](https://www.pixelprodisplays.com/) \n[Xtreme Sequences](https://www.xtremesequences.com/) \n[ShowStopperSequences](https://showstoppersequences-com.3dcartstores.com/) \n[Magical Light Shows](https://magicallightshows.com/) \n[Animated Lumination Sequences](http://animatedillumination.com/) \n,[SyracuseLights](https://www.syracuselights.org/sequences) \nVCS 2020 xLights: Basic Sequencing [Michael Stoffregen - VIDEO](https://www.youtube.com/watch?v=EvK7AUJ1Nrk) ",
 		"category": [
 			"led"
 		],
@@ -339,7 +339,7 @@
 			"LED prints","3d prints","3d_print","ledprints","led-prints"
 		],
 		"minRank": 0,
-		"description": "PIXELHEADS 3D Print Collection[find them here \u1F3D7](https://shop.pixelheads.info/pixelheads-3d-print-collection/) /nViperts Creations 3d Models [right here \u1F3D7](https://cults3d.com/en/users/Viperts/creations) ",
+		"description": "PIXELHEADS 3D Print Collection[find them here ](https://shop.pixelheads.info/pixelheads-3d-print-collection/) /nViperts Creations 3d Models [right here ](https://cults3d.com/en/users/Viperts/creations) ",
 		"category": [
 			"led"
 		],
@@ -537,7 +537,7 @@
 			"home assistant configuration"
 		],
 		"minRank": 0,
-		"description": "\u1F638 \nIntegrating your HA Configuration is a bit challenging, but having a way to trace back and remember what you did (when) is very useful.  \nHere are a couple of people that have made the step by step easier for you.  \n\n  🔷 [Bearded Tinker Pushing the Repo and Travis Integration](https://www.youtube.com/watch?v=RAvdsVg0u3E)  \n  🔷 [Doc showing the way on a LiveStream!](https://www.youtube.com/watch?v=Pe40iHjulMM)  \n  🔷 [An HA Community article on the process](https://community.home-assistant.io/t/sharing-your-configuration-on-github/195144)  \n  🔷 [Bearded Tinkerer setting up the GitHub Repo Sensor Integration](https://www.youtube.com/watch?v=rzE9WXZj6N8)",
+		"description": "Integrating your HA Configuration is a bit challenging, but having a way to trace back and remember what you did (when) is very useful.  \nHere are a couple of people that have made the step by step easier for you.  \n\n  🔷 [Bearded Tinker Pushing the Repo and Travis Integration](https://www.youtube.com/watch?v=RAvdsVg0u3E)  \n  🔷 [Doc showing the way on a LiveStream!](https://www.youtube.com/watch?v=Pe40iHjulMM)  \n  🔷 [An HA Community article on the process](https://community.home-assistant.io/t/sharing-your-configuration-on-github/195144)  \n  🔷 [Bearded Tinkerer setting up the GitHub Repo Sensor Integration](https://www.youtube.com/watch?v=rzE9WXZj6N8)",
 		"category": [
 			"home-assistant",
 			"integrations"
@@ -576,7 +576,7 @@
 		],
 		"minRank": 0,
 		"title": "Advice from DrZzs",
-		"description":"DIY Smart Home Advice - the Joy of Figuring Stuff Out for Yourself [YouTube Video Here \u1F5A5](<https://www.youtube.com/watch?v=GDIGlFL-kHk>)",
+		"description":"DIY Smart Home Advice - the Joy of Figuring Stuff Out for Yourself [YouTube Video Here ](<https://www.youtube.com/watch?v=GDIGlFL-kHk>)",
 		"category": [
 			"information",
 			"general"
