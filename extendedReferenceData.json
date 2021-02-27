@@ -315,7 +315,7 @@
   },
   "deconz": {
     "alias": [],
-    "installation": "Decponz and the Phoscon Web App can be installed in Docker, within Home Assistant as an addon, or can even be bought as part of a hardware solution preinstalled on a dedicated Raspberry Pi",
+    "installation": "Deconz and the Phoscon Web App can be installed in Docker, within Home Assistant as an addon, or can even be bought as part of a hardware solution preinstalled on a dedicated Raspberry Pi",
     "links": [
       "[Phoscon's ConBee Stick Page](https://phoscon.de/en/conbee/software)"
     ],

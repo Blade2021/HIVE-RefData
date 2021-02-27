@@ -576,14 +576,32 @@
 		],
 		"minRank": 0,
 		"title": "Advice from DrZzs",
-		"description":"DIY Smart Home Advice - the Joy of Figuring Stuff Out for Yourself [YouTube Video Here ](<https://www.youtube.com/watch?v=GDIGlFL-kHk>)",
+		"description":"DIY Smart Home Advice - the Joy of Figuring Stuff Out for Yourself [YouTube Video Here](<https://www.youtube.com/watch?v=GDIGlFL-kHk>)",
 		"category": [
 			"information",
 			"general"
 		],
 		"keywords": [
 		]
+	},
+	"tips": {
+		"alias": [
+			"discord-tips",
+			"discord_tips",
+			"discord tips",
+			"newbee"
+		],
+		"minRank": 0,
+		"title": "BOT Wrangling 101 on DrZzs Discord",
+		"description":"There is a whole reference library in here to help you sort out things.  All contributions are from people on the channel.  \n\nType `~reflist` in the chat and you see the list.  Then (tilde) ~topic will bring up that topic.  Also you can type `~commands` and get a list of BOT commands you nave access to.  \n\nWe tend to go to `#bot-spam` channel to activate those things so as to not fill up the topic channels with info just for you.",
+		"category": [
+			"information",
+			"general"
+		],
+		"keywords": [
+			"discord",
+			"bots"
+		]
 	}
-
 }
 
