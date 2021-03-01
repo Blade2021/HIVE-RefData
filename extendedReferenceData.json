@@ -24,7 +24,7 @@
       "[All Tasmota Releases](https://github.com/arendst/Tasmota/releases)",
       "Tasmota Over-The-Air Downloads http://ota.tasmota.com/tasmota/release/",
       "[Tasmota Special Binaries](https://github.com/tasmota/binaries)",
-      "[Tasmota Tamplates](https://templates.blakadder.com/)"
+      "[Tasmota Templates](https://templates.blakadder.com/)"
     ],
     "description": "Tasmota is a firmware that can be flashed onto ESP8266-based products created by Theo Arends.  It was originally used for Sonoff boards, but quickly snowballed to include all ESP8266 chips.  You can use it to control just about everything that you want (plugs, switches, dimmers, bulbs, et cetera).\n\nThe reason you'd load this firmware onto your devices is to keep your smart item traffic local to your premise, and not sending it to the cloud servers.  (So that when the internet goes out, the smartness of your things doesn't also).\n\nTasmota is 100% free and open source making it a great product for the home automation community.\n\nThe community submits configuration templates for devices to a site maintained by a user named Blakadder, so most things are pretty easy to configure.  If you run across a new product without a template, you will need to work out where things like LEDs, relays, and the like are by adjusting template settings manually -- but once you've got it, you can submit it to the repository!.\n\nBlakadder's team also maintains a 'naughty list' of devices that are not compatible.",
     "category": [
