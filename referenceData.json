@@ -19,6 +19,7 @@
 		"alias": [
 			"icon"
 		],
+		"title": "Avatar",
 		"minRank": 0,
 		"description": "Here on Dr. Zzs Discord we would like everyone to have a good experience.  We strongly encourage you to pick an avatar that reflects you and not continue to use the default Clyde icon. \n🔸 First find a small picture that you like and that you want to represent you. \n🔸 Click the gear next to your name near the bottom of the page. \n🔸 Hover over the icon and click it. \n🔸 Select your new picture file here. \n🔸 Save it and pop back and it will appear!",
 		"category": [
@@ -51,6 +52,7 @@
 	"backup": {
 		"alias": [],
 		"minRank": 0,
+		"title": "Home Assistant Backup",
 		"description": "Be sure to regularly, automatically, back up your Home Assistant install. There are various critical files and configuration options (like the Z-Wave network key), plus all your time. Hass.io has snapshots, and for unix type installs see <https://blog.ceard.tech/2017/10/backing-up-home-assistant.html>.  Oh, and most important of all **test your ability to restore regularly**.",
 		"category": [
 			"home-assistant"
@@ -61,6 +63,7 @@
 	},
 	"checkconfig": {
 		"alias": [],
+		"title": "HA CheckConfig Addon (Supervised)",
 		"minRank": 0,
 		"description": "[Home Assistant Add-on: Check Home Assistant configuration](<https://github.com/home-assistant/addons/tree/master/check_config>) \n[Home Assistant Configuration](<https://www.home-assistant.io/integrations/config/>) \n[Home Assistant Advanced Configuration](<https://www.home-assistant.io/getting-started/configuration/>)",
 		"category": [
@@ -83,6 +86,7 @@
 	},
 	"codeshare": {
 		"alias": [],
+		"title": "Code Share",
 		"minRank": 0,
 		"description": "Need to work with someone on writing code?  Try using https://codeshare.io",
 		"category": [
@@ -109,7 +113,7 @@
 			"fonts"
 		],
 		"minRank": 0,
-		"title": "Displaying emoji's in Discord using Linux",
+		"title": "Displaying Emoji's in Discord using Linux",
 		"description":"If the icons next to names and reactions in Discord are showing as empty boxes or  mono color, try this.  \nInstall the font, in Debian this is the command:  \n\n```sudo apt update;sudo apt install fonts-noto-color-emoji -y```\n\n[Then follow the instructions on this page...](<https://victor.kropp.name/blog/emoji-on-linux/>)",
 		"category": [
 			"information",
@@ -127,6 +131,7 @@
 			"drzzs github",
 			"docs github"
 		],
+		"title": "Doc's Github / Gist",
 		"minRank": 0,
 		"description": "You can find the Docs public github here: [Link](https://github.com/Snipercaine)  \nYou can find the Docs public gist here: [Link](https://gist.github.com/Snipercaine)",
 		"category": [
@@ -137,6 +142,7 @@
 	},
 	"faq": {
 		"alias": [],
+		"title": "FAQ and Rules for this Discord Server",
 		"minRank": 0,
 		"description": "You can find rules, common bot commands, and answers to frequently asked questions in the #faq-and-rules channel.",
 		"category": [
@@ -150,6 +156,7 @@
 		"alias": [
 			"getting started"
 		],
+		"title": "Getting Started with Home Assistant",
 		"minRank": 0,
 		"description": "When you're getting started, take the time to read [HA Docs Link](https://home-assistant.io/docs/) and have a look at the supported components [Supported Components](https://home-assistant.io/components/). You can find some worked examples at [HA Cookbook](https://home-assistant.io/cookbook/).",
 		"category": [
@@ -163,6 +170,7 @@
 		"alias": [
 			"home assistant configuration"
 		],
+		"title": "Sending your HA Configuration to Github",
 		"minRank": 0,
 		"description": "Integrating your HA Configuration is a bit challenging, but having a way to trace back and remember what you did (when) is very useful.  \nHere are a couple of people that have made the step by step easier for you.  \n\n  🔷 [Bearded Tinker Pushing the Repo and Travis Integration](https://www.youtube.com/watch?v=RAvdsVg0u3E)  \n  🔷 [Doc showing the way on a LiveStream!](https://www.youtube.com/watch?v=Pe40iHjulMM)  \n  🔷 [An HA Community article on the process](https://community.home-assistant.io/t/sharing-your-configuration-on-github/195144)  \n  🔷 [Bearded Tinkerer setting up the GitHub Repo Sensor Integration](https://www.youtube.com/watch?v=rzE9WXZj6N8)",
 		"category": [
@@ -181,6 +189,7 @@
 		"alias": [
 			"groups"
 		],
+		"title": "HA Groups",
 		"minRank": 0,
 		"description": "Groups allow the user to combine multiple entities into one, and create views in the default dashboard. See <https://home-assistant.io/components/group/> for information.",
 		"category": [
@@ -190,10 +199,34 @@
 			"group"
 		]
 	},
+	"ha_supervised": {
+		"alias": [
+		  "hainstall",
+		  "ha-install",
+		  "ha_install",
+		  "Home Assistant Supervised",
+		  "Home Assistant Generic Linux",
+		  "Home Assistant Docker Supervised",
+		  "hasupervised",
+		  "ha-supervised",
+		  "ha supervised"
+		],
+		"title": "Setting up HA Supervised",
+		"minRank": 0,
+		"description": "Home Assistant Supervised can be installed on top of Docker on any generic linux system, a Debian based system is recommended. Below you will find links to tutorials and resources. \n\n🏠 [Matheson's Install HA Supervised on Debian])https://mathesonsteplock.ca/install-home-assistant-supervised-on-debian/) \n🏠 [JuanMTech's Home Assistant on Docker and Ubuntu](https://youtu.be/ekVfLXnoM7k) \n🏠 [HA Supervised Installer](https://github.com/home-assistant/supervised-installer) \n🏠 [Install Docker Engine](https://docs.docker.com/engine/install/) \n\nHome Assistant (Supervised) is the version of Home Assistant which runs the Home Assistant Supervisor. \n\nThe supervisor is is a container that runs in Docker which allows the use of Add-ons and manages updating and other maintenance of your Home Assistant Install. \n\nWith the help of the generic Linux install script you can install Home Assistant (Supervised) on any Linux System running Docker",
+		"category": [
+		  "infrastructure",
+		  "home-assistant"
+		],
+		"keywords": [
+		  ""
+		]
+	},
 	"helpdesk": {
 		"alias": [
 			"order help"
 		],
+		"title": "Help Desk",
 		"minRank": 0,
 		"description": "Need help with an order from [DrZzs.com](https://drzzs.com)?  Submit a ticket to the HelpDesk. [https://helpdesk.drzzs.com](https://helpdesk.drzzs.com)",
 		"category": [
@@ -209,6 +242,7 @@
 		"alias": [
 			"boolean"
 		],
+		"title": "Input Boolean",
 		"minRank": 0,
 		"description": "Input booleans allow an entity to be created to save a toggleable state.  You can find more about them here: [More information](https://www.home-assistant.io/integrations/input_boolean/)",
 		"category": [
@@ -222,6 +256,7 @@
 		"alias": [
 			"input number"
 		],
+		"title": "Input Number",
 		"minRank": 0,
 		"description": "The `input_number` component allows the user to define values that can be controlled via the frontend and can be used within conditions of automation. The frontend can display a slider, or a numeric input box. Changes to the slider or numeric input box generate state events. These state events can be utilized as `automation` triggers as well.\n```yaml\n# Example configuration.yaml entry\ninput_number:\n  slider1:\n    name: Slider\n    initial: 30\n    min: -20\n    max: 35\n    step: 1\n  box1:\n    name: Numeric Input Box\n    initial: 30\n    min: -20\n    max: 35\n    step: 1\n    mode: box\n```\n[More information:](<https://home-assistant.io/components/input_number/>)",
 		"category": [
@@ -235,6 +270,7 @@
 		"alias": [
 			"just_ask","just-ask"
 		],
+		"title": "Just Ask a Question",
 		"minRank": 0,
 		"description": "Need assistance with something?  Just ask your question, instead of asking for permission.  If anyone knows the answer, they will reply.  \n\nhttps://dontasktoask.com/",
 		"category": [
@@ -248,6 +284,7 @@
 		"alias": [
 			"LED calcpower","led power","led_power","ledcalcpower"
 		],
+		"title": "Calculate LED Power",
 		"minRank": 0,
 		"description": "What is Power Injection? At its lowest level power injection is nothing more than adding additional power to a string of lights at a point in which the voltage drop starts to affect the lights[more info here](http://spikerlights.com/pwrinjection.aspx)\nThis is a great calculator to help with judging the size of wire , power supplies , distance ,votage drop and much more [RGB Pixel Power Calculator](http://spikerlights.com/calcpower.aspx)\nHow much power do addressable LEDs use?, Digitally Addressable LED Sheet[info found here](https://quinled.info/2020/03/12/digital-led-power-usage/)",
 		"category": [
@@ -261,6 +298,7 @@
 		"alias": [
 			"LED controller","led-controller"
 		],
+		"title": "LED Controllers",
 		"minRank": 0,
 		"description": "[USA-Dig-Uno](https://drzzs.com/shop/dig-uno-diy-rgb-led-controller-w-wled-preassembled/)\n[USA-Dig-Quad](https://drzzs.com/shop/digquad/)\n[kulplights controllers](https://kulplights.com/)\n[Falcon Pixel controller](https://www.pixelcontroller.com/store/index.php)\n[Pixel2Things- Ac to pixel controller](https://www.pixel2things.com/)",
 		"category": [
@@ -274,6 +312,7 @@
 		"alias": [
 			"LED espdriver", "led esp driver","led-espdriver"
 		],
+		"title": "LED ESP Drivers",
 		"minRank": 0,
 		"description": "WLED ESP Driver download [click here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)",
 		"category": [
@@ -287,6 +326,7 @@
 		"alias": [
 			"LED falcon","ledfalcon","led-falcon"
 		],
+		"title": "LED Falcon Controllers",
 		"minRank": 0,
 		"description": "[pixelcontroller.com](https://www.pixelcontroller.com/store/index.php) -Home of the Falcon controllers that can drive 1024 lights per port can drive many different types of pixels ie.WS,TM,SM,INK,TL,CY,LPD,D705,ETC.\n[Falcon controller support page](https://www.pixelcontroller.com/store/index.php?id_cms_category=5&controller=cms) *you will run these from fpp or your computer through xSchedule* *new firmware might change this*.\n\nF16V3- 16 port Pixel Controller- 1024 pixels per output pixel controller. [Link](https://www.pixelcontroller.com/store/index.php?id_product=48&controller=product)\nF48 Differential Controller- Can drive up to 16384 pixels. 48 Differential Outputs no local ports-Can connect up to 12 Falcon Differential Receivers. [Link](https://www.pixelcontroller.com/store/index.php?id_product=52&controller=product)\n\nFalcon PiCap for a pi3 or pi4 Can control two strings 800+ WS2811 pixels with fused and buffered outputs. Dedicated RS-485 DMX Output (Renard, DMX, LOR selectable). Input voltage 5, or 12V selectable.[Link](https://www.pixelcontroller.com/store/index.php?id_product=47&controller=product)\nFPP releases can be found here newest is at top.[Github](https://github.com/FalconChristmas/fpp/releases)\nFPP Installing and Configuring Your Controller Step by Step - Rick Harris [YouTube](https://www.youtube.com/watch?v=ZV4o11XiaU0)\nVCS 2020 Falcon Controllers - Scott Hanson- [YouTube](https://www.youtube.com/watch?v=J9KDQvYBoe0)",
 		"category": [
@@ -300,6 +340,7 @@
 		"alias": [
 			"LED fpp","ledfpp","led-fpp"
 		],
+		"title": "LED FPP",
 		"minRank": 0,
 		"description": "FPP Manual can be found [here](https://falconchristmas.github.io/FPP_Manual.pdf)\nFPP releases can be found [here](https://github.com/FalconChristmas/fpp/releases)\nThe Falcon [Christmas Forum](http://falconchristmas.com/forum/) - support for fpp, kulp and falcon\nFPP Installing and Configuring Your Controller Step by Step - Rick Harris [YouTube](https://www.youtube.com/watch?v=ZV4o11XiaU0)\nFPP In Detail Master / Remote / Schedule / Playlist - Rick Harris - [YouTube](https://www.youtube.com/watch?v=y27EarxYW6Y)\nFPP Plugins & Scripts - Daniel Kulp [YouTube](https://www.youtube.com/watch?v=pE4I5igbAuE&t=2s)",
 		"category": [
@@ -313,6 +354,7 @@
 		"alias": [
 			"led hardware","led-hardware"
 		],
+		"title": "LED Hardware",
 		"minRank": 0,
 		"description": "[RGBMan](https://www.rgb-man.com/)\n[wallyslights](https://www.wallyslights.com/)\n[wiredwatts](https://www.wiredwatts.com/)\n[Ray wu's store](https://www.aliexpress.com/store/701799?fbclid=IwAR1yDm6ygs_IuAz13ggWv2wPSHJH34M7205U4l473jGqtVUNjIbLjrQAdFM)\n[PIXELHEADS](https://shop.pixelheads.info/)\n[Paul Zhang Direct-US](https://www.amazon.com/s?i=merchant-items&me=A1HD6W29M3RXPC)\n[Hanson Electronics](http://www.hansonelectronics.com.au/)\n[jboards](https://jboards.ecwid.com/)\n[mattosdesigns](https://mattosdesigns.com/)",
 		"category": [
@@ -326,6 +368,7 @@
 		"alias": [
 			"LED inject","led-inject"
 		],
+		"title": "LED Inject Help",
 		"minRank": 0,
 		"description": "Solutions for Power Injection & Data Signal Boosting Permanent Christmas Lights:by Dr.zzs [YouTube](https://www.youtube.com/watch?v=wSGfkL1AGKs)\nPower Distro Power Injection by:Bill Porter [YouTube](https://youtu.be/eR3QbzjpZy8)\nEver Wonder Why You Pixels Flicker and How to Fix It by:Keith Wesley [YouTube](https://www.youtube.com/watch?v=9ttEAyiyTAI)\nThis is a great calculator to help with judging the size of wire , power supplies , distance ,votage drop and much more [RGB Pixel Power Calculator](http://spikerlights.com/calcpower.aspx)",
 		"category": [
@@ -339,6 +382,7 @@
 		"alias": [
 			"LED kulp","ledkulp","led-kulp"
 		],
+		"title": "LED Kulp Controllers",
 		"minRank": 0,
 		"description": "kulplights.com -Home of FPP based pixel controllers that can each drive 800 Pixels at 40FPS 1500 Pixels at 20fps per port ws281x ONLY [Link](https://kulplights.com/)\nFPP releases can be found [here](https://github.com/FalconChristmas/fpp/releases) newest is at top\nkulp k16- A 16 port controller that runs FPP Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE,fm-transmitter* [Link](https://kulplights.com/product/k16a-b/)\nkulp 32 port controller Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE,fm-transmitter*[Link](https://kulplights.com/product/k32a-b/)\nkulp k8-8 port controller Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE*[Link](https://kulplights.com/product/k8-b/)\n\nIF RUNNING WIFI YOU WILL NEED THIS ADAPTER. [Link](https://kulplights.com/product/1200mbs-antenna-wifi/)\nYou might also need this usb hub. [Link](https://kulplights.com/product/usb-gigabit-ethernet-adapter/)\n\nThe 4-String Differential Smart Receiver Board can be connected to many different controller options allowing 4 strings to be placed up to 300+ feet from the controllers . Input voltage 5, or 12V . The Smart Receiver can be daisy-chained together up to three.[Link](https://kulplights.com/product/smart-receiver/)\nKulp's user manual *listed as f8-b but works for all boards*. [Link](https://kulplights.com/manuals/F8-B-Manual.pdf)\nFPP Installing and Configuring Your Controller Step by Step - Rick Harris - [YouTube](https://www.youtube.com/watch?v=ZV4o11XiaU0)\nVCS 2020 Kulp Boards - Daniel Kulp - [YouTube](https://www.youtube.com/watch?v=sceGQMZ0dHw&t=2720s)\nFPP Plugins & Scripts - Daniel Kulp [YouTube](https://www.youtube.com/watch?v=pE4I5igbAuE&t=2s)",
 		"category": [
@@ -366,6 +410,7 @@
 		"alias": [
 			"LED Props","led-props"
 		],
+		"title": "LED Props",
 		"minRank": 0,
 		"description": "[BoscoyoStudio](https://boscoyostudio.com/) - Outdoor lightning display props for Residential and Commercial displays \n[Gilbert Engineering USA](https://gilbertengineeringusa.com/) - Coro props, Pixel props, holiday coro, magical, holiday decor, holiday lighting, outdoor lighting, xlights, light o rama, Coro, Christmas Props, Animated Lighting \n[CustomChristmasCreationsCCC](https://customchristmascreationsccc.com/) - Unique Coro Christmas, Halloween, Random Props \n[Northern Lights Decor](https://www.nl-decor.com/) - PVC Props for a range of lights \n[EFL Designs](https://www.facebook.com/EFLDesigns) - Custom Coro Cutter -> find him on Facebook or Xlights zoom-room ",
 		"category": [
@@ -379,6 +424,7 @@
 		"alias": [
 			"LED sequences", "led seq","led_seq","led-sequences"
 		],
+		"title": "LED Display Sequences",
 		"minRank": 0,
 		"description": "[Xlights Free Sequences (Google Drive)](https://drive.google.com/drive/folders/0B2ozCEidtWh3MUVzX0ZMc1pzY00?fref=gc&dti=628061113896314) \n[Pixel Pro Displays](https://www.pixelprodisplays.com/) \n[Xtreme Sequences](https://www.xtremesequences.com/) \n[ShowStopperSequences](https://showstoppersequences-com.3dcartstores.com/) \n[Magical Light Shows](https://magicallightshows.com/) \n[Animated Lumination Sequences](http://animatedillumination.com/) \n[SyracuseLights](https://www.syracuselights.org/sequences) \n[VCS 2020 xLights: Basic Sequencing Michael Stoffregen - VIDEO](https://www.youtube.com/watch?v=EvK7AUJ1Nrk) ",
 		"category": [
@@ -392,6 +438,7 @@
 		"alias": [
 			"LED xlights","led-xlights"
 		],
+		"title": "LED XLights",
 		"minRank": 0,
 		"description": "[xlights website-xLights](https://xlights.org/) is a free and open source program that enables you to design, create and play amazing lighting displays through the use of DMX controllers, E1.31 Ethernet controllers and more.\n\n[Xlights download page](https://xlights.org/releases/) ",
 		"category": [
@@ -415,6 +462,24 @@
 		],
 		"keywords": [
 			""
+		]
+	},
+	"mariaDB": {
+		"alias": [
+		  "No State History",
+		  "SQLite",
+		  "DB Corrupt",
+		  "Recorder"
+		],
+		"title": "Help with your Home Assistant Database Issues",
+		"minRank": 0,
+		"description": "Home Assistant comes with a built-in version of SQLite database.  If you suspect a database problem, the home-assistant_v2.DB file in your config folder can be deleted or renamed to disable it.  HA will rebuild it immediately.  I would wait 10 minutes after deleting (or renaming the file before you restart HA to give the file a chance to rebuild. \n\n📖 [Official HA Docs on Recorder](https://www.home-assistant.io/integrations/recorder/) \n📖 [MariaDB Supervised Addon](https://github.com/home-assistant/hassio-addons/tree/master/mariadb) \n📖 [WhatAreWeFixing.Today's YT Video](https://whatarewefixing.today/240/) \n📖 [Official HA Docs on Database](https://www.home-assistant.io/docs/backend/database/) \n📖 [Reddit thread about non-default Databases](https://www.reddit.com/r/homeassistant/comments/9z0tof/) \n📖 [BurnsHA's YT Video](https://youtu.be/4rsxnN8gkHk) \n\nThe default database that is used to store all recorded data in Home Assistant is SQLite.  As you get into a few dozen devices and hundreds of sensor data points, SQLite causes the occasional database corruption. If your Database file is over 1GB, if you are getting Recorder failures in the log, if sensor data randomly stops displaying in your user interface, it is probably time to purge the database. If this continues to happen to you, it may be time to replace the database with something else.\n\n  The easiest way to replace the database is to use the Official Add-on MariaDB.  This is a mysql based program that can handle larger amounts of data better than the default.  \n\nIf you are not running the supervised version of HA, there is a video for you in the links as well.  Also other database solutions will work with Home Assistant, see the link for the recorder integration for more details.",
+		"category": [
+		  "applications",
+		  "infrastructure"
+		],
+		"keywords": [
+		  ""
 		]
 	},
 	"mqtt_explorer": {
@@ -447,6 +512,7 @@
 	},
 	"points": {
 		"alias": [],
+		"title": "What are Points?",
 		"minRank": 0,
 		"description": "Points are used to give karma to other users.  Use ~getpoints to see how many points you have. [More information](https://github.com/Blade2021/HIVE/wiki/Karma)",
 		"category": [
@@ -477,8 +543,27 @@
 		"keywords": [
 		]
 	},
+	"rf433": {
+		"alias": [
+		  "RF315",
+		  "Bond",
+		  "RFBridge",
+		  "Slampher"
+		],
+		"title": "Help with RF433 / RF315 Devices",
+		"minRank": 0,
+		"description": "There is a lot of information on this subject.  Check out the links section and the Community can lead your journey here. \n\n📶 [How RF433 Works](https://bit.ly/DrZzsHow433Works) \n📶 [Flashing the RFBridge](https://bit.ly/DrZzsFlashRFBridgeTasmota) \n📶 [DrZzs Video](https://youtu.be/OfSbIFIJPuc) \n📶 [Digiblur Video](https://youtu.be/w_CchtI-oK0) \n📶 [WhatAreWeFixing.Today Video](https://whatarewefixing.today/?p=134) \n📶 [Multiple sensor setup](https://bit.ly/DrZzsRFBridgeMultiSensorSetup) \n\nThe 433 mhz RF (radio frequency) band and the 315 mhz RF band, depending on the country you live in, is designated for the same purpose. Low power RF transmitters are allowed to broadcast within these frequency ranges. These small transmitters are usually binary type sensors because only a small message is able to be transmitted during an event. Door/Window sensors, PIR sensors, push button transmitters, remote controls and the like are the typical devices using these frequencies. There needs to be a receiver nearby to pick up these signals and act on the message received.\n\nDevices such as the Itead RFBridge (http://drzzs.com/RF_Bridge) and the Bond Bridge (https://bit.ly/DrZzsBondBridge) act as central hubs to collect information from these sensors and feed the data back to a program such as Home Assistant for further action.  With some devices like the Itead Sonoff Slampher (https://bit.ly/DrZzsSlampher), the device can ‘pair’ with a matching RF transmitter bought separately and act on the information provided. Devices are not tied to a common standard (like Zwave) which 1, keeps the price very low, but 2, causes incompatibility between manufacturers.",
+		"category": [
+		  "microcontroller",
+		  "infrastructure"
+		],
+		"keywords": [
+		  ""
+		]
+	},
 	"secrets": {
 		"alias": [],
+		"title": "How Do HA Secrets Work?",
 		"minRank": 0,
 		"description": "Rather than putting sensitive information (passwords, locations, etc) into your configuration, you can store them in secrets to make sharing easier. See <https://home-assistant.io/docs/configuration/secrets/> for more.",
 		"category": [
@@ -488,11 +573,27 @@
 			""
 		]
 	},
+	"sonoffDIY": {
+		"alias": [
+		  "DIYFlash"
+		],
+		"title": "Sorting out the Sonoff DIY Firmware",
+		"minRank": 0,
+		"description": "Sonoff has come up with a version of firmware that does not require soldering or an FTDI adapter.  This is nice, but the process is a bit complicated and involved.  There are articles and videos attached here to help you be sucessful in your attempt.  \n🏷️ [WhatAreWeFixing.Today Video](https://whatarewefixing.today/?p=589)  \n🏷️ [DrZzs Video](https://www.youtube.com/watch?v=fsrT5o1C1w0)  \n🏷️ [Flash Tasmota on a Sonoff in DIY mode in Linux](https://sigmdel.ca/michel/ha/sonoff/sonoff_mini_en.html)  \n🏷️ [Sonoff-ITead GIT](https://github.com/itead/Sonoff_Devices_DIY_Tools/blob/master/other/SONOFF%20DIY%20MODE%20Protocol%20Doc%20v1.4.md)  \n🏷️ [Tasmota Documentation](https://tasmota.github.io/docs/Sonoff-DIY/)",
+		"category": [
+		  "switching-applications"
+		],
+		"keywords": [
+		  "itead",
+		  "sonoff_flash"
+		]
+	},
 	"split_config": {
 		"alias": [
 			"split config",
 			"splitconfig"
 		],
+		"title": "Making Your configuration.yaml Easier to Use",
 		"minRank": 0,
 		"description": "[Split Configuration HA Official Instructions](<https://home-assistant.io/docs/configuration/splitting_configuration/>)  \n\n[Doc and Frenck with a live Demo](https://youtu.be/FfjSA2o_0KA)",
 		"category": [
@@ -553,6 +654,7 @@
 		"alias": [
 			"ts"
 		],
+		"title": "Troubleshooting Your HA Configuration Problems",
 		"minRank": 0,
 		"description": "If you're having problems with your updates to your configuration, check the troubleshooting steps in <https://home-assistant.io/docs/configuration/troubleshooting/>",
 		"category": [
@@ -560,6 +662,18 @@
 		],
 		"keywords": [
 			"troubleshooting", "trouble", "configuration"
+		]
+	},
+	"tuya_convert": {
+		"alias": [
+		  "TuyaConvert",
+		  "Tuya-Convert"
+		],
+		"minRank": 0,
+		"title": "Tuya Convert",
+		"description": "To see instructions on getting started with Tuya Convert & the links here. \n\n🍘 [Tuya Convert Github](https://github.com/ct-Open-Source/tuya-convert) \n🍘 [Digiblur's Tuya Convert Flash Tuya Devices YT Video](https://youtu.be/dt5-iZc4_qU) \n🍘 [Tasmota Templates](https://templates.blakadder.com/) \n\nTuya convert is an exploit that attacks certain versions of Tuya firmware in order to replace the firmware with something we want.  The current release of the Tuya firmware has an encryption that prevents the exploit, so it works on fewer and fewer products currently being sold.  If someone can figure out the password....   Or someone at the factory would leak it, this may work again.  At this point only new-old-stock items that have not been used in the Tuya App might work.  Sadly most items will not and None that have been used in the Tuya App will convert.\n\nTHEREFORE......\n\nDon't be shocked when the Tuya Convert doesn't work for you.  The man-in-the-middle attack that Tuys Convert was against Tuya Firmware has been patched by Tuya, and will likely not help you. \n\nFind a way to use the device as is, or find way to take the device apart and flash with a serial adapter.",
+		"category": [
+		  "utilities"
 		]
 	},
 	"twitchSub": {
@@ -578,6 +692,7 @@
 	},
 	"wiki": {
 		"alias": [],
+		"title": "HIVE BOT WIKI",
 		"minRank": 0,
 		"description": "You can find command info and other general information about HIVE on the wiki: [More information](https://github.com/Blade2021/HIVE/wiki)",
 		"category": [
