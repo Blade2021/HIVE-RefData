@@ -336,11 +336,9 @@
     ]
   },
   "wled": {
-    "installation": "Check out this link to get started",
-    "links": [
-      "🚥 [WLED WIKI](https://github.com/Aircoookie/WLED/wiki)"
-    ],
-    "description": "WLED is a firmware that can be loaded onto ESP8266 and ESP32 microcontrollers and is used to control lengths of connected addressable LEDs.  It has many built-in features, is compatible with Home Assistant via an integration, and with DMX-based Light Controller protocols.\n\nSee also: {prefix}NeoPixel",
+    "installation": "",
+    "links": [],
+    "description": "Check out this link to get started: \n\n🚥 [WLED WIKI](https://github.com/Aircoookie/WLED/wiki)  \n\nWLED is a firmware that can be loaded onto ESP8266 and ESP32 microcontrollers and is used to control lengths of connected addressable LEDs.  It has many built-in features, is compatible with Home Assistant via an integration, and with DMX-based Light Controller protocols.\n\nSee also: {prefix}NeoPixel",
     "category": [
       "lights",
       "applications"
