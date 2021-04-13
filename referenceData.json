@@ -100,6 +100,7 @@
 	"config": {
 		"alias": [],
 		"minRank": 0,
+		"title": "Where's My Configuration?",
 		"description": "Enable the \"Configuration\" section of the UI by adding `config:` to your configuration.yaml file, docs: <https://home-assistant.io/integrations/config/>",
 		"category": [
 			"home-assistant"
@@ -154,7 +155,8 @@
 	},
 	"getting_started": {
 		"alias": [
-			"getting started"
+			"getting started",
+			"getting-started"
 		],
 		"title": "Getting Started with Home Assistant",
 		"minRank": 0,
@@ -168,7 +170,8 @@
 	},
 	"git_repo": {
 		"alias": [
-			"home assistant configuration"
+			"home assistant configuration",
+			"git-repo"
 		],
 		"title": "Sending your HA Configuration to Github",
 		"minRank": 0,
@@ -213,7 +216,7 @@
 		],
 		"title": "Setting up HA Supervised",
 		"minRank": 0,
-		"description": "Home Assistant Supervised can be installed on top of Docker on any generic linux system, a Debian based system is recommended. Below you will find links to tutorials and resources. \n\n🏠 [Matheson's Install HA Supervised on Debian])https://mathesonsteplock.ca/install-home-assistant-supervised-on-debian/) \n🏠 [JuanMTech's Home Assistant on Docker and Ubuntu](https://youtu.be/ekVfLXnoM7k) \n🏠 [HA Supervised Installer](https://github.com/home-assistant/supervised-installer) \n🏠 [Install Docker Engine](https://docs.docker.com/engine/install/) \n\nHome Assistant (Supervised) is the version of Home Assistant which runs the Home Assistant Supervisor. \n\nThe supervisor is is a container that runs in Docker which allows the use of Add-ons and manages updating and other maintenance of your Home Assistant Install. \n\nWith the help of the generic Linux install script you can install Home Assistant (Supervised) on any Linux System running Docker",
+		"description": "Home Assistant Supervised can be installed on top of Docker on any generic linux system, a Debian based system is recommended. Below you will find links to tutorials and resources. \n\n🏠 [Matheson's Install HA Supervised on Debian](https://mathesonsteplock.ca/install-home-assistant-supervised-on-debian/) \n🏠 [JuanMTech's Home Assistant on Docker and Ubuntu](https://youtu.be/ekVfLXnoM7k) \n🏠 [HA Supervised Installer](https://github.com/home-assistant/supervised-installer) \n🏠 [Install Docker Engine](https://docs.docker.com/engine/install/) \n\nHome Assistant (Supervised) is the version of Home Assistant which runs the Home Assistant Supervisor. \n\nThe supervisor is is a container that runs in Docker which allows the use of Add-ons and manages updating and other maintenance of your Home Assistant Install. \n\nWith the help of the generic Linux install script you can install Home Assistant (Supervised) on any Linux System running Docker",
 		"category": [
 		  "infrastructure",
 		  "home-assistant"
@@ -254,7 +257,8 @@
 	},
 	"input_number": {
 		"alias": [
-			"input number"
+			"input number",
+			"input-number"
 		],
 		"title": "Input Number",
 		"minRank": 0,
@@ -451,6 +455,7 @@
 	"lets_encrypt": {
 		"alias": [
 			"letsencrypt",
+			"lets encrypt",
 			"duckdns",
 			"lets-encrypt"
 		],
@@ -485,6 +490,7 @@
 	"mqtt_explorer": {
 		"alias": [
 			"MQTTExplorer",
+			"MQTT Explorer",
 			"MQTT-Explorer"
 		],
 		"minRank": 0,
@@ -524,6 +530,7 @@
 	},
 	"reply": {
 		"alias": [],
+		"title": "Who Are You Respoding To?",
 		"minRank": 0,
 		"description": "If there are multiple conversations going at once, try using the reply feature in discord.  This helps everyone know who they are replying to and from.",
 		"category": [
@@ -591,6 +598,7 @@
 	"split_config": {
 		"alias": [
 			"split config",
+			"split-config",
 			"splitconfig"
 		],
 		"title": "Making Your configuration.yaml Easier to Use",
@@ -606,7 +614,8 @@
 	"suggestHelp": {
 		"alias": [],
 		"minRank": 0,
-		"description": "Wanna submit a suggestion?  Use ~suggest followed by your suggestion.  This will send your suggestion to our staff to review before being posted as a poll for the community to vote.",
+		"title": "Suggestion Poll",
+		"description": "Wanna submit a suggestion in the chat?  \nUse ~suggest followed by your suggestion.  \nThis will send your suggestion to our staff to review before being posted as a poll for the community to vote.",
 		"category": [
 			"information"
 		],
