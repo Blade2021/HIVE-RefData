@@ -1,68 +1,37 @@
 {
-  "reference": {
-    "installation": "Please try to include details in your submissions for approval.",
-    "links": [
-      "https://github.com/Blade2021/HIVE-RefData"
-    ],
-    "description": "Wanna help develop a database of helpful information for beginners starting out in the home automation field?  Help us grow the HIVE Reference Database by submitting commits/PRs to the link included.",
-    "category": [
-      "utilities"
-    ],
-    "keywords": [
-      ""
-    ]
-  },
-  "tasmota": {
-    "alias": [
-      "tasmoto"
-    ],
-    "installation": "To learn more about flashing tasmota onto your supported device, check out this article: https://tasmota.github.io/docs/Getting-Started/",
-    "links": [
-      "[Current Release Change Notes](https://tasmota.github.io/docs/)",
-      "[Tasmota Peripherals](https://tasmota.github.io/docs/Supported-Peripherals/)",
-      "[Tasmota Commands](https://tasmota.github.io/docs/Commands/)",
-      "[All Tasmota Releases](https://github.com/arendst/Tasmota/releases)",
-      "Tasmota Over-The-Air Downloads http://ota.tasmota.com/tasmota/release/",
-      "[Tasmota Special Binaries](https://github.com/tasmota/binaries)",
-      "[Tasmota Templates](https://templates.blakadder.com/)"
-    ],
-    "description": "Tasmota is a firmware that can be flashed onto ESP8266-based products created by Theo Arends.  It was originally used for Sonoff boards, but quickly snowballed to include all ESP8266 chips.  You can use it to control just about everything that you want (plugs, switches, dimmers, bulbs, et cetera).\n\nThe reason you'd load this firmware onto your devices is to keep your smart item traffic local to your premise, and not sending it to the cloud servers.  (So that when the internet goes out, the smartness of your things doesn't also).\n\nTasmota is 100% free and open source making it a great product for the home automation community.\n\nThe community submits configuration templates for devices to a site maintained by a user named Blakadder, so most things are pretty easy to configure.  If you run across a new product without a template, you will need to work out where things like LEDs, relays, and the like are by adjusting template settings manually -- but once you've got it, you can submit it to the repository!.\n\nBlakadder's team also maintains a 'naughty list' of devices that are not compatible.",
-    "category": [
-      "switching-applications"
-    ],
-    "keywords": [
-      ""
-    ]
-  },
-  "node_red": {
-    "alias": [
-      "node red",
-      "nodered",
-      "node-red"
-    ],
-  "installation": "To learn how to install node-red check out this link: https://nodered.org/docs/getting-started/local",
-    "links": [
-      "[The Hook Up's Node Red Series](https://bit.ly/2XkGZMi)",
-      "[Steve’s Node-Red Guide](http://www.steves-internet-guide.com/node-red-overview/)",
-      "[Understanding and Using The Node-Red Message Object](http://www.steves-internet-guide.com/node-red-message-object/)"
-    ],
-    "description": "Node-Red is a fantastic flow based visual tool for creating and linking automations and devices.  Node-Red works very well with Home-Assistant to provide a nice easy infrastructure for your wildest dreams.",
-    "category": [
-      "infrastructure"
-    ],
-    "keywords": [
-      ""
-    ]
-  },
-  "refTest": {
+  "deconz": {
     "alias": [],
-    "installation": "How does one install it?  A how to, a link to a article.",
+    "installation": "Deconz and the Phoscon Web App can be installed in Docker, within Home Assistant as an addon, or can even be bought as part of a hardware solution preinstalled on a dedicated Raspberry Pi",
     "links": [
-      "[Mystery Test Link....](https://www.youtube.com/channel/UC7G4tLa4Kt6A9e3hJ-HO8ng)"
+      "🐝 [Phoscon's ConBee Stick Page](https://phoscon.de/en/conbee/software)"
     ],
-    "description": "A simple description of what 'IT' is\n\nTesting the {prefix} function",
+    "description": "Deconz, by Phoscon (the makers of the ConbeeII Zigbee USB stick) is a central hub for the integration of Zigbee devices.  The default installation includes the Deconz app as well the Phsocon web app for controlling devices from a browser.  aWhile the software can be used as a standalone app it is also available as a Home Assistant Addon.  With the ConbeeII stick and Deconz, you can take control of any Hue devices you already have or add new ones without using a Hue hub.  The software also support the Phoscon RaspBee and RaspBee II Pi hat devices.",
     "category": [
+      "bridge",
+      "infrastructure",
       "switching-applications"
+    ],
+    "keywords": [
+      ""
+    ]
+  },
+  "esp32": {
+    "alias": [
+      "ESP-32",
+      "WROVER",
+      "WROOM"
+    ],
+    "installation": "It should be known that some ESP chips do not come with soldered pins, So soldering may be required.",
+    "links": [
+      "🗃 [ExpressIF' ESP32 Hoepage](https://www.espressif.com/en/products/socs/esp32/overview)",
+      "🗃 [ESP32 WIKI](https://en.wikipedia.org/wiki/ESP32)",
+      "🗃 [Buy HiLetgo ESP-WROOM-32 ESP32](https://tinyurl.com/yb664res)",
+      "🗃 [Buy Adafruit HUZZAH32 – ESP32 Feather Board](https://www.adafruit.com/product/3405)",
+      "🗃 [Buy SparkFun ESP32 Thing](https://www.sparkfun.com/products/13907)"
+    ],
+    "description": "The ESP32 is a microcontroller with built-in 2.4GHz Wifi (802.11b/g/n) and Bluetooth (Classic and BLE) made by a company called Espressif.  It comes in several flavors, each one with its own part number, but most people refer them collectively as 'ESP32'.\n\nIt was created as a successor to the wildly popular ESP8266, and has many more pins and available on-board functions, such as Bluetooth, Capacitive Touch, Analog Pins (both ADC and DAC), PWM, I2C, I2S, SPI, and many others.  While they are more expensive than the ESP8266-based chips and boards, the ESP32 is still a good value for any projects requiring many inputs or outputs, bluetooth connectivity, or sensor integration.\n\nGenerally, we only recommend the bare chips for advanced users who are designing their own circuit boards.  If you are looking to include one in your project, there are many options for pre-built development boards that have everything you'll need for a successful integration.  Please see the links for board options.",
+    "category": [
+      "microcontroller"
     ],
     "keywords": [
       ""
@@ -80,16 +49,299 @@
     ],
     "installation": "It should be known that some ESP chips do not come with soldered pins, So soldering may be required.",
     "links": [
-      "[ESP8266 ExpressIF Homepage](https://www.espressif.com/en/products/socs/esp8266/overview)",
-      "[ESP8266 WIKI](https://en.wikipedia.org/wiki/ESP8266)",
-      "[Buy KeeYees ESP8266 NodeMCU](https://tinyurl.com/yal4c3a4)",
-      "[Buy TeOhk D1 Mini](https://tinyurl.com/yalstq77)",
-      "[Buy Adafruit Feather HUZZAH with ESP8266](https://www.adafruit.com/product/2821)",
-      "[Buy SparkFun ESP8266 Thing](https://www.sparkfun.com/products/13231)"
+      "🗃 [ESP8266 ExpressIF Homepage](https://www.espressif.com/en/products/socs/esp8266/overview)",
+      "🗃 [ESP8266 WIKI](https://en.wikipedia.org/wiki/ESP8266)",
+      "🗃 [Buy KeeYees ESP8266 NodeMCU](https://tinyurl.com/yal4c3a4)",
+      "🗃 [Buy TeOhk D1 Mini](https://tinyurl.com/yalstq77)",
+      "🗃 [Buy Adafruit Feather HUZZAH with ESP8266](https://www.adafruit.com/product/2821)",
+      "🗃 [Buy SparkFun ESP8266 Thing](https://www.sparkfun.com/products/13231)"
     ],
     "description": "The ESP8266 is a microcontroller with built-in 2.4GHz Wifi (802.11b/g/n) made by a company called Espressif.  It comes in several flavors, each one with its own part number, but most people refer them collectively as 'ESP8266'.\n\nIt was originally designed and released as a wifi bridge to be used in conjunction with other microcontrollers and was initially released with only 8 pins exposed on a module known as an ESP-01.  It is super cheap, and when everyone realized that it was much more capable than being just a wifi bridge, people started using it in projects and products.  Espressif heard about what was being done with their chips and started releasing different modules with all of the pins exposed.\n\nThere aren't very many pins, though, and some of them are a bit... quirky to use.  But, because they're cheap, many smart home gadget companies started using them as the main chip in their products.  (Sonoff, Shelly, and Tuya being three you'll see thrown around in here.)\n\nGenerally, we only recommend the bare chips for advanced users who are designing their own circuit boards.  If you are looking to include one in your project, there are many options for pre-built development boards that have everything you'll need for a successful integration. Please see the links for board options.",
     "category": [
       "microcontroller"
+    ],
+    "keywords": [
+      ""
+    ]
+  },
+  "esphome": {
+    "alias": [
+      "esp-home",
+      "esp_home"
+    ],
+    "installation": "ESPHome may be installed in Home Assistant as a supervisor add-on, or as a standalone installation.  Standalone install instructions can be found at https://esphome.io/guides/getting_started_command_line.html",
+    "links": [
+      "🗿 [ESPHome's Homepage](https://esphome.io)"
+    ],
+    "description": "ESPHome provides a simple way to configure code to run on your (ESP8266 or ESP32 based) wireless devices.  These devices include the Sonoff range of wifi controllable products, along with many others.  The software is configured using YAML files with a very simple syntax.  Don't let that fool you though.  The resulting software can be very powerful, and can be used to set up devices for direct integration with Home Assistant without the need for an MQTT broker as with Tasmota.",
+    "category": [
+      "microcontroller",
+      "infrastructure",
+      "switching-applications"
+    ],
+    "keywords": [
+      ""
+    ]
+  },
+  "mqtt": {
+    "alias": [
+      "Mosquitto"
+    ],
+    "installation": "To install MQTT with Home Assistant, Check out this link:  https://www.home-assistant.io/integrations/mqtt/",
+    "links": [
+      "🚧 [MQTT Homepage](http://mqtt.org/)",
+      "🚧 [MQTT WIKI](https://en.wikipedia.org/wiki/MQTT)",
+      "🚧 [HA Official MQTT Docs](https://www.home-assistant.io/integrations/mqtt/)",
+      "🚧 [MQTT-Explorer Homepage](http://mqtt-explorer.com/)",
+      "🚧 [The Hook Up's MQTT Video](https://tinyurl.com/thehookupmqtt)"
+    ],
+    "description": "MQTT, or Message Queuing Telemetry Transport, is a light-weight protocol used in many situations where small message size and/or low bandwidth usage are important.  It was developed by IBM in 1999, and was initially used to monitor oil pipeline sensors and communicate with statellites. It became very popular, and is used extensively in SCADA control systems and smarthome products.\n\nMQTT utilizes a central service called a Broker that can be installed on just about any computer or server.  Clients connect to the Broker to monitor and update various Topics.  Subscriber Clients connect to the Broker and monitor a Topic; Publisher Clients connect to the Broker and update a Topic's value.  A Client can fill either role or both.\n\nHome Assistant and other home automation packages fill both roles, as do most Wifi connected smart plugs and devices.\n\nThere are libraries available in many programming languages (e.g. Arduino and Python) which can be used in custom sensor applications.\n\nWhen troubleshooting MQTT issues, it is useful to us a utility such as MQTT Explorer.",
+    "category": [
+      "infrastructure",
+      "applications",
+      "utilities"
+    ],
+    "keywords": [
+      ""
+    ]
+  },
+  "neoPixel": {
+    "alias": [
+      "ws2811",
+      "ws2812b",
+      "ws2813",
+      "ws2815",
+      "sk9822",
+      "sk9812",
+      "apa106"
+    ],
+    "installation": "DrZzs has a lot of great videos!  Check out this one to get started: https://youtu.be/tXvtxwK3jRk  \n\nAlso in DrZzs Discord check out the #led-lighting-diy-🚥-🚥 channel and page the @PixelHeads for one on one help.",
+    "links": [
+      "🚦 [Beginner's Guide to Christmas Lights](https://youtu.be/tXvtxwK3jRk)",
+      "🚦 [The Hook Up's video on LED Strips](https://youtu.be/QnvircC22hU)",
+      "🚦 [`#led-lighting-diy-🚥-🚥` Discord Channel](https://discord.gg/8gvF67h)"
+    ],
+    "description": "Individually Addressable LEDs come in many varieties; you may find them referred to as NeoPixels, or by their part numbers, which include WS2811, WS2812b, WS2813, WS2815, SK9822, SK9812, or APA106.  You will need a microcontroller of some kind to run them; the most popular in the home automation space are the ESP8266 and ESP32 Boards.  Depending upon the length of your installation, you may also need to procure a high-amperage power supply and additional wire for power injection.\n\nSee also {prefix}WLED",
+    "category": [
+      "microcontroller"
+    ],
+    "keywords": [
+      ""
+    ]
+  },
+  "node_red": {
+    "alias": [
+      "node red",
+      "nodered",
+      "node-red"
+    ],
+    "installation": "To learn how to install node-red check out this link: https://nodered.org/docs/getting-started/local",
+    "links": [
+      "🔴 [The Hook Up's Node Red Series](https://bit.ly/2XkGZMi)",
+      "🔴 [Steve’s Node-Red Guide](http://www.steves-internet-guide.com/node-red-overview/)",
+      "🔴 [Understanding and Using The Node-Red Message Object](http://www.steves-internet-guide.com/node-red-message-object/)"
+    ],
+    "description": "Node-Red is a fantastic flow based visual tool for creating and linking automations and devices.  Node-Red works very well with Home-Assistant to provide a nice easy infrastructure for your wildest dreams.",
+    "category": [
+      "infrastructure"
+    ],
+    "keywords": [
+      ""
+    ]
+  },
+  "nodeMCU": {
+    "installation": "It should be known that some ESP chips do not come with soldered pins, So soldering may be required.",
+    "links": [
+      "🧩 [NodeMCU WIKI](https://en.wikipedia.org/wiki/NodeMCU)",
+      "🧩 [Amazon Buy KeeYees NodeMCU](https://tinyurl.com/yal4c3a4)"
+    ],
+    "description": "NodeMCU is a popular development board that has an ESP8266 Module on it.  It has a USB port for both power and Serial-to-USB connectivity, as well as duplicate power pins.  It's convenient for adding multiple accessories to because you don't need to deal with splicing the power pins.  Product link is available in the links list.\n\nSee also: {prefix}ESP8266",
+    "category": [
+      "microcontroller"
+    ],
+    "keywords": [
+      ""
+    ]
+  },
+  "power_over_ethernet": {
+    "alias": [
+      "POE",
+      "POE+",
+      "POE++",
+      "4PPOE",
+      "802.3af",
+      "802.3at",
+      "802.3bt",
+      "power Over Ethernet"
+    ],
+    "installation": "Power Over Ethernet requires a POE capable device (Wifi Hotspot or Camera), as well as a power supply such as a POE Switch or a POE Power injector.",
+    "links": [
+      "🗲 [Reference: PoE WIKI](https://en.wikipedia.org/wiki/Power_over_Ethernet)"
+    ],
+    "description": "Power Over Ethernet is a way to supply power to devices over the network cable from a central point.  It enables us to use electronics where there are no electrical outlets nearby and increases ease of management by having power supplies centrally located for devices in hard-to-reach locations.  \n\nPOE comes in three standard flavors:  \n\n1) POE (802.3af) Delivers 15W @ 48V \n2)POE+ (802.3at) Delivers 30W @ 48V\n3)POE++ or 4PPoE (802.3bt) Delivers 60W-100W @ 48V (Depending upon type of 802.3bt used)  \n\nBe certain to review the power requirements of any POE Device prior to purchase to ensure that you're getting everything you need.  \n\nPOE will work with CAT5e, CAT6, and CAT7. As for non-POE installations, care should be taken to not kink or bed the cable too sharply as it will create problems.  \n\nDevices do not need to have ethernet ports!  There are POE Converters that can go from 48V DC to 5V DC or 12V DC, and can be plugged into ESP Wifi chips, or Single Board Computers. ",
+    "category": [
+      "infrastructure"
+    ],
+    "keywords": [
+      ""
+    ]
+  },
+  "pull_request": {
+    "alias": [
+      "pr",
+      "pullrequest",
+      "pull-request"
+    ],
+    "installation": "No installation required.",
+    "links": [
+      "🐝 [HIVE Reference Data Github](https://github.com/Blade2021/HIVE-RefData)",
+      "🐝 [Creating a Simple Github Pull Request](https://youtu.be/rgbCcBNZcdQ)",
+      "🐝 [What is Git and Github?](https://youtu.be/uUuTYDg9XoI)"
+    ],
+    "description": "A pull request is a part of GIT workflow.  Developers collaborate on pieces of a project then when ready to update the master file, they submit pull requests to allow other developers in most cases, to review, adjust, and then commit the changes to the master file.  This allows multiple developers to work simultaneously on the same project without conflict in most cases.\n\nWith the HIVE-References project, we are accepting submissions from anyone and everyone.  Be sure to check out repo in the links section.",
+    "category": [
+      "infrastructure"
+    ],
+    "keywords": [
+      ""
+    ]
+  },
+  "reference": {
+    "installation": "Please try to include details in your submissions for approval.",
+    "links": [
+      "🐝 https://github.com/Blade2021/HIVE-RefData"
+    ],
+    "description": "Wanna help develop a database of helpful information for beginners starting out in the home automation field?  Help us grow the HIVE Reference Database by submitting commits/PRs to the link included.",
+    "category": [
+      "utilities"
+    ],
+    "keywords": [
+      ""
+    ]
+  },
+  "refTest": {
+    "alias": [],
+    "installation": "How does one install it?  A how to, a link to a article.",
+    "links": [
+      "❓ [Mystery Test Link....](https://www.youtube.com/channel/UC7G4tLa4Kt6A9e3hJ-HO8ng)"
+    ],
+    "description": "A simple description of what 'IT' is\n\nTesting the {prefix} function",
+    "category": [
+      "switching-applications"
+    ],
+    "keywords": [
+      ""
+    ]
+  },
+  "shelly": {
+    "installation": "Shelly products are made in many form factors, and installation instructions differ between devices.  Consult the documentation that arrived with your device for more information.",
+    "links": [
+      "🔌 [Shelly Cloud](https://shelly.cloud/)",
+      "🔌 [Amazon Buy Shelly 1](https://tinyurl.com/drzzs-shellyone)",
+      "🔌 [Amazon Buy Shelly 1PM](https://tinyurl.com/drzzs-shellyonepm)",
+      "🔌 [Amazon Buy Shelly 2.5](https://tinyurl.com/drzzs-shellytwopointfive)"
+    ],
+    "description": "Shelly is a European company that manufactures smart home automation products for use in almost every country, many of which are based upon the venerable ESP8266 microcontroller. Shelly's remote relay line-up consists of single, double, and quad relay options, some with and some without power monitoring.  They also manufacture various types of sensors, power monitoring modules, and RGBW LED controllers.\n\nThe stock firmware can be used with the Shelly app along with a HACS integration in Home Assistant, or it can be set up to use a local MQTT Server -- no flashing is required!  If one does not wish to use the stock firmware, most of their products can be flashed with Tasmota, ESPHome, or other custom firmware.\n\n**CAUTION**\nMost Shelly devices are used in conjunction with Mains voltages and can be very hazardous if mishandled.",
+    "category": [
+      "microcontroller",
+      "infrastructure"
+    ],
+    "keywords": [
+      ""
+    ]
+  },
+  "sonoff": {
+    "installation": "Sonoff products are made in many form factors, and installation instructions differ between devices.  Consult the documentation that arrived with your device for more information.",
+    "links": [
+      "🔌 [Sonoff Official Homepage](https://sonoff.tech/)",
+      "🔌 [Amazon Buy Sonoff Basic](https://tinyurl.com/drzzs-sonoffbasic)",
+      "🔌 [Amazon Buy Sonoff Mini](https://tinyurl.com/drzzs-sonoffmini)",
+      "🔌 [Tasmota Sonoff Basic Docs](https://tasmota.github.io/docs/devices/Sonoff-Basic/)",
+      "🔌 [WhatAreWeFixing.Today's Sonoff DIY Mode Linux](https://whatarewefixing.today/589/)"
+    ],
+    "description": "Sonoff is a brand of smarthome products created by Itead.  They make a wide range of inexpensive smarthome gadgets, many are based upon the venerable ESP8266 microcontroller.\n\nSome of the most popular Sonoff producs are the Sonoff Basic and the Sonoff Mini, but they make a number of smaartplugs, wall switches, and in-wall controllable outlets.\n\nThe stock firmware uses an app called eWeLink, which integrates with Home Assistant.  If one does not wish to use the stock firmware, most of their products can be flashed with Tasmota, ESPHome, or other custom firmware.\n\n**CAUTION*\nMost Sonoff devices are used in conjunction with Mains voltages and can be very hazardous if mishandled. ",
+    "category": [
+      "microcontroller",
+      "infrastructure"
+    ],
+    "keywords": [
+      ""
+    ]
+  },
+  "spinning_button_card": {
+    "alias": [
+      "spinningcard",
+      "spinningbutton",
+      "spinning-button",
+      "spinning-card",
+      "sbc",
+      "spin",
+      "spinningButtonCard"
+    ],
+    "installation": "Install the custom button card using HACS.",
+    "links": [
+      "🎰 [Custom Button Card Innstall](https://github.com/custom-cards/button-card)",
+      "🎰 [Spinning Lovelace Button.YAML code](https://gist.github.com/Snipercaine/ddd8e57625f703958db7ba150ecb4be2)"
+    ],
+    "description": "The spinning button is a very frequently asked for topic from the Doc.  Check out the links included for the source for the Lovelace configuration and download.  Please note the card is also available through HACS which would be a preferred method of installation.",
+    "category": [
+      "applications",
+      "user-interface"
+    ],
+    "keywords": [
+      ""
+    ]
+  },
+  "tasmota": {
+    "alias": [
+      "tasmoto"
+    ],
+    "installation": "To learn more about flashing tasmota onto your supported device, check out this article: https://tasmota.github.io/docs/Getting-Started/",
+    "links": [
+      "🔌 [Current Release Change Notes](https://tasmota.github.io/docs/)",
+      "🔌 [Tasmota Peripherals](https://tasmota.github.io/docs/Supported-Peripherals/)",
+      "🔌 [Tasmota Commands](https://tasmota.github.io/docs/Commands/)",
+      "🔌 [All Tasmota Releases](https://github.com/arendst/Tasmota/releases)",
+      "🔌 Tasmota Over-The-Air Downloads http://ota.tasmota.com/tasmota/release/",
+      "🔌 [Tasmota Special Binaries](https://github.com/tasmota/binaries)",
+      "🔌 [Tasmota Templates](https://templates.blakadder.com/)"
+    ],
+    "description": "Tasmota is a firmware that can be flashed onto ESP8266-based products created by Theo Arends.  It was originally used for Sonoff boards, but quickly snowballed to include all ESP8266 chips.  You can use it to control just about everything that you want (plugs, switches, dimmers, bulbs, et cetera).\n\nThe reason you'd load this firmware onto your devices is to keep your smart item traffic local to your premise, and not sending it to the cloud servers.  (So that when the internet goes out, the smartness of your things doesn't also).\n\nTasmota is 100% free and open source making it a great product for the home automation community.\n\nThe community submits configuration templates for devices to a site maintained by a user named Blakadder, so most things are pretty easy to configure.  If you run across a new product without a template, you will need to work out where things like LEDs, relays, and the like are by adjusting template settings manually -- but once you've got it, you can submit it to the repository!.\n\nBlakadder's team also maintains a 'naughty list' of devices that are not compatible.",
+    "category": [
+      "switching-applications"
+    ],
+    "keywords": [
+      ""
+    ]
+  },
+  "tuya": {
+    "alias": [
+      "SmartLife"
+    ],
+    "installation": "Installation instructions vary from item to item.",
+    "links": [
+      "🔌 [DrZzs YT Video Home Assistant Tuya Integration](https://www.youtube.com/watch?v=bVa6Yw1gCP0&t=1s)",
+      "🔌 [DrZzs Live stream | Flashing Tasmota on Tuya](https://www.youtube.com/watch?v=av84uORLB9Y)",
+      "🔌 [HA Official Tuya Integration Docs](https://www.home-assistant.io/integrations/tuya/)",
+      "🔌 [KPeyanski's Tuya HA Tutorial](https://www.youtube.com/watch?v=9E7QMz92aOI)",
+      "🔌 [Tuya Homepage](https://www.tuya.com/)"
+    ],
+    "description": "Tuya is a company that makes a wide array of smart items including smart plugs, wall switches, and dimmers. Their main business is white-label manufacturing for other companies (be it just the chips, or the entire product), so you'll find Tuya devices sold under many different labels (Martin Jerry and Gosund are a couple).  Usually the product pages on retailer's websites will say that the devices work with Amazon's and Google's voice assistant platforms.\n\nSee also:  {prefix}TuyaConvert",
+    "category": [
+      "microcontroller",
+      "infrastructure"
+    ],
+    "keywords": [
+      ""
+    ]
+  },
+  "wled": {
+    "installation": "",
+    "links": [],
+    "description": "Check out this link to get started: \n\n🚥 [WLED WIKI](https://github.com/Aircoookie/WLED/wiki)  \n\nWLED is a firmware that can be loaded onto ESP8266 and ESP32 microcontrollers and is used to control lengths of connected addressable LEDs.  It has many built-in features, is compatible with Home Assistant via an integration, and with DMX-based Light Controller protocols.\n\nSee also: {prefix}NeoPixel",
+    "category": [
+      "lights",
+      "applications"
     ],
     "keywords": [
       ""
@@ -111,13 +363,13 @@
     ],
     "installation": "Zigbee devices require a hub to communicate so be sure to have one ready!",
     "links": [
-      "[Amazon Buy ConBee II](https://www.amazon.com/dresden-elektronik-ConBee-Universal-Gateway/dp/B07PZ7ZHG5/)",
-      "[Amazon Buy Bluetooth Zigbee CC2531 CC2540](https://amzn.to/2OEW9aV)",
-      "[AliExpress Buy Zigbee CC2531 Sniffer Board](https://www.aliexpress.com/item/32865555473.html?spm=a2g0s.9042311.0.0.40694c4db8oCxz)",
-      "[AliExpress Buy SONOFF Dongle Zigbee CC2531](https://www.aliexpress.com/item/4000822997596.html?spm=a2g0s.9042311.0.0.40694c4db8oCxz)",
-      "[Sonoff Zigbee & ZHA HA Integration](https://www.youtube.com/watch?v=xc_HGvrOxp8)",
-      "[Blakadder's ZigBee Page](https://zigbee.blakadder.com/)",
-      "[ZigBee Alliance Homepage](https://zigbeealliance.org/zigbee_products/)"
+      "🐝 [Amazon Buy ConBee II](https://www.amazon.com/dresden-elektronik-ConBee-Universal-Gateway/dp/B07PZ7ZHG5/)",
+      "🐝 [Amazon Buy Bluetooth Zigbee CC2531 CC2540](https://amzn.to/2OEW9aV)",
+      "🐝 [AliExpress Buy Zigbee CC2531 Sniffer Board](https://www.aliexpress.com/item/32865555473.html?spm=a2g0s.9042311.0.0.40694c4db8oCxz)",
+      "🐝 [AliExpress Buy SONOFF Dongle Zigbee CC2531](https://www.aliexpress.com/item/4000822997596.html?spm=a2g0s.9042311.0.0.40694c4db8oCxz)",
+      "🐝 [Sonoff Zigbee & ZHA HA Integration](https://www.youtube.com/watch?v=xc_HGvrOxp8)",
+      "🐝 [Blakadder's ZigBee Page](https://zigbee.blakadder.com/)",
+      "🐝 [ZigBee Alliance Homepage](https://zigbeealliance.org/zigbee_products/)"
     ],
     "description": "OH THE ZIGBEE!\n\nZigbee is a communication protocol that has flourished in the home automation community.  Zigbee is often preferred to Wifi-based technologies due to its low power consumption and long battery life.  The downside to using zigbee is you need to have a HUB to communicate with all of your devices.  In some ways this is advantageous as it requires fewer devices connect to your wifi network.\n\nOne zigbee hub that has a high approval is the conbee 2.  It is not the cheapest option, but it is fairly easy to configure and always performs very well with devices.  Another great option is the Zigbee2MQTT hub which will relay zigbee data to your mqtt broker.  Whichever hub you select, be sure to verify that devices are supported by your hub before buying as most hubs do not support every device.\n\nIf nothing else, Zigbee is a very powerful protocol that opens the horizon to many types of sensors, switches, and other types of home automation devices.\n\n**CAUTION** Zigbee operates in the 2.4 GHz Spectrum, which is shared with Wifi, Bluetooth, Microwave Ovens, and some cordless telephones.  If you have a lot of 2.4 GHz present at your location, your Zigbee devices may be unreliable.",
     "category": [
@@ -136,373 +388,6 @@
       "Zigbee2MQTT",
       "ZiGate",
       "zig-a-zag-ah!"
-    ]
-  },
-  "esp32": {
-    "alias": [
-      "ESP-32",
-      "WROVER",
-      "WROOM"
-    ],
-    "installation": "It should be known that some ESP chips do not come with soldered pins, So soldering may be required.",
-    "links": [
-      "[ExpressIF' ESP32 Hoepage](https://www.espressif.com/en/products/socs/esp32/overview)",
-      "[ESP32 WIKI](https://en.wikipedia.org/wiki/ESP32)",
-      "[Buy HiLetgo ESP-WROOM-32 ESP32](https://tinyurl.com/yb664res)",
-      "[Buy Adafruit HUZZAH32 – ESP32 Feather Board](https://www.adafruit.com/product/3405)",
-      "[Buy SparkFun ESP32 Thing](https://www.sparkfun.com/products/13907)"
-    ],
-    "description": "The ESP32 is a microcontroller with built-in 2.4GHz Wifi (802.11b/g/n) and Bluetooth (Classic and BLE) made by a company called Espressif.  It comes in several flavors, each one with its own part number, but most people refer them collectively as 'ESP32'.\n\nIt was created as a successor to the wildly popular ESP8266, and has many more pins and available on-board functions, such as Bluetooth, Capacitive Touch, Analog Pins (both ADC and DAC), PWM, I2C, I2S, SPI, and many others.  While they are more expensive than the ESP8266-based chips and boards, the ESP32 is still a good value for any projects requiring many inputs or outputs, bluetooth connectivity, or sensor integration.\n\nGenerally, we only recommend the bare chips for advanced users who are designing their own circuit boards.  If you are looking to include one in your project, there are many options for pre-built development boards that have everything you'll need for a successful integration.  Please see the links for board options.",
-    "category": [
-      "microcontroller"
-    ],
-    "keywords": [
-      ""
-    ]
-  },
-  "tuya": {
-    "alias": [
-      "SmartLife"
-    ],
-    "installation": "Installation instructions vary from item to item.",
-    "links": [
-      "[DrZzs YT Video Home Assistant Tuya Integration](https://www.youtube.com/watch?v=bVa6Yw1gCP0&t=1s)",
-      "[DrZzs Live stream | Flashing Tasmota on Tuya](https://www.youtube.com/watch?v=av84uORLB9Y)",
-      "[HA Official Tuya Integration Docs](https://www.home-assistant.io/integrations/tuya/)",
-      "[KPeyanski's Tuya HA Tutorial](https://www.youtube.com/watch?v=9E7QMz92aOI)",
-      "[Tuya Homepage](https://www.tuya.com/)"
-    ],
-    "description": "Tuya is a company that makes a wide array of smart items including smart plugs, wall switches, and dimmers. Their main business is white-label manufacturing for other companies (be it just the chips, or the entire product), so you'll find Tuya devices sold under many different labels (Martin Jerry and Gosund are a couple).  Usually the product pages on retailer's websites will say that the devices work with Amazon's and Google's voice assistant platforms.\n\nSee also:  {prefix}TuyaConvert",
-    "category": [
-      "microcontroller",
-      "infrastructure"
-    ],
-    "keywords": [
-      ""
-    ]
-  },
-  "tuya_convert": {
-    "alias": [
-      "TuyaConvert",
-      "Tuya-Convert"
-    ],
-    "installation": "To see instructions on getting started with Tuya Convert & the links here",
-    "links": [
-      "[Tuya Convert Github](https://github.com/ct-Open-Source/tuya-convert)",
-      "[Digiblur's Tuya Convert Flash Tuya Devices YT Video](https://youtu.be/dt5-iZc4_qU)",
-      "[Tasmota Templates](https://templates.blakadder.com/)"
-    ],
-    "description": "Tuya convert is an exploit that attacks certain versions of Tuya firmware in order to replace the firmware with something we want.  The current release of the Tuya firmware has an encryption that prevents the exploit, so it works on fewer and fewer products currently being sold.  If someone can figure out the password....   Or someone at the factory would leak it, this may work again.  At this point only new-old-stock items that have not been used in the Tuya App might work.  Sadly most items will not and None that have been used in the Tuya App will convert.\n\nTHEREFORE......\n\nDon't be shocked when the Tuya Convert doesn't work for you.  The man-in-the-middle attack that Tuys Convert was against Tuya Firmware has been patched by Tuya, and will likely not help you. \n\nFind a way to use the device as is, or find way to take the device apart and flash with a serial adapter.",
-    "category": [
-      "utilities"
-    ]
-  },
-  "nodeMCU": {
-    "installation": "It should be known that some ESP chips do not come with soldered pins, So soldering may be required.",
-    "links": [
-      "[NodeMCU WIKI](https://en.wikipedia.org/wiki/NodeMCU)",
-      "[Amazon Buy KeeYees NodeMCU](https://tinyurl.com/yal4c3a4)"
-    ],
-    "description": "NodeMCU is a popular development board that has an ESP8266 Module on it.  It has a USB port for both power and Serial-to-USB connectivity, as well as duplicate power pins.  It's convenient for adding multiple accessories to because you don't need to deal with splicing the power pins.  Product link is available in the links list.\n\nSee also: {prefix}ESP8266",
-    "category": [
-      "microcontroller"
-    ],
-    "keywords": [
-      ""
-    ]
-  },
-  "wled": {
-    "installation": "Check out this link to get started",
-    "links": [
-      "[WLED WIKI](https://github.com/Aircoookie/WLED/wiki)"
-    ],
-    "description": "WLED is a firmware that can be loaded onto ESP8266 and ESP32 microcontrollers and is used to control lengths of connected addressable LEDs.  It has many built-in features, is compatible with Home Assistant via an integration, and with DMX-based Light Controller protocols.\n\nSee also: {prefix}NeoPixel",
-    "category": [
-      "lights",
-      "applications"
-    ],
-    "keywords": [
-      ""
-    ]
-  },
-  "neoPixel": {
-    "alias": [
-      "ws2811",
-      "ws2812b",
-      "ws2813",
-      "ws2815",
-      "sk9822",
-      "sk9812",
-      "apa106"
-    ],
-    "installation": "DrZzs has a lot of great videos!  Check out this one to get started: https://youtu.be/tXvtxwK3jRk  \n\nAlso in DrZzs Discord check out the #led-lighting-diy-🚥-🚥 channel and page the @PixelHeads for one on one help.",
-    "links": [
-      "[Beginner's Guide to Christmas Lights](https://youtu.be/tXvtxwK3jRk)",
-      "[The Hook Up's video on LED Strips](https://youtu.be/QnvircC22hU)",
-      "[`#led-lighting-diy-🚥-🚥` Discord Channel](https://discord.gg/8gvF67h)"
-    ],
-    "description": "Individually Addressable LEDs come in many varieties; you may find them referred to as NeoPixels, or by their part numbers, which include WS2811, WS2812b, WS2813, WS2815, SK9822, SK9812, or APA106.  You will need a microcontroller of some kind to run them; the most popular in the home automation space are the ESP8266 and ESP32 Boards.  Depending upon the length of your installation, you may also need to procure a high-amperage power supply and additional wire for power injection.\n\nSee also {prefix}WLED",
-    "category": [
-      "microcontroller"
-    ],
-    "keywords": [
-      ""
-    ]
-  },
-  "rf433": {
-    "alias": [
-      "RF315",
-      "Bond",
-      "RFBridge",
-      "Slampher"
-    ],
-    "installation": "There is a lot of information on this subject.  Check out the links section and the Community can lead your journey here.",
-    "links": [
-      "[How RF433 Works](https://bit.ly/DrZzsHow433Works)",
-      "[Flashing the RFBridge](https://bit.ly/DrZzsFlashRFBridgeTasmota)",
-      "[DrZzs Video](https://youtu.be/OfSbIFIJPuc)",
-      "[Digiblur Video](https://youtu.be/w_CchtI-oK0)",
-      "[WhatAreWeFixing.Today Video](https://whatarewefixing.today/?p=134)",
-      "[Multiple sensor setup](https://bit.ly/DrZzsRFBridgeMultiSensorSetup)"
-    ],
-    "description": "The 433 mhz RF (radio frequency) band and the 315 mhz RF band, depending on the country you live in, is designated for the same purpose.  Low power rf transmitters are allowed to broadcast within these frequency ranges.  These small transmitters are usually binary type sensors because only a small message is able to be transmitted during an event.  Door/Window sensors, PIR sensors, push button transmitters, remote controls and the like are the typical devices using these frequencies.  There needs to be a receiver nearby to pick up these signals and act on the message received.\n\nDevices such as the Itead RFBridge (http://drzzs.com/RF_Bridge) and the Bond Bridge (https://bit.ly/DrZzsBondBridge) act as central hubs to collect information from these sensors and feed the data back to a program such as Home Assistant for further action.  With some devices like the Itead Sonoff Slampher (https://bit.ly/DrZzsSlampher), the device can ‘pair’ with a matching RF transmitter bought separately and act on the information provided.  Devices are not tied to a common standard (like Zwave) which 1, keeps the price very low, but 2, causes incompatibility between manufacturers.",
-    "category": [
-      "microcontroller",
-      "infrastructure"
-    ],
-    "keywords": [
-      ""
-    ]
-  },
-  "pull_request": {
-    "alias": [
-      "pr",
-      "pullrequest",
-      "pull-request"
-    ],
-    "installation": "No installation required.",
-    "links": [
-      "[HIVE Reference Data Github](https://github.com/Blade2021/HIVE-RefData)",
-      "[Creating a Simple Github Pull Request](https://youtu.be/rgbCcBNZcdQ)",
-      "[What is Git and Github?](https://youtu.be/uUuTYDg9XoI)"
-    ],
-    "description": "A pull request is a part of GIT workflow.  Developers collaborate on pieces of a project then when ready to update the master file, they submit pull requests to allow other developers in most cases, to review, adjust, and then commit the changes to the master file.  This allows multiple developers to work simultaneously on the same project without conflict in most cases.\n\nWith the HIVE-References project, we are accepting submissions from anyone and everyone.  Be sure to check out repo in the links section.",
-    "category": [
-      "infrastructure"
-    ],
-    "keywords": [
-      ""
-    ]
-  },
-  "esphome": {
-    "alias": [
-      "esp-home",
-      "esp_home"
-    ],
-    "installation": "ESPHome may be installed in Home Assistant as a supervisor add-on, or as a standalone installation.  Standalone install instructions can be found at https://esphome.io/guides/getting_started_command_line.html",
-    "links": [
-      "[ESPHome's Homepage](https://esphome.io)"
-    ],
-    "description": "ESPHome provides a simple way to configure code to run on your (ESP8266 or ESP32 based) wireless devices.  These devices include the Sonoff range of wifi controllable products, along with many others.  The software is configured using YAML files with a very simple syntax.  Don't let that fool you though.  The resulting software can be very powerful, and can be used to set up devices for direct integration with Home Assistant without the need for an MQTT broker as with Tasmota.",
-    "category": [
-      "microcontroller",
-      "infrastructure",
-      "switching-applications"
-    ],
-    "keywords": [
-      ""
-    ]
-  },
-  "deconz": {
-    "alias": [],
-    "installation": "Deconz and the Phoscon Web App can be installed in Docker, within Home Assistant as an addon, or can even be bought as part of a hardware solution preinstalled on a dedicated Raspberry Pi",
-    "links": [
-      "[Phoscon's ConBee Stick Page](https://phoscon.de/en/conbee/software)"
-    ],
-    "description": "Deconz, by Phoscon (the makers of the ConbeeII Zigbee USB stick) is a central hub for the integration of Zigbee devices.  The default installation includes the Deconz app as well the Phsocon web app for controlling devices from a browser.  aWhile the software can be used as a standalone app it is also available as a Home Assistant Addon.  With the ConbeeII stick and Deconz, you can take control of any Hue devices you already have or add new ones without using a Hue hub.  The software also support the Phoscon RaspBee and RaspBee II Pi hat devices.",
-    "category": [
-      "bridge",
-      "infrastructure",
-      "switching-applications"
-    ],
-    "keywords": [
-      ""
-    ]
-  },
-  "mqtt": {
-    "alias": [
-      "Mosquitto"
-    ],
-    "installation": "To install MQTT with Home Assistant, Check out this link:  https://www.home-assistant.io/integrations/mqtt/",
-    "links": [
-      "[MQTT Homepage](http://mqtt.org/)",
-      "[MQTT WIKI](https://en.wikipedia.org/wiki/MQTT)",
-      "[HA Official MQTT Docs](https://www.home-assistant.io/integrations/mqtt/)",
-      "[MQTT-Explorer Homepage](http://mqtt-explorer.com/)",
-      "[The Hook Up's MQTT Video](https://tinyurl.com/thehookupmqtt)"
-    ],
-    "description": "MQTT, or Message Queuing Telemetry Transport, is a light-weight protocol used in many situations where small message size and/or low bandwidth usage are important.  It was developed by IBM in 1999, and was initially used to monitor oil pipeline sensors and communicate with statellites. It became very popular, and is used extensively in SCADA control systems and smarthome products.\n\nMQTT utilizes a central service called a Broker that can be installed on just about any computer or server.  Clients connect to the Broker to monitor and update various Topics.  Subscriber Clients connect to the Broker and monitor a Topic; Publisher Clients connect to the Broker and update a Topic's value.  A Client can fill either role or both.\n\nHome Assistant and other home automation packages fill both roles, as do most Wifi connected smart plugs and devices.\n\nThere are libraries available in many programming languages (e.g. Arduino and Python) which can be used in custom sensor applications.\n\nWhen troubleshooting MQTT issues, it is useful to us a utility such as MQTT Explorer.",
-    "category": [
-      "infrastructure",
-      "applications",
-      "utilities"
-    ],
-    "keywords": [
-      ""
-    ]
-  },
-  "sonoff": {
-    "installation": "Sonoff products are made in many form factors, and installation instructions differ between devices.  Consult the documentation that arrived with your device for more information.",
-    "links": [
-      "[Sonoff Official Homepage](https://sonoff.tech/)",
-      "[Amazon Buy Sonoff Basic](https://tinyurl.com/drzzs-sonoffbasic)",
-      "[Amazon Buy Sonoff Mini](https://tinyurl.com/drzzs-sonoffmini)",
-      "[Tasmota Sonoff Basic Docs](https://tasmota.github.io/docs/devices/Sonoff-Basic/)",
-      "[WhatAreWeFixing.Today's Sonoff DIY Mode Linux](https://whatarewefixing.today/589/)"
-    ],
-    "description": "Sonoff is a brand of smarthome products created by Itead.  They make a wide range of inexpensive smarthome gadgets, many are based upon the venerable ESP8266 microcontroller.\n\nSome of the most popular Sonoff producs are the Sonoff Basic and the Sonoff Mini, but they make a number of smaartplugs, wall switches, and in-wall controllable outlets.\n\nThe stock firmware uses an app called eWeLink, which integrates with Home Assistant.  If one does not wish to use the stock firmware, most of their products can be flashed with Tasmota, ESPHome, or other custom firmware.\n\n**CAUTION*\nMost Sonoff devices are used in conjunction with Mains voltages and can be very hazardous if mishandled. ",
-    "category": [
-      "microcontroller",
-      "infrastructure"
-    ],
-    "keywords": [
-      ""
-    ]
-  },
-  "shelly": {
-    "installation": "Shelly products are made in many form factors, and installation instructions differ between devices.  Consult the documentation that arrived with your device for more information.",
-    "links": [
-      "[Shelly Cloud](https://shelly.cloud/)",
-      "[Amazon Buy Shelly 1](https://tinyurl.com/drzzs-shellyone)",
-      "[Amazon Buy Shelly 1PM](https://tinyurl.com/drzzs-shellyonepm)",
-      "[Amazon Buy Shelly 2.5](https://tinyurl.com/drzzs-shellytwopointfive)"
-    ],
-    "description": "Shelly is a European company that manufactures smart home automation products for use in almost every country, many of which are based upon the venerable ESP8266 microcontroller. Shelly's remote relay line-up consists of single, double, and quad relay options, some with and some without power monitoring.  They also manufacture various types of sensors, power monitoring modules, and RGBW LED controllers.\n\nThe stock firmware can be used with the Shelly app along with a HACS integration in Home Assistant, or it can be set up to use a local MQTT Server -- no flashing is required!  If one does not wish to use the stock firmware, most of their products can be flashed with Tasmota, ESPHome, or other custom firmware.\n\n**CAUTION**\nMost Shelly devices are used in conjunction with Mains voltages and can be very hazardous if mishandled.",
-    "category": [
-      "microcontroller",
-      "infrastructure"
-    ],
-    "keywords": [
-      ""
-    ]
-  },
-  "spinning_button_card": {
-    "alias": [
-      "spinningcard",
-      "spinningbutton",
-      "spinning-button",
-      "spinning-card",
-      "sbc",
-      "spin",
-      "spinningButtonCard"
-    ],
-    "installation": "Install the custom button card using HACS.",
-    "links": [
-      "[Custom Button Card Innstall](https://github.com/custom-cards/button-card)",
-      "[Spinning Lovelace Button.YAML code](https://gist.github.com/Snipercaine/ddd8e57625f703958db7ba150ecb4be2)"
-    ],
-    "description": "The spinning button is a very frequently asked for topic from the Doc.  Check out the links included for the source for the Lovelace configuration and download.  Please note the card is also available through HACS which would be a preferred method of installation.",
-    "category": [
-      "applications",
-      "user-interface"
-    ],
-    "keywords": [
-      ""
-    ]
-  },
-  "ha_supervised": {
-    "alias": [
-      "hainstall",
-      "ha_install",
-      "Home Assistant Supervised",
-      "Home Assistant Generic Linux",
-      "Home Assistant Docker Supervised",
-      "hasupervised",
-      "ha supervised"
-    ],
-    "installation": "Home Assistant Supervised can be installed on top of Docker on any generic linux system, a Debian based system is recommended. Below you will find links to tutorials and resources.",
-    "links": [
-      "[Matheson's Install HA Supervised on Debian])https://mathesonsteplock.ca/install-home-assistant-supervised-on-debian/)",
-      "[JuanMTech's Home Assistant on Docker and Ubuntu](https://youtu.be/ekVfLXnoM7k)",
-      "[HA Supervised Installer](https://github.com/home-assistant/supervised-installer)",
-      "[Install Docker Engine](https://docs.docker.com/engine/install/)"
-    ],
-    "description": "Home Assistant (Supervised) is the version of Home Assistant which runs the Home Assistant Supervisor.\n\nThe supervisor is is a container that runs in Docker which allows the use of Add-ons and manages updating and other maintenance of your Home Assistant Install.\n\nWith the help of the generic Linux install script you can install Home Assistant (Supervised) on any Linux System running Docker",
-    "category": [
-      "infrastructure",
-      "home-assistant"
-    ],
-    "keywords": [
-      ""
-    ]
-  },
-  "mariaDB": {
-    "alias": [
-      "No State History",
-      "SQLite",
-      "DB Corrupt",
-      "Recorder"
-    ],
-    "installation": "Home Assistant comes with a built-in version of SQLite database.  If you suspect a database problem, the home-assistant_v2.DB file in your config folder can be deleted or renamed to disable it.  HA will rebuild it immediately.  I would wait 10 minutes after deleting (or renaming) the file before you restart HA to give the file a chance to rebuild. \n[Official HA Docs on Recorder](https://www.home-assistant.io/integrations/recorder/) \n[MariaDB Supervised Addon](https://github.com/home-assistant/hassio-addons/tree/master/mariadb) \n[WhatAreWeFixing.Today's YT Video](https://whatarewefixing.today/240/) \n[Official HA Docs on Database](https://www.home-assistant.io/docs/backend/database/) \n[Reddit thread about non-default Databases](https://www.reddit.com/r/homeassistant/comments/9z0tof/) \n[BurnsHA's YT Video](https://youtu.be/4rsxnN8gkHk)",
-    "links": [
-      "[Official HA Docs on Recorder](https://www.home-assistant.io/integrations/recorder/)",
-      "[MariaDB Supervised Addon](https://github.com/home-assistant/hassio-addons/tree/master/mariadb)",
-      "[WhatAreWeFixing.Today's YT Video](https://whatarewefixing.today/240/)",
-      "[Official HA Docs on Database](https://www.home-assistant.io/docs/backend/database/)",
-      "[Reddit thread about non-default Databases](https://www.reddit.com/r/homeassistant/comments/9z0tof/)",
-      "[BurnsHA's YT Video](https://youtu.be/4rsxnN8gkHk)"
-    ],
-    "description": "The default database that is used to store all recorded data in Home Assistant is SQLite.  As you get into a few dozen devices and hundreds of sensor data points, SQLite begins to falter and this causes the occasional database corruption. If your Database file is over 1GB, if you are getting Recorder failures in the log, if sensor data randomly stops displaying in your user interface, it is probably time to purge the database.  See INSTALLATION above. If this continues to happen to you, it may be time to replace the database with something else.\n\n  The easiest way to replace the database is to use the Official Add-on MariaDB.  This is a mysql based program that can handle larger amounts of data better that the default.  Please see the links for more information.\n\n  If you are not running the supervised version of HA, there is a video for you in the links as well.  Also other database solutions will work with Home Assistant, see the link for the recorder integration for more details.",
-    "category": [
-      "applications",
-      "infrastructure"
-    ],
-    "keywords": [
-      ""
-    ]
-  },
-  "power_over_ethernet": {
-    "alias": [
-      "POE",
-      "POE+",
-      "POE++",
-      "4PPOE",
-      "802.3af",
-      "802.3at",
-      "802.3bt",
-      "power Over Ethernet"
-    ],
-    "installation": "Power Over Ethernet requires a POE capable device (Wifi Hotspot or Camera), as well as a power supply such as a POE Switch or a POE Power injector.",
-    "links": [
-      "[PoE WIKI](https://en.wikipedia.org/wiki/Power_over_Ethernet)"
-    ],
-    "description": "Power Over Ethernet is a way to supply power to devices over the network cable from a central point.  It enables us to use electronics where there are no electrical outlets nearby and increases ease of management by having power supplies centrally located for devices in hard-to-reach locations.\n\nPOE comes in three standard flavors:\n\n1) POE (802.3af) Delivers 15W @ 48V\n2)POE+ (802.3at) Delivers 30W @ 48V\n3)POE++ or 4PPoE (802.3bt) Delivers 60W-100W @ 48V (Depending upon type of 802.3bt used)\n\nBe certain to review the power requirements of any POE Device prior to purchase to ensure that you're getting everything you need.\n\nPOE will work with CAT5e, CAT6, and CAT7. As for non-POE installations, care should be taken to not kink or bed the cable too sharply as it will create problems.\n\nDevices do not need to have ethernet ports!  There are POE Converters that can go from 48V DC to 5V DC or 12V DC, and can be plugged into ESP Wifi chips, or Single Board Computers.",
-    "category": [
-      "infrastructure"
-    ],
-    "keywords": [
-      ""
-    ]
-  },
-  "sonoffDIY": {
-    "alias": [
-      "DIYFlash"
-    ],
-    "installation": "See the links for articles and videos about installation.  Not enough room to exlain here.",
-    "links": [
-      "[WhatAreWeFixing.Today Video](https://whatarewefixing.today/?p=589)",
-      "[DrZzs Video](https://www.youtube.com/watch?v=fsrT5o1C1w0)",
-      "[Flash Tasmota on a Sonoff in DIY mode in Linux](https://sigmdel.ca/michel/ha/sonoff/sonoff_mini_en.html)",
-      "[Sonoff-ITead GIT](https://github.com/itead/Sonoff_Devices_DIY_Tools/blob/master/other/SONOFF%20DIY%20MODE%20Protocol%20Doc%20v1.4.md)",
-      "[Tasmota Documentation](https://tasmota.github.io/docs/Sonoff-DIY/)"
-    ],
-    "description": "Sonoff has come up with a version of firmware that does not require soldering or an FTDI adapter.  This is nice, but the process is a bit complicated and involved.  There are articles and videos attached here to help you be sucessful in your attempt.",
-    "category": [
-      "switching-applications"
-    ],
-    "keywords": [
-      "itead",
-      "sonoff_flash"
     ]
   }
 }
