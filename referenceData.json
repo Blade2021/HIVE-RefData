@@ -262,7 +262,7 @@
 		],
 		"title": "Input Number",
 		"minRank": 0,
-		"description": "The `input_number` component allows the user to define values that can be controlled via the frontend and can be used within conditions of automation. The frontend can display a slider, or a numeric input box. Changes to the slider or numeric input box generate state events. These state events can be utilized as `automation` triggers as well.\n```yaml\n# Example configuration.yaml entry\ninput_number:\n  slider1:\n    name: Slider\n    initial: 30\n    min: -20\n    max: 35\n    step: 1\n  box1:\n    name: Numeric Input Box\n    initial: 30\n    min: -20\n    max: 35\n    step: 1\n    mode: box\n```\n[More information:](<https://home-assistant.io/components/input_number/>)",
+		"description": "The `input_number` component allows the user to define values that can be controlled via the frontend and can be used within conditions of automation. The frontend can display a slider, or a numeric input box. Changes to the slider or numeric input box generate state events. These state events can be utilized as `automation` triggers as well.\n```yaml\n# Example configuration.yaml entry\ninput_number:\n  slider1:\n    name: Slider\n    initial: 30\n    min: -20\n    max: 35\n    step: 1\n  box1:\n    name: Numeric Input Box\n    initial: 30\n    min: -20\n    max: 35\n    step: 1\n    mode: box\n```\n[More information:](https://home-assistant.io/components/input_number/)",
 		"category": [
 			"home-assistant"
 		],
@@ -290,7 +290,7 @@
 		],
 		"title": "💫 Calculate LED Power",
 		"minRank": 0,
-		"description": "What is Power Injection? At its lowest level power injection is nothing more than adding additional power to a string of lights at a point in which the voltage drop starts to affect the lights [more info here](http://spikerlights.com/pwrinjection.aspx) \nThis is a great calculator to help with judging the size of wire , power supplies , distance ,votage drop and much more [RGB Pixel Power Calculator](http://spikerlights.com/calcpower.aspx) \nHow much power do addressable LEDs use?, Digitally Addressable LED Sheet[info found here](https://quinled.info/2020/03/12/digital-led-power-usage/)",
+		"description": "What is Power Injection? At its lowest level power injection is nothing more than adding additional power to a string of lights at a point in which the voltage drop starts to affect the lights \n\n🦟 [More details here](http://spikerlights.com/pwrinjection.aspx) \n🦟 This is a great calculator to help with judging the size of wire, power supplies, distance, votage drop, and much more: [RGB Pixel Power Calculator.](http://spikerlights.com/calcpower.aspx) \n🦟 How much power do addressable LEDs use?, Digitally Addressable LED Sheet: [Quindor has the answer here.](https://quinled.info/2020/03/12/digital-led-power-usage/)",
 		"category": [
 			"led"
 		],
