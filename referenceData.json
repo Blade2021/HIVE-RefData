@@ -623,6 +623,22 @@
 			""
 		]
 	},
+	"tasmota_upgrade": {
+		"alias": [
+			"Upgrade_Flow",
+			"UpgradeFlow",
+			"tasmota-upgrade"
+		],
+		"minRank": 0,
+		"title": "Tasmota Upgrade Path",
+		"description":"To upgrade your Tasmota firmware, you need to follow the path, or risk bad things happening. \nv1.0.11  🔀  v3.9.22  🔀  v4.2.0  🔀  v5.14.0  🔀  v6.7.1  🔀  v7.2.0  🔀  v8.5.1  🔀  v9.1  🔀  [Current release](<https://github.com/arendst/Tasmota/releases>)  \n\n [More information](https://tasmota.github.io/docs/Upgrading/)",
+		"category": [
+			"integrations"
+		],
+		"keywords": [
+			"upgrade"
+		]
+	},
 	"template_lights": {
 		"alias": [
 			"template lights",
@@ -642,22 +658,6 @@
 			"template",
 			"lights",
 			"tasmota"
-		]
-	},
-	"tasmota_upgrade": {
-		"alias": [
-			"Upgrade_Flow",
-			"UpgradeFlow",
-			"tasmota-upgrade"
-		],
-		"minRank": 0,
-		"title": "Tasmota Upgrade Path",
-		"description":"To upgrade your Tasmota firmware, you need to follow the path, or risk bad things happening. \nv1.0.11  🔀  v3.9.22  🔀  v4.2.0  🔀  v5.14.0  🔀  v6.7.1  🔀  v7.2.0  🔀  v8.5.1  🔀  v9.1  🔀  [Current release](<https://github.com/arendst/Tasmota/releases>)  \n\n [More information](https://tasmota.github.io/docs/Upgrading/)",
-		"category": [
-			"integrations"
-		],
-		"keywords": [
-			"upgrade"
 		]
 	},
 	"tips": {
