@@ -625,6 +625,9 @@
 	},
 	"tasmota_upgrade": {
 		"alias": [
+			"tasmotaupgrade",
+			"tasmota upgrade",
+			"tasmota-upgrade",
 			"Upgrade_Flow",
 			"UpgradeFlow",
 			"tasmota-upgrade"
