@@ -623,9 +623,29 @@
 			""
 		]
 	},
+	"template_lights": {
+		"alias": [
+			"template lights",
+			"template-lights",
+			"tasmota_lights",
+			"tasmota lights",
+			"tasmota-lights",
+			"blakadder_lights"
+		],
+		"minRank": 0,
+		"title": "🧩 Tasmota Light Templates in Home Assistant 🧩",
+		"description":"Building light templates from scratch can be a bit puzzling. 😕 \nHere is an article from Blakadder explaining the options and requirements from basic to advanced with great examples. \nI have also includes other information about Light Templates and Templating in general. \n\n🧩 [Tasmota Lights in Home Assistant Using Template Schema](https://blakadder.com/template_schema_lights/) \n🧩 [Home Assistant Template Lights - Official Docs](https://www.home-assistant.io/integrations/light.template/) \n🧩 Video from: 'Will Surridge Tech' explaining HA Templates in general](https://www.youtube.com/watch?v=lPKiCjifX5w) ",
+		"category": [
+			"integrations"
+		],
+		"keywords": [
+			"template",
+			"lights",
+			"tasmota"
+		]
+	},
 	"tasmota_upgrade": {
 		"alias": [
-			"Tasmota_Upgrade",
 			"Upgrade_Flow",
 			"UpgradeFlow",
 			"tasmota-upgrade"
