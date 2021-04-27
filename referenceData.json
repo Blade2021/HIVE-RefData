@@ -65,7 +65,7 @@
 		"alias": [],
 		"title": "HA CheckConfig Addon (Supervised)",
 		"minRank": 0,
-		"description": "[Home Assistant Add-on: Check Home Assistant configuration](<https://github.com/home-assistant/addons/tree/master/check_config>) \n[Home Assistant Configuration](<https://www.home-assistant.io/integrations/config/>) \n[Home Assistant Advanced Configuration](<https://www.home-assistant.io/getting-started/configuration/>)",
+		"description": "✔️ [Home Assistant Add-on: Check Home Assistant configuration](<https://github.com/home-assistant/addons/tree/master/check_config>) \n✔️ [Home Assistant Configuration](<https://www.home-assistant.io/integrations/config/>) \n✔️ [Home Assistant Advanced Configuration](<https://www.home-assistant.io/getting-started/configuration/>)",
 		"category": [
 			"home-assistant"
 		],
@@ -100,6 +100,7 @@
 	"config": {
 		"alias": [],
 		"minRank": 0,
+		"title": "Where's My Configuration?",
 		"description": "Enable the \"Configuration\" section of the UI by adding `config:` to your configuration.yaml file, docs: <https://home-assistant.io/integrations/config/>",
 		"category": [
 			"home-assistant"
@@ -154,7 +155,8 @@
 	},
 	"getting_started": {
 		"alias": [
-			"getting started"
+			"getting started",
+			"getting-started"
 		],
 		"title": "Getting Started with Home Assistant",
 		"minRank": 0,
@@ -168,7 +170,8 @@
 	},
 	"git_repo": {
 		"alias": [
-			"home assistant configuration"
+			"home assistant configuration",
+			"git-repo"
 		],
 		"title": "Sending your HA Configuration to Github",
 		"minRank": 0,
@@ -213,7 +216,7 @@
 		],
 		"title": "Setting up HA Supervised",
 		"minRank": 0,
-		"description": "Home Assistant Supervised can be installed on top of Docker on any generic linux system, a Debian based system is recommended. Below you will find links to tutorials and resources. \n\n🏠 [Matheson's Install HA Supervised on Debian])https://mathesonsteplock.ca/install-home-assistant-supervised-on-debian/) \n🏠 [JuanMTech's Home Assistant on Docker and Ubuntu](https://youtu.be/ekVfLXnoM7k) \n🏠 [HA Supervised Installer](https://github.com/home-assistant/supervised-installer) \n🏠 [Install Docker Engine](https://docs.docker.com/engine/install/) \n\nHome Assistant (Supervised) is the version of Home Assistant which runs the Home Assistant Supervisor. \n\nThe supervisor is is a container that runs in Docker which allows the use of Add-ons and manages updating and other maintenance of your Home Assistant Install. \n\nWith the help of the generic Linux install script you can install Home Assistant (Supervised) on any Linux System running Docker",
+		"description": "Home Assistant Supervised can be installed on top of Docker on any generic linux system, a Debian based system is recommended. Below you will find links to tutorials and resources. \n\n🏠 [Matheson's Install HA Supervised on Debian](https://mathesonsteplock.ca/install-home-assistant-supervised-on-debian/) \n🏠 [JuanMTech's Home Assistant on Docker and Ubuntu](https://youtu.be/ekVfLXnoM7k) \n🏠 [HA Supervised Installer](https://github.com/home-assistant/supervised-installer) \n🏠 [Install Docker Engine](https://docs.docker.com/engine/install/) \n\nHome Assistant (Supervised) is the version of Home Assistant which runs the Home Assistant Supervisor. \n\nThe supervisor is is a container that runs in Docker which allows the use of Add-ons and manages updating and other maintenance of your Home Assistant Install. \n\nWith the help of the generic Linux install script you can install Home Assistant (Supervised) on any Linux System running Docker",
 		"category": [
 		  "infrastructure",
 		  "home-assistant"
@@ -254,11 +257,12 @@
 	},
 	"input_number": {
 		"alias": [
-			"input number"
+			"input number",
+			"input-number"
 		],
 		"title": "Input Number",
 		"minRank": 0,
-		"description": "The `input_number` component allows the user to define values that can be controlled via the frontend and can be used within conditions of automation. The frontend can display a slider, or a numeric input box. Changes to the slider or numeric input box generate state events. These state events can be utilized as `automation` triggers as well.\n```yaml\n# Example configuration.yaml entry\ninput_number:\n  slider1:\n    name: Slider\n    initial: 30\n    min: -20\n    max: 35\n    step: 1\n  box1:\n    name: Numeric Input Box\n    initial: 30\n    min: -20\n    max: 35\n    step: 1\n    mode: box\n```\n[More information:](<https://home-assistant.io/components/input_number/>)",
+		"description": "The `input_number` component allows the user to define values that can be controlled via the frontend and can be used within conditions of automation. The frontend can display a slider, or a numeric input box. Changes to the slider or numeric input box generate state events. These state events can be utilized as `automation` triggers as well.\n```yaml\n# Example configuration.yaml entry\ninput_number:\n  slider1:\n    name: Slider\n    initial: 30\n    min: -20\n    max: 35\n    step: 1\n  box1:\n    name: Numeric Input Box\n    initial: 30\n    min: -20\n    max: 35\n    step: 1\n    mode: box\n```\n[More information:](https://home-assistant.io/components/input_number/)",
 		"category": [
 			"home-assistant"
 		],
@@ -284,9 +288,9 @@
 		"alias": [
 			"LED calcpower","led power","led_power","ledcalcpower"
 		],
-		"title": "Calculate LED Power",
+		"title": "💫 Calculate LED Power",
 		"minRank": 0,
-		"description": "What is Power Injection? At its lowest level power injection is nothing more than adding additional power to a string of lights at a point in which the voltage drop starts to affect the lights[more info here](http://spikerlights.com/pwrinjection.aspx)\nThis is a great calculator to help with judging the size of wire , power supplies , distance ,votage drop and much more [RGB Pixel Power Calculator](http://spikerlights.com/calcpower.aspx)\nHow much power do addressable LEDs use?, Digitally Addressable LED Sheet[info found here](https://quinled.info/2020/03/12/digital-led-power-usage/)",
+		"description": "What is Power Injection? At its lowest level power injection is nothing more than adding additional power to a string of lights at a point in which the voltage drop starts to affect the lights \n\n🦟 [More details here](http://spikerlights.com/pwrinjection.aspx) \n🦟 This is a great calculator to help with judging the size of wire, power supplies, distance, votage drop, and much more: [RGB Pixel Power Calculator.](http://spikerlights.com/calcpower.aspx) \n🦟 How much power do addressable LEDs use?, Digitally Addressable LED Sheet: [Quindor has the answer here.](https://quinled.info/2020/03/12/digital-led-power-usage/)",
 		"category": [
 			"led"
 		],
@@ -298,9 +302,9 @@
 		"alias": [
 			"LED controller","led-controller"
 		],
-		"title": "LED Controllers",
+		"title": "💫 LED Controllers",
 		"minRank": 0,
-		"description": "[USA-Dig-Uno](https://drzzs.com/shop/dig-uno-diy-rgb-led-controller-w-wled-preassembled/)\n[USA-Dig-Quad](https://drzzs.com/shop/digquad/)\n[kulplights controllers](https://kulplights.com/)\n[Falcon Pixel controller](https://www.pixelcontroller.com/store/index.php)\n[Pixel2Things- Ac to pixel controller](https://www.pixel2things.com/)",
+		"description": "🎮 [USA-Dig-Uno](https://drzzs.com/shop/dig-uno-diy-rgb-led-controller-w-wled-preassembled/) \n\n🎮 [USA-Dig-Quad](https://drzzs.com/shop/digquad/) \n\n🎮 [kulplights controllers](https://kulplights.com/) \n\n🎮 [Falcon Pixel controller](https://www.pixelcontroller.com/store/index.php) \n\n🎮 [Pixel2Things- Ac to pixel controller](https://www.pixel2things.com/)",
 		"category": [
 			"led"
 		],
@@ -312,9 +316,9 @@
 		"alias": [
 			"LED espdriver", "led esp driver","led-espdriver"
 		],
-		"title": "LED ESP Drivers",
+		"title": "💫 LED ESP Drivers",
 		"minRank": 0,
-		"description": "WLED ESP Driver download [click here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)",
+		"description": "WLED ESP Driver download [🏎️ click here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)",
 		"category": [
 			"led"
 		],
@@ -326,9 +330,9 @@
 		"alias": [
 			"LED falcon","ledfalcon","led-falcon"
 		],
-		"title": "LED Falcon Controllers",
+		"title": "💫 LED Falcon Controllers",
 		"minRank": 0,
-		"description": "[pixelcontroller.com](https://www.pixelcontroller.com/store/index.php) -Home of the Falcon controllers that can drive 1024 lights per port can drive many different types of pixels ie.WS,TM,SM,INK,TL,CY,LPD,D705,ETC.\n[Falcon controller support page](https://www.pixelcontroller.com/store/index.php?id_cms_category=5&controller=cms) *you will run these from fpp or your computer through xSchedule* *new firmware might change this*.\n\nF16V3- 16 port Pixel Controller- 1024 pixels per output pixel controller. [Link](https://www.pixelcontroller.com/store/index.php?id_product=48&controller=product)\nF48 Differential Controller- Can drive up to 16384 pixels. 48 Differential Outputs no local ports-Can connect up to 12 Falcon Differential Receivers. [Link](https://www.pixelcontroller.com/store/index.php?id_product=52&controller=product)\n\nFalcon PiCap for a pi3 or pi4 Can control two strings 800+ WS2811 pixels with fused and buffered outputs. Dedicated RS-485 DMX Output (Renard, DMX, LOR selectable). Input voltage 5, or 12V selectable.[Link](https://www.pixelcontroller.com/store/index.php?id_product=47&controller=product)\nFPP releases can be found here newest is at top.[Github](https://github.com/FalconChristmas/fpp/releases)\nFPP Installing and Configuring Your Controller Step by Step - Rick Harris [YouTube](https://www.youtube.com/watch?v=ZV4o11XiaU0)\nVCS 2020 Falcon Controllers - Scott Hanson- [YouTube](https://www.youtube.com/watch?v=J9KDQvYBoe0)",
+		"description": "🦅 [pixelcontroller.com](https://www.pixelcontroller.com/store/index.php) -Home of the Falcon controllers that can drive 1024 lights per port can drive many different types of pixels ie.WS,TM,SM,INK,TL,CY,LPD,D705,ETC. \n\n🦅 [Falcon controller support page](https://www.pixelcontroller.com/store/index.php?id_cms_category=5&controller=cms) *you will run these from fpp or your computer through xSchedule* *new firmware might change this*. \n\n🦅 F16V3- 16 port Pixel Controller- 1024 pixels per output pixel controller [link](https://www.pixelcontroller.com/store/index.php?id_product=48&controller=product) \n\n🦅 F48 Differential Controller- Can drive up to 16384 pixels. 48 Differential Outputs no local ports-Can connect up to 12 Falcon Differential Receivers. [Link](https://www.pixelcontroller.com/store/index.php?id_product=52&controller=product) \n\n🦅 Falcon PiCap for a pi3 or pi4 Can control two strings 800+ WS2811 pixels with fused and buffered outputs. Dedicated RS-485 DMX Output (Renard, DMX, LOR selectable). Input voltage 5, or 12V selectable. [Link](https://www.pixelcontroller.com/store/index.php?id_product=47&controller=product) \n\n🦅 FPP releases can be found here newest is at top.[Github](https://github.com/FalconChristmas/fpp/releases) \n\n🦅 FPP Installing and Configuring Your Controller Step by Step - Rick Harris [YouTube](https://www.youtube.com/watch?v=ZV4o11XiaU0) \n\n🦅 VCS 2020 Falcon Controllers - Scott Hanson- [YouTube](https://www.youtube.com/watch?v=J9KDQvYBoe0)",
 		"category": [
 			"led"
 		],
@@ -340,9 +344,9 @@
 		"alias": [
 			"LED fpp","ledfpp","led-fpp"
 		],
-		"title": "LED FPP",
+		"title": "💫 LED FPP",
 		"minRank": 0,
-		"description": "FPP Manual can be found [here](https://falconchristmas.github.io/FPP_Manual.pdf)\nFPP releases can be found [here](https://github.com/FalconChristmas/fpp/releases)\nThe Falcon [Christmas Forum](http://falconchristmas.com/forum/) - support for fpp, kulp and falcon\nFPP Installing and Configuring Your Controller Step by Step - Rick Harris [YouTube](https://www.youtube.com/watch?v=ZV4o11XiaU0)\nFPP In Detail Master / Remote / Schedule / Playlist - Rick Harris - [YouTube](https://www.youtube.com/watch?v=y27EarxYW6Y)\nFPP Plugins & Scripts - Daniel Kulp [YouTube](https://www.youtube.com/watch?v=pE4I5igbAuE&t=2s)",
+		"description": "✈️ FPP Manual can be found [here](https://falconchristmas.github.io/FPP_Manual.pdf) \n\n✈️ FPP releases can be found [here](https://github.com/FalconChristmas/fpp/releases) \n\n✈️ The Falcon [Christmas Forum](http://falconchristmas.com/forum/) - support for fpp, kulp and falcon \n\n✈️ FPP Installing and Configuring Your Controller Step by Step - Rick Harris [YouTube](https://www.youtube.com/watch?v=ZV4o11XiaU0) \n\n✈️ FPP In Detail Master / Remote / Schedule / Playlist - Rick Harris - [YouTube](https://www.youtube.com/watch?v=y27EarxYW6Y) \n\n✈️ FPP Plugins & Scripts - Daniel Kulp [YouTube](https://www.youtube.com/watch?v=pE4I5igbAuE&t=2s)",
 		"category": [
 			"led"
 		],
@@ -354,9 +358,9 @@
 		"alias": [
 			"led hardware","led-hardware"
 		],
-		"title": "LED Hardware",
+		"title": "💫 LED Hardware",
 		"minRank": 0,
-		"description": "[RGBMan](https://www.rgb-man.com/)\n[wallyslights](https://www.wallyslights.com/)\n[wiredwatts](https://www.wiredwatts.com/)\n[Ray wu's store](https://www.aliexpress.com/store/701799?fbclid=IwAR1yDm6ygs_IuAz13ggWv2wPSHJH34M7205U4l473jGqtVUNjIbLjrQAdFM)\n[PIXELHEADS](https://shop.pixelheads.info/)\n[Paul Zhang Direct-US](https://www.amazon.com/s?i=merchant-items&me=A1HD6W29M3RXPC)\n[Hanson Electronics](http://www.hansonelectronics.com.au/)\n[jboards](https://jboards.ecwid.com/)\n[mattosdesigns](https://mattosdesigns.com/)",
+		"description": "🔩 [RGBMan](https://www.rgb-man.com/) \n\n🔩 [wallyslights](https://www.wallyslights.com/) \n\n🔩 [wiredwatts](https://www.wiredwatts.com/) \n\n🔩 [Ray wu's store](https://www.aliexpress.com/store/701799?spm=a2g0s.9042311.0.0.40694c4db8oCxz) \n\n🔩 [PIXELHEADS](https://shop.pixelheads.info/) \n\n🔩 [Paul Zhang Direct-US](https://www.amazon.com/s?i=merchant-items&me=A1HD6W29M3RXPC&tag=drzzs0e-20) \n\n🔩 [Hanson Electronics](http://www.hansonelectronics.com.au/) \n\n🔩 [jboards](https://jboards.ecwid.com/) \n\n🔩 [mattosdesigns](https://mattosdesigns.com/)",
 		"category": [
 			"led"
 		],
@@ -368,9 +372,9 @@
 		"alias": [
 			"LED inject","led-inject"
 		],
-		"title": "LED Inject Help",
+		"title": "💫 LED Inject Help",
 		"minRank": 0,
-		"description": "Solutions for Power Injection & Data Signal Boosting Permanent Christmas Lights:by Dr.zzs [YouTube](https://www.youtube.com/watch?v=wSGfkL1AGKs)\nPower Distro Power Injection by:Bill Porter [YouTube](https://youtu.be/eR3QbzjpZy8)\nEver Wonder Why You Pixels Flicker and How to Fix It by:Keith Wesley [YouTube](https://www.youtube.com/watch?v=9ttEAyiyTAI)\nThis is a great calculator to help with judging the size of wire , power supplies , distance ,votage drop and much more [RGB Pixel Power Calculator](http://spikerlights.com/calcpower.aspx)",
+		"description": "💉 Solutions for Power Injection & Data Signal Boosting Permanent Christmas Lights by: [DrZzs YouTube](https://www.youtube.com/watch?v=wSGfkL1AGKs) \n\n💉 Power Distro Power Injection by: [Bill Porter YouTube](https://youtu.be/eR3QbzjpZy8) \n\n💉 Ever Wonder Why Your Pixels Flicker and How to Fix It by: [Keith Wesley YouTube](https://www.youtube.com/watch?v=9ttEAyiyTAI) \n\n💉 This is a great calculator to help with judging the size of wire, power supplies, distance, votage drop and much more [RGB Pixel Power Calculator](http://spikerlights.com/calcpower.aspx) \n\n💉 QuinLED: Combating LED voltage drop | LED Power Injection from: [Quindor YouTube](https://www.youtube.com/watch?v=EcjPR0UlU7U&t=673s)",
 		"category": [
 			"led"
 		],
@@ -382,9 +386,9 @@
 		"alias": [
 			"LED kulp","ledkulp","led-kulp"
 		],
-		"title": "LED Kulp Controllers",
+		"title": "💫 LED Kulp Controllers",
 		"minRank": 0,
-		"description": "kulplights.com -Home of FPP based pixel controllers that can each drive 800 Pixels at 40FPS 1500 Pixels at 20fps per port ws281x ONLY [Link](https://kulplights.com/)\nFPP releases can be found [here](https://github.com/FalconChristmas/fpp/releases) newest is at top\nkulp k16- A 16 port controller that runs FPP Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE,fm-transmitter* [Link](https://kulplights.com/product/k16a-b/)\nkulp 32 port controller Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE,fm-transmitter*[Link](https://kulplights.com/product/k32a-b/)\nkulp k8-8 port controller Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE*[Link](https://kulplights.com/product/k8-b/)\n\nIF RUNNING WIFI YOU WILL NEED THIS ADAPTER. [Link](https://kulplights.com/product/1200mbs-antenna-wifi/)\nYou might also need this usb hub. [Link](https://kulplights.com/product/usb-gigabit-ethernet-adapter/)\n\nThe 4-String Differential Smart Receiver Board can be connected to many different controller options allowing 4 strings to be placed up to 300+ feet from the controllers . Input voltage 5, or 12V . The Smart Receiver can be daisy-chained together up to three.[Link](https://kulplights.com/product/smart-receiver/)\nKulp's user manual *listed as f8-b but works for all boards*. [Link](https://kulplights.com/manuals/F8-B-Manual.pdf)\nFPP Installing and Configuring Your Controller Step by Step - Rick Harris - [YouTube](https://www.youtube.com/watch?v=ZV4o11XiaU0)\nVCS 2020 Kulp Boards - Daniel Kulp - [YouTube](https://www.youtube.com/watch?v=sceGQMZ0dHw&t=2720s)\nFPP Plugins & Scripts - Daniel Kulp [YouTube](https://www.youtube.com/watch?v=pE4I5igbAuE&t=2s)",
+		"description": "🌈 kulplights.com -Home of FPP based pixel controllers that can each drive 800 Pixels at 40FPS 1500 Pixels at 20fps per port ws281x ONLY [Link](https://kulplights.com/) \n\n🌈 FPP releases can be found [here](https://github.com/FalconChristmas/fpp/releases) newest is at top \n\n🌈 Kulp k16- A 16 port controller that runs FPP Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE,fm-transmitter* [Link](https://kulplights.com/product/k16a-b/) \n\n🌈 Kulp 32 port controller Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE,fm-transmitter* [Link](https://kulplights.com/product/k32a-b/) \n\n🌈 Kulp k8-8 port controller Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE*[Link](https://kulplights.com/product/k8-b/) \n\n🌈 IF RUNNING WIFI YOU WILL NEED THIS ADAPTER. [Link](https://kulplights.com/product/1200mbs-antenna-wifi/) \n\n🌈 You might also need this usb hub. [Link](https://kulplights.com/product/usb-gigabit-ethernet-adapter/) \n\n🌈 The 4-String Differential Smart Receiver Board can be connected to many different controller options allowing 4 strings to be placed up to 300+ feet from the controllers . Input voltage 5, or 12V . The Smart Receiver can be daisy-chained together up to three.[Link](https://kulplights.com/product/smart-receiver/) \n\n🌈 Kulp's user manual *listed as f8-b but works for all boards*. [Link](https://kulplights.com/manuals/F8-B-Manual.pdf) \n\n🌈 FPP Installing and Configuring Your Controller Step by Step - [Rick Harris YouTube](https://www.youtube.com/watch?v=ZV4o11XiaU0) \n\n🌈 VCS 2020 Kulp Boards - [Daniel Kulp YouTube](https://www.youtube.com/watch?v=sceGQMZ0dHw&t=2720s) \n\n🌈 FPP Plugins & Scripts - [Daniel Kulp YouTube](https://www.youtube.com/watch?v=pE4I5igbAuE&t=2s)",
 		"category": [
 			"led"
 		],
@@ -398,7 +402,7 @@
 		],
 		"minRank": 0,
 		"title": "💫 PIXELHEADS 3D Print Collection 🚀 ",
-		"description": "[🏗 Pixelheads Collection ](https://shop.pixelheads.info/pixelheads-3d-print-collection/) \n[🏗 Viperts Creations 3d Models](https://cults3d.com/en/users/Viperts/creations) ",
+		"description": "[🏗 Pixelheads Collection ](https://shop.pixelheads.info/pixelheads-3d-print-collection/) \n\n[🏗 Viperts Creations 3d Models](https://cults3d.com/en/users/Viperts/creations) ",
 		"category": [
 			"led"
 		],
@@ -410,9 +414,9 @@
 		"alias": [
 			"LED Props","led-props"
 		],
-		"title": "LED Props",
+		"title": "💫 LED Props",
 		"minRank": 0,
-		"description": "[BoscoyoStudio](https://boscoyostudio.com/) - Outdoor lightning display props for Residential and Commercial displays \n[Gilbert Engineering USA](https://gilbertengineeringusa.com/) - Coro props, Pixel props, holiday coro, magical, holiday decor, holiday lighting, outdoor lighting, xlights, light o rama, Coro, Christmas Props, Animated Lighting \n[CustomChristmasCreationsCCC](https://customchristmascreationsccc.com/) - Unique Coro Christmas, Halloween, Random Props \n[Northern Lights Decor](https://www.nl-decor.com/) - PVC Props for a range of lights \n[EFL Designs](https://www.facebook.com/EFLDesigns) - Custom Coro Cutter -> find him on Facebook or Xlights zoom-room ",
+		"description": "🌉 [BoscoyoStudio](https://boscoyostudio.com/) - Outdoor lightning display props for Residential and Commercial displays \n\n🌉 [Gilbert Engineering USA](https://gilbertengineeringusa.com/) - Coro props, Pixel props, holiday coro, magical, holiday decor, holiday lighting, outdoor lighting, xlights, light o rama, Coro, Christmas Props, Animated Lighting \n\n🌉 [CustomChristmasCreationsCCC](https://customchristmascreationsccc.com/) - Unique Coro Christmas, Halloween, Random Props \n\n🌉 [Northern Lights Decor](https://www.nl-decor.com/) - PVC Props for a range of lights \n\n🌉 [EFL Designs](https://www.facebook.com/EFLDesigns) - Custom Coro Cutter -> find him on Facebook or Xlights zoom-room ",
 		"category": [
 			"led"
 		],
@@ -424,9 +428,9 @@
 		"alias": [
 			"LED sequences", "led seq","led_seq","led-sequences"
 		],
-		"title": "LED Display Sequences",
+		"title": "💫 LED Display Sequences",
 		"minRank": 0,
-		"description": "[Xlights Free Sequences (Google Drive)](https://drive.google.com/drive/folders/0B2ozCEidtWh3MUVzX0ZMc1pzY00?fref=gc&dti=628061113896314) \n[Pixel Pro Displays](https://www.pixelprodisplays.com/) \n[Xtreme Sequences](https://www.xtremesequences.com/) \n[ShowStopperSequences](https://showstoppersequences-com.3dcartstores.com/) \n[Magical Light Shows](https://magicallightshows.com/) \n[Animated Lumination Sequences](http://animatedillumination.com/) \n[SyracuseLights](https://www.syracuselights.org/sequences) \n[VCS 2020 xLights: Basic Sequencing Michael Stoffregen - VIDEO](https://www.youtube.com/watch?v=EvK7AUJ1Nrk) ",
+		"description": "☄️ [Xlights Free Sequences (Google Drive)](https://drive.google.com/drive/folders/0B2ozCEidtWh3MUVzX0ZMc1pzY00?fref=gc&dti=628061113896314) \n\n☄️ [Pixel Pro Displays](https://www.pixelprodisplays.com/) \n\n☄️ [Xtreme Sequences](https://www.xtremesequences.com/) \n\n☄️ [ShowStopperSequences](https://showstoppersequences-com.3dcartstores.com/) \n\n☄️ [Magical Light Shows](https://magicallightshows.com/) \n\n☄️ [Animated Lumination Sequences](http://animatedillumination.com/) \n\n☄️ [SyracuseLights](https://www.syracuselights.org/sequences) \n\n☄️ [VCS 2020 xLights: Basic Sequencing Michael Stoffregen - VIDEO](https://www.youtube.com/watch?v=EvK7AUJ1Nrk)",
 		"category": [
 			"led"
 		],
@@ -438,9 +442,9 @@
 		"alias": [
 			"LED xlights","led-xlights"
 		],
-		"title": "LED XLights",
+		"title": "💫 LED XLights",
 		"minRank": 0,
-		"description": "[xlights website-xLights](https://xlights.org/) is a free and open source program that enables you to design, create and play amazing lighting displays through the use of DMX controllers, E1.31 Ethernet controllers and more.\n\n[Xlights download page](https://xlights.org/releases/) ",
+		"description": "🔹 [xlights website-xLights](https://xlights.org/) is a free and open source program that enables you to design, create and play amazing lighting displays through the use of DMX controllers, E1.31 Ethernet controllers and more. \n\n🔹 [Xlights download page](https://xlights.org/releases/) ",
 		"category": [
 			"led"
 		],
@@ -451,6 +455,7 @@
 	"lets_encrypt": {
 		"alias": [
 			"letsencrypt",
+			"lets encrypt",
 			"duckdns",
 			"lets-encrypt"
 		],
@@ -485,6 +490,7 @@
 	"mqtt_explorer": {
 		"alias": [
 			"MQTTExplorer",
+			"MQTT Explorer",
 			"MQTT-Explorer"
 		],
 		"minRank": 0,
@@ -514,7 +520,7 @@
 		"alias": [],
 		"title": "What are Points?",
 		"minRank": 0,
-		"description": "Points are used to give karma to other users.  Use ~getpoints to see how many points you have. [More information](https://github.com/Blade2021/HIVE/wiki/Karma)",
+		"description": "Points are used to give karma to other users.  Use {prefix}getpoints to see how many points you have. [More information](https://github.com/Blade2021/HIVE/wiki/Karma)",
 		"category": [
 			"user-base"
 		],
@@ -524,6 +530,7 @@
 	},
 	"reply": {
 		"alias": [],
+		"title": "Who Are You Respoding To?",
 		"minRank": 0,
 		"description": "If there are multiple conversations going at once, try using the reply feature in discord.  This helps everyone know who they are replying to and from.",
 		"category": [
@@ -552,7 +559,7 @@
 		],
 		"title": "Help with RF433 / RF315 Devices",
 		"minRank": 0,
-		"description": "There is a lot of information on this subject.  Check out the links section and the Community can lead your journey here. \n\n📶 [How RF433 Works](https://bit.ly/DrZzsHow433Works) \n📶 [Flashing the RFBridge](https://bit.ly/DrZzsFlashRFBridgeTasmota) \n📶 [DrZzs Video](https://youtu.be/OfSbIFIJPuc) \n📶 [Digiblur Video](https://youtu.be/w_CchtI-oK0) \n📶 [WhatAreWeFixing.Today Video](https://whatarewefixing.today/?p=134) \n📶 [Multiple sensor setup](https://bit.ly/DrZzsRFBridgeMultiSensorSetup) \n\nThe 433 mhz RF (radio frequency) band and the 315 mhz RF band, depending on the country you live in, is designated for the same purpose. Low power RF transmitters are allowed to broadcast within these frequency ranges. These small transmitters are usually binary type sensors because only a small message is able to be transmitted during an event. Door/Window sensors, PIR sensors, push button transmitters, remote controls and the like are the typical devices using these frequencies. There needs to be a receiver nearby to pick up these signals and act on the message received.\n\nDevices such as the Itead RFBridge (http://drzzs.com/RF_Bridge) and the Bond Bridge (https://bit.ly/DrZzsBondBridge) act as reciever hubs to collect data from these sensors and feed the data back to a program such as Home Assistant for further action.  With some devices like the Itead Sonoff Slampher (https://bit.ly/DrZzsSlampher), the device can ‘pair’ with a matching RF transmitter bought separately and act on the information provided. Devices are not tied to a common standard (like Zwave) which 1, keeps the price very low, but 2, causes incompatibility between manufacturers.",
+		"description": "There is a lot of information on this subject.  Check out the links section and the Community can lead your journey here. \n\n📶 [How RF433 Works](https://bit.ly/DrZzsHow433Works) \n📶 [Flashing the RFBridge](https://bit.ly/DrZzsFlashRFBridgeTasmota) \n📶 [DrZzs Video](https://youtu.be/OfSbIFIJPuc) \n📶 [Digiblur Video](https://youtu.be/w_CchtI-oK0) \n📶 [WhatAreWeFixing.Today Video](https://whatarewefixing.today/?p=134) \n📶 [Multiple sensor setup](https://bit.ly/DrZzsRFBridgeMultiSensorSetup) \n\nThe 433 mhz RF (radio frequency) band and the 315 mhz RF band, depending on the country you live in, is designated for the same purpose. Low power RF transmitters are allowed to broadcast within these frequency ranges. These small transmitters are usually binary type sensors because only a small message is able to be transmitted during an event. Door/Window sensors, PIR sensors, push button transmitters, remote controls and the like are the typical devices using these frequencies. There needs to be a receiver nearby to pick up these signals and act on the message received.\n\nDevices such as the [Itead RFBridge](http://drzzs.com/RF_Bridge) and the [Bond Bridge](https://bit.ly/DrZzsBondBridge) act as reciever hubs to collect data from these sensors and feed the data back to a program such as Home Assistant for further action.  With some devices like the [Itead Sonoff Slampher](https://bit.ly/DrZzsSlampher), the device can ‘pair’ with a matching RF transmitter bought separately and act on the information provided. Devices are not tied to a common standard (like Zwave) which 1, keeps the price very low, but 2, causes incompatibility between manufacturers.",
 		"category": [
 		  "microcontroller",
 		  "infrastructure"
@@ -591,11 +598,12 @@
 	"split_config": {
 		"alias": [
 			"split config",
+			"split-config",
 			"splitconfig"
 		],
 		"title": "Making Your configuration.yaml Easier to Use",
 		"minRank": 0,
-		"description": "[Split Configuration HA Official Instructions](<https://home-assistant.io/docs/configuration/splitting_configuration/>)  \n\n[Doc and Frenck with a live Demo](https://youtu.be/FfjSA2o_0KA)",
+		"description": "🔀 [Split Configuration HA Official Instructions](https://home-assistant.io/docs/configuration/splitting_configuration/)  \n\n🔀 [Doc and Frenck with a live Demo](https://youtu.be/FfjSA2o_0KA)",
 		"category": [
 			"home-assistant"
 		],
@@ -606,7 +614,8 @@
 	"suggestHelp": {
 		"alias": [],
 		"minRank": 0,
-		"description": "Wanna submit a suggestion?  Use ~suggest followed by your suggestion.  This will send your suggestion to our staff to review before being posted as a poll for the community to vote.",
+		"title": "Suggestion Poll",
+		"description": "Wanna submit a suggestion in the chat?  \nUse {prefix}suggest followed by your suggestion.  \nThis will send your suggestion to our staff to review before being posted as a poll for the community to vote.",
 		"category": [
 			"information"
 		],
@@ -616,7 +625,9 @@
 	},
 	"tasmota_upgrade": {
 		"alias": [
-			"Tasmota_Upgrade",
+			"tasmotaupgrade",
+			"tasmota upgrade",
+			"tasmota-upgrade",
 			"Upgrade_Flow",
 			"UpgradeFlow",
 			"tasmota-upgrade"
@@ -631,6 +642,27 @@
 			"upgrade"
 		]
 	},
+	"template_lights": {
+		"alias": [
+			"template lights",
+			"template-lights",
+			"tasmota_lights",
+			"tasmota lights",
+			"tasmota-lights",
+			"blakadder_lights"
+		],
+		"minRank": 0,
+		"title": "🧩 Tasmota Light Templates in Home Assistant 🧩",
+		"description":"Building light templates from scratch can be a bit puzzling. 😕 \nHere is an article from Blakadder explaining the options and requirements from basic to advanced with great examples. \nI have also includes other information about Light Templates and Templating in general. \n\n🧩 [Tasmota Lights in Home Assistant Using Template Schema](https://blakadder.com/template_schema_lights/) \n🧩 [Home Assistant Template Lights - Official Docs](https://www.home-assistant.io/integrations/light.template/) \n🧩 Video from: 'Will Surridge Tech' explaining HA Templates in general](https://www.youtube.com/watch?v=lPKiCjifX5w) ",
+		"category": [
+			"integrations"
+		],
+		"keywords": [
+			"template",
+			"lights",
+			"tasmota"
+		]
+	},
 	"tips": {
 		"alias": [
 			"discord-tips",
@@ -640,7 +672,7 @@
 		],
 		"minRank": 0,
 		"title": "BOT Wrangling 101 on DrZzs Discord",
-		"description":"There is a whole reference library in here to help you sort out things.  All contributions are from people on the channel.  \n\nType `~reflist` in the chat and you see the list.  Then (tilde) ~topic will bring up that topic.  Also you can type `~commands` and get a list of BOT commands you nave access to.  \n\nWe tend to go to `#bot-spam` channel to activate those things so as to not fill up the topic channels with info just for you.",
+		"description":"There is a whole reference library in here to help you sort out things.  All contributions are from people on the channel.  \n\nType `{prefix}reflist` in the chat and you see the list.  Then (tilde) {prefix}topic will bring up that topic.  Also you can type `{prefix}commands` and get a list of BOT commands you nave access to.  \n\nWe tend to go to `#bot-spam` channel to activate those things so as to not fill up the topic channels with info just for you.",
 		"category": [
 			"information",
 			"general"
@@ -680,7 +712,7 @@
 		"alias": [],
 		"minRank": 0,
 		"title": "Twitch Subscription",
-		"description":"To receive the twitch sub role, you **MUST** be a subscriber to the DrZzz's Twitch Channel.  This is **100% Free** if you have Amazon Prime.\n\nFind out more about Twitch Prime Here: https://twitch.amazon.com/tp\nDrZzz's Twitch Channel: https://www.twitch.tv/drzzs\n\n**Please remember to link your discord account to twitch to receive this role.**\nTwitch Integration Help: (Scroll down to `For Viewers`: https://support.discordapp.com/hc/en-us/articles/212112068-Twitch-Integration-FAQ\n\nRemember the Twitch subscriber roles are updated every hour automatically.",
+		"description":"To receive the twitch sub role, you **MUST** be a subscriber to the DrZzz's Twitch Channel.  This is **100% Free** if you have Amazon Prime. \n\nFind out more about [Twitch Prime Here](https://www.twitch.tv/subs/drzzs)  \n[Visit DrZzz's Twitch Channel](https://www.twitch.tv/drzzs)  \n\n**Please remember to link your discord account to twitch to receive this role.**  \n[->Twitch Integration Help link<-](https://support.discordapp.com/hc/en-us/articles/212112068-Twitch-Integration-FAQ) Scroll down to the `For Viewers` section.  \n\nNote: The Twitch subscriber roles are updated every hour automatically, so be patient...",
 		"category": [
 			"general"
 		],
