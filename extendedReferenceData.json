@@ -133,7 +133,8 @@
     "alias": [
       "node red",
       "nodered",
-      "node-red"
+      "node-red",
+      "nr"
     ],
     "installation": "To learn how to install node-red check out this link: \n🔴 https://nodered.org/docs/getting-started/local",
     "links": [
