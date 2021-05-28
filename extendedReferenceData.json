@@ -135,13 +135,13 @@
       "nodered",
       "node-red"
     ],
-    "installation": "To learn how to install node-red check out this link: 🔴 https://nodered.org/docs/getting-started/local",
+    "installation": "To learn how to install node-red check out this link: \n🔴 https://nodered.org/docs/getting-started/local",
     "links": [
       "🔴 [The Hook Up's Node Red Series](https://bit.ly/2XkGZMi)",
       "🔴 [Steve’s Node-Red Guide](http://www.steves-internet-guide.com/node-red-overview/)",
       "🔴 [Understanding and Using The Node-Red Message Object](http://www.steves-internet-guide.com/node-red-message-object/)"
     ],
-    "description": "To learn how to install node-red check out this link: 🔴 https://nodered.org/docs/getting-started/local  \n\n🔴 [The Hook Up's Node Red Series](https://bit.ly/2XkGZMi)  \n🔴 [Steve’s Node-Red Guide](http://www.steves-internet-guide.com/node-red-overview/)  \n🔴 [Understanding and Using The Node-Red Message Object](http://www.steves-internet-guide.com/node-red-message-object/)  \n\nNode-Red is a fantastic flow based visual tool for creating and linking automations and devices.  Node-Red works very well with Home-Assistant to provide a nice easy infrastructure for your wildest dreams.",
+    "description": "To learn how to install node-red check out this link: \n🔴 https://nodered.org/docs/getting-started/local  \n\n🔴 [The Hook Up's Node Red Series](https://bit.ly/2XkGZMi)  \n🔴 [Steve’s Node-Red Guide](http://www.steves-internet-guide.com/node-red-overview/)  \n🔴 [Understanding and Using The Node-Red Message Object](http://www.steves-internet-guide.com/node-red-message-object/)  \n\nNode-Red is a fantastic flow based visual tool for creating and linking automations and devices.  Node-Red works very well with Home-Assistant to provide a nice easy infrastructure for your wildest dreams.",
     "category": [
       "infrastructure"
     ],
