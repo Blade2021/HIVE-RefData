@@ -1,16 +1,25 @@
 {
   "example_command": {
-    "alias": [],
-    "installation": "This is how you install it",
-    "links": [
-      "https://github.com"
+    "alias": [
+      "example-command",
+      "Another Example"
     ],
+		"title": "Title Goes Here 🔨 🥇 👍 🐿️ 🌰",
+		"minRank": 0,
     "description": "If you search very hard on github, you'll eventually find it.",
     "category": [
       "switching-applications"
     ],
     "keywords": [
-      ""
+      "sample"
     ]
+  },
+  "example_blank": {
+    "alias": [],
+		"title": "",
+		"minRank": 0,
+    "description": "",
+    "category": [],
+    "keywords": []
   }
 }
