@@ -45,8 +45,8 @@ List key words that would help in a future search engine function.
       "example-command",
       "Another Example"
     ],
-		"title": "Title Goes Here 🔨 🥇 👍 🐿️ 🌰",
-		"minRank": 0,
+	  "title": "Title Goes Here 🔨 🥇 👍 🐿️ 🌰",
+	  "minRank": 0,
     "description": "This is just an example description of what this file is used for and how to set it up for collaboration.  Add your links here: \n\nhttps://github.com/Blade2021/HIVE-RefData \n[More information](https://github.com/Blade2021/HIVE/wiki) \nMore Text here if you like",
     "category": [
       "utilities"
@@ -57,8 +57,8 @@ List key words that would help in a future search engine function.
   },
   "example2_blank": {
     "alias": [],
-		"title": "",
-		"minRank": 0,
+	  "title": "",
+	  "minRank": 0,
     "description": "",
     "category": [],
     "keywords": []
