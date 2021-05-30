@@ -664,7 +664,7 @@
 			"pullrequest",
 			"pull-request"
 		],
-		"title": "Pull Request - How to contribute in GitHub",
+		"title": "Pull Request 🐝 How to contribute in GitHub",
 		"minRank": 0,
 		"description": "No installation required.  \n\n🐝 [HIVE Reference Data Github](https://github.com/Blade2021/HIVE-RefData)  \n🐝 [Creating a Simple Github Pull Request](https://youtu.be/rgbCcBNZcdQ)  \n🐝 [What is Git and Github?](https://youtu.be/uUuTYDg9XoI  \n\nA pull request is a part of GIT workflow.  Developers collaborate on pieces of a project then when ready to update the master file, they submit pull requests to allow other developers in most cases, to review, adjust, and then commit the changes to the master file.  This allows multiple developers to work simultaneously on the same project without conflict in most cases.\n\nWith the HIVE-References project, we are accepting submissions from anyone and everyone.  Be sure to check out repo in the links section.",
 		"category": [
@@ -674,9 +674,9 @@
 	},
 	"reference": {
 		"alias": [],
-		"title": "Hive References",
+		"title": "📚 Hive References 🐝",
 		"minRank": 0,
-		"description": "Please try to include details in your submissions for approval.  \n\n🐝 https://github.com/Blade2021/HIVE-RefData  \n\nWanna help develop a database of helpful information for beginners starting out in the home automation field?  Help us grow the HIVE Reference Database by submitting commits/PRs to the link included.",
+		"description": "Please try to include details in your submissions for approval.  \n\n📚 https://github.com/Blade2021/HIVE-RefData  \n\nWanna help develop a database of helpful information for beginners starting out in the home automation field?  Help us grow the HIVE Reference Database by submitting commits/PRs to the 📚 link included.",
 		"category": [
 			"utilities"
 		],
@@ -690,27 +690,34 @@
 		"category": [
 			"switching-applications"
 		],
-		"keywords": []
+		"keywords": [
+			"test"
+		]
 	},
 	"reply": {
 		"alias": [],
 		"title": "Who Are You Respoding To?",
 		"minRank": 0,
-		"description": "If there are multiple conversations going at once, try using the reply feature in discord.  This helps everyone know who they are replying to and from.",
+		"description": "If there are multiple conversations going at once, try using the reply feature in discord.  This helps everyone know who they are replying to and from.  PLUS, if a package shows up when you reply, give it a click to show youe appreciation.",
 		"category": [
 			"general"
 		],
 		"keywords": []
 	},
 	"request": {
-		"alias": ["bug","bugs","requests"],
-		"title": "Bug Report / Feature Requests",
+		"alias": [
+			"bug",
+			"bugs",
+			"requests"],
+		"title": "🐛 Bug Report / 💡 Feature Requests",
 		"minRank": 0,
-		"description": "💡 Wanna request a new feature, or found a bug, Submit an issue on GitHub: https://github.com/Blade2021/HIVE/issues",
+		"description": "💡 Wanna request a new feature, or found a 🐛 bug, Submit an issue on GitHub: https://github.com/Blade2021/HIVE/issues",
 		"category": [
 			"general"
 		],
-		"keywords": []
+		"keywords": [
+			"HIVE"
+		]
 	},
 	"rf433": {
 		"alias": [
@@ -730,9 +737,9 @@
 	},
 	"secrets": {
 		"alias": [],
-		"title": "How Do HA Secrets Work?",
+		"title": "👁️‍🗨️ How Do HA Secrets Work?",
 		"minRank": 0,
-		"description": "Rather than putting sensitive information (passwords, locations, etc) into your configuration, you can store them in secrets to make sharing easier. See <https://home-assistant.io/docs/configuration/secrets/> for more.",
+		"description": "Rather than putting sensitive information (passwords, locations, etc) into your configuration, you can store them in secrets to make sharing easier. Secrets DO NOT work in Blueprints, however. \n👁️‍🗨️See <https://home-assistant.io/docs/configuration/secrets/> for more.",
 		"category": [
 			"home-assistant"
 		],
@@ -759,7 +766,7 @@
 			"infrastructure"
 		],
 		"keywords": []
-		},
+	},
 	"sonoffDIY": {
 		"alias": [
 			"DIYFlash"
@@ -812,12 +819,18 @@
 		]
 	},
 	"suggestHelp": {
-		"alias": [],
+		"alias": [
+			"suggestion",
+			"suggestion-box",
+			"suggestion box",
+			"suggestion_box"
+		],
 		"title": "Suggestion Poll",
 		"minRank": 0,
 		"description": "Wanna submit a suggestion in the chat?  \nUse {prefix}suggest followed by your suggestion.  \nThis will send your suggestion to our staff to review before being posted as a poll for the community to vote.",
 		"category": [
-			"information"
+			"information",
+			"suggestion"
 		],
 		"keywords": []
 	},
@@ -832,7 +845,7 @@
 			"switching-applications"
 		],
 		"keywords": []
-		},
+	},
 	"tasmota_upgrade": {
 		"alias": [
 			"tasmotaupgrade",
@@ -912,7 +925,8 @@
 	},
 	"troubleshooting": {
 		"alias": [
-			"ts"
+			"ts",
+			"trouble"
 		],
 		"title": "Troubleshooting Your HA Configuration Problems",
 		"minRank": 0,
@@ -961,16 +975,14 @@
 			"general"
 		],
 		"keywords": [
-			"code",
-			"code share",
-			"share"
+			"twitch"
 		]
 	},
 	"wiki": {
 		"alias": [],
-		"title": "HIVE BOT WIKI",
+		"title": "HIVE BOT & Sherlock BOT WIKI",
 		"minRank": 0,
-		"description": "You can find command info and other general information about HIVE on the wiki: [More information](https://github.com/Blade2021/HIVE/wiki)",
+		"description": "You can find command info and other general information about HIVE on the wiki: [More information](https://github.com/Blade2021/HIVE/wiki)  \n\nInformation about Sherloc is found here: [More Information](https://github.com/Blade2021/Sherlock/wiki)",
 		"category": [
 			"information"
 		],
@@ -1007,8 +1019,8 @@
 			"Zigbee2MQTT",
 			"ZiGate",
 			"zig-a-zag-ah!"
-		],
-		"title": "Zigbee Wireless Mesh Protocol",
+	],
+	"title": "Zigbee Wireless Mesh Protocol",
 		"minRank": 0,
 		"description": "Zigbee devices require a hub to communicate so be sure to have one ready!  \n\n🐝 [Amazon Buy ConBee II](https://www.amazon.com/dresden-elektronik-ConBee-Universal-Gateway/dp/B07PZ7ZHG5/)  \n🐝 [List of approved Zigbee2MQTT Adapters](https://www.zigbee2mqtt.io/information/supported_adapters.html)  \n🐝 [AliExpress Buy Zigbee CC2531 Sniffer Board](https://www.aliexpress.com/item/32865555473.html?spm=a2g0s.9042311.0.0.40694c4db8oCxz)  \n🐝 [ZigBee2MQTT Firmware and Installation](https://www.zigbee2mqtt.io/)  \n🐝 [Sonoff Zigbee & ZHA HA Integration](https://www.youtube.com/watch?v=xc_HGvrOxp8)  \n🐝 [Blakadder's ZigBee Page](https://zigbee.blakadder.com/)  \n🐝 [ZigBee Alliance Homepage](https://zigbeealliance.org/zigbee_products/)  \n\nOH THE ZIGBEE!\n\nZigbee is a communication protocol that has flourished in the home automation community.  Zigbee is often preferred to Wifi-based technologies due to its low power consumption and long battery life.  The downside to using zigbee is you need to have a HUB to communicate with all of your devices.  In some ways this is advantageous as it requires fewer devices connect to your wifi network.\n\nOne zigbee hub that has a high approval is the conbee 2.  It is not the cheapest option, but it is fairly easy to configure and always performs very well with devices.  Another great option is the Zigbee2MQTT hub which will relay zigbee data to your mqtt broker.  Whichever hub you select, be sure to verify that devices are supported by your hub before buying as most hubs do not support every device.\n\nIf nothing else, Zigbee is a very powerful protocol that opens the horizon to many types of sensors, switches, and other types of home automation devices.\n\n🛑**CAUTION**🛑 Zigbee operates in the 2.4 GHz Spectrum, which is shared with Wifi, Bluetooth, Microwave Ovens, and some cordless telephones.  If you have a lot of 2.4 GHz present at your location, your Zigbee devices may be unreliable.",
 		"category": [
