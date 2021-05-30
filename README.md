@@ -5,16 +5,18 @@
 Wanna help contribute to a short database of useful commands for HIVE?  Check out the example.json included with this repo.  This will give you the json object template that will be used for each definition.  Now its time to "fill in the blanks", setup your definition using the data structure below.  Then submit a PR (pull request) for review.  Please remember that all submissions **MUST** to conform to the data structure to be accepted.
 
 ## Data Structure
-#### Installation
-Try to include information on requirements, skills required, or maybe a library?
-#### Links
-The links section is an array object.  So include any links in array format ( ["link.com","link.org","link.net"] )
-#### Description
-This is the meat of the defintion.  What is the defintion?  What does it do?  How does it help?  Details are key.  (Just remember we do have a character limit so no 10 page essays please.
-#### Category
-Pick a category from below or suggest a new one.  We are trying to generalize everything for easy access so try to be generic.  The category is also an array object so you can use more then one!
 #### Alias (Optional)
 Does your definition fit more then just one reference?  No problem, just add any aliases here.
+#### Title
+The Title on the top of the reply box from Hive
+#### minRank
+Future
+#### Description
+This is the meat of the defintion.  What is the defintion?  What does it do?  How does it help?  Details are key.  (Just remember we do have a 1950 character limit so no 10 page essays please.)
+#### Category
+Pick a category from below or suggest a new one.  We are trying to generalize everything for easy access so try to be generic.  The category is also an array object so you can use more then one!
+#### keywords
+List key words that would help in a future search engine function.
 
 ## Acceptable Categories
 - infastructure
@@ -38,12 +40,29 @@ Does your definition fit more then just one reference?  No problem, just add any
 # Example Object
 ```json
 {
-  "Example": {
-    "installation": "To install this example you need to pull the repo or example.json",
-    "links": ["https://github.com/Blade2021/HIVE-RefData","https://hivedev.roots.systems"],
-    "description": "This is just an example description of what this file is used for and how to set it up for collaboration",
-    "category": ["utilities"]
+  "example_command": {
+    "alias": [
+      "example-command",
+      "Another Example"
+    ],
+		"title": "Title Goes Here 🔨 🥇 👍 🐿️ 🌰",
+		"minRank": 0,
+    "description": "This is just an example description of what this file is used for and how to set it up for collaboration.  Add your links here: \n\nhttps://github.com/Blade2021/HIVE-RefData \n[More information](https://github.com/Blade2021/HIVE/wiki) \nMore Text here if you like",
+    "category": [
+      "utilities"
+    ],
+    "keywords": [
+      "sample"
+    ]
   },
+  "example2_blank": {
+    "alias": [],
+		"title": "",
+		"minRank": 0,
+    "description": "",
+    "category": [],
+    "keywords": []
+  }
 }
 ```
 # REGEX
