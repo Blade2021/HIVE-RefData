@@ -5,15 +5,14 @@
 			"figure it out",
 			"figure-it-out"
 		],
-		"minRank": 0,
 		"title": "Advice from DrZzs",
+		"minRank": 0,
 		"description":"DIY Smart Home Advice - the Joy of Figuring Stuff Out for Yourself [YouTube Video Here](<https://www.youtube.com/watch?v=GDIGlFL-kHk>)",
 		"category": [
 			"information",
 			"general"
 		],
-		"keywords": [
-		]
+		"keywords": []
 	},
 	"avatar": {
 		"alias": [
@@ -21,7 +20,7 @@
 		],
 		"title": "Avatar",
 		"minRank": 0,
-		"description": "Here on Dr. Zzs Discord we would like everyone to have a good experience.  We strongly encourage you to pick an avatar that reflects you and not continue to use the default Clyde icon. \n🔸 First find a small picture that you like and that you want to represent you. \n🔸 Click the gear next to your name near the bottom of the page. \n🔸 Hover over the icon and click it. \n🔸 Select your new picture file here. \n🔸 Save it and pop back and it will appear!",
+		"description": "Here on DrZzs Discord we would like everyone to have a good experience.  We strongly encourage you to pick an avatar that reflects you and not continue to use the default Clyde icon. \n🔸 First find a small picture that you like and that you want to represent you. \n🔸 Click the gear next to your name near the bottom of the page. \n🔸 Hover over the icon and click it. \n🔸 Select your new picture file here. \n🔸 Save it and pop back and it will appear!",
 		"category": [
 			"information",
 			"helpdesk",
@@ -39,27 +38,23 @@
 			"upnp",
 			"https"
 		],
-		"minRank": 0,
 		"title": "Unix Backend Infrastructure",
+		"minRank": 0,
 		"description":"🕯️ 🦉 Learn about nginx, nat, duckdns, https, upnp & tons of how your server works. \nUnderstanding this will help you be able to maintain your own system. \n[Software Engineering YouTube Channel](<https://www.youtube.com/user/GISIGeometry>)",
 		"category": [
 			"server"
 		],
-		"keywords": [
-			""
-		]
+		"keywords": []
 	},
 	"backup": {
 		"alias": [],
-		"minRank": 0,
 		"title": "Home Assistant Backup",
+		"minRank": 0,
 		"description": "Be sure to regularly, automatically, back up your Home Assistant install. There are various critical files and configuration options (like the Z-Wave network key), plus all your time. Hass.io has snapshots, and for unix type installs see <https://blog.ceard.tech/2017/10/backing-up-home-assistant.html>.  Oh, and most important of all **test your ability to restore regularly**.",
 		"category": [
 			"home-assistant"
 		],
-		"keywords": [
-			""
-		]
+		"keywords": []
 	},
 	"checkconfig": {
 		"alias": [],
@@ -70,19 +65,19 @@
 			"home-assistant"
 		],
 		"keywords": [
-			"config", "check"
+			"config",
+			"check"
 		]
 	},
 	"code": {
 		"alias": ["share"],
-		"minRank": 0,
 		"title": "Formatting code in Discord",
+		"minRank": 0,
 		"description": "Paste your code in the following format Replacing `json` with your desired language:\n \\`\\`\\``json` \nCode Here\n\\`\\`\\`\n`Before:`\n{\"greeting\":\"Hello World\"}\n\n`After:` ```json\n{\"greeting\":\"Hello World\"}```[More information](https://github.com/Blade2021/HIVE/wiki/Code-Formatting-&-Validation)",
 		"category": [
 			"general"
 		],
-		"keywords": [
-		]
+		"keywords": []
 	},
 	"codeshare": {
 		"alias": [],
@@ -94,27 +89,37 @@
 		],
 		"keywords": [
 			"code",
-		    "code share"
+			"code share"
 		]
 	},
 	"config": {
 		"alias": [],
-		"minRank": 0,
 		"title": "Where's My Configuration?",
+		"minRank": 0,
 		"description": "Enable the \"Configuration\" section of the UI by adding `config:` to your configuration.yaml file, docs: <https://home-assistant.io/integrations/config/>",
 		"category": [
 			"home-assistant"
 		],
-		"keywords": [
-			""
-		]
+		"keywords": []
+	},
+	"deconz": {
+		"alias": [],
+		"title": "deCONZ - ConBee/RaspBee Zigbee gateway",
+		"minRank": 0,
+		"description": "Deconz and the Phoscon Web App can be installed in Docker, within Home Assistant as an addon, or can even be bought as part of a hardware solution preinstalled on a dedicated Raspberry Pi.  \n\n🐝 [Phoscon's ConBee Stick Page](https://phoscon.de/en/conbee/software)  \n\nDeconz, by Phoscon (the makers of the ConbeeII Zigbee USB stick) is a central hub for the integration of Zigbee devices.  The default installation includes the Deconz app as well the Phsocon web app for controlling devices from a browser.  aWhile the software can be used as a standalone app it is also available as a Home Assistant Addon.  With the ConbeeII stick and Deconz, you can take control of any Hue devices you already have or add new ones without using a Hue hub.  The software also support the Phoscon RaspBee and RaspBee II Pi hat devices.",
+		"category": [
+			"bridge",
+			"infrastructure",
+			"switching-applications"
+		],
+		"keywords": []
 	},
 	"discord_fonts": {
 		"alias": [
 			"fonts"
 		],
-		"minRank": 0,
 		"title": "Displaying Emoji's in Discord using Linux",
+		"minRank": 0,
 		"description":"If the icons next to names and reactions in Discord are showing as empty boxes or  mono color, try this.  \nInstall the font, in Debian this is the command:  \n\n```sudo apt update;sudo apt install fonts-noto-color-emoji -y```\n\n[Then follow the instructions on this page...](<https://victor.kropp.name/blog/emoji-on-linux/>)",
 		"category": [
 			"information",
@@ -138,8 +143,55 @@
 		"category": [
 			"user-base"
 		],
-		"keywords": [
-		]
+		"keywords": []
+	},
+	"esp32": {
+		"alias": [
+			"ESP-32",
+			"WROVER",
+			"WROOM",
+			"QUINLED-ESP32"
+		],
+		"title": "ESP32 from Expressif",
+		"minRank": 0,
+		"description": "It should be known that some ESP chips do not come with soldered pins, So soldering may be required.  \n\n🗃 [ExpressIF' ESP32 Homepage](https://www.espressif.com/en/products/socs/esp32/overview)  \n🗃 [ESP32 WIKI](https://en.wikipedia.org/wiki/ESP32)  \n🗃 [Buy HiLetgo ESP-WROOM-32 ESP32](https://tinyurl.com/yb664res)  \n🗃 [Buy Adafruit HUZZAH32 – ESP32 Feather Board](https://www.adafruit.com/product/3405)  \n🗃 [Buy SparkFun ESP32 Thing](https://www.sparkfun.com/products/13907)  \n🗃 [ESP32 from QuinLED](https://drzzs.com/shop/quinled-esp32/)\n\nThe ESP32 is a microcontroller with built-in 2.4GHz Wifi (802.11b/g/n) and Bluetooth (Classic and BLE) made by a company called Espressif.  It comes in several flavors, each one with its own part number, but most people refer them collectively as 'ESP32'.\n\nIt was created as a successor to the wildly popular ESP8266, and has many more pins and available on-board functions, such as Bluetooth, Capacitive Touch, Analog Pins (both ADC and DAC), PWM, I2C, I2S, SPI, and many others.  While they are more expensive than the ESP8266-based chips and boards, the ESP32 is still a good value for any projects requiring many inputs or outputs, bluetooth connectivity, or sensor integration.\n\nGenerally, we only recommend the bare chips for advanced users who are designing their own circuit boards.  If you are looking to include one in your project, there are many options for pre-built development boards that have everything you'll need for a successful integration.  Please see the links for board options.",
+		"category": [
+			"microcontroller"
+		],
+		"keywords": []
+	},
+	"esp8266": {
+		"alias": [
+			"ESP-8266",
+			"ESP8285",
+			"AI-Thinker",
+			"ESP-01",
+			"Wemos",
+			"D1",
+			"Huzzah"
+		],
+		"title": "ESP8255 from Expressif",
+		"minRank": 0,
+		"description": "It should be known that some ESP chips do not come with soldered pins, So soldering may be required.  \n\n🗃 [ESP8266 ExpressIF Homepage](https://www.espressif.com/en/products/socs/esp8266/overview)  \n🗃 [ESP8266 WIKI](https://en.wikipedia.org/wiki/ESP8266)  \n🗃 [Buy KeeYees ESP8266 NodeMCU](https://tinyurl.com/yal4c3a4)  \n🗃 [Buy TeOhk D1 Mini](https://tinyurl.com/yalstq77)  \n🗃 [Buy Adafruit Feather HUZZAH with ESP8266](https://www.adafruit.com/product/2821)  \n🗃 [Buy SparkFun ESP8266 Thing](https://www.sparkfun.com/products/13231)  \n\nThe ESP8266 is a microcontroller with built-in 2.4GHz Wifi (802.11b/g/n) made by a company called Espressif.  It comes in several flavors, each one with its own part number, but most people refer them collectively as 'ESP8266'.\n\nIt was originally designed and released as a wifi bridge to be used in conjunction with other microcontrollers and was initially released with only 8 pins exposed on a module known as an ESP-01.  It is super cheap, and when everyone realized that it was much more capable than being just a wifi bridge, people started using it in projects and products.  Espressif heard about what was being done with their chips and started releasing different modules with all of the pins exposed.\n\nThere aren't very many pins, though, and some of them are a bit... quirky to use.  But, because they're cheap, many smart home gadget companies started using them as the main chip in their products.  (Sonoff, Shelly, and Tuya being three you'll see thrown around in here.)\n\nGenerally, we only recommend the bare chips for advanced users who are designing their own circuit boards.  If you are looking to include one in your project, there are many options for pre-built development boards that have everything you'll need for a successful integration. Please see the links for board options.",
+		"category": [
+			"microcontroller"
+		],
+		"keywords": []
+	},
+	"esphome": {
+		"alias": [
+			"esp-home",
+			"esp_home"
+		],
+		"title": "ESPHome from Home Assistant",
+		"minRank": 0,
+		"description": "ESPHome may be installed in Home Assistant as a supervisor add-on, or as a standalone installation.  Standalone install instructions can be found at 🗿 https://esphome.io/guides/getting_started_command_line.html  \n\n🗿 [ESPHome's Homepage](https://esphome.io)  \n\nESPHome provides a simple way to configure code to run on your (ESP8266 or ESP32 based) wireless devices.  These devices include the Sonoff range of wifi controllable products, along with many others.  The software is configured using YAML files with a very simple syntax.  Don't let that fool you though.  The resulting software can be very powerful, and can be used to set up devices for direct integration with Home Assistant without the need for an MQTT broker as with Tasmota.",
+		"category": [
+			"microcontroller",
+			"infrastructure",
+			"switching-applications"
+		],
+		"keywords": []
 	},
 	"faq": {
 		"alias": [],
@@ -149,9 +201,7 @@
 		"category": [
 			"information"
 		],
-		"keywords": [
-			""
-		]
+		"keywords": []
 	},
 	"getting_started": {
 		"alias": [
@@ -164,9 +214,7 @@
 		"category": [
 			"home-assistant"
 		],
-		"keywords": [
-			""
-		]
+		"keywords": []
 	},
 	"git_repo": {
 		"alias": [
@@ -204,26 +252,24 @@
 	},
 	"ha_supervised": {
 		"alias": [
-		  "hainstall",
-		  "ha-install",
-		  "ha_install",
-		  "Home Assistant Supervised",
-		  "Home Assistant Generic Linux",
-		  "Home Assistant Docker Supervised",
-		  "hasupervised",
-		  "ha-supervised",
-		  "ha supervised"
+			"hainstall",
+			"ha-install",
+			"ha_install",
+			"Home Assistant Supervised",
+			"Home Assistant Generic Linux",
+			"Home Assistant Docker Supervised",
+			"hasupervised",
+			"ha-supervised",
+			"ha supervised"
 		],
 		"title": "Setting up HA Supervised",
 		"minRank": 0,
 		"description": "Home Assistant Supervised can be installed on top of Docker on any generic linux system, a Debian based system is recommended. Below you will find links to tutorials and resources. \n\n🏠 [Matheson's Install HA Supervised on Debian](https://mathesonsteplock.ca/install-home-assistant-supervised-on-debian/) \n🏠 [JuanMTech's Home Assistant on Docker and Ubuntu](https://youtu.be/ekVfLXnoM7k) \n🏠 [HA Supervised Installer](https://github.com/home-assistant/supervised-installer) \n🏠 [Install Docker Engine](https://docs.docker.com/engine/install/) \n\nHome Assistant (Supervised) is the version of Home Assistant which runs the Home Assistant Supervisor. \n\nThe supervisor is is a container that runs in Docker which allows the use of Add-ons and manages updating and other maintenance of your Home Assistant Install. \n\nWith the help of the generic Linux install script you can install Home Assistant (Supervised) on any Linux System running Docker",
 		"category": [
-		  "infrastructure",
-		  "home-assistant"
+			"infrastructure",
+			"home-assistant"
 		],
-		"keywords": [
-		  ""
-		]
+		"keywords": []
 	},
 	"helpdesk": {
 		"alias": [
@@ -238,7 +284,10 @@
 			"helpdesk"
 		],
 		"keywords": [
-			"Helpdesk", "Support", "QuinDuo", "QuinQuad"
+			"Helpdesk", 
+			"Support", 
+			"QuinDuo", 
+			"QuinQuad"
 		]
 	},
 	"input_boolean": {
@@ -251,9 +300,7 @@
 		"category": [
 			"information"
 		],
-		"keywords": [
-			""
-		]
+		"keywords": []
 	},
 	"input_number": {
 		"alias": [
@@ -267,12 +314,14 @@
 			"home-assistant"
 		],
 		"keywords": [
-			"input number", "input"
+			"input number",
+			"input"
 		]
 	},
 	"justask": {
 		"alias": [
-			"just_ask","just-ask"
+			"just_ask",
+			"just-ask"
 		],
 		"title": "Just Ask a Question",
 		"minRank": 0,
@@ -286,11 +335,14 @@
 	},
 	"led_calc_power": {
 		"alias": [
-			"LED calcpower","led power","led_power","ledcalcpower"
+			"LED calcpower",
+			"led power",
+			"led_power",
+			"ledcalcpower"
 		],
 		"title": "💫 Calculate LED Power",
 		"minRank": 0,
-		"description": "What is Power Injection? At its lowest level power injection is nothing more than adding additional power to a string of lights at a point in which the voltage drop starts to affect the lights \n\n🦟 [More details here](http://spikerlights.com/pwrinjection.aspx) \n🦟 This is a great calculator to help with judging the size of wire, power supplies, distance, votage drop, and much more: [RGB Pixel Power Calculator.](http://spikerlights.com/calcpower.aspx) \n🦟 How much power do addressable LEDs use?, Digitally Addressable LED Sheet: [Quindor has the answer here.](https://quinled.info/2020/03/12/digital-led-power-usage/)",
+		"description": "What is Power Injection? At its lowest level power injection is nothing more than adding additional power to a string of lights at a point in which the voltage drop starts to affect the lights \n\n🦟 [More details here](http://spikerlights.com/pwrinjection.aspx) \n\n🦟 This is a great calculator to help with judging the size of wire, power supplies, distance, votage drop, and much more: [RGB Pixel Power Calculator.](http://spikerlights.com/calcpower.aspx) \n\n🦟 How much power do addressable LEDs use?, Digitally Addressable LED Sheet: [Quindor has the answer here.](https://quinled.info/2020/03/12/digital-led-power-usage/)",
 		"category": [
 			"led"
 		],
@@ -300,11 +352,12 @@
 	},
 	"led_controller": {
 		"alias": [
-			"LED controller","led-controller"
+			"LED controller",
+			"led-controller"
 		],
 		"title": "💫 LED Controllers",
 		"minRank": 0,
-		"description": "🎮 [USA-Dig-Uno](https://drzzs.com/shop/dig-uno-diy-rgb-led-controller-w-wled-preassembled/) \n\n🎮 [USA-Dig-Quad](https://drzzs.com/shop/digquad/) \n\n🎮 [kulplights controllers](https://kulplights.com/) \n\n🎮 [Falcon Pixel controller](https://www.pixelcontroller.com/store/index.php) \n\n🎮 [Pixel2Things- Ac to pixel controller](https://www.pixel2things.com/)",
+		"description": "🎮 [USA-Dig-Uno](https://drzzs.com/shop/dig-uno-diy-rgb-led-controller-w-wled-preassembled/) \n🎮 [USA-Dig-Quad](https://drzzs.com/shop/digquad/) \n🎮 [kulplights controllers](https://kulplights.com/) \n🎮 [Falcon Pixel controller](https://www.pixelcontroller.com/store/index.php) \n🎮 [Pixel2Things- Ac to pixel controller](https://www.pixel2things.com/)",
 		"category": [
 			"led"
 		],
@@ -314,7 +367,9 @@
 	},
 	"led_espdriver": {
 		"alias": [
-			"LED espdriver", "led esp driver","led-espdriver"
+			"LED espdriver", 
+			"led esp driver",
+			"led-espdriver"
 		],
 		"title": "💫 LED ESP Drivers",
 		"minRank": 0,
@@ -332,7 +387,7 @@
 		],
 		"title": "💫 LED Falcon Controllers",
 		"minRank": 0,
-		"description": "🦅 [pixelcontroller.com](https://www.pixelcontroller.com/store/index.php) -Home of the Falcon controllers that can drive 1024 lights per port can drive many different types of pixels ie.WS,TM,SM,INK,TL,CY,LPD,D705,ETC. \n\n🦅 [Falcon controller support page](https://www.pixelcontroller.com/store/index.php?id_cms_category=5&controller=cms) *you will run these from fpp or your computer through xSchedule* *new firmware might change this*. \n\n🦅 F16V3- 16 port Pixel Controller- 1024 pixels per output pixel controller [link](https://www.pixelcontroller.com/store/index.php?id_product=48&controller=product) \n\n🦅 F48 Differential Controller- Can drive up to 16384 pixels. 48 Differential Outputs no local ports-Can connect up to 12 Falcon Differential Receivers. [Link](https://www.pixelcontroller.com/store/index.php?id_product=52&controller=product) \n\n🦅 Falcon PiCap for a pi3 or pi4 Can control two strings 800+ WS2811 pixels with fused and buffered outputs. Dedicated RS-485 DMX Output (Renard, DMX, LOR selectable). Input voltage 5, or 12V selectable. [Link](https://www.pixelcontroller.com/store/index.php?id_product=47&controller=product) \n\n🦅 FPP releases can be found here newest is at top.[Github](https://github.com/FalconChristmas/fpp/releases) \n\n🦅 FPP Installing and Configuring Your Controller Step by Step - Rick Harris [YouTube](https://www.youtube.com/watch?v=ZV4o11XiaU0) \n\n🦅 VCS 2020 Falcon Controllers - Scott Hanson- [YouTube](https://www.youtube.com/watch?v=J9KDQvYBoe0)",
+		"description": "🦅 [pixelcontroller.com](https://www.pixelcontroller.com/store/index.php) -Home of the Falcon controllers that can drive 1024 lights per port can drive many different types of pixels ie.WS,TM,SM,INK,TL,CY,LPD,D705,ETC. \n🦅 [Falcon controller support page](https://www.pixelcontroller.com/store/index.php?id_cms_category=5&controller=cms) *you will run these from fpp or your computer through xSchedule* *new firmware might change this*. \n🦅 F16V3- 16 port Pixel Controller- 1024 pixels per output pixel controller [link](https://www.pixelcontroller.com/store/index.php?id_product=48&controller=product) \n🦅 F48 Differential Controller- Can drive up to 16384 pixels. 48 Differential Outputs no local ports-Can connect up to 12 Falcon Differential Receivers. [Link](https://www.pixelcontroller.com/store/index.php?id_product=52&controller=product) \n🦅 Falcon PiCap for a pi3 or pi4 Can control two strings 800+ WS2811 pixels with fused and buffered outputs. Dedicated RS-485 DMX Output (Renard, DMX, LOR selectable). Input voltage 5, or 12V selectable. [Link](https://www.pixelcontroller.com/store/index.php?id_product=47&controller=product) \n🦅 FPP releases can be found here newest is at top.[Github](https://github.com/FalconChristmas/fpp/releases) \n🦅 FPP Installing and Configuring Your Controller Step by Step - Rick Harris [YouTube](https://www.youtube.com/watch?v=ZV4o11XiaU0) \n🦅 VCS 2020 Falcon Controllers - Scott Hanson- [YouTube](https://www.youtube.com/watch?v=J9KDQvYBoe0)",
 		"category": [
 			"led"
 		],
@@ -342,11 +397,13 @@
 	},
 	"led_fpp": {
 		"alias": [
-			"LED fpp","ledfpp","led-fpp"
+			"LED fpp",
+			"ledfpp",
+			"led-fpp"
 		],
 		"title": "💫 LED FPP",
 		"minRank": 0,
-		"description": "✈️ FPP Manual can be found [here](https://falconchristmas.github.io/FPP_Manual.pdf) \n\n✈️ FPP releases can be found [here](https://github.com/FalconChristmas/fpp/releases) \n\n✈️ The Falcon [Christmas Forum](http://falconchristmas.com/forum/) - support for fpp, kulp and falcon \n\n✈️ FPP Installing and Configuring Your Controller Step by Step - Rick Harris [YouTube](https://www.youtube.com/watch?v=ZV4o11XiaU0) \n\n✈️ FPP In Detail Master / Remote / Schedule / Playlist - Rick Harris - [YouTube](https://www.youtube.com/watch?v=y27EarxYW6Y) \n\n✈️ FPP Plugins & Scripts - Daniel Kulp [YouTube](https://www.youtube.com/watch?v=pE4I5igbAuE&t=2s)",
+		"description": "✈️ FPP Manual can be found [here](https://falconchristmas.github.io/FPP_Manual.pdf) \n✈️ FPP releases can be found [here](https://github.com/FalconChristmas/fpp/releases) \n✈️ The Falcon [Christmas Forum](http://falconchristmas.com/forum/) - support for fpp, kulp and falcon \n\n✈️ FPP Installing and Configuring Your Controller Step by Step - Rick Harris [YouTube](https://www.youtube.com/watch?v=ZV4o11XiaU0) \n✈️ FPP In Detail Master / Remote / Schedule / Playlist - Rick Harris - [YouTube](https://www.youtube.com/watch?v=y27EarxYW6Y) \n✈️ FPP Plugins & Scripts - Daniel Kulp [YouTube](https://www.youtube.com/watch?v=pE4I5igbAuE&t=2s)",
 		"category": [
 			"led"
 		],
@@ -356,11 +413,12 @@
 	},
 	"led_hardware": {
 		"alias": [
-			"led hardware","led-hardware"
+			"led hardware",
+			"led-hardware"
 		],
 		"title": "💫 LED Hardware",
 		"minRank": 0,
-		"description": "🔩 [RGBMan](https://www.rgb-man.com/) \n\n🔩 [wallyslights](https://www.wallyslights.com/) \n\n🔩 [wiredwatts](https://www.wiredwatts.com/) \n\n🔩 [Ray wu's store](https://www.aliexpress.com/store/701799?spm=a2g0s.9042311.0.0.40694c4db8oCxz) \n\n🔩 [PIXELHEADS](https://shop.pixelheads.info/) \n\n🔩 [Paul Zhang Direct-US](https://www.amazon.com/s?i=merchant-items&me=A1HD6W29M3RXPC&tag=drzzs0e-20) \n\n🔩 [Hanson Electronics](http://www.hansonelectronics.com.au/) \n\n🔩 [jboards](https://jboards.ecwid.com/) \n\n🔩 [mattosdesigns](https://mattosdesigns.com/)",
+		"description": "🔩 [RGBMan](https://www.rgb-man.com/) \n🔩 [wallyslights](https://www.wallyslights.com/) \n🔩 [wiredwatts](https://www.wiredwatts.com/) \n🔩 [Ray wu's store](https://www.aliexpress.com/store/701799?spm=a2g0s.9042311.0.0.40694c4db8oCxz) \n🔩 [PIXELHEADS](https://shop.pixelheads.info/) \n🔩 [Paul Zhang Direct-US](https://www.amazon.com/s?i=merchant-items&me=A1HD6W29M3RXPC&tag=drzzs0e-20) \n🔩 [Hanson Electronics](http://www.hansonelectronics.com.au/) \n🔩 [jboards](https://jboards.ecwid.com/) \n🔩 [mattosdesigns](https://mattosdesigns.com/)",
 		"category": [
 			"led"
 		],
@@ -370,11 +428,12 @@
 	},
 	"led_inject": {
 		"alias": [
-			"LED inject","led-inject"
+			"LED inject",
+			"led-inject"
 		],
 		"title": "💫 LED Inject Help",
 		"minRank": 0,
-		"description": "💉 Solutions for Power Injection & Data Signal Boosting Permanent Christmas Lights by: [DrZzs YouTube](https://www.youtube.com/watch?v=wSGfkL1AGKs) \n\n💉 Power Distro Power Injection by: [Bill Porter YouTube](https://youtu.be/eR3QbzjpZy8) \n\n💉 Ever Wonder Why Your Pixels Flicker and How to Fix It by: [Keith Wesley YouTube](https://www.youtube.com/watch?v=9ttEAyiyTAI) \n\n💉 This is a great calculator to help with judging the size of wire, power supplies, distance, votage drop and much more [RGB Pixel Power Calculator](http://spikerlights.com/calcpower.aspx) \n\n💉 QuinLED: Combating LED voltage drop | LED Power Injection from: [Quindor YouTube](https://www.youtube.com/watch?v=EcjPR0UlU7U&t=673s)",
+		"description": "💉 Solutions for Power Injection & Data Signal Boosting Permanent Christmas Lights by: [DrZzs YouTube](https://www.youtube.com/watch?v=wSGfkL1AGKs) \n💉 Power Distro Power Injection by: [Bill Porter YouTube](https://youtu.be/eR3QbzjpZy8) \n💉 Ever Wonder Why Your Pixels Flicker and How to Fix It by: [Keith Wesley YouTube](https://www.youtube.com/watch?v=9ttEAyiyTAI) \n💉 This is a great calculator to help with judging the size of wire, power supplies, distance, votage drop and much more [RGB Pixel Power Calculator](http://spikerlights.com/calcpower.aspx) \n💉 QuinLED: Combating LED voltage drop | LED Power Injection from: [Quindor YouTube](https://www.youtube.com/watch?v=EcjPR0UlU7U&t=673s)",
 		"category": [
 			"led"
 		],
@@ -384,11 +443,12 @@
 	},
 	"led_kulp": {
 		"alias": [
-			"LED kulp","ledkulp","led-kulp"
+			"LED kulp","ledkulp",
+			"led-kulp"
 		],
 		"title": "💫 LED Kulp Controllers",
 		"minRank": 0,
-		"description": "🌈 kulplights.com -Home of FPP based pixel controllers that can each drive 800 Pixels at 40FPS 1500 Pixels at 20fps per port ws281x ONLY [Link](https://kulplights.com/) \n\n🌈 FPP releases can be found [here](https://github.com/FalconChristmas/fpp/releases) newest is at top \n\n🌈 Kulp k16- A 16 port controller that runs FPP Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE,fm-transmitter* [Link](https://kulplights.com/product/k16a-b/) \n\n🌈 Kulp 32 port controller Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE,fm-transmitter* [Link](https://kulplights.com/product/k32a-b/) \n\n🌈 Kulp k8-8 port controller Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE*[Link](https://kulplights.com/product/k8-b/) \n\n🌈 IF RUNNING WIFI YOU WILL NEED THIS ADAPTER. [Link](https://kulplights.com/product/1200mbs-antenna-wifi/) \n\n🌈 You might also need this usb hub. [Link](https://kulplights.com/product/usb-gigabit-ethernet-adapter/) \n\n🌈 The 4-String Differential Smart Receiver Board can be connected to many different controller options allowing 4 strings to be placed up to 300+ feet from the controllers . Input voltage 5, or 12V . The Smart Receiver can be daisy-chained together up to three.[Link](https://kulplights.com/product/smart-receiver/) \n\n🌈 Kulp's user manual *listed as f8-b but works for all boards*. [Link](https://kulplights.com/manuals/F8-B-Manual.pdf) \n\n🌈 FPP Installing and Configuring Your Controller Step by Step - [Rick Harris YouTube](https://www.youtube.com/watch?v=ZV4o11XiaU0) \n\n🌈 VCS 2020 Kulp Boards - [Daniel Kulp YouTube](https://www.youtube.com/watch?v=sceGQMZ0dHw&t=2720s) \n\n🌈 FPP Plugins & Scripts - [Daniel Kulp YouTube](https://www.youtube.com/watch?v=pE4I5igbAuE&t=2s)",
+		"description": "🌈 kulplights.com -Home of FPP based pixel controllers that can each drive 800 Pixels at 40FPS 1500 Pixels at 20fps per port ws281x ONLY [Link](https://kulplights.com/) \n🌈 FPP releases can be found [here](https://github.com/FalconChristmas/fpp/releases) newest is at top \n🌈 Kulp k16- A 16 port controller that runs FPP Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE,fm-transmitter* [Link](https://kulplights.com/product/k16a-b/) \n🌈 Kulp 32 port controller Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE,fm-transmitter* [Link](https://kulplights.com/product/k32a-b/) \n🌈 Kulp k8-8 port controller Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE*[Link](https://kulplights.com/product/k8-b/) \n🌈 IF RUNNING WIFI YOU WILL NEED THIS ADAPTER. [Link](https://kulplights.com/product/1200mbs-antenna-wifi/) \n🌈 You might also need this usb hub. [Link](https://kulplights.com/product/usb-gigabit-ethernet-adapter/) \n🌈 The 4-String Differential Smart Receiver Board can be connected to many different controller options allowing 4 strings to be placed up to 300+ feet from the controllers . Input voltage 5, or 12V . The Smart Receiver can be daisy-chained together up to three.[Link](https://kulplights.com/product/smart-receiver/) \n🌈 Kulp's user manual *listed as f8-b but works for all boards*. [Link](https://kulplights.com/manuals/F8-B-Manual.pdf) \n🌈 FPP Installing and Configuring Your Controller Step by Step - [Rick Harris YouTube](https://www.youtube.com/watch?v=ZV4o11XiaU0) \n🌈 VCS 2020 Kulp Boards - [Daniel Kulp YouTube](https://www.youtube.com/watch?v=sceGQMZ0dHw&t=2720s) \n🌈 FPP Plugins & Scripts - [Daniel Kulp YouTube](https://www.youtube.com/watch?v=pE4I5igbAuE&t=2s)",
 		"category": [
 			"led"
 		],
@@ -400,9 +460,9 @@
 		"alias": [
 			"LED prints","3d prints","3d_print","ledprints","led-prints"
 		],
-		"minRank": 0,
 		"title": "💫 PIXELHEADS 3D Print Collection 🚀 ",
-		"description": "[🏗 Pixelheads Collection ](https://shop.pixelheads.info/pixelheads-3d-print-collection/) \n\n[🏗 Viperts Creations 3d Models](https://cults3d.com/en/users/Viperts/creations) ",
+		"minRank": 0,
+		"description": "[🏗 Pixelheads Collection ](https://shop.pixelheads.info/pixelheads-3d-print-collection/) \n[🏗 Viperts Creations 3d Models](https://cults3d.com/en/users/Viperts/creations) ",
 		"category": [
 			"led"
 		],
@@ -416,7 +476,7 @@
 		],
 		"title": "💫 LED Props",
 		"minRank": 0,
-		"description": "🌉 [BoscoyoStudio](https://boscoyostudio.com/) - Outdoor lightning display props for Residential and Commercial displays \n\n🌉 [Gilbert Engineering USA](https://gilbertengineeringusa.com/) - Coro props, Pixel props, holiday coro, magical, holiday decor, holiday lighting, outdoor lighting, xlights, light o rama, Coro, Christmas Props, Animated Lighting \n\n🌉 [CustomChristmasCreationsCCC](https://customchristmascreationsccc.com/) - Unique Coro Christmas, Halloween, Random Props \n\n🌉 [Northern Lights Decor](https://www.nl-decor.com/) - PVC Props for a range of lights \n\n🌉 [EFL Designs](https://www.facebook.com/EFLDesigns) - Custom Coro Cutter -> find him on Facebook or Xlights zoom-room ",
+		"description": "🌉 [BoscoyoStudio](https://boscoyostudio.com/) - Outdoor lightning display props for Residential and Commercial displays \n🌉 [Gilbert Engineering USA](https://gilbertengineeringusa.com/) - Coro props, Pixel props, holiday coro, magical, holiday decor, holiday lighting, outdoor lighting, xlights, light o rama, Coro, Christmas Props, Animated Lighting \n🌉 [CustomChristmasCreationsCCC](https://customchristmascreationsccc.com/) - Unique Coro Christmas, Halloween, Random Props \n🌉 [Northern Lights Decor](https://www.nl-decor.com/) - PVC Props for a range of lights \n🌉 [EFL Designs](https://www.efl-designs.com/) - Custom Coro Cutter ",
 		"category": [
 			"led"
 		],
@@ -430,7 +490,7 @@
 		],
 		"title": "💫 LED Display Sequences",
 		"minRank": 0,
-		"description": "☄️ [Xlights Free Sequences (Google Drive)](https://drive.google.com/drive/folders/0B2ozCEidtWh3MUVzX0ZMc1pzY00?fref=gc&dti=628061113896314) \n\n☄️ [Pixel Pro Displays](https://www.pixelprodisplays.com/) \n\n☄️ [Xtreme Sequences](https://www.xtremesequences.com/) \n\n☄️ [ShowStopperSequences](https://showstoppersequences-com.3dcartstores.com/) \n\n☄️ [Magical Light Shows](https://magicallightshows.com/) \n\n☄️ [Animated Lumination Sequences](http://animatedillumination.com/) \n\n☄️ [SyracuseLights](https://www.syracuselights.org/sequences) \n\n☄️ [VCS 2020 xLights: Basic Sequencing Michael Stoffregen - VIDEO](https://www.youtube.com/watch?v=EvK7AUJ1Nrk)",
+		"description": "☄️ [Xlights Free Sequences (Google Drive)](https://drive.google.com/drive/folders/0B2ozCEidtWh3MUVzX0ZMc1pzY00?fref=gc&dti=628061113896314) \n☄️ [Pixel Pro Displays](https://www.pixelprodisplays.com/) \n☄️ [Xtreme Sequences](https://www.xtremesequences.com/) \n☄️ [ShowStopperSequences](https://showstoppersequences-com.3dcartstores.com/) \n☄️ [Magical Light Shows](https://magicallightshows.com/) \n☄️ [Animated Lumination Sequences](http://animatedillumination.com/) \n☄️ [SyracuseLights](https://www.syracuselights.org/sequences) \n☄️ [VCS 2020 xLights: Basic Sequencing Michael Stoffregen - VIDEO](https://www.youtube.com/watch?v=EvK7AUJ1Nrk)",
 		"category": [
 			"led"
 		],
@@ -459,33 +519,44 @@
 			"duckdns",
 			"lets-encrypt"
 		],
-		"minRank": 0,
 		"title": "Let's Encrypt SSL Certificates",
+		"minRank": 0,
 		"description":"💯 The best *How-to* for setting up Encryption and Home Assistant: \n[Juan M. Tech Video](<https://youtu.be/XdiGdC7K4sI>)",
 		"category": [
 			"integrations"
 		],
-		"keywords": [
-			""
-		]
+		"keywords": []
 	},
 	"mariaDB": {
 		"alias": [
-		  "No State History",
-		  "SQLite",
-		  "DB Corrupt",
-		  "Recorder"
+			"No State History",
+			"SQLite",
+			"DB Corrupt",
+			"Recorder"
 		],
 		"title": "Help with your Home Assistant Database Issues",
 		"minRank": 0,
 		"description": "Home Assistant comes with a built-in version of SQLite database.  If you suspect a database problem, the home-assistant_v2.DB file in your config folder can be deleted or renamed to disable it.  HA will rebuild it immediately.  I would wait 10 minutes after deleting (or renaming the file before you restart HA to give the file a chance to rebuild. \n\n📖 [Official HA Docs on Recorder](https://www.home-assistant.io/integrations/recorder/) \n📖 [MariaDB Supervised Addon](https://github.com/home-assistant/hassio-addons/tree/master/mariadb) \n📖 [WhatAreWeFixing.Today's YT Video](https://whatarewefixing.today/240/) \n📖 [Official HA Docs on Database](https://www.home-assistant.io/docs/backend/database/) \n📖 [Reddit thread about non-default Databases](https://www.reddit.com/r/homeassistant/comments/9z0tof/) \n📖 [BurnsHA's YT Video](https://youtu.be/4rsxnN8gkHk) \n\nThe default database that is used to store all recorded data in Home Assistant is SQLite.  As you get into a few dozen devices and hundreds of sensor data points, SQLite causes the occasional database corruption. If your Database file is over 1GB, if you are getting Recorder failures in the log, if sensor data randomly stops displaying in your user interface, it is probably time to purge the database. If this continues to happen to you, it may be time to replace the database with something else.\n\n  The easiest way to replace the database is to use the Official Add-on MariaDB.  This is a mysql based program that can handle larger amounts of data better than the default.  \n\nIf you are not running the supervised version of HA, there is a video for you in the links as well.  Also other database solutions will work with Home Assistant, see the link for the recorder integration for more details.",
 		"category": [
-		  "applications",
-		  "infrastructure"
+			"applications",
+			"infrastructure"
 		],
-		"keywords": [
-		  ""
-		]
+		"keywords": []
+	},
+	"mqtt": {
+		"alias": [
+			"Mosquitto",
+			"Paho"
+		],
+		"title": "MQTT: The Standard for IoT Messaging",
+		"minRank": 0,
+		"description": "To install MQTT with Home Assistant, Check out this link:  🚧 https://www.home-assistant.io/integrations/mqtt/  \n\n🚧 [MQTT Homepage](http://mqtt.org/)  \n🚧 [MQTT WIKI](https://en.wikipedia.org/wiki/MQTT)  \n🚧 [HA Official MQTT Docs](https://www.home-assistant.io/integrations/mqtt/)  \n🚧 [MQTT-Explorer Homepage](http://mqtt-explorer.com/)  \n🚧 [The Hook Up's MQTT Video](https://tinyurl.com/thehookupmqtt)  \n\n🇲 🇶 🇹 🇹, or Message Queuing Telemetry Transport, is a light-weight protocol used in many situations where small message size and/or low bandwidth usage are important.  It was developed by IBM in 1999, and was initially used to monitor oil pipeline sensors and communicate with satellites. It became very popular, and is used extensively in SCADA control systems and smarthome products.\n\nMQTT utilizes a central service called a Broker that can be installed on just about any computer or server.  Clients connect to the Broker to monitor and update various Topics.  Subscriber Clients connect to the Broker and monitor a Topic; Publisher Clients connect to the Broker and update a Topic's value.  A Client can fill either role or both.\n\nHome Assistant and other home automation packages fill both roles, as do most Wifi connected smart plugs and devices.\n\nThere are libraries available in many programming languages (e.g. Arduino and Python) which can be used in custom sensor applications.\n\nWhen troubleshooting MQTT issues, it is useful to use a utility such as MQTT Explorer.",
+		"category": [
+			"infrastructure",
+			"applications",
+			"utilities"
+		],
+		"keywords": []
 	},
 	"mqtt_explorer": {
 		"alias": [
@@ -493,8 +564,8 @@
 			"MQTT Explorer",
 			"MQTT-Explorer"
 		],
-		"minRank": 0,
 		"title": "MQTT Explorer",
+		"minRank": 0,
 		"description":"Troubleshooting 🇲 🇶 🇹 🇹?  Retains hanging you up?  \nCan't figure out the topic.  Is this thing *WORKING* ❔❓ ❔  \nThis tool will help you be successful!  \n\n  [Click here, and don't let the smile scare you.](http://mqtt-explorer.com/)",
 		"category": [
 			"integrations"
@@ -505,16 +576,58 @@
 			"topic"
 		]
 	},
+	"neoPixel": {
+		"alias": [
+			"ws2811",
+			"ws2812b",
+			"ws2813",
+			"ws2815",
+			"sk9822",
+			"sk9812",
+			"apa106"
+		],
+		"title": "NEOPixels 🚦 LED Lights etal...",
+		"minRank": 0,
+		"description": "DrZzs has a lot of great videos!  Check out this one to get started: 🚦 https://youtu.be/tXvtxwK3jRk  \n\nAlso in DrZzs Discord check out the #led-lighting-diy-🚥-🚥 channel and page the @PixelHeads for one on one help.  \n\n🚦 [Beginner's Guide to Christmas Lights](https://youtu.be/tXvtxwK3jRk)  \n🚦 [The Hook Up's video on LED Strips](https://youtu.be/QnvircC22hU)  \n🚦 [`#led-lighting-diy-🚥-🚥` Discord Channel](https://discord.gg/8gvF67h)  \n\nIndividually Addressable LEDs come in many varieties; you may find them referred to as NeoPixels, or by their part numbers, which include WS2811, WS2812b, WS2813, WS2815, SK9822, SK9812, or APA106.  You will need a microcontroller of some kind to run them; the most popular in the home automation space are the ESP8266 and ESP32 Boards.  Depending upon the length of your installation, you may also need to procure a high-amperage power supply and additional wire for power injection.\n\nSee also {prefix}WLED",
+		"category": [
+			"microcontroller"
+		],
+		"keywords": []
+	},
+	"node_red": {
+		"alias": [
+			"node red",
+			"nodered",
+			"node-red",
+			"nr"
+		],
+		"title": "Node-RED 🔴 Low-code programming for event-driven apps",
+		"minRank": 0,
+		"description": "To learn how to install node-red check out this link: \n🔴 https://nodered.org/docs/getting-started/local  \n\n🔴 [The Hook Up's Node Red Series](https://bit.ly/2XkGZMi)  \n🔴 [Steve’s Node-Red Guide](http://www.steves-internet-guide.com/node-red-overview/)  \n🔴 [Understanding and Using The Node-Red Message Object](http://www.steves-internet-guide.com/node-red-message-object/)  \n\nNode-Red is a fantastic flow based visual tool for creating and linking automations and devices.  Node-Red works very well with Home-Assistant to provide a nice easy infrastructure for your wildest dreams.",
+		"category": [
+			"infrastructure"
+		],
+		"keywords": []
+	},
+	"nodeMCU": {
+		"alias": [],
+		"title": "NodeMcu 🧩 Connect Things EASY",
+		"minRank": 0,
+		"description": "It should be known that some ESP chips do not come with soldered pins, So soldering may be required.  \n\n🧩 [NodeMCU WIKI](https://en.wikipedia.org/wiki/NodeMCU)  \n🧩 [Amazon Buy KeeYees NodeMCU](https://tinyurl.com/yal4c3a4)  \n\nNodeMCU is a popular development board that has an ESP8266 Module on it.  It has a USB port for both power and Serial-to-USB connectivity, as well as duplicate power pins.  It's convenient for adding multiple accessories to because you don't need to deal with splicing the power pins.  Product link is available in the links list.\n\nSee also: {prefix}ESP8266",
+		"category": [
+			"microcontroller"
+		],
+		"keywords": []
+	},
 	"package": {
 		"alias": [],
-		"minRank": 0,
 		"title": "PACKAGE!",
+		"minRank": 0,
 		"description":"\uD83D\uDCE6\uD83D\uDCE6\uD83D\uDCE6 Did someone recently help you?  If you Thank them using a reply or mention them HIVE will put a package emoji on the message.  If YOU click this reaction.  It will send them positive karma, increasing their \"helpfullness\" rating.  So be a good sport.  CLICK THE PACKAGE! \uD83D\uDCE6",
 		"category": [
 			"general"
 		],
-		"keywords": [
-		]
+		"keywords": []
 	},
 	"points": {
 		"alias": [],
@@ -524,76 +637,169 @@
 		"category": [
 			"user-base"
 		],
+		"keywords": []
+	},
+	"power_over_ethernet": {
+		"alias": [
+			"POE",
+			"POE+",
+			"POE++",
+			"4PPOE",
+			"802.3af",
+			"802.3at",
+			"802.3bt",
+			"power Over Ethernet"
+		],
+		"title": "PoE - Pass Electric Power over Ethernet",
+		"minRank": 0,
+		"description": "Power Over Ethernet requires a POE capable device (Wifi Hotspot or Camera), as well as a power supply such as a POE Switch or a POE Power injector.  \n\n🗲 [Reference: PoE WIKI](https://en.wikipedia.org/wiki/Power_over_Ethernet)  \n\nPower Over Ethernet is a way to supply power to devices over the network cable from a central point.  It enables us to use electronics where there are no electrical outlets nearby and increases ease of management by having power supplies centrally located for devices in hard-to-reach locations.  \n\nPOE comes in three standard flavors:  \n\n1) POE (802.3af) Delivers 15W @ 48V \n2)POE+ (802.3at) Delivers 30W @ 48V\n3)POE++ or 4PPoE (802.3bt) Delivers 60W-100W @ 48V (Depending upon type of 802.3bt used)  \n\nBe certain to review the power requirements of any POE Device prior to purchase to ensure that you're getting everything you need.  \n\nPOE will work with CAT5e, CAT6, and CAT7. As for non-POE installations, care should be taken to not kink or bed the cable too sharply as it will create problems.  \n\nDevices do not need to have ethernet ports!  There are POE Converters that can go from 48V DC to 5V DC or 12V DC, and can be plugged into ESP Wifi chips, or Single Board Computers. ",
+		"category": [
+		"infrastructure"
+		],
+		"keywords": []
+	},
+	"pull_request": {
+		"alias": [
+			"pr",
+			"pullrequest",
+			"pull-request"
+		],
+		"title": "Pull Request 🐝 How to contribute in GitHub",
+		"minRank": 0,
+		"description": "No installation required.  \n\n🐝 [HIVE Reference Data Github](https://github.com/Blade2021/HIVE-RefData)  \n🐝 [Creating a Simple Github Pull Request](https://youtu.be/rgbCcBNZcdQ)  \n🐝 [What is Git and Github?](https://youtu.be/uUuTYDg9XoI  \n\nA pull request is a part of GIT workflow.  Developers collaborate on pieces of a project then when ready to update the master file, they submit pull requests to allow other developers in most cases, to review, adjust, and then commit the changes to the master file.  This allows multiple developers to work simultaneously on the same project without conflict in most cases.\n\nWith the HIVE-References project, we are accepting submissions from anyone and everyone.  Be sure to check out repo in the links section.",
+		"category": [
+			"infrastructure"
+		],
+		"keywords": []
+	},
+	"reference": {
+		"alias": [],
+		"title": "📚 Hive References 🐝",
+		"minRank": 0,
+		"description": "Please try to include details in your submissions for approval.  \n\n📚 https://github.com/Blade2021/HIVE-RefData  \n\nWanna help develop a database of helpful information for beginners starting out in the home automation field?  Help us grow the HIVE Reference Database by submitting commits/PRs to the 📚 link included.",
+		"category": [
+			"utilities"
+		],
+		"keywords": []
+	},
+	"refTest": {
+		"alias": [],
+		"title": "Testing",
+		"minRank": 0,
+		"description": "How does one install it?  A how to, a link to a article.  A simple description of what 'IT' is\n\nTesting the {prefix} function.  \n\n❓ [Mystery Test Link....](https://www.youtube.com/channel/UC7G4tLa4Kt6A9e3hJ-HO8ng)",
+		"category": [
+			"switching-applications"
+		],
 		"keywords": [
-			""
+			"test"
 		]
 	},
 	"reply": {
 		"alias": [],
 		"title": "Who Are You Respoding To?",
 		"minRank": 0,
-		"description": "If there are multiple conversations going at once, try using the reply feature in discord.  This helps everyone know who they are replying to and from.",
+		"description": "If there are multiple conversations going at once, try using the reply feature in discord.  This helps everyone know who they are replying to and from.  PLUS, if a package shows up when you reply, give it a click to show youe appreciation.",
 		"category": [
 			"general"
 		],
-		"keywords": [
-		]
+		"keywords": []
 	},
 	"request": {
-		"alias": ["bug","bugs","requests"],
+		"alias": [
+			"bug",
+			"bugs",
+			"requests"],
+		"title": "🐛 Bug Report / 💡 Feature Requests",
 		"minRank": 0,
-		"title": "Bug Report / Feature Requests",
-		"description": "💡 Wanna request a new feature, or found a bug, Submit an issue on GitHub: https://github.com/Blade2021/HIVE/issues",
+		"description": "💡 Wanna request a new feature, or found a 🐛 bug, Submit an issue on GitHub: https://github.com/Blade2021/HIVE/issues",
 		"category": [
 			"general"
 		],
 		"keywords": [
+			"HIVE"
 		]
 	},
 	"rf433": {
 		"alias": [
-		  "RF315",
-		  "Bond",
-		  "RFBridge",
-		  "Slampher"
+			"RF315",
+			"Bond",
+			"RFBridge",
+			"Slampher"
 		],
 		"title": "Help with RF433 / RF315 Devices",
 		"minRank": 0,
 		"description": "There is a lot of information on this subject.  Check out the links section and the Community can lead your journey here. \n\n📶 [How RF433 Works](https://bit.ly/DrZzsHow433Works) \n📶 [Flashing the RFBridge](https://bit.ly/DrZzsFlashRFBridgeTasmota) \n📶 [DrZzs Video](https://youtu.be/OfSbIFIJPuc) \n📶 [Digiblur Video](https://youtu.be/w_CchtI-oK0) \n📶 [WhatAreWeFixing.Today Video](https://whatarewefixing.today/?p=134) \n📶 [Multiple sensor setup](https://bit.ly/DrZzsRFBridgeMultiSensorSetup) \n\nThe 433 mhz RF (radio frequency) band and the 315 mhz RF band, depending on the country you live in, is designated for the same purpose. Low power RF transmitters are allowed to broadcast within these frequency ranges. These small transmitters are usually binary type sensors because only a small message is able to be transmitted during an event. Door/Window sensors, PIR sensors, push button transmitters, remote controls and the like are the typical devices using these frequencies. There needs to be a receiver nearby to pick up these signals and act on the message received.\n\nDevices such as the [Itead RFBridge](http://drzzs.com/RF_Bridge) and the [Bond Bridge](https://bit.ly/DrZzsBondBridge) act as reciever hubs to collect data from these sensors and feed the data back to a program such as Home Assistant for further action.  With some devices like the [Itead Sonoff Slampher](https://bit.ly/DrZzsSlampher), the device can ‘pair’ with a matching RF transmitter bought separately and act on the information provided. Devices are not tied to a common standard (like Zwave) which 1, keeps the price very low, but 2, causes incompatibility between manufacturers.",
 		"category": [
-		  "microcontroller",
-		  "infrastructure"
+			"microcontroller",
+			"infrastructure"
 		],
-		"keywords": [
-		  ""
-		]
+		"keywords": []
 	},
 	"secrets": {
 		"alias": [],
-		"title": "How Do HA Secrets Work?",
+		"title": "👁️‍🗨️ How Do HA Secrets Work?",
 		"minRank": 0,
-		"description": "Rather than putting sensitive information (passwords, locations, etc) into your configuration, you can store them in secrets to make sharing easier. See <https://home-assistant.io/docs/configuration/secrets/> for more.",
+		"description": "Rather than putting sensitive information (passwords, locations, etc) into your configuration, you can store them in secrets to make sharing easier. Secrets DO NOT work in Blueprints, however. \n👁️‍🗨️See <https://home-assistant.io/docs/configuration/secrets/> for more.",
 		"category": [
 			"home-assistant"
 		],
-		"keywords": [
-			""
-		]
+		"keywords": []
+	},
+	"shelly": {
+		"alias": [],
+		"title": "Shelly 🔌 IOT Switches and Devices",
+		"minRank": 0,
+		"description": "Shelly products are made in many form factors, and installation instructions differ between devices.  Consult the documentation that arrived with your device for more information.  \n\n🔌 [Shelly Cloud](https://shelly.cloud/)  \n🔌 [Amazon Buy Shelly 1](https://tinyurl.com/drzzs-shellyone)  \n🔌 [Amazon Buy Shelly 1PM](https://tinyurl.com/drzzs-shellyonepm)  \n🔌 [Amazon Buy Shelly 2.5](https://tinyurl.com/drzzs-shellytwopointfive)  \n\nShelly is a European company that manufactures smart home automation products for use in almost every country, many of which are based upon the venerable ESP8266 microcontroller. Shelly's remote relay line-up consists of single, double, and quad relay options, some with and some without power monitoring.  They also manufacture various types of sensors, power monitoring modules, and RGBW LED controllers.\n\nThe stock firmware can be used with the Shelly app along with a HACS integration in Home Assistant, or it can be set up to use a local MQTT Server -- no flashing is required!  If one does not wish to use the stock firmware, most of their products can be flashed with Tasmota, ESPHome, or other custom firmware.\n\n**CAUTION**\nMost Shelly devices are used in conjunction with Mains voltages and can be very hazardous if mishandled.",
+		"category": [
+			"microcontroller",
+			"infrastructure"
+		],
+		"keywords": []
+	},
+	"sonoff": {
+		"alias": [],
+		"title": "Sonoff 🔌 IOT Switches and Devices",
+		"minRank": 0,
+		"description": "Sonoff products are made in many form factors, and installation instructions differ between devices.  Consult the documentation that arrived with your device for more information.  \n\n🔌 [Sonoff Official Homepage](https://sonoff.tech/)  \n🔌 [Amazon Buy Sonoff Basic](https://tinyurl.com/drzzs-sonoffbasic)  \n🔌 [Amazon Buy Sonoff Mini](https://tinyurl.com/drzzs-sonoffmini)  \n🔌 [Tasmota Sonoff Basic Docs](https://tasmota.github.io/docs/devices/Sonoff-Basic/)  \n🔌 [WhatAreWeFixing.Today's Sonoff DIY Mode Linux](https://whatarewefixing.today/589/)  \n\nSonoff is a brand of smarthome products created by Itead.  They make a wide range of inexpensive smarthome gadgets, many are based upon the venerable ESP8266 microcontroller.\n\nSome of the most popular Sonoff producs are the Sonoff Basic and the Sonoff Mini, but they make a number of smaartplugs, wall switches, and in-wall controllable outlets.\n\nThe stock firmware uses an app called eWeLink, which integrates with Home Assistant.  If one does not wish to use the stock firmware, most of their products can be flashed with Tasmota, ESPHome, or other custom firmware.\n\n**CAUTION*\nMost Sonoff devices are used in conjunction with Mains voltages and can be very hazardous if mishandled. ",
+		"category": [
+			"microcontroller",
+			"infrastructure"
+		],
+		"keywords": []
 	},
 	"sonoffDIY": {
 		"alias": [
-		  "DIYFlash"
+			"DIYFlash"
 		],
 		"title": "Sorting out the Sonoff DIY Firmware",
 		"minRank": 0,
 		"description": "Sonoff has come up with a version of firmware that does not require soldering or an FTDI adapter.  This is nice, but the process is a bit complicated and involved.  There are articles and videos attached here to help you be sucessful in your attempt.  \n🏷️ [WhatAreWeFixing.Today Video](https://whatarewefixing.today/?p=589)  \n🏷️ [DrZzs Video](https://www.youtube.com/watch?v=fsrT5o1C1w0)  \n🏷️ [Flash Tasmota on a Sonoff in DIY mode in Linux](https://sigmdel.ca/michel/ha/sonoff/sonoff_mini_en.html)  \n🏷️ [Sonoff-ITead GIT](https://github.com/itead/Sonoff_Devices_DIY_Tools/blob/master/other/SONOFF%20DIY%20MODE%20Protocol%20Doc%20v1.4.md)  \n🏷️ [Tasmota Documentation](https://tasmota.github.io/docs/Sonoff-DIY/)",
 		"category": [
-		  "switching-applications"
+			"switching-applications"
 		],
 		"keywords": [
-		  "itead",
-		  "sonoff_flash"
+			"itead",
+			"sonoff_flash"
 		]
+	},
+	"spinning_button_card": {
+		"alias": [
+			"spinningcard",
+			"spinningbutton",
+			"spinning-button",
+			"spinning-card",
+			"sbc",
+			"spin",
+			"spinningButtonCard"
+		],
+		"title": "Spinning Button Card",
+		"minRank": 0,
+		"description": "Install the custom button card using HACS.  \n\n🎰 [Custom Button Card Innstall](https://github.com/custom-cards/button-card)  \n🎰 [Spinning Lovelace Button.YAML code](https://gist.github.com/Snipercaine/ddd8e57625f703958db7ba150ecb4be2)  \n\nThe spinning button is a very frequently asked for topic from the Doc.  Check out the links included for the source for the Lovelace configuration and download.  Please note the card is also available through HACS which would be a preferred method of installation.",
+		"category": [
+			"applications",
+			"user-interface"
+		],
+		"keywords": []
 	},
 	"split_config": {
 		"alias": [
@@ -608,20 +814,37 @@
 			"home-assistant"
 		],
 		"keywords": [
-			"config", "split"
+			"config",
+			"split"
 		]
 	},
 	"suggestHelp": {
-		"alias": [],
-		"minRank": 0,
+		"alias": [
+			"suggestion",
+			"suggestion-box",
+			"suggestion box",
+			"suggestion_box"
+		],
 		"title": "Suggestion Poll",
+		"minRank": 0,
 		"description": "Wanna submit a suggestion in the chat?  \nUse {prefix}suggest followed by your suggestion.  \nThis will send your suggestion to our staff to review before being posted as a poll for the community to vote.",
 		"category": [
-			"information"
+			"information",
+			"suggestion"
 		],
-		"keywords": [
-			""
-		]
+		"keywords": []
+	},
+	"tasmota": {
+		"alias": [
+			"tasmoto"
+		],
+		"title": "Tasmota 🔌 Open source firmware for ESP8266 devices",
+		"minRank": 0,
+		"description": "To learn more about flashing tasmota onto your supported device, check out this article: 🔌 https://tasmota.github.io/docs/Getting-Started/  \n\n🔌 [Current Release Change Notes](https://tasmota.github.io/docs/)  \n🔌 [Tasmota Peripherals](https://tasmota.github.io/docs/Supported-Peripherals/)  \n🔌 [Tasmota Commands](https://tasmota.github.io/docs/Commands/)  \n🔌 [All Tasmota Releases](https://github.com/arendst/Tasmota/releases)  \n🔌 [Tasmota Over-The-Air Download](http://ota.tasmota.com/tasmota/release/)  \n🔌 [Tasmota Special Binaries](https://github.com/tasmota/binaries)  \n🔌 [Tasmota Templates](https://templates.blakadder.com/)  \n\nTasmota is a firmware that can be flashed onto ESP8266 & ESP32 based products and was created by Theo Arends.  It was originally used for Sonoff boards, but quickly snowballed to include *most* ESP MCU chips.  You can use it to control just about everything that you want (plugs, switches, dimmers, bulbs, et cetera).\n\nThe reason you'd load this firmware onto your devices is to keep your smart item traffic local to your premise, and not sending it to the cloud servers.  (So that when the internet goes out, your stuff still works correctly).\n\nTasmota is 100% free and open source making it a great product for the home automation community.\n\nThe community submits configuration templates for devices to a site maintained by a user named Blakadder, so most things are pretty easy to configure.  If you run across a new product without a template, you will need to work out where things like LEDs, relays, and the like are by adjusting template settings manually -- but once you've got it, you can submit it to the repository!.\n\nBlakadder's team also maintains a 'naughty list' of devices that are not compatible.",
+		"category": [
+			"switching-applications"
+		],
+		"keywords": []
 	},
 	"tasmota_upgrade": {
 		"alias": [
@@ -632,14 +855,32 @@
 			"UpgradeFlow",
 			"tasmota-upgrade"
 		],
-		"minRank": 0,
 		"title": "Tasmota Upgrade Path",
+		"minRank": 0,
 		"description":"To upgrade your Tasmota firmware, you need to follow the path, or risk bad things happening. \nv1.0.11  🔀  v3.9.22  🔀  v4.2.0  🔀  v5.14.0  🔀  v6.7.1  🔀  v7.2.0  🔀  v8.5.1  🔀  v9.1  🔀  [Current release](<https://github.com/arendst/Tasmota/releases>)  \n\n [More information](https://tasmota.github.io/docs/Upgrading/)",
 		"category": [
 			"integrations"
 		],
 		"keywords": [
 			"upgrade"
+		]
+	},
+	"tdmgr": {
+		"alias": [
+			"TDMDock"
+		],
+		"title": "🦧 Tasmota Device Manager",
+		"minRank": 0,
+		"description":"Managing multiple Tasmota devices can be confusing.  TDMgr is a configuration and management GUI for your Tasmota network of devices.  It can help you access, configure, and manage all the Tasmotas on your Broker!  \n\n🦧 [TDMGR base software](https://github.com/jziolkowski/tdm \n🐋 Install TDMgr in a Docker Container [TDMDock](https://github.com/SirGoodenough/TDMDock \n🏠 TDMgr as a Supervised Addon [Addon Store link](https://github.com/ikifar2012/ha-addons​) \n🐋🏠 WhatAreWeFixing.Today Docker & Addon Install Video [Blog & Video](https://www.youtube.com/watch?v=yjMVnjfEp-g)",
+		"category": [
+			"integrations"
+		],
+		"keywords": [
+			"tdmgr",
+			"docker",
+			"addon",
+			"gui",
+			"tasmota"
 		]
 	},
 	"template_lights": {
@@ -651,8 +892,8 @@
 			"tasmota-lights",
 			"blakadder_lights"
 		],
-		"minRank": 0,
 		"title": "🧩 Tasmota Light Templates in Home Assistant 🧩",
+		"minRank": 0,
 		"description":"Building light templates from scratch can be a bit puzzling. 😕 \nHere is an article from Blakadder explaining the options and requirements from basic to advanced with great examples. \nI have also includes other information about Light Templates and Templating in general. \n\n🧩 [Tasmota Lights in Home Assistant Using Template Schema](https://blakadder.com/template_schema_lights/) \n🧩 [Home Assistant Template Lights - Official Docs](https://www.home-assistant.io/integrations/light.template/) \n🧩 Video from: 'Will Surridge Tech' explaining HA Templates in general](https://www.youtube.com/watch?v=lPKiCjifX5w) ",
 		"category": [
 			"integrations"
@@ -670,8 +911,8 @@
 			"discord tips",
 			"newbee"
 		],
-		"minRank": 0,
 		"title": "BOT Wrangling 101 on DrZzs Discord",
+		"minRank": 0,
 		"description":"There is a whole reference library in here to help you sort out things.  All contributions are from people on the channel.  \n\nType `{prefix}reflist` in the chat and you see the list.  Then (tilde) {prefix}topic will bring up that topic.  Also you can type `{prefix}commands` and get a list of BOT commands you nave access to.  \n\nWe tend to go to `#bot-spam` channel to activate those things so as to not fill up the topic channels with info just for you.",
 		"category": [
 			"information",
@@ -684,7 +925,8 @@
 	},
 	"troubleshooting": {
 		"alias": [
-			"ts"
+			"ts",
+			"trouble"
 		],
 		"title": "Troubleshooting Your HA Configuration Problems",
 		"minRank": 0,
@@ -693,45 +935,115 @@
 			"home-assistant"
 		],
 		"keywords": [
-			"troubleshooting", "trouble", "configuration"
+			"troubleshooting",
+			"trouble",
+			"configuration"
 		]
+	},
+	"tuya": {
+		"alias": [
+			"SmartLife"
+		],
+		"title": "Tuya 🔌 Proprietary firmware for ESP8266 devices",
+		"minRank": 0,
+		"description": "Installation instructions vary from item to item.  \n\n🔌 [DrZzs YT Video Home Assistant Tuya Integration](https://www.youtube.com/watch?v=bVa6Yw1gCP0&t=1s)  \n🔌 [DrZzs Live stream | Flashing Tasmota on Tuya](https://www.youtube.com/watch?v=av84uORLB9Y)  \n🔌 [HA Official Tuya Integration Docs](https://www.home-assistant.io/integrations/tuya/)  \n🔌 [KPeyanski's Tuya HA Tutorial](https://www.youtube.com/watch?v=9E7QMz92aOI)  \n🔌 [Tuya Homepage](https://www.tuya.com/)  \n\nTuya is a company that makes a wide array of smart items including smart plugs, wall switches, and dimmers. Their main business is white-label manufacturing for other companies (be it just the chips, or the entire product), so you'll find Tuya devices sold under many different labels (Martin Jerry and Gosund are a couple).  Usually the product pages on retailer's websites will say that the devices work with Amazon's and Google's voice assistant platforms.\n\nSee also:  {prefix}TuyaConvert",
+		"category": [
+			"microcontroller",
+			"infrastructure"
+		],
+		"keywords": []
 	},
 	"tuya_convert": {
 		"alias": [
-		  "TuyaConvert",
-		  "Tuya-Convert"
+			"TuyaConvert",
+			"Tuya-Convert"
 		],
-		"minRank": 0,
 		"title": "Tuya Convert",
+		"minRank": 0,
 		"description": "To see instructions on getting started with Tuya Convert & the links here. \n\n🍘 [Tuya Convert Github](https://github.com/ct-Open-Source/tuya-convert) \n🍘 [Digiblur's Tuya Convert Flash Tuya Devices YT Video](https://youtu.be/dt5-iZc4_qU) \n🍘 [Tasmota Templates](https://templates.blakadder.com/) \n\nTuya convert is an exploit that attacks certain versions of Tuya firmware in order to replace the firmware with something we want.  The current release of the Tuya firmware has an encryption that prevents the exploit, so it works on fewer and fewer products currently being sold.  If someone can figure out the password....   Or someone at the factory would leak it, this may work again.  At this point only new-old-stock items that have not been used in the Tuya App might work.  Sadly most items will not and None that have been used in the Tuya App will convert.\n\nTHEREFORE......\n\nDon't be shocked when the Tuya Convert doesn't work for you.  The man-in-the-middle attack that Tuys Convert was against Tuya Firmware has been patched by Tuya, and will likely not help you. \n\nFind a way to use the device as is, or find way to take the device apart and flash with a serial adapter.",
 		"category": [
-		  "utilities"
-		]
+			"utilities"
+		],
+		"keywords": []
 	},
 	"twitchSub": {
 		"alias": [],
-		"minRank": 0,
 		"title": "Twitch Subscription",
+		"minRank": 0,
 		"description":"To receive the twitch sub role, you **MUST** be a subscriber to the DrZzz's Twitch Channel.  This is **100% Free** if you have Amazon Prime. \n\nFind out more about [Twitch Prime Here](https://www.twitch.tv/subs/drzzs)  \n[Visit DrZzz's Twitch Channel](https://www.twitch.tv/drzzs)  \n\n**Please remember to link your discord account to twitch to receive this role.**  \n[->Twitch Integration Help link<-](https://support.discordapp.com/hc/en-us/articles/212112068-Twitch-Integration-FAQ) Scroll down to the `For Viewers` section.  \n\nNote: The Twitch subscriber roles are updated every hour automatically, so be patient...",
 		"category": [
 			"general"
 		],
 		"keywords": [
-			"code",
-			"code share",
-			"share"
+			"twitch"
 		]
 	},
 	"wiki": {
 		"alias": [],
-		"title": "HIVE BOT WIKI",
+		"title": "HIVE BOT & Sherlock BOT WIKI",
 		"minRank": 0,
-		"description": "You can find command info and other general information about HIVE on the wiki: [More information](https://github.com/Blade2021/HIVE/wiki)",
+		"description": "You can find command info and other general information about HIVE on the wiki: [More information](https://github.com/Blade2021/HIVE/wiki)  \n\nInformation about Sherloc is found here: [More Information](https://github.com/Blade2021/Sherlock/wiki)",
 		"category": [
 			"information"
 		],
 		"keywords": [
 			"HIVE"
+		]
+	},
+	"wled": {
+		"alias": [],
+		"title": "WLED - ESP8266/ESP32 webserver to control NeoPixel +",
+		"minRank": 0,
+		"description": "Check out this link to get started: \n\n🚥 [WLED WIKI](https://github.com/Aircoookie/WLED/wiki)  \n\nWLED is a firmware that can be loaded onto ESP8266 and ESP32 microcontrollers and is used to control lengths of connected addressable LEDs.  It has many built-in features, is compatible with Home Assistant via an integration, and with DMX-based Light Controller protocols.\n\nSee also: {prefix}NeoPixel",
+		"category": [
+			"lights",
+			"applications"
+		],
+		"keywords": []
+	},
+	"zigbee": {
+		"alias": [
+			"ohthezigbee!",
+			"conbee-2",
+			"conbee",
+			"CC2530",
+			"CC2531",
+			"CC2652RB",
+			"CC2652P",
+			"CC2652",
+			"EFR32",
+			"EZSP",
+			"Z-Bee",
+			"RasBee",
+			"ZHA",
+			"Zigbee2MQTT",
+			"ZiGate",
+			"zig-a-zag-ah!"
+	],
+	"title": "Zigbee Wireless Mesh Protocol",
+		"minRank": 0,
+		"description": "Zigbee requires a hub to communicate so be sure to have one ready!  \n\n🐝 [Amazon Buy ConBee II](https://www.amazon.com/dresden-elektronik-ConBee-Universal-Gateway/dp/B07PZ7ZHG5/)  \n🐝 [List of approved Zigbee2MQTT Adapters](https://www.zigbee2mqtt.io/information/supported_adapters.html)  \n🐝 [ZigBee2MQTT Firmware and Installation](https://www.zigbee2mqtt.io/)  \n🐝 [Sonoff Zigbee & ZHA HA Integration](https://www.youtube.com/watch?v=xc_HGvrOxp8)  \n🐝 [Blakadder's ZigBee Page](https://zigbee.blakadder.com/)  \n🐝 [ZigBee Alliance Homepage](https://zigbeealliance.org/zigbee_products/)  \n\nOH THE ZIGBEE!\n\nZigbee is a communication protocol that has flourished in the home automation community.  Zigbee is often preferred to Wifi-based technologies due to its low power consumption and long battery life.  The downside to using zigbee is you need to have a HUB to communicate with all of your devices.  In some ways this is advantageous as it requires fewer devices connect to your wifi network.\n\nOne zigbee hub that has a high approval is the conbee 2.  It is not the cheapest option, but it is fairly easy to configure and always performs very well with devices.  Another great option is the Zigbee2MQTT hub which will relay zigbee data to your mqtt broker.  Whichever hub you select, be sure to verify that devices are supported by your hub before buying as most hubs do not support every device.\n\nIf nothing else, Zigbee is a very powerful protocol that opens the horizon to many types of sensors, switches, and other types of home automation devices.\n\n🛑**CAUTION**🛑 Zigbee operates in the 2.4 GHz Spectrum, which is shared with Wifi, Bluetooth, Microwave Ovens, and some cordless telephones.  If you have a lot of 2.4 GHz present at your location, your Zigbee devices may be unreliable.",
+		"category": [
+			"infrastructure",
+			"bridge",
+			"utilities"
+		],
+		"keywords": [
+			"conbee",
+			"CC2530",
+			"CC2531",
+			"XBee",
+			"RasBee",
+			"ZHA",
+			"Zigbee2MQTT",
+			"ZiGate",
+			"CC2652RB",
+			"CC2652P",
+			"CC2652",
+			"EFR32",
+			"EZSP",
+			"Z-Bee",
+			"zig-a-zag-ah!"
 		]
 	}
 }
