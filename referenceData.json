@@ -997,7 +997,10 @@
 		]
 	},
 	"wiki": {
-		"alias": [],
+		"alias": [
+			"hive",
+			"sherlock"
+		],
 		"title": "HIVE BOT & Sherlock BOT WIKI",
 		"minRank": 0,
 		"description": "You can find command info and other general information about HIVE on the wiki: [More information](https://github.com/Blade2021/HIVE/wiki)  \n\nInformation about Sherlock is found here: [More Information](https://github.com/Blade2021/Sherlock/wiki)",
@@ -1005,12 +1008,13 @@
 			"information"
 		],
 		"keywords": [
-			"HIVE"
+			"HIVE",
+			"Sherlock"
 		]
 	},
 	"wled": {
 		"alias": [],
-		"title": "WLED - ESP8266/ESP32 webserver to control NeoPixel +",
+		"title": "WLED - ESP32/ESP8266 webserver to control NeoPixel +",
 		"minRank": 0,
 		"description": "Check out this link to get started: \n\n🚥 [WLED WIKI](https://github.com/Aircoookie/WLED/wiki)  \n\nWLED is a firmware that can be loaded onto ESP8266 and ESP32 microcontrollers and is used to control lengths of connected addressable LEDs.  It has many built-in features, is compatible with Home Assistant via an integration, and with DMX-based Light Controller protocols.\n\nSee also: {prefix}NeoPixel. \n\n[Sound Reactive WLED WIKI](https://github.com/atuline/WLED/wiki) \n[WLED Latest Release](https://github.com/Aircoookie/WLED/releases/latest)",
 		"category": [
