@@ -205,7 +205,7 @@
 		"alias": [],
 		"title": "FAQ and Rules for this Discord Server",
 		"minRank": 0,
-		"description": "You can find rules, common bot commands, and answers to frequently asked questions in the #469332542433132574 channel.",
+		"description": "You can find rules, common bot commands, and answers to frequently asked questions in the <#469332542433132574> channel.",
 		"category": [
 			"information"
 		],
@@ -598,7 +598,7 @@
 		],
 		"title": "NEOPixels 🚦 LED Lights etal...",
 		"minRank": 0,
-		"description": "DrZzs has a lot of great videos!  Check out this one to get started: 🚦 https://youtu.be/tXvtxwK3jRk  \n\nAlso in DrZzs Discord check out the #511947803115913217 channel and page the @PixelHeads for one on one help.  \n\n🚦 [Beginner's Guide to Christmas Lights](https://youtu.be/tXvtxwK3jRk)  \n🚦 [The Hook Up's video on LED Strips](https://youtu.be/QnvircC22hU)  \n🚦 [`#511947803115913217` Discord Channel](https://discord.gg/8gvF67h)  \n\nIndividually Addressable LEDs come in many varieties; you may find them referred to as NeoPixels, or by their part numbers, which include WS2811, WS2812b, WS2813, WS2815, SK9822, SK9812, or APA106.  You will need a microcontroller of some kind to run them; the most popular in the home automation space are the ESP8266 and ESP32 Boards.  Depending upon the length of your installation, you may also need to procure a high-amperage power supply and additional wire for power injection.\n\nSee also {prefix}WLED",
+		"description": "DrZzs has a lot of great videos!  Check out this one to get started: 🚦 https://youtu.be/tXvtxwK3jRk  \n\nAlso in DrZzs Discord check out the <#511947803115913217> channel and page the @PixelHeads for one on one help.  \n\n🚦 [Beginner's Guide to Christmas Lights](https://youtu.be/tXvtxwK3jRk)  \n🚦 [The Hook Up's video on LED Strips](https://youtu.be/QnvircC22hU)  \n🚦 [`<#511947803115913217>` Discord Channel](https://discord.gg/8gvF67h)  \n\nIndividually Addressable LEDs come in many varieties; you may find them referred to as NeoPixels, or by their part numbers, which include WS2811, WS2812b, WS2813, WS2815, SK9822, SK9812, or APA106.  You will need a microcontroller of some kind to run them; the most popular in the home automation space are the ESP8266 and ESP32 Boards.  Depending upon the length of your installation, you may also need to procure a high-amperage power supply and additional wire for power injection.\n\nSee also {prefix}WLED",
 		"category": [
 			"microcontroller"
 		],
@@ -946,7 +946,7 @@
 		],
 		"title": "BOT Wrangling 101 on DrZzs Discord",
 		"minRank": 0,
-		"description":"There is a whole reference library in here to help you sort out things.  All contributions are from people on the channel.  \n\nType `{prefix}reflist` in the chat and you see the list.  Then (tilde) {prefix}topic will bring up that topic.  Also you can type `{prefix}commands` and get a list of BOT commands you nave access to.  \n\nWe tend to go to `#717069963357323326` channel to activate those things so as to not fill up the topic channels with info just for you.",
+		"description":"There is a whole reference library in here to help you sort out things.  All contributions are from people on the channel.  \n\nType `{prefix}reflist` in the chat and you see the list.  Then (tilde) {prefix}topic will bring up that topic.  Also you can type `{prefix}commands` and get a list of BOT commands you nave access to.  \n\nWe tend to go to `<#717069963357323326>` channel to activate those things so as to not fill up the topic channels with info just for you.",
 		"category": [
 			"information",
 			"general"
