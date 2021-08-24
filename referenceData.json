@@ -19,7 +19,7 @@
 			"automation test",
 			"automation-test"
 		],
-		"title": "How do I test my Automation?",
+		"title": "🗃 How do I test my Automation? 🧰",
 		"minRank": 0,
 		"description":"To test an automation there's three stages you can follow. Testing the action, the condition and action, and the whole automation:\n\n1) Use _Configuration_ -> _Automations_ to find the automationand then push _Run Actions_. If this fails your problem is in the `action:` section, and details should be found in your log file\n2) Use _Developer tools_ -> _Services_ and call `automation.trigger` on the automation with `skip_condition: false`. If the first passes but this fails then the problem is in your `condition:` block\n3) Use _Developer tools_ -> _States_ to find the trigger entity, click the name, then change the state (at the top) to something that'll trigger the automation before pushing _Set State_. If this fails then the problem is with your `trigger:` section, or the automation is turned off (you can check that in _Developer tools -> States_).\n\nYou can also see [this section in the docs](https://www.home-assistant.io/docs/automation/troubleshooting/) and with HA 2021.4 onwards [debug automations](https://www.home-assistant.io/blog/2021/04/07/release-20214/#automation-debugging).",
 		"category": [
@@ -62,7 +62,7 @@
 	},
 	"backup": {
 		"alias": [],
-		"title": "Home Assistant Backup",
+		"title": "Home Assistant Backup 🪃",
 		"minRank": 0,
 		"description": "Be sure to regularly, automatically, back up your Home Assistant install. There are various critical files and configuration options (like the Z-Wave network key), plus all your time. Hass.io has snapshots, and for unix type installs see <https://blog.ceard.tech/2017/10/backing-up-home-assistant.html>.  Oh, and most important of all **test your ability to restore regularly**.",
 		"category": [
@@ -572,9 +572,9 @@
 			"Mosquitto",
 			"Paho"
 		],
-		"title": "MQTT: The Standard for IoT Messaging",
+		"title": "MQTT: The Standard for IoT Messaging 🖇",
 		"minRank": 0,
-		"description": "To install MQTT with Home Assistant, Check out this link:  🚧 https://www.home-assistant.io/integrations/mqtt/  \n\n🚧 [MQTT Homepage](http://mqtt.org/)  \n🚧 [MQTT WIKI](https://en.wikipedia.org/wiki/MQTT)  \n🚧 [HA Official MQTT Docs](https://www.home-assistant.io/integrations/mqtt/)  \n🚧 [MQTT-Explorer Homepage](http://mqtt-explorer.com/)  \n🚧 [The Hook Up's MQTT Video](https://tinyurl.com/thehookupmqtt)  \n\n🇲 🇶 🇹 🇹, or Message Queuing Telemetry Transport, is a light-weight protocol used in many situations where small message size and/or low bandwidth usage are important.  It was developed by IBM in 1999, and was initially used to monitor oil pipeline sensors and communicate with satellites. It became very popular, and is used extensively in SCADA control systems and smarthome products.\n\nMQTT utilizes a central service called a Broker that can be installed on just about any computer or server.  Clients connect to the Broker to monitor and update various Topics.  Subscriber Clients connect to the Broker and monitor a Topic; Publisher Clients connect to the Broker and update a Topic's value.  A Client can fill either role or both.\n\nHome Assistant and other home automation packages fill both roles, as do most Wifi connected smart plugs and devices.\n\nThere are libraries available in many programming languages (e.g. Arduino and Python) which can be used in custom sensor applications.\n\nWhen troubleshooting MQTT issues, it is useful to use a utility such as MQTT Explorer.",
+		"description": "To install MQTT with Home Assistant, Check out this link:  🎡 https://www.home-assistant.io/integrations/mqtt/  \n\n🎡 [MQTT Homepage](http://mqtt.org/)  \n🎡 [MQTT WIKI](https://en.wikipedia.org/wiki/MQTT)  \n🎡 [HA Official MQTT Docs](https://www.home-assistant.io/integrations/mqtt/)  \n🎡 [MQTT-Explorer Homepage](http://mqtt-explorer.com/)  \n🎡 [The Hook Up's MQTT Video](https://tinyurl.com/thehookupmqtt)  \n\n🇲 🇶 🇹 🇹, or Message Queuing Telemetry Transport, is a light-weight protocol used in many situations where small message size and/or low bandwidth usage are important.  It was developed by IBM in 1999, and was initially used to monitor oil pipeline sensors and communicate with satellites. It became very popular, and is used extensively in SCADA control systems and smarthome products.\n\nMQTT utilizes a central service called a Broker that can be installed on just about any computer or server.  Clients connect to the Broker to monitor and update various Topics.  Subscriber Clients connect to the Broker and monitor a Topic; Publisher Clients connect to the Broker and update a Topic's value.  A Client can fill either role or both.\n\nHome Assistant and other home automation packages fill both roles, as do most Wifi connected smart plugs and devices.\n\nThere are libraries available in many programming languages (e.g. Arduino and Python) which can be used in custom sensor applications.\n\nWhen troubleshooting MQTT issues, it is useful to use a utility such as MQTT Explorer.",
 		"category": [
 			"infrastructure",
 			"applications",
@@ -721,7 +721,7 @@
 	},
 	"reply": {
 		"alias": [],
-		"title": "Who Are You Respoding To?",
+		"title": "Who Are You Respoding To? ⟹",
 		"minRank": 0,
 		"description": "If there are multiple conversations going at once, try using the reply feature in discord.  This helps everyone know who they are replying to and from.  PLUS, if a package shows up when you reply, give it a click to show youe appreciation.",
 		"category": [
@@ -751,7 +751,7 @@
 			"RFBridge",
 			"Slampher"
 		],
-		"title": "Help with RF433 / RF315 Devices",
+		"title": "📡 Help with RF433 / RF315 Devices 📻",
 		"minRank": 0,
 		"description": "There is a lot of information on this subject.  Check out the links section and the Community can lead your journey here. \n\n📶 [How RF433 Works](https://bit.ly/DrZzsHow433Works) \n📶 [Flashing the RFBridge](https://bit.ly/DrZzsFlashRFBridgeTasmota) \n📶 [DrZzs Video](https://youtu.be/OfSbIFIJPuc) \n📶 [Digiblur Video](https://youtu.be/w_CchtI-oK0) \n📶 [WhatAreWeFixing.Today Video](https://whatarewefixing.today/?p=134) \n📶 [Multiple sensor setup](https://bit.ly/DrZzsRFBridgeMultiSensorSetup) \n\nThe 433 mhz RF (radio frequency) band and the 315 mhz RF band, depending on the country you live in, is designated for the same purpose. Low power RF transmitters are allowed to broadcast within these frequency ranges. These small transmitters are usually binary type sensors because only a small message is able to be transmitted during an event. Door/Window sensors, PIR sensors, push button transmitters, remote controls and the like are the typical devices using these frequencies. There needs to be a receiver nearby to pick up these signals and act on the message received.\n\nDevices such as the [Itead RFBridge](http://drzzs.com/RF_Bridge) and the [Bond Bridge](https://bit.ly/DrZzsBondBridge) act as reciever hubs to collect data from these sensors and feed the data back to a program such as Home Assistant for further action.  With some devices like the [Itead Sonoff Slampher](https://bit.ly/DrZzsSlampher), the device can ‘pair’ with a matching RF transmitter bought separately and act on the information provided. Devices are not tied to a common standard (like Zwave) which 1, keeps the price very low, but 2, causes incompatibility between manufacturers.",
 		"category": [
@@ -762,7 +762,7 @@
 	},
 	"secrets": {
 		"alias": [],
-		"title": "👁️‍🗨️ How Do HA Secrets Work?",
+		"title": "👁️‍🗨️ How Do HA Secrets Work? 𓀅",
 		"minRank": 0,
 		"description": "Rather than putting sensitive information (passwords, locations, etc) into your configuration, you can store them in secrets to make sharing easier. Secrets DO NOT work in Blueprints, however. \n👁️‍🗨️See <https://home-assistant.io/docs/configuration/secrets/> for more.",
 		"category": [
@@ -820,7 +820,7 @@
 			"spin",
 			"spinningButtonCard"
 		],
-		"title": "Spinning Button Card",
+		"title": "Spinning Button Card 🔄 🔃",
 		"minRank": 0,
 		"description": "Install the custom button card using HACS.  \n\n🎰 [Custom Button Card Innstall](https://github.com/custom-cards/button-card)  \n🎰 [Spinning Lovelace Button.YAML code](https://gist.github.com/Snipercaine/ddd8e57625f703958db7ba150ecb4be2)  \n\nThe spinning button is a very frequently asked for topic from the Doc.  Check out the links included for the source for the Lovelace configuration and download.  Please note the card is also available through HACS which would be a preferred method of installation.",
 		"category": [
@@ -837,7 +837,7 @@
 		],
 		"title": "Making Your configuration.yaml Easier to Use",
 		"minRank": 0,
-		"description": "🔀 [Split Configuration HA Official Instructions](https://home-assistant.io/docs/configuration/splitting_configuration/)  \n\n🔀 [Doc and Frenck with a live Demo](https://youtu.be/FfjSA2o_0KA)",
+		"description": "🔀 [Split Configuration HA Official Instructions](https://home-assistant.io/docs/configuration/splitting_configuration/)  \n\n🔀 [Doc and Frenck with a live Demo](https://youtu.be/FfjSA2o_0KA) \n\nAND if you want to split your scripts up so that the script UI editor works and your files are split, [look here](https://community.home-assistant.io/t/script-editor-and-split-up-files/40459/20) or go into a terminal in HA and do this: ```ln -f /config/#path_to_your_subfolder /config/scripts.yaml``` and in configuration.yaml do this: ```script: !include_dir_merge_named /config/#path_to_your_subfolder```.  Then put your split folders here for scripts.",
 		"category": [
 			"home-assistant"
 		],
