@@ -14,6 +14,20 @@
 		],
 		"keywords": []
 	},
+	"automation_test": {
+		"alias": [
+			"automation test",
+			"automation-test"
+		],
+		"title": "How do I test my Automation?",
+		"minRank": 0,
+		"description":"To test an automation there's three stages you can follow. Testing the action, the condition and action, and the whole automation:\n\n1) Use _Configuration_ -> _Automations_ to find the automationand then push _Run Actions_. If this fails your problem is in the `action:` section, and details should be found in your log file\n2) Use _Developer tools_ -> _Services_ and call `automation.trigger` on the automation with `skip_condition: false`. If the first passes but this fails then the problem is in your `condition:` block\n3) Use _Developer tools_ -> _States_ to find the trigger entity, click the name, then change the state (at the top) to something that'll trigger the automation before pushing _Set State_. If this fails then the problem is with your `trigger:` section, or the automation is turned off (you can check that in _Developer tools -> States_).\n\nYou can also see [this section in the docs](https://www.home-assistant.io/docs/automation/troubleshooting/) and with HA 2021.4 onwards [debug automations](https://www.home-assistant.io/blog/2021/04/07/release-20214/#automation-debugging).",
+		"category": [
+			"automation"
+		],
+		"keywords": [
+		]
+	},
 	"avatar": {
 		"alias": [
 			"icon"
@@ -920,21 +934,6 @@
 			"template",
 			"lights",
 			"tasmota"
-		]
-	},
-	"test": {
-		"alias": [
-			"automation_test",
-			"automation test",
-			"automation-test"
-		],
-		"title": "How do I test my Automation?",
-		"minRank": 0,
-		"description":"To test an automation there's three stages you can follow. Testing the action, the condition and action, and the whole automation:\n\n1) Use _Configuration_ -> _Automations_ to find the automationand then push _Run Actions_. If this fails your problem is in the `action:` section, and details should be found in your log file\n2) Use _Developer tools_ -> _Services_ and call `automation.trigger` on the automation with `skip_condition: false`. If the first passes but this fails then the problem is in your `condition:` block\n3) Use _Developer tools_ -> _States_ to find the trigger entity, click the name, then change the state (at the top) to something that'll trigger the automation before pushing _Set State_. If this fails then the problem is with your `trigger:` section, or the automation is turned off (you can check that in _Developer tools -> States_).\n\nYou can also see [this section in the docs](https://www.home-assistant.io/docs/automation/troubleshooting/) and with HA 2021.4 onwards [debug automations](https://www.home-assistant.io/blog/2021/04/07/release-20214/#automation-debugging).",
-		"category": [
-			"automation"
-		],
-		"keywords": [
 		]
 	},
 	"tips": {
