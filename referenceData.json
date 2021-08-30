@@ -409,11 +409,12 @@
 		"alias": [
 			"led-essentials",
 			"led essentials",
-			"drzzs led help"
+			"drzzs led help",
+			"Quindors led help"
 		],
-		"title": "💫 LED YouTube Videos from DrZzs",
+		"title": "💫 LED YouTube Videos from DrZzs & Quindor",
 		"minRank": 0,
-		"description": "Here is DrZzs YouTube Playlists with all his LED configuration and wiring step by step examples.  \n\n😶‍🌫️ (LED Essentials](https://www.youtube.com/playlist?list=PLL02pNmOcO9kOgJYkwcv4c1ApVffxIN8d)  \n😶‍🌫️ [LEDs](https://www.youtube.com/playlist?list=PLL02pNmOcO9lmMIQXaxv0_3oXM_l-yb-8)\n",
+		"description": "Here are DrZzs YouTube Playlists with all his LED configuration and wiring step by step examples.  \n\n😶‍🌫️ (LED Essentials](https://www.youtube.com/playlist?list=PLL02pNmOcO9kOgJYkwcv4c1ApVffxIN8d)  \n😶‍🌫️ [LEDs](https://www.youtube.com/playlist?list=PLL02pNmOcO9lmMIQXaxv0_3oXM_l-yb-8)  \n\nHere are Quindor's (Intermit.Tech) YouTube Playlists with all his LED configuration and wiring step by step examples.  \n\n😶‍🌫️ (QuinLED](https://www.youtube.com/playlist?list=PL4b74vD-Uo-OdjNrwMCLtQjmEidsLYeu6)  \n😶‍🌫️ [ESP8266 LED Lighting](https://www.youtube.com/playlist?list=PL4b74vD-Uo-NrEv0RkJdh8M4dz8zxxMBb) \n",
 		"category": [
 			"led"
 		],
