@@ -405,6 +405,22 @@
 			"LED"
 		]
 	},
+	"led_essentials": {
+		"alias": [
+			"led-essentials",
+			"led essentials",
+			"drzzs led help"
+		],
+		"title": "💫 LED YouTube Videos from DrZzs",
+		"minRank": 0,
+		"description": "Here is DrZzs YouTube Playlists with all his LED configuration and wiring step by step examples.  \n\n😶‍🌫️ (LED Essentials](https://www.youtube.com/playlist?list=PLL02pNmOcO9kOgJYkwcv4c1ApVffxIN8d)  \n😶‍🌫️ [LEDs](https://www.youtube.com/playlist?list=PLL02pNmOcO9lmMIQXaxv0_3oXM_l-yb-8)\n",
+		"category": [
+			"led"
+		],
+		"keywords": [
+			"LED"
+		]
+	},
 	"led_falcon": {
 		"alias": [
 			"LED falcon","ledfalcon","led-falcon"
