@@ -316,7 +316,9 @@
 	},
 	"input_boolean": {
 		"alias": [
-			"boolean"
+			"boolean",
+			"input boolean",
+			"input-boolean"
 		],
 		"title": "Input Boolean",
 		"minRank": 0,
@@ -360,6 +362,8 @@
 	"led_calc_power": {
 		"alias": [
 			"LED calcpower",
+			"LED calc power",
+			"LED-calc-power",
 			"led power",
 			"led_power",
 			"ledcalcpower"
@@ -459,7 +463,7 @@
 		],
 		"title": "💫 LED Hardware",
 		"minRank": 0,
-		"description": "Global Vendors:\n🔩 [BTF Lighting Aliexpres](https://btf-lighting.aliexpress.com/store/1051119) \n🔩 [ETOP Lighting AliExpress](https://www.aliexpress.com/store/4478030) \n🔩 [Ray wu's store](https://www.aliexpress.com/store/701799?spm=a2g0s.9042311.0.0.40694c4db8oCxz)  \n\n US:  \n🔩 [Hanson Electronics](http://www.hansonelectronics.com.au/) \n🔩 [jboards](https://jboards.ecwid.com/) \n🔩 [mattosdesigns](https://mattosdesigns.com/) \n🔩 [Paul Zhang Direct-US](https://www.amazon.com/s?i=merchant-items&me=A1HD6W29M3RXPC&tag=drzzs0e-20) \n🔩 [PIXELHEADS](https://shop.pixelheads.info/) \n🔩 [RGBMan](https://www.rgb-man.com/) \n🔩 [wiredwatts](https://www.wiredwatts.com/) \n🔩 [wallyslights](https://www.wallyslights.com/) \n\n EU/UK LED Vendors:\n🔩 [Build a lightshow located in the UK](https://buildalightshow.com/) \n🔩 [Propixeler located in the Netherlands](https://propixeler.nl/index.php?route=common/home) \n🔩 [Xmas-land located in Germany](https://www.xmas-land.de/)",
+		"description": "Global Vendors:\n🔩 [BTF Lighting Aliexpres](https://btf-lighting.aliexpress.com/store/1051119) \n🔩 [ETOP Lighting AliExpress](https://www.aliexpress.com/store/4478030) \n🔩 [Ray wu's store](https://www.aliexpress.com/store/701799?spm=a2g0s.9042311.0.0.40694c4db8oCxz)  \n\n US:  \n🔩 [Hanson Electronics](http://www.hansonelectronics.com.au/) \n🔩 [Jboards](https://jboards.ecwid.com/) \n🔩 [Mattosdesigns](https://mattosdesigns.com/) \n🔩 [Paul Zhang Direct-US](https://www.amazon.com/s?i=merchant-items&me=A1HD6W29M3RXPC&tag=drzzs0e-20) \n🔩 [RGBMan](https://www.rgb-man.com/) \n🔩 [Wiredwatts](https://www.wiredwatts.com/) \n🔩 [Wallyslights](https://www.wallyslights.com/) \n\n EU/UK LED Vendors:\n🔩 [Build a lightshow located in the UK](https://buildalightshow.com/) \n🔩 [Propixeler located in the Netherlands](https://propixeler.nl/index.php?route=common/home) \n🔩 [Xmas-land located in Germany](https://www.xmas-land.de/)",
 		"category": [
 			"led"
 		],
@@ -489,7 +493,7 @@
 		],
 		"title": "💫 LED Kulp Controllers",
 		"minRank": 0,
-		"description": "🌈 kulplights.com -Home of FPP based pixel controllers that can each drive 800 Pixels at 40FPS 1500 Pixels at 20fps per port ws281x ONLY [Link](https://kulplights.com/) \n🌈 FPP releases can be found [here](https://github.com/FalconChristmas/fpp/releases) newest is at top \n🌈 Kulp k16- A 16 port controller that runs FPP Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE,fm-transmitter* [Link](https://kulplights.com/product/k16a-b/) \n🌈 Kulp 32 port controller Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE,fm-transmitter* [Link](https://kulplights.com/product/k32a-b/) \n🌈 Kulp k8-8 port controller Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE*[Link](https://kulplights.com/product/k8-b/) \n🌈 IF RUNNING WIFI YOU WILL NEED THIS ADAPTER. [Link](https://kulplights.com/product/1200mbs-antenna-wifi/) \n🌈 You might also need this usb hub. [Link](https://kulplights.com/product/usb-gigabit-ethernet-adapter/) \n🌈 The 4-String Differential Smart Receiver Board can be connected to many different controller options allowing 4 strings to be placed up to 300+ feet from the controllers . Input voltage 5, or 12V . The Smart Receiver can be daisy-chained together up to three.[Link](https://kulplights.com/product/smart-receiver/) \n🌈 Kulp's user manual *listed as f8-b but works for all boards*. [Link](https://kulplights.com/manuals/F8-B-Manual.pdf) \n🌈 FPP Installing and Configuring Your Controller Step by Step - [Rick Harris YouTube](https://www.youtube.com/watch?v=ZV4o11XiaU0) \n🌈 VCS 2020 Kulp Boards - [Daniel Kulp YouTube](https://www.youtube.com/watch?v=sceGQMZ0dHw&t=2720s) \n🌈 FPP Plugins & Scripts - [Daniel Kulp YouTube](https://www.youtube.com/watch?v=pE4I5igbAuE&t=2s)",
+		"description": "🌈 kulplights.com -Home of FPP based pixel controllers that can each drive 800 Pixels at 40FPS 1500 Pixels at 20fps per port ws281x ONLY [Link](https://kulplights.com/) \n🌈 FPP releases can be found [here](https://github.com/FalconChristmas/fpp/releases) newest is at top \n🌈 Kulp k16- A 16 port controller that runs FPP Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE,fm-transmitter* [Link](https://kulplights.com/product/k16a-b/) \n🌈 Kulp 32 port controller Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE,fm-transmitter* [Link](https://kulplights.com/product/k32a-b/) \n🌈 Kulp k8-8 port controller Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE* [Link](https://kulplights.com/product/k8-b/) \n🌈 IF RUNNING WIFI YOU WILL NEED THIS ADAPTER. [Link](https://kulplights.com/product/1200mbs-antenna-wifi/) \n🌈 You might also need this usb hub. [Link](https://kulplights.com/product/usb-gigabit-ethernet-adapter/) \n🌈 The 4-String Differential Smart Receiver Board can be connected to many different controller options allowing 4 strings to be placed up to 300+ feet from the controllers . Input voltage 5, or 12V . The Smart Receiver can be daisy-chained together up to three. [Link](https://kulplights.com/product/smart-receiver/) \n🌈 Kulp's user manual *listed as f8-b but works for all boards*. [Link](https://kulplights.com/manuals/F8-B-Manual.pdf) \n🌈 FPP Installing and Configuring Your Controller Step by Step - [Rick Harris YouTube](https://www.youtube.com/watch?v=ZV4o11XiaU0) \n🌈 VCS 2020 Kulp Boards - [Daniel Kulp YouTube](https://www.youtube.com/watch?v=sceGQMZ0dHw&t=2720s) \n🌈 FPP Plugins & Scripts - [Daniel Kulp YouTube](https://www.youtube.com/watch?v=pE4I5igbAuE&t=2s)",
 		"category": [
 			"led"
 		],
@@ -503,7 +507,7 @@
 		],
 		"title": "💫 PIXELHEADS 3D Print Collection 🚀 ",
 		"minRank": 0,
-		"description": "[🏗 Pixelheads Collection ](https://shop.pixelheads.info/pixelheads-3d-print-collection/) \n[🏗 Viperts Creations 3d Models](https://cults3d.com/en/users/Viperts/creations) ",
+		"description": "[🏗 Viperts Creations 3d Models](https://cults3d.com/en/users/Viperts/creations) ",
 		"category": [
 			"led"
 		],
@@ -960,7 +964,7 @@
 		],
 		"title": "🧩 Tasmota Light Templates in Home Assistant 🧩",
 		"minRank": 0,
-		"description":"Building light templates from scratch can be a bit puzzling. 😕 \nHere is an article from Blakadder explaining the options and requirements from basic to advanced with great examples. \nI have also includes other information about Light Templates and Templating in general. \n\n🧩 [Tasmota Lights in Home Assistant Using Template Schema](https://blakadder.com/template_schema_lights/) \n🧩 [Home Assistant Template Lights - Official Docs](https://www.home-assistant.io/integrations/light.template/) \n🧩 Video from: 'Will Surridge Tech' explaining HA Templates in general](https://www.youtube.com/watch?v=lPKiCjifX5w) ",
+		"description":"Building light templates from scratch can be a bit puzzling. 😕 \nHere is an article from Blakadder explaining the options and requirements from basic to advanced with great examples. \nI have also includes other information about Light Templates and Templating in general. \n\n🧩 [Tasmota Lights in Home Assistant Using Template Schema](https://blakadder.com/template_schema_lights/) \n🧩 [Home Assistant Template Lights - Official Docs](https://www.home-assistant.io/integrations/light.template/) \n🧩 [Video from: 'Will Surridge Tech' explaining HA Templates in general](https://www.youtube.com/watch?v=lPKiCjifX5w) ",
 		"category": [
 			"integrations"
 		],
@@ -1021,7 +1025,7 @@
 	},
 	"tuya_convert": {
 		"alias": [
-			"TuyaConvert",
+			"Tuya Convert",
 			"Tuya-Convert"
 		],
 		"title": "Tuya Convert",
