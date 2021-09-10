@@ -937,7 +937,7 @@
 		],
 		"title": "🦧 Tasmota Device Manager 🇹 🇩 🇲 🇬 🇷",
 		"minRank": 0,
-		"description":"Managing multiple Tasmota devices can be confusing.  TDMgr is a configuration and management GUI for your Tasmota network of devices.  It can help you access, configure, and manage all the Tasmotas on your Broker!  \n\n🦧 [TDMGR base software](https://github.com/jziolkowski/tdm) \n🐋   Install TDMgr in a Docker Container [TDMDock](https://github.com/SirGoodenough/TDMDock) \n🏠   TDMgr as a Supervised Addon [Addon Store link](https://github.com/ikifar2012/ha-addons​) \n🐋🏠 WhatAreWeFixing.Today Docker & Addon Install Video [Blog & Video](https://www.youtube.com/watch?v=yjMVnjfEp-g)  ",
+		"description":"Managing multiple Tasmota devices can be confusing.  TDMGR is a configuration and management GUI for your Tasmota network of devices.  It can help you access, configure, and manage all the Tasmotas on your Broker!  \n\n🦧 [TDMGR base software](https://github.com/jziolkowski/tdm) \n🐋   Install TDMGR in a Docker Container [TDMDock](https://github.com/SirGoodenough/TDMDock) \n🏠   TDMGR as a Supervised Addon [Addon Store link](https://github.com/ikifar2012/ha-addons) \n🐋🏠 WhatAreWeFixing.Today Docker & Addon Install Video [Blog & Video](https://www.youtube.com/watch?v=yjMVnjfEp-g)  ",
 		"category": [
 			"integrations"
 		],
