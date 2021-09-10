@@ -14,6 +14,20 @@
 		],
 		"keywords": []
 	},
+	"automation_test": {
+		"alias": [
+			"automation test",
+			"automation-test"
+		],
+		"title": "🗃 How do I test my Automation? 🧰",
+		"minRank": 0,
+		"description":"To test an automation there's three stages you can follow. Testing the action, the condition and action, and the whole automation:\n\n1) Use _Configuration_ -> _Automations_ to find the automationand then push _Run Actions_. If this fails your problem is in the `action:` section, and details should be found in your log file\n2) Use _Developer tools_ -> _Services_ and call `automation.trigger` on the automation with `skip_condition: false`. If the first passes but this fails then the problem is in your `condition:` block\n3) Use _Developer tools_ -> _States_ to find the trigger entity, click the name, then change the state (at the top) to something that'll trigger the automation before pushing _Set State_. If this fails then the problem is with your `trigger:` section, or the automation is turned off (you can check that in _Developer tools -> States_).\n\nYou can also see [this section in the docs](https://www.home-assistant.io/docs/automation/troubleshooting/) and with HA 2021.4 onwards [debug automations](https://www.home-assistant.io/blog/2021/04/07/release-20214/#automation-debugging).",
+		"category": [
+			"automation"
+		],
+		"keywords": [
+		]
+	},
 	"avatar": {
 		"alias": [
 			"icon"
@@ -48,7 +62,7 @@
 	},
 	"backup": {
 		"alias": [],
-		"title": "Home Assistant Backup",
+		"title": "Home Assistant Backup 🪃",
 		"minRank": 0,
 		"description": "Be sure to regularly, automatically, back up your Home Assistant install. There are various critical files and configuration options (like the Z-Wave network key), plus all your time. Hass.io has snapshots, and for unix type installs see <https://blog.ceard.tech/2017/10/backing-up-home-assistant.html>.  Oh, and most important of all **test your ability to restore regularly**.",
 		"category": [
@@ -116,6 +130,9 @@
 	},
 	"discord_fonts": {
 		"alias": [
+			"discord-fonts",
+			"discord fonts",
+			"discordfonts",
 			"fonts"
 		],
 		"title": "Displaying Emoji's in Discord using Linux",
@@ -132,10 +149,15 @@
 			"linux"
 		]
 	},
-	"drZzzGithub": {
+	"drZzs_Github": {
 		"alias": [
-			"drzzs github",
-			"docs github"
+			"drzzsgithub",
+			"drzzs-github",
+			"drzzs_github",
+			"docsgithub",
+			"docs github",
+			"docs-github",
+			"docs_github"
 		],
 		"title": "Doc's Github / Gist",
 		"minRank": 0,
@@ -197,7 +219,7 @@
 		"alias": [],
 		"title": "FAQ and Rules for this Discord Server",
 		"minRank": 0,
-		"description": "You can find rules, common bot commands, and answers to frequently asked questions in the #faq-and-rules channel.",
+		"description": "You can find rules, common bot commands, and answers to frequently asked questions in the <#469332542433132574> channel.",
 		"category": [
 			"information"
 		],
@@ -219,7 +241,9 @@
 	"git_repo": {
 		"alias": [
 			"home assistant configuration",
-			"git-repo"
+			"git repo",
+			"git-repo",
+			"gitrepo"
 		],
 		"title": "Sending your HA Configuration to Github",
 		"minRank": 0,
@@ -374,6 +398,23 @@
 		"title": "💫 LED ESP Drivers",
 		"minRank": 0,
 		"description": "WLED ESP Driver download [🏎️ click here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)",
+		"category": [
+			"led"
+		],
+		"keywords": [
+			"LED"
+		]
+	},
+	"led_essentials": {
+		"alias": [
+			"led-essentials",
+			"led essentials",
+			"drzzs led help",
+			"Quindors led help"
+		],
+		"title": "💫 LED YouTube Videos from DrZzs & Quindor",
+		"minRank": 0,
+		"description": "Here are DrZzs YouTube Playlists with all his LED configuration and wiring step by step examples.  \n\n😶‍🌫️ (LED Essentials](https://www.youtube.com/playlist?list=PLL02pNmOcO9kOgJYkwcv4c1ApVffxIN8d)  \n😶‍🌫️ [LEDs](https://www.youtube.com/playlist?list=PLL02pNmOcO9lmMIQXaxv0_3oXM_l-yb-8)  \n\nHere are Quindor's (Intermit.Tech) YouTube Playlists with all his LED configuration and wiring step by step examples.  \n\n😶‍🌫️ (QuinLED](https://www.youtube.com/playlist?list=PL4b74vD-Uo-OdjNrwMCLtQjmEidsLYeu6)  \n😶‍🌫️ [ESP8266 LED Lighting](https://www.youtube.com/playlist?list=PL4b74vD-Uo-NrEv0RkJdh8M4dz8zxxMBb) \n",
 		"category": [
 			"led"
 		],
@@ -548,9 +589,9 @@
 			"Mosquitto",
 			"Paho"
 		],
-		"title": "MQTT: The Standard for IoT Messaging",
+		"title": "MQTT: The Standard for IoT Messaging 🖇",
 		"minRank": 0,
-		"description": "To install MQTT with Home Assistant, Check out this link:  🚧 https://www.home-assistant.io/integrations/mqtt/  \n\n🚧 [MQTT Homepage](http://mqtt.org/)  \n🚧 [MQTT WIKI](https://en.wikipedia.org/wiki/MQTT)  \n🚧 [HA Official MQTT Docs](https://www.home-assistant.io/integrations/mqtt/)  \n🚧 [MQTT-Explorer Homepage](http://mqtt-explorer.com/)  \n🚧 [The Hook Up's MQTT Video](https://tinyurl.com/thehookupmqtt)  \n\n🇲 🇶 🇹 🇹, or Message Queuing Telemetry Transport, is a light-weight protocol used in many situations where small message size and/or low bandwidth usage are important.  It was developed by IBM in 1999, and was initially used to monitor oil pipeline sensors and communicate with satellites. It became very popular, and is used extensively in SCADA control systems and smarthome products.\n\nMQTT utilizes a central service called a Broker that can be installed on just about any computer or server.  Clients connect to the Broker to monitor and update various Topics.  Subscriber Clients connect to the Broker and monitor a Topic; Publisher Clients connect to the Broker and update a Topic's value.  A Client can fill either role or both.\n\nHome Assistant and other home automation packages fill both roles, as do most Wifi connected smart plugs and devices.\n\nThere are libraries available in many programming languages (e.g. Arduino and Python) which can be used in custom sensor applications.\n\nWhen troubleshooting MQTT issues, it is useful to use a utility such as MQTT Explorer.",
+		"description": "To install MQTT with Home Assistant, Check out this link:  🎡 https://www.home-assistant.io/integrations/mqtt/  \n\n🎡 [MQTT Homepage](http://mqtt.org/)  \n🎡 [MQTT WIKI](https://en.wikipedia.org/wiki/MQTT)  \n🎡 [HA Official MQTT Docs](https://www.home-assistant.io/integrations/mqtt/)  \n🎡 [MQTT-Explorer Homepage](http://mqtt-explorer.com/)  \n🎡 [The Hook Up's MQTT Video](https://tinyurl.com/thehookupmqtt)  \n\n🇲 🇶 🇹 🇹, or Message Queuing Telemetry Transport, is a light-weight protocol used in many situations where small message size and/or low bandwidth usage are important.  It was developed by IBM in 1999, and was initially used to monitor oil pipeline sensors and communicate with satellites. It became very popular, and is used extensively in SCADA control systems and smarthome products.\n\nMQTT utilizes a central service called a Broker that can be installed on just about any computer or server.  Clients connect to the Broker to monitor and update various Topics.  Subscriber Clients connect to the Broker and monitor a Topic; Publisher Clients connect to the Broker and update a Topic's value.  A Client can fill either role or both.\n\nHome Assistant and other home automation packages fill both roles, as do most Wifi connected smart plugs and devices.\n\nThere are libraries available in many programming languages (e.g. Arduino and Python) which can be used in custom sensor applications.\n\nWhen troubleshooting MQTT issues, it is useful to use a utility such as MQTT Explorer.",
 		"category": [
 			"infrastructure",
 			"applications",
@@ -588,7 +629,7 @@
 		],
 		"title": "NEOPixels 🚦 LED Lights etal...",
 		"minRank": 0,
-		"description": "DrZzs has a lot of great videos!  Check out this one to get started: 🚦 https://youtu.be/tXvtxwK3jRk  \n\nAlso in DrZzs Discord check out the #led-lighting-diy-🚥-🚥 channel and page the @PixelHeads for one on one help.  \n\n🚦 [Beginner's Guide to Christmas Lights](https://youtu.be/tXvtxwK3jRk)  \n🚦 [The Hook Up's video on LED Strips](https://youtu.be/QnvircC22hU)  \n🚦 [`#led-lighting-diy-🚥-🚥` Discord Channel](https://discord.gg/8gvF67h)  \n\nIndividually Addressable LEDs come in many varieties; you may find them referred to as NeoPixels, or by their part numbers, which include WS2811, WS2812b, WS2813, WS2815, SK9822, SK9812, or APA106.  You will need a microcontroller of some kind to run them; the most popular in the home automation space are the ESP8266 and ESP32 Boards.  Depending upon the length of your installation, you may also need to procure a high-amperage power supply and additional wire for power injection.\n\nSee also {prefix}WLED",
+		"description": "DrZzs has a lot of great videos!  Check out this one to get started: 🚦 https://youtu.be/tXvtxwK3jRk  \n\nAlso in DrZzs Discord check out the <#511947803115913217> channel and page the @PixelHeads for one on one help.  \n\n🚦 [Beginner's Guide to Christmas Lights](https://youtu.be/tXvtxwK3jRk)  \n🚦 [The Hook Up's video on LED Strips](https://youtu.be/QnvircC22hU)  \n🚦 [`<#511947803115913217>` Discord Channel](https://discord.gg/8gvF67h)  \n\nIndividually Addressable LEDs come in many varieties; you may find them referred to as NeoPixels, or by their part numbers, which include WS2811, WS2812b, WS2813, WS2815, SK9822, SK9812, or APA106.  You will need a microcontroller of some kind to run them; the most popular in the home automation space are the ESP8266 and ESP32 Boards.  Depending upon the length of your installation, you may also need to procure a high-amperage power supply and additional wire for power injection.\n\nSee also {prefix}WLED",
 		"category": [
 			"microcontroller"
 		],
@@ -662,6 +703,7 @@
 		"alias": [
 			"pr",
 			"pullrequest",
+			"pull request",
 			"pull-request"
 		],
 		"title": "Pull Request 🐝 How to contribute in GitHub",
@@ -696,7 +738,7 @@
 	},
 	"reply": {
 		"alias": [],
-		"title": "Who Are You Respoding To?",
+		"title": "Who Are You Respoding To? ⟹",
 		"minRank": 0,
 		"description": "If there are multiple conversations going at once, try using the reply feature in discord.  This helps everyone know who they are replying to and from.  PLUS, if a package shows up when you reply, give it a click to show youe appreciation.",
 		"category": [
@@ -726,7 +768,7 @@
 			"RFBridge",
 			"Slampher"
 		],
-		"title": "Help with RF433 / RF315 Devices",
+		"title": "📡 Help with RF433 / RF315 Devices 📻",
 		"minRank": 0,
 		"description": "There is a lot of information on this subject.  Check out the links section and the Community can lead your journey here. \n\n📶 [How RF433 Works](https://bit.ly/DrZzsHow433Works) \n📶 [Flashing the RFBridge](https://bit.ly/DrZzsFlashRFBridgeTasmota) \n📶 [DrZzs Video](https://youtu.be/OfSbIFIJPuc) \n📶 [Digiblur Video](https://youtu.be/w_CchtI-oK0) \n📶 [WhatAreWeFixing.Today Video](https://whatarewefixing.today/?p=134) \n📶 [Multiple sensor setup](https://bit.ly/DrZzsRFBridgeMultiSensorSetup) \n\nThe 433 mhz RF (radio frequency) band and the 315 mhz RF band, depending on the country you live in, is designated for the same purpose. Low power RF transmitters are allowed to broadcast within these frequency ranges. These small transmitters are usually binary type sensors because only a small message is able to be transmitted during an event. Door/Window sensors, PIR sensors, push button transmitters, remote controls and the like are the typical devices using these frequencies. There needs to be a receiver nearby to pick up these signals and act on the message received.\n\nDevices such as the [Itead RFBridge](http://drzzs.com/RF_Bridge) and the [Bond Bridge](https://bit.ly/DrZzsBondBridge) act as reciever hubs to collect data from these sensors and feed the data back to a program such as Home Assistant for further action.  With some devices like the [Itead Sonoff Slampher](https://bit.ly/DrZzsSlampher), the device can ‘pair’ with a matching RF transmitter bought separately and act on the information provided. Devices are not tied to a common standard (like Zwave) which 1, keeps the price very low, but 2, causes incompatibility between manufacturers.",
 		"category": [
@@ -737,7 +779,7 @@
 	},
 	"secrets": {
 		"alias": [],
-		"title": "👁️‍🗨️ How Do HA Secrets Work?",
+		"title": "👁️‍🗨️ How Do HA Secrets Work? 𓀅",
 		"minRank": 0,
 		"description": "Rather than putting sensitive information (passwords, locations, etc) into your configuration, you can store them in secrets to make sharing easier. Secrets DO NOT work in Blueprints, however. \n👁️‍🗨️See <https://home-assistant.io/docs/configuration/secrets/> for more.",
 		"category": [
@@ -769,7 +811,10 @@
 	},
 	"sonoffDIY": {
 		"alias": [
-			"DIYFlash"
+			"DIYFlash",
+			"sonoff DIY",
+			"sonoff-DIY",
+			"sonoff_DIY"
 		],
 		"title": "Sorting out the Sonoff DIY Firmware",
 		"minRank": 0,
@@ -792,7 +837,7 @@
 			"spin",
 			"spinningButtonCard"
 		],
-		"title": "Spinning Button Card",
+		"title": "Spinning Button Card 🔄 🔃",
 		"minRank": 0,
 		"description": "Install the custom button card using HACS.  \n\n🎰 [Custom Button Card Innstall](https://github.com/custom-cards/button-card)  \n🎰 [Spinning Lovelace Button.YAML code](https://gist.github.com/Snipercaine/ddd8e57625f703958db7ba150ecb4be2)  \n\nThe spinning button is a very frequently asked for topic from the Doc.  Check out the links included for the source for the Lovelace configuration and download.  Please note the card is also available through HACS which would be a preferred method of installation.",
 		"category": [
@@ -809,7 +854,7 @@
 		],
 		"title": "Making Your configuration.yaml Easier to Use",
 		"minRank": 0,
-		"description": "🔀 [Split Configuration HA Official Instructions](https://home-assistant.io/docs/configuration/splitting_configuration/)  \n\n🔀 [Doc and Frenck with a live Demo](https://youtu.be/FfjSA2o_0KA)",
+		"description": "🔀 [Split Configuration HA Official Instructions](https://home-assistant.io/docs/configuration/splitting_configuration/)  \n\n🔀 [Doc and Frenck with a live Demo](https://youtu.be/FfjSA2o_0KA) \n\nAND if you want to split your scripts up so that the script UI editor works and your files are split, [look here](https://community.home-assistant.io/t/script-editor-and-split-up-files/40459/20) or go into a terminal in HA and do this: ```ln -f /config/#path_to_your_subfolder /config/scripts.yaml``` and in configuration.yaml do this: ```script: !include_dir_merge_named /config/#path_to_your_subfolder```.  Then put your split folders here for scripts.",
 		"category": [
 			"home-assistant"
 		],
@@ -818,12 +863,16 @@
 			"split"
 		]
 	},
-	"suggestHelp": {
+	"suggest_help": {
 		"alias": [
 			"suggestion",
+			"suggestionbox",
 			"suggestion-box",
 			"suggestion box",
-			"suggestion_box"
+			"suggestion_box",
+			"suggest-Help",
+			"suggest Help",
+			"suggestHelp"
 		],
 		"title": "Suggestion Poll",
 		"minRank": 0,
@@ -869,9 +918,9 @@
 		"alias": [
 			"TDMDock"
 		],
-		"title": "🦧 Tasmota Device Manager",
+		"title": "🦧 Tasmota Device Manager 🇹 🇩 🇲 🇬 🇷",
 		"minRank": 0,
-		"description":"Managing multiple Tasmota devices can be confusing.  TDMgr is a configuration and management GUI for your Tasmota network of devices.  It can help you access, configure, and manage all the Tasmotas on your Broker!  \n\n🦧 [TDMGR base software](https://github.com/jziolkowski/tdm \n🐋 Install TDMgr in a Docker Container [TDMDock](https://github.com/SirGoodenough/TDMDock \n🏠 TDMgr as a Supervised Addon [Addon Store link](https://github.com/ikifar2012/ha-addons​) \n🐋🏠 WhatAreWeFixing.Today Docker & Addon Install Video [Blog & Video](https://www.youtube.com/watch?v=yjMVnjfEp-g)",
+		"description":"Managing multiple Tasmota devices can be confusing.  TDMgr is a configuration and management GUI for your Tasmota network of devices.  It can help you access, configure, and manage all the Tasmotas on your Broker!  \n\n🦧 [TDMGR base software](https://github.com/jziolkowski/tdm) \n🐋   Install TDMgr in a Docker Container [TDMDock](https://github.com/SirGoodenough/TDMDock) \n🏠   TDMgr as a Supervised Addon [Addon Store link](https://github.com/ikifar2012/ha-addons​) \n🐋🏠 WhatAreWeFixing.Today Docker & Addon Install Video [Blog & Video](https://www.youtube.com/watch?v=yjMVnjfEp-g)  ",
 		"category": [
 			"integrations"
 		],
@@ -913,7 +962,7 @@
 		],
 		"title": "BOT Wrangling 101 on DrZzs Discord",
 		"minRank": 0,
-		"description":"There is a whole reference library in here to help you sort out things.  All contributions are from people on the channel.  \n\nType `{prefix}reflist` in the chat and you see the list.  Then (tilde) {prefix}topic will bring up that topic.  Also you can type `{prefix}commands` and get a list of BOT commands you nave access to.  \n\nWe tend to go to `#bot-spam` channel to activate those things so as to not fill up the topic channels with info just for you.",
+		"description":"There is a whole reference library in here to help you sort out things.  All contributions are from people on the channel.  \n\nType `{prefix}reflist` in the chat and you see the list.  Then (tilde) {prefix}topic will bring up that topic.  Also you can type `{prefix}commands` and get a list of BOT commands you nave access to.  \n\nWe tend to go to `<#717069963357323326>` channel to activate those things so as to not fill up the topic channels with info just for you.",
 		"category": [
 			"information",
 			"general"
@@ -979,22 +1028,26 @@
 		]
 	},
 	"wiki": {
-		"alias": [],
+		"alias": [
+			"hive",
+			"sherlock"
+		],
 		"title": "HIVE BOT & Sherlock BOT WIKI",
 		"minRank": 0,
-		"description": "You can find command info and other general information about HIVE on the wiki: [More information](https://github.com/Blade2021/HIVE/wiki)  \n\nInformation about Sherloc is found here: [More Information](https://github.com/Blade2021/Sherlock/wiki)",
+		"description": "You can find command info and other general information about HIVE on the wiki: [More information](https://github.com/Blade2021/HIVE/wiki)  \n\nInformation about Sherlock is found here: [More Information](https://github.com/Blade2021/Sherlock/wiki)",
 		"category": [
 			"information"
 		],
 		"keywords": [
-			"HIVE"
+			"HIVE",
+			"Sherlock"
 		]
 	},
 	"wled": {
 		"alias": [],
-		"title": "WLED - ESP8266/ESP32 webserver to control NeoPixel +",
+		"title": "WLED - ESP32/ESP8266 webserver to control NeoPixel +",
 		"minRank": 0,
-		"description": "Check out this link to get started: \n\n🚥 [WLED WIKI](https://github.com/Aircoookie/WLED/wiki)  \n\nWLED is a firmware that can be loaded onto ESP8266 and ESP32 microcontrollers and is used to control lengths of connected addressable LEDs.  It has many built-in features, is compatible with Home Assistant via an integration, and with DMX-based Light Controller protocols.\n\nSee also: {prefix}NeoPixel",
+		"description": "Check out this link to get started: \n\n🚥 [WLED WIKI](https://github.com/Aircoookie/WLED/wiki)  \n\nWLED is a firmware that can be loaded onto ESP8266 and ESP32 microcontrollers and is used to control lengths of connected addressable LEDs.  It has many built-in features, is compatible with Home Assistant via an integration, and with DMX-based Light Controller protocols.\n\nSee also: {prefix}NeoPixel. \n\n[Sound Reactive WLED WIKI](https://github.com/atuline/WLED/wiki) \n[WLED Latest Release](https://github.com/Aircoookie/WLED/releases/latest)",
 		"category": [
 			"lights",
 			"applications"
@@ -1019,10 +1072,10 @@
 			"Zigbee2MQTT",
 			"ZiGate",
 			"zig-a-zag-ah!"
-	],
-	"title": "Zigbee Wireless Mesh Protocol",
+		],
+		"title": "Zigbee Wireless Mesh Protocol",
 		"minRank": 0,
-		"description": "Zigbee requires a hub to communicate so be sure to have one ready!  \n\n🐝 [Amazon Buy ConBee II](https://www.amazon.com/dresden-elektronik-ConBee-Universal-Gateway/dp/B07PZ7ZHG5/)  \n🐝 [List of approved Zigbee2MQTT Adapters](https://www.zigbee2mqtt.io/information/supported_adapters.html)  \n🐝 [ZigBee2MQTT Firmware and Installation](https://www.zigbee2mqtt.io/)  \n🐝 [Sonoff Zigbee & ZHA HA Integration](https://www.youtube.com/watch?v=xc_HGvrOxp8)  \n🐝 [Blakadder's ZigBee Page](https://zigbee.blakadder.com/)  \n🐝 [ZigBee Alliance Homepage](https://zigbeealliance.org/zigbee_products/)  \n\nOH THE ZIGBEE!\n\nZigbee is a communication protocol that has flourished in the home automation community.  Zigbee is often preferred to Wifi-based technologies due to its low power consumption and long battery life.  The downside to using zigbee is you need to have a HUB to communicate with all of your devices.  In some ways this is advantageous as it requires fewer devices connect to your wifi network.\n\nOne zigbee hub that has a high approval is the conbee 2.  It is not the cheapest option, but it is fairly easy to configure and always performs very well with devices.  Another great option is the Zigbee2MQTT hub which will relay zigbee data to your mqtt broker.  Whichever hub you select, be sure to verify that devices are supported by your hub before buying as most hubs do not support every device.\n\nIf nothing else, Zigbee is a very powerful protocol that opens the horizon to many types of sensors, switches, and other types of home automation devices.\n\n🛑**CAUTION**🛑 Zigbee operates in the 2.4 GHz Spectrum, which is shared with Wifi, Bluetooth, Microwave Ovens, and some cordless telephones.  If you have a lot of 2.4 GHz present at your location, your Zigbee devices may be unreliable.",
+		"description": "Zigbee requires a hub to communicate so be sure to have one ready!  \n\n🐝 [Amazon Buy ConBee II](https://www.amazon.com/dresden-elektronik-ConBee-Universal-Gateway/dp/B07PZ7ZHG5/)  \n🐝 [List of approved Zigbee2MQTT Adapters](https://www.zigbee2mqtt.io/information/supported_adapters.html)  \n🐝 [ZigBee2MQTT Firmware and Installation](https://www.zigbee2mqtt.io/)  \n🐝 [Sonoff Zigbee & ZHA HA Integration](https://www.youtube.com/watch?v=xc_HGvrOxp8)  \n🐝 [Blakadder's ZigBee Page](https://zigbee.blakadder.com/)  \n🐝 [ZigBee Alliance Homepage](https://zigbeealliance.org/zigbee_products/)  \n\nOH THE ZIGBEE!\n\nZigbee is a communication protocol that has flourished in the home automation community.  Zigbee is often preferred to Wifi-based technologies due to its low power consumption and long battery life.  The downside to using zigbee is you need to have a HUB to communicate with all of your devices.  In some ways this is advantageous as it requires fewer devices connect to your wifi network.\n\nOne zigbee hub that has a high approval is the conbee 2.  It is not the cheapest option, but it is fairly easy to configure.  Another great option is Zigbee2MQTT which will relay zigbee data thru your mqtt broker.  Whichever hub you select, be sure to verify that devices are supported by your hub before buying as most hubs do not support every device.\n\nIf nothing else, Zigbee is a very powerful protocol that opens the horizon to many types of sensors, switches, and other types of home automation devices.\n\n🛑**CAUTION**🛑 Zigbee operates in the 2.4 GHz Spectrum, which is shared with Wifi, Bluetooth, Microwave Ovens, and other things.  If you have a lot of 2.4 GHz at your location, your Zigbee may be unreliable.",
 		"category": [
 			"infrastructure",
 			"bridge",
@@ -1064,4 +1117,3 @@
 		]
 	}
 }
-
