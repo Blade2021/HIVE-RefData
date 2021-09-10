@@ -670,6 +670,23 @@
 		],
 		"keywords": []
 	},
+	"pixelheads": {
+		"alias": [
+		"ph",
+		"led"
+		],
+		"title": "THE PIXELHEADS!",
+		"minRank": 0,
+		"description": "Have a LED related question?  Be sure to ask your question in LED Channel <#511947803115913217> here on discord!  Our LED masterminds, the PixelHeads, generally hang out there and can answer your question(s) swiftly.",
+		"category": [
+			"lights",
+			"applications"
+		],
+		"keywords": [
+		"led",
+		"pixelHeads"
+		]
+	},
 	"points": {
 		"alias": [],
 		"title": "What are Points?",
@@ -1097,23 +1114,6 @@
 			"EZSP",
 			"Z-Bee",
 			"zig-a-zag-ah!"
-		]
-	},
-	"pixelheads": {
-		"alias": [
-		"ph",
-		"led"
-		],
-		"title": "THE PIXELHEADS!",
-		"minRank": 0,
-		"description": "Have a LED related question?  Be sure to ask your question in LED Channel here on discord!  Our LED masterminds, the PixelHeads, generally hang out there and can answer your question(s) swiftly.",
-		"category": [
-			"lights",
-			"applications"
-		],
-		"keywords": [
-		"led",
-		"pixelHeads"
 		]
 	}
 }
