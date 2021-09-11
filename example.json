@@ -4,8 +4,7 @@
       "example-command",
       "Another Example"
     ],
-		"title": "Title Goes Here 🔨 🥇 👍 🐿️ 🌰",
-		"minRank": 0,
+    "title": "Title Goes Here 🔨 🥇 👍 🐿️ 🌰",
     "description": "If you search very hard on github, you'll eventually find it.",
     "category": [
       "switching-applications"
@@ -16,8 +15,7 @@
   },
   "example_blank": {
     "alias": [],
-		"title": "",
-		"minRank": 0,
+    "title": "",
     "description": "",
     "category": [],
     "keywords": []
