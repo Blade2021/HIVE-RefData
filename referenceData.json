@@ -370,7 +370,7 @@
 		],
 		"title": "💫 Calculate LED Power",
 		"minRank": 0,
-		"description": "What is Power Injection? At its lowest level power injection is nothing more than adding additional power to a string of lights at a point in which the voltage drop starts to affect the lights \n\n🦟 [More details here](http://spikerlights.com/pwrinjection.aspx) \n\n🦟 This is a great calculator to help with judging the size of wire, power supplies, distance, votage drop, and much more: [RGB Pixel Power Calculator.](http://spikerlights.com/calcpower.aspx) \n\n🦟 How much power do addressable LEDs use?, Digitally Addressable LED Sheet: [Quindor has the answer here.](https://quinled.info/2020/03/12/digital-led-power-usage/)",
+		"description": "What is Power Injection? At its lowest level power injection is nothing more than adding additional power to a string of lights at a point in which the voltage drop starts to affect the lights \n\n🦟 [More details here](http://spikerlights.com/pwrinjection.aspx) \n\n🦟 This is a great calculator to help with judging the size of wire, power supplies, distance, votage drop, and much more: [RGB Pixel Power Calculator.](http://spikerlights.com/calcpower.aspx)\n\n🦟 Quindor also has compiled tons of info on wire sizing that can be found [here.](https://quinled.info/2018/10/20/wire-thickness-needed/) \n\n🦟 How much power do addressable LEDs use? Quindor's Digitally Addressable LED Sheet can be found [here.](https://quinled.info/2020/03/12/digital-led-power-usage/)",
 		"category": [
 			"led"
 		],
