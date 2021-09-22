@@ -459,11 +459,15 @@
 	"led_hardware": {
 		"alias": [
 			"led hardware",
-			"led-hardware"
+			"led-hardware",
+			"led vendor",
+			"led-vendor",
+			"led vendors",
+			"led-vendors"
 		],
 		"title": "💫 LED Hardware",
 		"minRank": 0,
-		"description": "Global Vendors:\n🔩 [BTF Lighting Aliexpres](https://btf-lighting.aliexpress.com/store/1051119) \n🔩 [ETOP Lighting AliExpress](https://www.aliexpress.com/store/4478030) \n🔩 [Ray wu's store](https://www.aliexpress.com/store/701799?spm=a2g0s.9042311.0.0.40694c4db8oCxz)  \n\n US:  \n🔩 [Hanson Electronics](http://www.hansonelectronics.com.au/) \n🔩 [Jboards](https://jboards.ecwid.com/) \n🔩 [Mattosdesigns](https://mattosdesigns.com/) \n🔩 [Paul Zhang Direct-US](https://www.amazon.com/s?i=merchant-items&me=A1HD6W29M3RXPC&tag=drzzs0e-20) \n🔩 [RGBMan](https://www.rgb-man.com/) \n🔩 [Wiredwatts](https://www.wiredwatts.com/) \n🔩 [Wallyslights](https://www.wallyslights.com/) \n\n EU/UK LED Vendors:\n🔩 [Build a lightshow located in the UK](https://buildalightshow.com/) \n🔩 [Propixeler located in the Netherlands](https://propixeler.nl/index.php?route=common/home) \n🔩 [Xmas-land located in Germany](https://www.xmas-land.de/)",
+		"description": "Global Vendors:\n🔩 [BTF Lighting Aliexpres](https://btf-lighting.aliexpress.com/store/1051119) \n🔩 [ETOP Lighting AliExpress](https://www.aliexpress.com/store/4478030) \n🔩 [Ray wu's store](https://www.aliexpress.com/store/701799?spm=a2g0s.9042311.0.0.40694c4db8oCxz)  \n\n US:  \n🔩 [Hanson Electronics](http://www.hansonelectronics.com.au/) \n🔩 [Jboards](https://jboards.ecwid.com/) \n🔩 [Mattosdesigns](https://mattosdesigns.com/) \n🔩 [Paul Zhang Direct-US](https://www.amazon.com/s?i=merchant-items&me=A1HD6W29M3RXPC&tag=drzzs0e-20) \n🔩 [RGBMan](https://www.rgb-man.com/) \n🔩 [Wiredwatts](https://www.wiredwatts.com/) \n🔩 [Wallyslights](https://www.wallyslights.com/) \n🔩 [Your Pixel Store](https://www.yourpixelstore.com/) \n\n EU/UK LED Vendors:\n🔩 [Build a lightshow located in the UK](https://buildalightshow.com/) \n🔩 [Propixeler located in the Netherlands](https://propixeler.nl/index.php?route=common/home) \n🔩 [Xmas-land located in Germany](https://www.xmas-land.de/)",
 		"category": [
 			"led"
 		],
@@ -507,7 +511,7 @@
 		],
 		"title": "💫 PIXELHEADS 3D Print Collection 🚀 ",
 		"minRank": 0,
-		"description": "[🏗 Viperts Creations 3d Models](https://cults3d.com/en/users/Viperts/creations) ",
+		"description": "[🏗 Viperts Creations 3d Models](https://cults3d.com/en/users/Viperts/creations) \n[🏗 Pjotr's 3D Models](https://www.thingiverse.com/pjotrr/designs) ",
 		"category": [
 			"led"
 		],
@@ -633,7 +637,7 @@
 		],
 		"title": "NEOPixels 🚦 LED Lights etal...",
 		"minRank": 0,
-		"description": "DrZzs has a lot of great videos!  Check out this one to get started: 🚦 https://youtu.be/tXvtxwK3jRk  \n\nAlso in DrZzs Discord check out the <#511947803115913217> channel and page the @PixelHeads for one on one help.  \n\n🚦 [Beginner's Guide to Christmas Lights](https://youtu.be/tXvtxwK3jRk)  \n🚦 [The Hook Up's video on LED Strips](https://youtu.be/QnvircC22hU)  \n🚦 [`<#511947803115913217>` Discord Channel](https://discord.gg/8gvF67h)  \n\nIndividually Addressable LEDs come in many varieties; you may find them referred to as NeoPixels, or by their part numbers, which include WS2811, WS2812b, WS2813, WS2815, SK9822, SK9812, or APA106.  You will need a microcontroller of some kind to run them; the most popular in the home automation space are the ESP8266 and ESP32 Boards.  Depending upon the length of your installation, you may also need to procure a high-amperage power supply and additional wire for power injection.\n\nSee also {prefix}WLED",
+		"description": "DrZzs has a lot of great videos!  Check out this one to get started: 🚦 https://youtu.be/tXvtxwK3jRk  \n\nAlso in DrZzs Discord check out the <#511947803115913217> channel and page the @PixelHeads for one on one help.  \n\n🚦 [Beginner's Guide to Christmas Lights](https://youtu.be/tXvtxwK3jRk)  \n🚦 [The Hook Up's video on LED Strips](https://youtu.be/QnvircC22hU) \n\nIndividually Addressable LEDs come in many varieties; you may find them referred to as NeoPixels, or by their part numbers, which include WS2811, WS2812b, WS2813, WS2815, SK9822, SK9812, or APA106.  You will need a microcontroller of some kind to run them; the most popular in the home automation space are the ESP8266 and ESP32 Boards.  Depending upon the length of your installation, you may also need to procure a high-amperage power supply and additional wire for power injection.\n\nSee also {prefix}WLED",
 		"category": [
 			"microcontroller"
 		],
@@ -1051,7 +1055,7 @@
 		"alias": [],
 		"title": "WLED - ESP32/ESP8266 webserver to control NeoPixel +",
 		"minRank": 0,
-		"description": "Check out this link to get started: \n\n🚥 [WLED WIKI](https://github.com/Aircoookie/WLED/wiki)  \n\nWLED is a firmware that can be loaded onto ESP8266 and ESP32 microcontrollers and is used to control lengths of connected addressable LEDs.  It has many built-in features, is compatible with Home Assistant via an integration, and with DMX-based Light Controller protocols.\n\nSee also: {prefix}NeoPixel. \n\n[Sound Reactive WLED WIKI](https://github.com/atuline/WLED/wiki) \n[WLED Latest Release](https://github.com/Aircoookie/WLED/releases/latest)",
+		"description": "Check out this link to get started: \n\n🚥 [WLED FAQ](https://kno.wled.ge/basics/faq/)  \n\nWLED is a firmware that can be loaded onto ESP8266 and ESP32 microcontrollers and is used to control lengths of connected addressable LEDs.  It has many built-in features, is compatible with Home Assistant via an integration, and with DMX-based Light Controller protocols.\n\nSee also: {prefix}NeoPixel. \n\n[Sound Reactive WLED WIKI](https://github.com/atuline/WLED/wiki) \n[WLED Latest Release](https://github.com/Aircoookie/WLED/releases/latest)",
 		"category": [
 			"lights",
 			"applications"
