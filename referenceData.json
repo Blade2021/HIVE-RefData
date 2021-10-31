@@ -1127,5 +1127,20 @@
 		"led",
 		"pixelHeads"
 		]
+	},
+	"Post It Here": {
+		"alias": [
+			"nodm",
+			"posthere"
+		],
+		"title": "Ask your question here",
+		"minRank": 0,
+		"description": "It is best to ask general questions in the channel versus DM'ing (Direct message) a user/staff member.  This allows everyone in the channel to help or get information reducing repetitive questions.",
+		"category": [
+			"general"
+		],
+		"keywords": [
+			"question"
+		]
 	}
 }
