@@ -448,7 +448,8 @@
 		"alias": [
 			"LED fpp",
 			"ledfpp",
-			"led-fpp"
+			"led-fpp",
+			"fpp"
 		],
 		"title": "💫 LED FPP",
 		"minRank": 0,
