@@ -403,9 +403,9 @@
 			"leddriver",
 			"led driver"
 		],
-		"title": "💫 LED ESP Drivers",
+		"title": "ESP Drivers",
 		"minRank": 0,
-		"description": "WLED ESP Driver download [🏎️ click here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)",
+		"description": "When flashing an ESP chip your computer needs the proper driver to recognize the device. There are two versions that could be needed: \n🏎️ [CP210x Driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) \n🏎️ [CH340 Driver](https://www.wemos.cc/en/latest/ch340_driver.html)",
 		"category": [
 			"led"
 		],
