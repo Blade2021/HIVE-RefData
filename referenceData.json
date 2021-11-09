@@ -1143,5 +1143,21 @@
 		"keywords": [
 			"question"
 		]
+	},
+	"resvsreg": {
+		"alias": [
+			"regvsres",
+			"regulated",
+			"resistor"
+		],
+		"title": "Resistor versus Regulated - Whats the diff!",
+		"minRank": 0,
+		"description": "Check out the difference between resistor driven versus regulated pixels here: [Wired Watts Link](https://www.wiredwatts.com/learn-regulators/)",
+		"category": [
+			"lights"
+		],
+		"keywords": [
+			"led"
+		]
 	}
 }
