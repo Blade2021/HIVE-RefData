@@ -405,7 +405,7 @@
 		],
 		"title": "ESP Drivers",
 		"minRank": 0,
-		"description": "When flashing an ESP chip your computer needs the proper driver to recognize the device. There are two versions that could be needed: \n🏎️ [CP210x Driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) \n🏎️ [CH340 Driver](https://www.wemos.cc/en/latest/ch340_driver.html)",
+		"description": "When flashing an ESP chip your computer needs the proper driver to recognize the device. There are two versions that could be needed: \n🏎️ [CP210x Driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) \n🏎️ [CH340 Driver](https://www.wemos.cc/en/latest/ch340_driver.html) \n🏎️ [CH9102 Driver](https://github.com/WCHSoftGroup/ch343ser_linux)",
 		"category": [
 			"led"
 		],
@@ -437,6 +437,34 @@
 		"title": "💫 LED Falcon Controllers",
 		"minRank": 0,
 		"description": "🦅 [pixelcontroller.com](https://www.pixelcontroller.com/store/index.php) -Home of the Falcon controllers that can drive 1024 lights per port can drive many different types of pixels ie.WS,TM,SM,INK,TL,CY,LPD,D705,ETC. \n🦅 [Falcon controller support page](https://www.pixelcontroller.com/store/index.php?id_cms_category=5&controller=cms) *you will run these from fpp or your computer through xSchedule* *new firmware might change this*. \n🦅 F16V3- 16 port Pixel Controller- 1024 pixels per output pixel controller [link](https://www.pixelcontroller.com/store/index.php?id_product=48&controller=product) \n🦅 F48 Differential Controller- Can drive up to 16384 pixels. 48 Differential Outputs no local ports-Can connect up to 12 Falcon Differential Receivers. [Link](https://www.pixelcontroller.com/store/index.php?id_product=52&controller=product) \n🦅 Falcon PiCap for a pi3 or pi4 Can control two strings 800+ WS2811 pixels with fused and buffered outputs. Dedicated RS-485 DMX Output (Renard, DMX, LOR selectable). Input voltage 5, or 12V selectable. [Link](https://www.pixelcontroller.com/store/index.php?id_product=47&controller=product) \n🦅 FPP releases can be found here newest is at top.[Github](https://github.com/FalconChristmas/fpp/releases) \n🦅 FPP Installing and Configuring Your Controller Step by Step - Rick Harris [YouTube](https://www.youtube.com/watch?v=ZV4o11XiaU0) \n🦅 VCS 2020 Falcon Controllers - Scott Hanson- [YouTube](https://www.youtube.com/watch?v=J9KDQvYBoe0)",
+		"category": [
+			"led"
+		],
+		"keywords": [
+			"LED"
+		]
+	},
+	"ledflicker": {
+		"alias": [
+			"led flicker","led_flicker","led-flicker"
+		],
+		"title": "💫 LEDs Flickering?",
+		"minRank": 0,
+		"description": "Having issues with your LEDs flickering? There could be many causes, follow [this](https://drzzs.com/wp-content/uploads/2021/11/Pixel-Flickering-Algorithm.jpeg) flowchart from DrZzs to troubleshoot your issue. \n\n Links referenced: \n  [Data Signal Condtioning](https://quinled.info/data-signal-cable-conditioning/) \n [QuinLED Data Booster](https://quinled.info/quinled-data-booster-for-sale/) \n [QuinLED Data Booster Power Injection](https://quinled.info/quinled-data-booster-maxi-power-injection/)",
+		"category": [
+			"led"
+		],
+		"keywords": [
+			"LED"
+		]
+	},
+	"ledfm": {
+		"alias": [
+			"led fm","led_fm","led-fm","fm","fm station"
+		],
+		"title": "💫 FM Station Finder",
+		"minRank": 0,
+		"description": "📻 Need to find an open FM station to broadcast music for you show? Check out [this](https://radio-locator.com/cgi-bin/vacant#) tool",
 		"category": [
 			"led"
 		],
@@ -516,7 +544,7 @@
 		],
 		"title": "💫 PIXELHEADS 3D Print Collection 🚀 ",
 		"minRank": 0,
-		"description": "Our Pixelheads have compiled a collection of LED related 3D prints for easy access: \n [🏗 Pixelheads 3D Print Collection](https://thepixelheads.github.io/) \n\n These designers have LED prints and more that we also really like: \n [🏗 Viperts Creations 3D Models](https://cults3d.com/en/users/Viperts/creations) \n[🏗 Pjotr's 3D Models](https://www.thingiverse.com/pjotrr/designs) ",
+		"description": "Our Pixelheads have compiled a collection of LED related 3D prints for easy access: \n [🏗 Pixelheads 3D Print Collection](https://thepixelheads.github.io/) \n\n These designers have LED prints and more that we also really like: \n [🏗 Viperts Creations 3D Models](https://cults3d.com/en/users/Viperts/creations) \n[🏗 Pjotr's 3D Models](https://www.thingiverse.com/pjotrr/designs) \n[🏗 Jason Sisk 3D Models](https://www.thingiverse.com/phoenlx/designs) ",
 		"category": [
 			"led"
 		],
@@ -545,6 +573,34 @@
 		"title": "💫 LED Display Sequences",
 		"minRank": 0,
 		"description": "☄️ [Xlights Free Sequences (Google Drive)](https://drive.google.com/drive/folders/0B2ozCEidtWh3MUVzX0ZMc1pzY00?fref=gc&dti=628061113896314) \n☄️ [Pixel Pro Displays](https://www.pixelprodisplays.com/) \n☄️ [Xtreme Sequences](https://www.xtremesequences.com/) \n☄️ [ShowStopperSequences](https://showstoppersequences-com.3dcartstores.com/) \n☄️ [Magical Light Shows](https://magicallightshows.com/) \n☄️ [Animated Lumination Sequences](http://animatedillumination.com/) \n☄️ [SyracuseLights](https://www.syracuselights.org/sequences) \n☄️ [VCS 2020 xLights: Basic Sequencing Michael Stoffregen - VIDEO](https://www.youtube.com/watch?v=EvK7AUJ1Nrk)",
+		"category": [
+			"led"
+		],
+		"keywords": [
+			"LED"
+		]
+	},
+	"ledtrouble": {
+		"alias": [
+			"led trouble","led_trouble","led-trouble"
+		],
+		"title": "💫 LEDs Not Turning on?",
+		"minRank": 0,
+		"description": "Having issues with your LEDs not turning from a Dig-Uno or Dig=Quad? There could be many causes, follow [this](https://drzzs.com/wp-content/uploads/2021/11/Dig-Troubleshooting-Algorithm-e1635881454100.jpeg) flowchart from DrZzs to troubleshoot your issue. \n\n Links referenced: \n  [Dig-Uno Pinout Guide](https://quinled.info/quinled-dig-uno-pinout-guide/) \n [Dig-Quad Pinout Guide](https://quinled.info/quinled-dig-quad-pinout-guide/) \n [Dig-Uno WLED Manual](https://quinled.info/2020/02/11/pre-assembled-quinled-dig-uno-wled-manual/)",
+		"category": [
+			"led"
+		],
+		"keywords": [
+			"LED"
+		]
+	},
+	"led_vcs": {
+		"alias": [
+			"led vcs","led-vcs","vcs"
+		],
+		"title": "💫 Virtual Christmas Summit",
+		"minRank": 0,
+		"description": "The Virtual Christmas Summit is a weekend of presentations by some of the smartest people in the LED Holiday Hobby and Vendors. Thankfully if you weren't able to attend or were in a different session they are recorded and available to take in the large amount of knowledge \n\n [VCS Youtube](https://www.youtube.com/c/VirtualChristmasSummit) ",
 		"category": [
 			"led"
 		],
@@ -1119,7 +1175,7 @@
 		],
 		"title": "THE PIXELHEADS!",
 		"minRank": 0,
-		"description": "Have a LED related question?  Be sure to ask your question in <#511947803115913217> Channel here on discord!  Our LED masterminds, the PixelHeads, generally hang out there and can answer your question(s) swiftly.",
+		"description": "Have an LED related question?  Be sure to ask your question in <#511947803115913217> Channel here on discord!  Our LED masterminds, the PixelHeads, generally hang out there and can answer your question(s) swiftly.",
 		"category": [
 			"lights",
 			"applications"
