@@ -450,7 +450,7 @@
 		],
 		"title": "💫 LEDs Flickering?",
 		"minRank": 0,
-		"description": "Having issues with your LEDs flickering? There could be many causes, follow [this](https://drzzs.com/wp-content/uploads/2021/11/Pixel-Flickering-Algorithm.jpeg) flowchart from DrZzs to troubleshoot your issue. \n\n Links referenced: \n  [Data Signal Condtioning](https://quinled.info/data-signal-cable-conditioning/) \n [QuinLED Data Booster](https://quinled.info/quinled-data-booster-for-sale/) \n [QuinLED Data Booster Power Injection](https://quinled.info/quinled-data-booster-maxi-power-injection/)",
+		"description": "Having issues with your LEDs flickering? There could be many causes, follow [this](https://drzzs.com/wp-content/uploads/2021/11/Pixel-Flickering-Algorithm.jpeg) flowchart from DrZzs to troubleshoot your issue. \n\n Links referenced: \n [Data Signal Condtioning](https://quinled.info/data-signal-cable-conditioning/) \n [QuinLED Data Booster](https://quinled.info/quinled-data-booster-for-sale/) \n [QuinLED Data Booster Power Injection](https://quinled.info/quinled-data-booster-maxi-power-injection/) \n\n Additional Resources: \n\n [VCS Presention: Why pixels flicker and how to fix it](https://youtu.be/9ttEAyiyTAI)",
 		"category": [
 			"led"
 		],
@@ -586,7 +586,7 @@
 		],
 		"title": "💫 LEDs Not Turning on?",
 		"minRank": 0,
-		"description": "Having issues with your LEDs not turning from a Dig-Uno or Dig=Quad? There could be many causes, follow [this](https://drzzs.com/wp-content/uploads/2021/11/Dig-Troubleshooting-Algorithm-e1635881454100.jpeg) flowchart from DrZzs to troubleshoot your issue. \n\n Links referenced: \n  [Dig-Uno Pinout Guide](https://quinled.info/quinled-dig-uno-pinout-guide/) \n [Dig-Quad Pinout Guide](https://quinled.info/quinled-dig-quad-pinout-guide/) \n [Dig-Uno WLED Manual](https://quinled.info/2020/02/11/pre-assembled-quinled-dig-uno-wled-manual/)",
+		"description": "Having issues with your LEDs not turning from a Dig-Uno or Dig-Quad? There could be many causes, follow [this](https://drzzs.com/wp-content/uploads/2021/11/Dig-Troubleshooting-Algorithm-e1635881454100.jpeg) flowchart from DrZzs to troubleshoot your issue. \n\n Links referenced: \n [Dig-Uno Pinout Guide](https://quinled.info/quinled-dig-uno-pinout-guide/) \n [Dig-Quad Pinout Guide](https://quinled.info/quinled-dig-quad-pinout-guide/) \n [Dig-Uno WLED Manual](https://quinled.info/2020/02/11/pre-assembled-quinled-dig-uno-wled-manual/)",
 		"category": [
 			"led"
 		],
