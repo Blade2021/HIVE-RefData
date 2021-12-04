@@ -359,6 +359,26 @@
 			"ask"
 		]
 	},
+	"led_boost": {
+		"alias": [
+			"ledboost",
+			"led-boost",
+			"led boost",
+			"led_booster",
+			"ledbooster",
+			"led-booster",
+			"led booster",
+		],
+		"title": "💫 LED Data Boosters",
+		"minRank": 0,
+		"description": "⚡QuinLED Data Booster: [DrZzs](https://drzzs.com/shop/3-wire-data-booster/) [ALLNET](https://shop.allnetchina.cn/collections/quinled/products/quinled-data-booster) \n⚡xConnect Ends: [WiredWatts](https://www.wiredwatts.com/pixaboost3-pixel-data-booster-xconnect) [Wallys](https://www.wallyslights.com/collections/data-boosters/products/data-booster-with-xconnect-pigtails) [RGBMan](https://www.rgb-man.com/online-store/Xconnect-FAMP-p248004445) [PixelController](https://www.pixelcontroller.com/store/controllers/54-falcon-picap.html) [Your Pixel Store](https://www.yourpixelstore.com/all-products?store-page=F-Amp-with-xConnect-Pigtails-Pack-of-5-p403550735) \n⚡RayWu Ends: [WiredWatts](https://www.wiredwatts.com/pixaboost1-pixel-data-boosters-ray) [Wallys](https://www.wallyslights.com/collections/data-boosters/products/data-boosters-with-ray-wu-pigtails-1) [RGBMan](https://www.rgb-man.com/online-store/FAMP-with-13-5-Ends-Ray-Wu-p254604858) [PixelController](https://www.pixelcontroller.com/store/controllers/55-falcon-picap.html) \n⚡Open Wire Ends: [PixelController](https://www.pixelcontroller.com/store/controllers/53-falcon-picap.html)",
+		"category": [
+			"led"
+		],
+		"keywords": [
+			"LED"
+		]
+	},
 	"led_calc_power": {
 		"alias": [
 			"LED calcpower",
@@ -493,14 +513,17 @@
 		"alias": [
 			"led hardware",
 			"led-hardware",
+			"ledhardware",
 			"led vendor",
 			"led-vendor",
+			"ledvendor",
 			"led vendors",
-			"led-vendors"
+			"led-vendors",
+			"ledvendors"
 		],
 		"title": "💫 LED Hardware",
 		"minRank": 0,
-		"description": "Global Vendors:\n🔩 [BTF Lighting Aliexpres](https://btf-lighting.aliexpress.com/store/1051119) \n🔩 [ETOP Lighting AliExpress](https://www.aliexpress.com/store/4478030) \n🔩 [Ray wu's store](https://www.aliexpress.com/store/701799?spm=a2g0s.9042311.0.0.40694c4db8oCxz) \n🔩 [Hanson Electronics](http://www.hansonelectronics.com.au/)  \n\n US:  \n🔩 [Jboards](https://jboards.ecwid.com/) \n🔩 [Mattosdesigns](https://mattosdesigns.com/) \n🔩 [Paul Zhang Direct-US](https://www.amazon.com/s?i=merchant-items&me=A1HD6W29M3RXPC&tag=drzzs0e-20) \n🔩 [RGBMan](https://www.rgb-man.com/) \n🔩 [Wiredwatts](https://www.wiredwatts.com/) \n🔩 [Wallyslights](https://www.wallyslights.com/) \n🔩 [Your Pixel Store](https://www.yourpixelstore.com/) \n\n EU/UK LED Vendors:\n🔩 [Build a lightshow located in the UK](https://buildalightshow.com/) \n🔩 [Propixeler located in the Netherlands](https://propixeler.nl/index.php?route=common/home) \n🔩 [Xmas-land located in Germany](https://www.xmas-land.de/) \n\n AU LED Vendors:\n🔩 [Extreme Lighting Displays](https://www.extremelightingdisplays.com.au/)",
+		"description": "Global Vendors:\n🔩[QuinLED ALLNET](https://shop.allnetchina.cn/collections/quinled) \n🔩 [BTF Lighting Aliexpres](https://btf-lighting.aliexpress.com/store/1051119) \n🔩 [ETOP Lighting AliExpress](https://www.aliexpress.com/store/4478030) \n🔩 [Ray wu's store](https://www.aliexpress.com/store/701799?spm=a2g0s.9042311.0.0.40694c4db8oCxz) \n🔩 [Hanson Electronics](http://www.hansonelectronics.com.au/)  \n\n US:\n🔩[DrZzs Shop](https://drzzs.com/shop/) \n🔩 [Jboards](https://jboards.ecwid.com/) \n🔩 [Mattosdesigns](https://mattosdesigns.com/) \n🔩 [Paul Zhang Direct-US](https://www.amazon.com/s?i=merchant-items&me=A1HD6W29M3RXPC&tag=drzzs0e-20) \n🔩 [RGBMan](https://www.rgb-man.com/) \n🔩 [Wiredwatts](https://www.wiredwatts.com/) \n🔩 [Wallyslights](https://www.wallyslights.com/) \n🔩 [Your Pixel Store](https://www.yourpixelstore.com/) \n\n EU/UK LED Vendors:\n🔩 [Build a lightshow located in the UK](https://buildalightshow.com/) \n🔩 [Propixeler located in the Netherlands](https://propixeler.nl/index.php?route=common/home) \n🔩 [Xmas-land located in Germany](https://www.xmas-land.de/) \n\n AU LED Vendors:\n🔩 [Extreme Lighting Displays](https://www.extremelightingdisplays.com.au/)",
 		"category": [
 			"led"
 		],
@@ -572,7 +595,7 @@
 		],
 		"title": "💫 LED Display Sequences",
 		"minRank": 0,
-		"description": "☄️ [Xlights Free Sequences (Google Drive)](http://share.xlights.org/) \n☄️ [Pixel Pro Displays](https://www.pixelprodisplays.com/) \n☄️ [Xtreme Sequences](https://www.xtremesequences.com/) \n☄️ [ShowStopperSequences](https://showstoppersequences-com.3dcartstores.com/) \n☄️ [Magical Light Shows](https://magicallightshows.com/) \n☄️ [Animated Lumination Sequences](http://animatedillumination.com/) \n☄️ [SyracuseLights](https://www.syracuselights.org/sequences) \n☄️ [VCS 2020 xLights: Basic Sequencing Michael Stoffregen - VIDEO](https://www.youtube.com/watch?v=EvK7AUJ1Nrk) \n☄️ [RGB Sequences](https://rgbsequences.net/) \n☄️ [Bostick Family Light Shows](https://bostickfamilylightshow.com/collections/sequences) \n☄️ [Sequence Armory](https://holidaylightingthinktank.net/sequence-armory/)",
+		"description": "☄️ [Xlights Free Sequences (Google Drive)](http://share.xlights.org/) \n☄️ [Pixel Pro Displays](https://www.pixelprodisplays.com/) \n☄️ [Xtreme Sequences](https://www.xtremesequences.com/) \n☄️ [ShowStopperSequences](https://showstoppersequences-com.3dcartstores.com/) \n☄️ [Magical Light Shows](https://magicallightshows.com/) \n☄️ [Animated Lumination Sequences](http://animatedillumination.com/) \n☄️ [SyracuseLights](https://www.syracuselights.org/sequences) \n☄️ [RGB Sequences](https://rgbsequences.net/) \n☄️ [Bostick Family Light Shows](https://bostickfamilylightshow.com/collections/sequences) \n☄️ [Sequence Armory](https://holidaylightingthinktank.net/sequence-armory/) \n☄️ [Pixel Seqence Pros](https://pixelsequencepros.com/) \n\n☄️ [VCS 2020 xLights: Basic Sequencing Michael Stoffregen - VIDEO](https://www.youtube.com/watch?v=EvK7AUJ1Nrk)",
 		"category": [
 			"led"
 		],
