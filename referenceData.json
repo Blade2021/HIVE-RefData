@@ -1194,7 +1194,9 @@
 	"pixelheads": {
 		"alias": [
 		"ph",
-		"led"
+		"ledph",
+		"led_ph",
+		"led ph"
 		],
 		"title": "THE PIXELHEADS!",
 		"minRank": 0,
