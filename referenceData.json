@@ -1240,5 +1240,17 @@
 		"keywords": [
 			"led"
 		]
+	},
+	"eta": {
+		"alias":[],
+		"title": "When can I order a DigUno or DigQuad!",
+		"minRank": 0,
+		"description": "Have you subscribed to the notification roles on discord?  If not check this link: [Discord Post](https://discord.com/channels/469330414121517056/603029526141861907/911052700228157460)",
+		"category": [
+			"lights"
+		],
+		"keywords": [
+			"led"
+		]
 	}
 }
