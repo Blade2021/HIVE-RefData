@@ -595,7 +595,7 @@
 		],
 		"title": "💫 LED Display Sequences",
 		"minRank": 0,
-		"description": "☄️ Free Sequences and How to: \n☄️ [Xlights Free Sequences (Google Drive)](http://share.xlights.org/) \n☄️ [VCS 2020 xLights: Basic Sequencing Michael Stoffregen - VIDEO](https://www.youtube.com/watch?v=EvK7AUJ1Nrk) \n\n Paid and Subscription Vendors: \n☄️ [Animated Lumination Sequences](http://animatedillumination.com/) \n☄️ [Bostick Family Light Shows](https://bostickfamilylightshow.com/collections/sequences) \n☄️ [Fairy Pixel Dust](https://www.fairypixeldust.com/) \n☄️ [Magical Light Shows](https://magicallightshows.com/) \n☄️ [Pixel Pro Displays](https://www.pixelprodisplays.com/) \n☄️ [Pixel Seqence Pros](https://pixelsequencepros.com/) \n☄️ [RGB Sequences](https://rgbsequences.net/) \n☄️ [Sequence Armory](https://holidaylightingthinktank.net/sequence-armory/) \n☄️ [ShowStopperSequences](https://showstoppersequences-com.3dcartstores.com/) \n☄️ [SyracuseLights](https://www.syracuselights.org/sequences) \n☄️ [Xtreme Sequences](https://www.xtremesequences.com/)",
+		"description": "☄️ Free Sequences and How to: \n☄️ [Xlights Free Sequences (Google Drive)](http://share.xlights.org/) \n☄️ [VCS 2020 xLights: Basic Sequencing Michael Stoffregen - VIDEO](https://www.youtube.com/watch?v=EvK7AUJ1Nrk) \n\n Paid and Subscription Vendors: \n☄️ [Animated Lumination Sequences](http://animatedillumination.com/) \n☄️ [Bostick Family Light Shows](https://bostickfamilylightshow.com/collections/sequences) \n☄️ [Fairy Pixel Dust](https://www.fairypixeldust.com/) \n☄️ [Magical Light Shows](https://magicallightshows.com/) \n☄️ [Pixel Pro Displays](https://www.pixelprodisplays.com/) \n☄️ [Pixel Sequence Pros](https://pixelsequencepros.com/) \n☄️ [RGB Sequences](https://rgbsequences.net/) \n☄️ [Sequence Armory](https://holidaylightingthinktank.net/sequence-armory/) \n☄️ [ShowStopperSequences](https://showstoppersequences-com.3dcartstores.com/) \n☄️ [SyracuseLights](https://www.syracuselights.org/sequences) \n☄️ [Xtreme Sequences](https://www.xtremesequences.com/)",
 		"category": [
 			"led"
 		],
@@ -1194,7 +1194,9 @@
 	"pixelheads": {
 		"alias": [
 		"ph",
-		"led"
+		"ledph",
+		"led_ph",
+		"led ph"
 		],
 		"title": "THE PIXELHEADS!",
 		"minRank": 0,
