@@ -415,13 +415,13 @@
 	},
 	"led_espdriver": {
 		"alias": [
-			"LED espdriver", 
-			"led esp driver",
-			"led-espdriver",
-			"espdriver",
-			"esp driver",
-			"leddriver",
-			"led driver"
+			"LED espdriver","led espdrivers",
+			"led esp driver","led esp drivers",
+			"led-espdriver","led-espdrivers",
+			"espdriver","espdrivers",
+			"esp driver","esp drivers",
+			"leddriver","leddrivers",
+			"led driver","led drivers"
 		],
 		"title": "ESP Drivers",
 		"minRank": 0,
