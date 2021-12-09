@@ -415,13 +415,13 @@
 	},
 	"led_espdriver": {
 		"alias": [
-			"LED espdriver", 
-			"led esp driver",
-			"led-espdriver",
-			"espdriver",
-			"esp driver",
-			"leddriver",
-			"led driver"
+			"LED espdriver","led espdrivers",
+			"led esp driver","led esp drivers",
+			"led-espdriver","led-espdrivers",
+			"espdriver","espdrivers",
+			"esp driver","esp drivers",
+			"leddriver","leddrivers",
+			"led driver","led drivers"
 		],
 		"title": "ESP Drivers",
 		"minRank": 0,
@@ -523,7 +523,7 @@
 		],
 		"title": "💫 LED Hardware",
 		"minRank": 0,
-		"description": "Global Vendors:\n🔩[QuinLED ALLNET](https://shop.allnetchina.cn/collections/quinled) \n🔩 [BTF Lighting Aliexpres](https://btf-lighting.aliexpress.com/store/1051119) \n🔩 [ETOP Lighting AliExpress](https://www.aliexpress.com/store/4478030) \n🔩 [Ray wu's store](https://www.aliexpress.com/store/701799?spm=a2g0s.9042311.0.0.40694c4db8oCxz) \n🔩 [Hanson Electronics](http://www.hansonelectronics.com.au/)  \n\n US:\n🔩[DrZzs Shop](https://drzzs.com/shop/) \n🔩 [Jboards](https://jboards.ecwid.com/) \n🔩 [Mattosdesigns](https://mattosdesigns.com/) \n🔩 [Paul Zhang Direct-US](https://www.amazon.com/s?i=merchant-items&me=A1HD6W29M3RXPC&tag=drzzs0e-20) \n🔩 [RGBMan](https://www.rgb-man.com/) \n🔩 [Wiredwatts](https://www.wiredwatts.com/) \n🔩 [Wallyslights](https://www.wallyslights.com/) \n🔩 [Your Pixel Store](https://www.yourpixelstore.com/) \n\n EU/UK LED Vendors:\n🔩 [Build a lightshow located in the UK](https://buildalightshow.com/) \n🔩 [Propixeler located in the Netherlands](https://propixeler.nl/index.php?route=common/home) \n🔩 [Xmas-land located in Germany](https://www.xmas-land.de/) \n\n AU LED Vendors:\n🔩 [Extreme Lighting Displays](https://www.extremelightingdisplays.com.au/)",
+		"description": "Global Vendors:\n🔩 [QuinLED ALLNET](https://shop.allnetchina.cn/collections/quinled) \n🔩 [BTF Lighting Aliexpres](https://btf-lighting.aliexpress.com/store/1051119) \n🔩 [ETOP Lighting AliExpress](https://www.aliexpress.com/store/4478030) \n🔩 [Ray wu's store](https://www.aliexpress.com/store/701799?spm=a2g0s.9042311.0.0.40694c4db8oCxz) \n🔩 [Hanson Electronics](http://www.hansonelectronics.com.au/)  \n\n US:\n🔩 [DrZzs Shop](https://drzzs.com/shop/) \n🔩 [Jboards](https://jboards.ecwid.com/) \n🔩 [Mattosdesigns](https://mattosdesigns.com/) \n🔩 [Paul Zhang Direct-US](https://www.amazon.com/s?i=merchant-items&me=A1HD6W29M3RXPC&tag=drzzs0e-20) \n🔩 [RGBMan](https://www.rgb-man.com/) \n🔩 [Wiredwatts](https://www.wiredwatts.com/) \n🔩 [Wallyslights](https://www.wallyslights.com/) \n🔩 [Your Pixel Store](https://www.yourpixelstore.com/) \n\n EU/UK LED Vendors:\n🔩 [Build a lightshow located in the UK](https://buildalightshow.com/) \n🔩 [Propixeler located in the Netherlands](https://propixeler.nl/index.php?route=common/home) \n🔩 [Xmas-land located in Germany](https://www.xmas-land.de/) \n\n AU LED Vendors:\n🔩 [Extreme Lighting Displays](https://www.extremelightingdisplays.com.au/)",
 		"category": [
 			"led"
 		],
@@ -595,7 +595,7 @@
 		],
 		"title": "💫 LED Display Sequences",
 		"minRank": 0,
-		"description": "☄️ Free Sequences and How to: \n☄️ [Xlights Free Sequences (Google Drive)](http://share.xlights.org/) \n☄️ [VCS 2020 xLights: Basic Sequencing Michael Stoffregen - VIDEO](https://www.youtube.com/watch?v=EvK7AUJ1Nrk) \n\n Paid and Subscription Vendors: \n☄️ [Animated Lumination Sequences](http://animatedillumination.com/) \n☄️ [Bostick Family Light Shows](https://bostickfamilylightshow.com/collections/sequences) \n☄️ [Fairy Pixel Dust](https://www.fairypixeldust.com/) \n☄️ [Magical Light Shows](https://magicallightshows.com/) \n☄️ [Pixel Pro Displays](https://www.pixelprodisplays.com/) \n☄️ [Pixel Sequence Pros](https://pixelsequencepros.com/) \n☄️ [RGB Sequences](https://rgbsequences.net/) \n☄️ [Sequence Armory](https://holidaylightingthinktank.net/sequence-armory/) \n☄️ [ShowStopperSequences](https://showstoppersequences-com.3dcartstores.com/) \n☄️ [SyracuseLights](https://www.syracuselights.org/sequences) \n☄️ [Xtreme Sequences](https://www.xtremesequences.com/)",
+		"description": "Free Sequences and How to: \n☄️ [Xlights Free Sequences (Google Drive)](http://share.xlights.org/) \n☄️ [VCS 2020 xLights: Basic Sequencing Michael Stoffregen - VIDEO](https://www.youtube.com/watch?v=EvK7AUJ1Nrk) \n\n Paid and Subscription Vendors: \n☄️ [Animated Lumination Sequences](http://animatedillumination.com/) \n☄️ [Bostick Family Light Shows](https://bostickfamilylightshow.com/collections/sequences) \n☄️ [Fairy Pixel Dust](https://www.fairypixeldust.com/) \n☄️ [Magical Light Shows](https://magicallightshows.com/) \n☄️ [Pixel Pro Displays](https://www.pixelprodisplays.com/) \n☄️ [Pixel Sequence Pros](https://pixelsequencepros.com/) \n☄️ [RGB Sequences](https://rgbsequences.net/) \n☄️ [Sequence Armory](https://holidaylightingthinktank.net/sequence-armory/) \n☄️ [ShowStopperSequences](https://showstoppersequences-com.3dcartstores.com/) \n☄️ [SyracuseLights](https://www.syracuselights.org/sequences) \n☄️ [Xtreme Sequences](https://www.xtremesequences.com/)",
 		"category": [
 			"led"
 		],
@@ -633,11 +633,11 @@
 	},
 	"led_xlights": {
 		"alias": [
-			"LED xlights","led-xlights"
+			"LED xlights","led-xlights","xlights"
 		],
-		"title": "💫 LED XLights",
+		"title": "💫 LED xLights",
 		"minRank": 0,
-		"description": "🔹 [xlights website-xLights](https://xlights.org/) is a free and open source program that enables you to design, create and play amazing lighting displays through the use of DMX controllers, E1.31 Ethernet controllers and more. \n\n🔹 [Xlights download page](https://xlights.org/releases/) ",
+		"description": "🔹 [xLights website-xLights](https://xlights.org/) is a free and open source program that enables you to design, create and play amazing lighting displays through the use of DMX controllers, E1.31 Ethernet controllers and more. \n\n🔹 [xLights download page](https://xlights.org/releases/) \n\n🔹 Need assistance with xLights? Join the xLights Zoom room and put your hand up, someone will assist you. [xLights Zoom Room](https://xlights.org/download/1944/)",
 		"category": [
 			"led"
 		],
@@ -1198,12 +1198,11 @@
 		"led_ph",
 		"led ph"
 		],
-		"title": "THE PIXELHEADS!",
+		"title": "💫 THE PIXELHEADS!",
 		"minRank": 0,
 		"description": "Have an LED related question?  Be sure to ask your question in <#511947803115913217> Channel here on discord!  Our LED masterminds, the PixelHeads, generally hang out there and can answer your question(s) swiftly.",
 		"category": [
-			"lights",
-			"applications"
+			"lights"
 		],
 		"keywords": [
 		"led",
@@ -1251,6 +1250,23 @@
 		],
 		"keywords": [
 			"led"
+		]
+	},
+	"lights": {
+		"alias": [
+		"light",
+		"light project",
+		"lighting"
+		],
+		"title": "💫 Need assistance with a lighting proejct?!",
+		"minRank": 0,
+		"description": "Have an LED or light related question?  Head over to the proper lighting channel and ask your question: \n\n <#511947803115913217> \n Having trouble with LEDs or a question? post it here.  We cover wLED, Kulp boards, Falcon, xLights and everything needed to make your life brighter.\n\n <#691043294397857843> \n TV and monitor ambient lighting that match the screen image.  \n\n <#838500659938197546> \n Whole House DC Lighting Solution. \n\n <#885593663344898139> \n This channel is set aside specifically for collecting pictures of your PermaTrack from DrZzs! Show off the beautiful LED installation and display!",
+		"category": [
+			"lights"
+		],
+		"keywords": [
+		"led",
+		"lights"
 		]
 	}
 }
