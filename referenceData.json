@@ -1139,7 +1139,7 @@
 		"alias": [],
 		"title": "WLED - LED light contoller firmware.",
 		"minRank": 0,
-		"description": "Check out this link to get started: \n\n🚥 [WLED FAQ](https://kno.wled.ge/basics/faq/)  \n\nWLED is a firmware that can be loaded onto ESP8266 and ESP32 microcontrollers, such as the Dig-Uno and Dig-Quad, and is used to control addressable LEDs.  /nWLED has many built-in features, is compatible with Home Assistant via an integration, DMX-based Light Controller protocols, and can be used with xLights for advanced lighting effects.\n\nSee also: {prefix}NeoPixel. \n\n[Sound Reactive WLED WIKI](https://github.com/atuline/WLED/wiki) \n[WLED Latest Release](https://github.com/Aircoookie/WLED/releases/latest)",
+		"description": "Check out this link to get started: \n\n🚥 [WLED FAQ](https://kno.wled.ge/basics/faq/)  \n\nWLED is a firmware that can be loaded onto ESP8266 and ESP32 microcontrollers, such as the Dig-Uno and Dig-Quad, and is used to control addressable LEDs.  \nWLED has many built-in features, is compatible with Home Assistant via an integration, DMX-based Light Controller protocols, and can be used with xLights for advanced lighting effects.\n\nSee also: {prefix}NeoPixel. \n\n[Sound Reactive WLED WIKI](https://github.com/atuline/WLED/wiki) \n[WLED Latest Release](https://github.com/Aircoookie/WLED/releases/latest)",
 		"category": [
 			"lights",
 			"applications"
