@@ -946,7 +946,7 @@
 		],
 		"title": "Making Your configuration.yaml Easier to Use",
 		"minRank": 0,
-		"description": "🔀 [Split Configuration HA Official Instructions](https://home-assistant.io/docs/configuration/splitting_configuration/)  \n\n🔀 [Doc and Frenck with a live Demo](https://youtu.be/FfjSA2o_0KA) \n\nAND if you want to split your scripts up so that the script UI editor works and your files are split, [look here](https://community.home-assistant.io/t/script-editor-and-split-up-files/40459/20) or go into a terminal in HA and do this: ```ln -f /config/#path_to_your_subfolder /config/scripts.yaml``` and in configuration.yaml do this: ```script: !include_dir_merge_named /config/#path_to_your_subfolder```.  Then put your split folders here for scripts.",
+		"description": "🔀 [Split Configuration HA Official Instructions](https://home-assistant.io/docs/configuration/splitting_configuration/)  \n\n🔀 [Doc and Frenck with a live Demo](https://youtu.be/FfjSA2o_0KA) \n\nAND if you want to split your scripts up so that the script UI editor works and your files are split, [look here](https://community.home-assistant.io/t/script-editor-and-split-up-files/40459/20) or go into a terminal in HA and do this: ```ln -f /config/scripts.yaml /config/#path_to_your_subfolder ``` and in configuration.yaml do this: ```script: !include_dir_merge_named /config/#path_to_your_subfolder```.  Then put your split folders here for scripts.",
 		"category": [
 			"home-assistant"
 		],
