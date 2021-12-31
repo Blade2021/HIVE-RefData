@@ -203,7 +203,8 @@
 	"esphome": {
 		"alias": [
 			"esp-home",
-			"esp_home"
+			"esp_home",
+			"esp home"
 		],
 		"title": "ESPHome from Home Assistant",
 		"minRank": 0,
@@ -386,6 +387,7 @@
 			"LED-calc-power",
 			"led power",
 			"led_power",
+			"led-power",
 			"ledcalcpower"
 		],
 		"title": "💫 Calculate LED Power",
@@ -405,7 +407,7 @@
 		],
 		"title": "💫 LED Controllers",
 		"minRank": 0,
-		"description": "🎮 [USA-Dig-Uno](https://drzzs.com/shop/dig-uno-diy-rgb-led-controller-w-wled-preassembled/) \n🎮 [USA-Dig-Quad](https://drzzs.com/shop/digquad/) \n🎮 [kulplights controllers](https://kulplights.com/) \n🎮 [Falcon Pixel controller](https://www.pixelcontroller.com/store/index.php) \n🎮 [Pixel2Things- Ac to pixel controller](https://www.pixel2things.com/)",
+		"description": "🎮 [USA-Dig-Uno](https://drzzs.com/shop/dig-uno-diy-rgb-led-controller-w-wled-preassembled/) \n🎮 [USA-Dig-Quad](https://drzzs.com/shop/digquad/) \n🎮 [Kulplights controllers](https://kulplights.com/) \n🎮 [Falcon Pixel controller](https://www.pixelcontroller.com/store/index.php) \n🎮 [Pixel2Things- Ac to pixel controller](https://www.pixel2things.com/)",
 		"category": [
 			"led"
 		],
@@ -420,8 +422,10 @@
 			"led-espdriver","led-espdrivers",
 			"espdriver","espdrivers",
 			"esp driver","esp drivers",
+			"esp_driver","esp_drivers",
 			"leddriver","leddrivers",
-			"led driver","led drivers"
+			"led driver","led drivers",
+			"led_driver","led_drivers"
 		],
 		"title": "ESP Drivers",
 		"minRank": 0,
@@ -516,9 +520,11 @@
 			"ledhardware",
 			"led vendor",
 			"led-vendor",
+			"led_vendor",
 			"ledvendor",
 			"led vendors",
 			"led-vendors",
+			"led_vendors",
 			"ledvendors"
 		],
 		"title": "💫 LED Hardware",
@@ -589,9 +595,33 @@
 			"LED"
 		]
 	},
+	"led_Reference": {
+		"alias": [
+			"led reference","led-reference","ledreference",
+			"led ref","led_ref","led-ref","ledref",
+			"led guide","led_guide","led-guide","ledguide",
+			"led list","led_list","led-list","ledlist",
+			"led help","led_help","led-help","ledhelp"
+		],
+		"title": "💫 LED Related References",
+		"minRank": 0,
+		"description": "**How Do I Use These?**\nJust type {prefix} and the reference you would like to display.\n\n**References**\n esp32 - Information About ESP32 Boards\n esp8266 - Information About ESP8266 Boards\n ETA - Availability of Dig-Uno and Dig-Quad Boards\n led_boost - LED Data Boosters\n led_calc_power - Calculate LED Power\n led_controller - Listing of Popular LED Controllers\n led_espdriver - Drivers for ESP Boards\n led_essentials - LED Related YouTube Videos From DrZzs and Quindor\n led_falcon - Falcon LED Controllers\n led_fpp - Falcon Pi Player Information\n led_hardware - Hardware Vendors Specializing In LED Products\n led_inject - Power Injection And Data Boosting Solutions\n led_kulp - Kulp Light Controllers\n led_prints - Collection Of 3D Prints For Use With LEDs\n led_props - Collection Of Popular LED Prop Vendors\n led_sequences - Collection Of Popular xLights Sequence Vendors\n led_vcs - Virtual Christmas Summit YouTube Videos\n led_xlights - xLights Light Show Creation Software\n led_flicker - Help With Flickering LEDs\n led_fm - FM Radio Station Search\n led_trouble - LED Issue Troubleshooting Pages\n neoPixel - Information about WS28x And Similar LEDs\n nodeMCU - Information about NodeMCU Boards\n wled - Information About WLED LED Control Firmware\n wled_update - Updating WLED Version Information\n quad_pinout - Dig-Quad Default Pinout Settings\n uno_pinout - Dig-Uno Default Pinout Settings",
+		"category": [
+			"led"
+		],
+		"keywords": [
+			"led"
+		]
+	},
 	"led_sequences": {
 		"alias": [
-			"LED sequences", "led seq","led_seq","led-sequences"
+			"LED sequences",
+			"led-sequences",
+			"led seq",
+			"led_seq",
+			"led sequence",
+			"led_sequence",
+			"led-sequence"
 		],
 		"title": "💫 LED Display Sequences",
 		"minRank": 0,
@@ -1054,7 +1084,7 @@
 		],
 		"title": "BOT Wrangling 101 on DrZzs Discord",
 		"minRank": 0,
-		"description":"There is a whole reference library in here to help you sort out things.  All contributions are from people on the channel.  \n\nType `{prefix}reflist` in the chat and you see the list.  Then (tilde) {prefix}topic will bring up that topic.  Also you can type `{prefix}commands` and get a list of BOT commands you nave access to.  \n\nWe tend to go to `<#717069963357323326>` channel to activate those things so as to not fill up the topic channels with info just for you.",
+		"description":"There is a whole reference library in here to help you sort out things.  All contributions are from people on the channel.  \n\nType `{prefix}reflist` in the chat and you see the list.  Then (tilde) {prefix}topic will bring up that topic.  Also you can type `{prefix}commands` and get a list of BOT commands you nave access to.  \n\nWe tend to go to <#717069963357323326> channel to activate those things so as to not fill up the topic channels with info just for you.",
 		"category": [
 			"information",
 			"general"
@@ -1108,7 +1138,12 @@
 		"keywords": []
 	},
 	"twitchSub": {
-		"alias": [],
+		"alias": [
+			"twitch",
+			"twitch_sub",
+			"twitch-sub",
+			"twitch sub"
+		],
 		"title": "Twitch Subscription",
 		"minRank": 0,
 		"description":"To receive the twitch sub role, you **MUST** be a subscriber to the DrZzz's Twitch Channel.  This is **100% Free** if you have Amazon Prime. \n\nFind out more about [Twitch Prime Here](https://www.twitch.tv/subs/drzzs)  \n[Visit DrZzz's Twitch Channel](https://www.twitch.tv/drzzs)  \n\n**Please remember to link your discord account to twitch to receive this role.**  \n[->Twitch Integration Help link<-](https://support.discordapp.com/hc/en-us/articles/212112068-Twitch-Integration-FAQ) Scroll down to the `For Viewers` section.  \n\nNote: The Twitch subscriber roles are updated every hour automatically, so be patient...",
@@ -1142,6 +1177,21 @@
 		"description": "Check out this link to get started: \n\n🚥 [WLED FAQ](https://kno.wled.ge/basics/faq/)  \n\nWLED is a firmware that can be loaded onto ESP8266 and ESP32 microcontrollers, such as the Dig-Uno and Dig-Quad, and is used to control addressable LEDs.  \nWLED has many built-in features, is compatible with Home Assistant via an integration, DMX-based Light Controller protocols, and can be used with xLights for advanced lighting effects.\n\nSee also: {prefix}NeoPixel. \n\n[Sound Reactive WLED WIKI](https://github.com/atuline/WLED/wiki) \n[WLED Latest Release](https://github.com/Aircoookie/WLED/releases/latest)",
 		"category": [
 			"lights",
+			"applications"
+		],
+		"keywords": []
+	},
+	"wled_update": {
+		"alias": [
+			"wled update",
+			"wled_update"
+		],
+		"title": "Update to the latest WLED version.",
+		"minRank": 0,
+		"description": "Connect your WLED Controller to your computer and use this site to easily install the latest WLED firmware version. \n\n🚥 [WLED Update](https://install.wled.me/v2.htm)",
+		"category": [
+			"lights",
+			"led",
 			"applications"
 		],
 		"keywords": []
@@ -1222,6 +1272,40 @@
 		],
 		"keywords": [
 			"question"
+		]
+	},
+	"quad_pinout": {
+		"alias": [
+			"quad pinout",
+			"quadpinout",
+			"quad-pinout"
+		],
+		"title": "Dig-Quad Default Pinout",
+		"minRank": 0,
+		"description": "The Default Pinout for a Dig-Quad with an ESP32. \n\n LED 1 Output = Pin 16 \n LED 2 Output = Pin 3 \n Led 3 Output = Pin 1 \n Led 4 Output = Pin 4 \n LED 5 Output = Pin 19 \n\n Additional detail is available here: [QuinLed Dig-Quad Pinout Guide](https://quinled.info/quinled-dig-quad-pinout-guide/)",
+		"category": [
+			"lights",
+			"led"
+		],
+		"keywords": [
+			"led"
+		]
+	},
+	"uno_pinout": {
+		"alias": [
+			"uno pinout",
+			"uno-pinout",
+			"unopinout"
+		],
+		"title": "Dig-Uno Default Pinout",
+		"minrank": 0,
+		"description": "The Default Pinout for a Dig-Uno with an ESP32. \n\n LED 1 Output = Pin 16 \n Led 2 Output = Pin 3 \n\n Additional detail is available here: [QuinLed Dig-Uno Pinout Guide](https://quinled.info/quinled-dig-uno-pinout-guide/)",
+		"category": [
+			"lights",
+			"led"
+		],
+		"keywords": [
+			"led"
 		]
 	},
 	"resvsreg": {
