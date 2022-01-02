@@ -368,7 +368,11 @@
 			"led_booster",
 			"ledbooster",
 			"led-booster",
-			"led booster"
+			"led booster",
+			"ledboosters",
+			"led-boosters",
+			"led boosters",
+			"led_boosters"
 		],
 		"title": "💫 LED Data Boosters",
 		"minRank": 0,
@@ -402,8 +406,9 @@
 	},
 	"led_controller": {
 		"alias": [
-			"LED controller",
-			"led-controller"
+			"LED controller","led-controller","ledcontroller",
+			"led controllers","led-controllers","ledcontrollers","led_controllers",
+			"led control","led-control","ledcontrol","led_control"
 		],
 		"title": "💫 LED Controllers",
 		"minRank": 0,
@@ -442,7 +447,10 @@
 			"led-essentials",
 			"led essentials",
 			"drzzs led help",
-			"Quindors led help"
+			"Quindors led help",
+			"led_essential",
+			"led-essential",
+			"led essential"
 		],
 		"title": "💫 LED YouTube Videos from DrZzs & Quindor",
 		"minRank": 0,
@@ -540,7 +548,14 @@
 	"led_inject": {
 		"alias": [
 			"LED inject",
-			"led-inject"
+			"led-inject",
+			"led_injection",
+			"led injection",
+			"led-injection",
+			"power_injection",
+			"powerinjection",
+			"power-injection",
+			"power injeciton"
 		],
 		"title": "💫 LED Inject Help",
 		"minRank": 0,
@@ -583,7 +598,7 @@
 	},	
 	"led_props": {
 		"alias": [
-			"LED Props","led-props"
+			"LED Props","led-props","ledprops"
 		],
 		"title": "💫 LED Props",
 		"minRank": 0,
@@ -598,6 +613,7 @@
 	"led_reference": {
 		"alias": [
 			"led reference","led-reference","ledreference",
+			"led references","led-references","ledreferences","led_references",
 			"led ref","led_ref","led-ref","ledref",
 			"led guide","led_guide","led-guide","ledguide",
 			"led list","led_list","led-list","ledlist",
@@ -605,7 +621,7 @@
 		],
 		"title": "💫 LED Related References",
 		"minRank": 0,
-		"description": "**How Do I Use These?**\nJust type {prefix} and the reference you would like to display.\n\n**References**\n`esp32` - Information About ESP32 Boards\n`esp8266` - Information About ESP8266 Boards\n`ETA` - Availability of Dig-Uno and Dig-Quad Boards\n`led_boost` - LED Data Boosters\n`led_calc_power` - Calculate LED Power\n`led_controller` - Listing of Popular LED Controllers\n`led_espDriver` - Drivers for ESP Boards\n`led_essentials` - LED Related YouTube Videos From DrZzs and Quindor\n`led_falcon` - Falcon LED Controllers\n`led_fpp`- Falcon Pi Player Information\n`led_hardware` - Hardware Vendors Specializing In LED Products\n`led_inject` - Power Injection And Data Boosting Solutions\n`led_kulp` - Kulp Light Controllers\n`led_prints` - Collection Of 3D Prints For Use With LEDs\n`led_props` - Collection Of Popular LED Prop Vendors\n`led_sequences` - Collection Of Popular xLights Sequence Vendors\n`led_vcs` - Virtual Christmas Summit YouTube Videos\n`led_xlights` - xLights Light Show Creation Software\n`led_flicker` - Help With Flickering LEDs\n`led_fm` - FM Radio Station Search\n`led_trouble` - LED Issue Troubleshooting Pages\n`neoPixel` - Information about WS28x And Similar LEDs\n`nodeMCU` - Information about NodeMCU Boards\n`wled` - Information About WLED LED Control Firmware\n`wled_update` - Updating WLED Version Information\n`quad_pinout` - Dig-Quad Default Pinout Settings\n`uno_pinout` - Dig-Uno Default Pinout Settings",
+		"description": "**How Do I Use These?**\nJust type {prefix} and the reference you would like to display.\n\n**References**\n`esp32` - Information About ESP32 Boards\n`esp8266` - Information About ESP8266 Boards\n`ETA` - Availability of Dig-Uno and Dig-Quad Boards\n`led_boost` - LED Data Boosters\n`led_calc_power` - Calculate LED Power\n`led_controller` - Listing of Popular LED Controllers\n`led_espDriver` - Drivers for ESP Boards\n`led_essentials` - LED Related YouTube Videos From DrZzs and Quindor\n`led_falcon` - Falcon LED Controllers\n`led_flicker` - Help With Flickering LEDs\n`led_fm` - FM Radio Station Search\n`led_fpp`- Falcon Pi Player Information\n`led_hardware` - Hardware Vendors Specializing In LED Products\n`led_inject` - Power Injection And Data Boosting Solutions\n`led_kulp` - Kulp Light Controllers\n`led_prints` - Collection Of 3D Prints For Use With LEDs\n`led_props` - Collection Of Popular LED Prop Vendors\n`led_sequences` - Collection Of Popular xLights Sequence Vendors\n`led_trouble` - LED Issue Troubleshooting Pages\n`led_vcs` - Virtual Christmas Summit YouTube Videos\n`led_xlights` - xLights Light Show Creation Software\n`neoPixel` - Information about WS28x And Similar LEDs\n`nodeMCU` - Information about NodeMCU Boards\n`quad_pinout` - Dig-Quad Default Pinout Settings\n`uno_pinout` - Dig-Uno Default Pinout Settings\n`wled` - Information About WLED LED Control Firmware\n`wled_update` - Updating WLED Version Information",
 		"category": [
 			"led"
 		],
@@ -633,9 +649,26 @@
 			"LED"
 		]
 	},
+	"led_tools": {
+		"alias": [
+			"led tools",
+			"led-tools",
+			"ledtools"
+		],
+		"title": "🛠️ LED Tools",
+		"minrank": 0,
+		"description": "Here are some helpful links to some of our favorite tools to assist in creating your LED light show:\n\n🛠️ Creating Lyric tracks for use in xLights:\n [AutoLyrics at LightingFanatics](https://autolyrics.lightingfanatics.com/)\n [Auto Lyrics Align](https://autolyrixalign.hltnus.org/)\n\n🛠️ Normalize your MP3 audio volume across songs:\n [MP3 Gain](http://mp3gain.sourceforge.net/)\n\n🛠️ Calculate needs for building a MegaTree:\n [Mega Tree Calculator by LightShowHub](https://www.lightshowhub.com/tools/mega-tree-calculator)",
+		"category": [
+			"led"
+		],
+		"keywords": [
+			"led",
+			"tools"
+		]
+	},
 	"led_trouble": {
 		"alias": [
-			"led trouble","led_trouble","led-trouble", "ledTrouble"
+			"led trouble","led_trouble","led-trouble","ledTrouble"
 		],
 		"title": "💫 LEDs Not Turning on?",
 		"minRank": 0,
@@ -689,6 +722,23 @@
 			"integrations"
 		],
 		"keywords": []
+	},
+	"lights": {
+		"alias": [
+		"light",
+		"light project",
+		"lighting"
+		],
+		"title": "💫 Need assistance with a lighting proejct?!",
+		"minRank": 0,
+		"description": "Have an LED or light related question?  Head over to the proper lighting channel and ask your question: \n\n <#511947803115913217> \n Having trouble with LEDs or a question? post it here.  We cover wLED, Kulp boards, Falcon, xLights and everything needed to make your life brighter.\n\n <#691043294397857843> \n TV and monitor ambient lighting that match the screen image.  \n\n <#838500659938197546> \n Whole House DC Lighting Solution. \n\n <#885593663344898139> \n This channel is set aside specifically for collecting pictures of your PermaTrack from DrZzs! Show off the beautiful LED installation and display!",
+		"category": [
+			"lights"
+		],
+		"keywords": [
+		"led",
+		"lights"
+		]
 	},
 	"mariaDB": {
 		"alias": [
@@ -751,9 +801,10 @@
 		],
 		"title": "NEOPixels 🚦 LED Lights etal...",
 		"minRank": 0,
-		"description": "DrZzs has a lot of great videos!  Check out this one to get started: 🚦 https://youtu.be/tXvtxwK3jRk  \n\nAlso in DrZzs Discord check out the <#511947803115913217> channel and page the @PixelHeads for one on one help.  \n\n🚦 [Beginner's Guide to Christmas Lights](https://youtu.be/tXvtxwK3jRk)  \n🚦 [The Hook Up's video on LED Strips](https://youtu.be/QnvircC22hU) \n\nIndividually Addressable LEDs come in many varieties; you may find them referred to as NeoPixels, or by their part numbers, which include WS2811, WS2812b, WS2813, WS2815, SK9822, SK9812, or APA106.  You will need a microcontroller of some kind to run them; the most popular in the home automation space are the ESP8266 and ESP32 Boards.  Depending upon the length of your installation, you may also need to procure a high-amperage power supply and additional wire for power injection.\n\nSee also {prefix}WLED",
+		"description": "Individually Addressable LEDs come in many varieties; you may find them referred to as NeoPixels, or by their part numbers, which include WS2811, WS2812b, WS2813, WS2815, SK9822, SK9812, or APA106.\nYou will need a microcontroller of some kind to run them; popular examples are an ESP8266 and ESP32 based board running WLED, like the Dig-Uno and Dig-Quad, or a BeagleBone based board running FPP like a Kulp Controller. \n\nDrZzs has a lot of great videos!  Check out his LED Playlist to get started: 🚦 [DrZzs LED YouTube Playlist](https://www.youtube.com/watch?v=ZDQGDmtZ3zY&list=PLL02pNmOcO9kOgJYkwcv4c1ApVffxIN8d)  \n\nHave an LED related question? Be sure to ask your question in the <#511947803115913217> Channel here on discord! Our LED masterminds, the PixelHeads, generally hang out there and can answer your question(s) swiftly. \n\nSee also: \n {prefix}WLED\n {prefix}LED_Controller",
 		"category": [
-			"microcontroller"
+			"microcontroller",
+			"led"
 		],
 		"keywords": []
 	},
@@ -1174,7 +1225,7 @@
 		"alias": [],
 		"title": "WLED - LED light contoller firmware.",
 		"minRank": 0,
-		"description": "Check out this link to get started: \n\n🚥 [WLED FAQ](https://kno.wled.ge/basics/faq/)  \n\nWLED is a firmware that can be loaded onto ESP8266 and ESP32 microcontrollers, such as the Dig-Uno and Dig-Quad, and is used to control addressable LEDs.  \nWLED has many built-in features, is compatible with Home Assistant via an integration, DMX-based Light Controller protocols, and can be used with xLights for advanced lighting effects.\n\nSee also: {prefix}NeoPixel. \n\n[Sound Reactive WLED WIKI](https://github.com/atuline/WLED/wiki) \n[WLED Latest Release](https://github.com/Aircoookie/WLED/releases/latest)",
+		"description": "Check out this link to get started: \n\n🚥 [WLED FAQ](https://kno.wled.ge/basics/faq/)  \n\nWLED is a firmware that can be loaded onto ESP8266 and ESP32 microcontrollers, such as the Dig-Uno and Dig-Quad, and is used to control addressable LEDs. \nWLED has many built-in features, has an app for convenient conrol, is compatible with Home Assistant via an integration, DMX-based Light Controller protocols, and can be used with xLights for advanced lighting effects.\n\n[WLED App on Google Play Store](https://play.google.com/store/apps/details?id=com.aircoookie.WLED)\n[WLED App on Apple App Store](https://apps.apple.com/us/app/wled/id1475695033)\n\nSee also: \n {prefix}NeoPixel\n {prefix}wled_update \n\n[Sound Reactive WLED WIKI](https://github.com/atuline/WLED/wiki) \n[WLED Latest Release](https://github.com/Aircoookie/WLED/releases/latest)",
 		"category": [
 			"lights",
 			"applications"
@@ -1282,7 +1333,7 @@
 		],
 		"title": "Dig-Quad Default Pinout",
 		"minRank": 0,
-		"description": "The Default Pinout for a Dig-Quad with an ESP32. \n\n LED 1 Output = Pin 16 \n LED 2 Output = Pin 3 \n Led 3 Output = Pin 1 \n Led 4 Output = Pin 4 \n LED 5 Output = Pin 19 \n\n Additional detail is available here: [QuinLed Dig-Quad Pinout Guide](https://quinled.info/quinled-dig-quad-pinout-guide/)",
+		"description": "The Default Pinout for a Dig-Quad with an ESP32. \n\n LED 1 Output = Pin 16 \n LED 2 Output = Pin 3 \n LED 3 Output = Pin 1 \n LED 4 Output = Pin 4 \n LED 5 Output = Pin 19 \n\n Additional detail is available here: [QuinLed Dig-Quad Pinout Guide](https://quinled.info/quinled-dig-quad-pinout-guide/)",
 		"category": [
 			"lights",
 			"led"
@@ -1299,7 +1350,7 @@
 		],
 		"title": "Dig-Uno Default Pinout",
 		"minrank": 0,
-		"description": "The Default Pinout for a Dig-Uno with an ESP32. \n\n LED 1 Output = Pin 16 \n Led 2 Output = Pin 3 \n\n Additional detail is available here: [QuinLed Dig-Uno Pinout Guide](https://quinled.info/quinled-dig-uno-pinout-guide/)",
+		"description": "The Default Pinout for a Dig-Uno with an ESP32. \n\n LED 1 Output = Pin 16 \n LED 2 Output = Pin 3 \n\n Additional detail is available here: [QuinLed Dig-Uno Pinout Guide](https://quinled.info/quinled-dig-uno-pinout-guide/)",
 		"category": [
 			"lights",
 			"led"
@@ -1334,23 +1385,6 @@
 		],
 		"keywords": [
 			"led"
-		]
-	},
-	"lights": {
-		"alias": [
-		"light",
-		"light project",
-		"lighting"
-		],
-		"title": "💫 Need assistance with a lighting proejct?!",
-		"minRank": 0,
-		"description": "Have an LED or light related question?  Head over to the proper lighting channel and ask your question: \n\n <#511947803115913217> \n Having trouble with LEDs or a question? post it here.  We cover wLED, Kulp boards, Falcon, xLights and everything needed to make your life brighter.\n\n <#691043294397857843> \n TV and monitor ambient lighting that match the screen image.  \n\n <#838500659938197546> \n Whole House DC Lighting Solution. \n\n <#885593663344898139> \n This channel is set aside specifically for collecting pictures of your PermaTrack from DrZzs! Show off the beautiful LED installation and display!",
-		"category": [
-			"lights"
-		],
-		"keywords": [
-		"led",
-		"lights"
 		]
 	}
 }
