@@ -412,7 +412,7 @@
 		],
 		"title": "💫 LED Controllers",
 		"minRank": 0,
-		"description": "🎮 [QuinLED-Dig-Uno](https://www.pixel2things.com)\n🎮 [QuinLED-Dig-Quad](https://quinled.info/quinled-dig-quad/)\n🎮 [Kulplights Controllers](https://kulplights.com/)\n🎮 [Falcon Pixel Controller](https://www.pixelcontroller.com/store/index.php)\n🎮 [Pixel2Things - Pixel to AC Controller](https://www.pixel2things.com/)",
+		"description": "🎮 [QuinLED-Dig-Uno](https://quinled.info/quinled-dig-uno/)\n🎮 [QuinLED-Dig-Quad](https://quinled.info/quinled-dig-quad/)\n🎮 [Kulplights Controllers](https://kulplights.com/)\n🎮 [Falcon Pixel Controller](https://www.pixelcontroller.com/store/index.php)\n🎮 [Pixel2Things - Pixel to AC Controller](https://www.pixel2things.com/)",
 		"category": [
 			"led"
 		],
@@ -468,7 +468,7 @@
 		],
 		"title": "💫 LED Falcon Controllers",
 		"minRank": 0,
-		"description": "🦅 [PixelController.com](https://www.pixelcontroller.com/store/index.php) - Home of the Falcon controllers that can drive 1024 lights per port can drive many different types of pixels \n\n🦅 [Falcon Controller Support Page](https://www.pixelcontroller.com/store/index.php?id_cms_category=5&controller=cms) \n🦅 VCS 2020 Falcon Controllers - Scott Hanson- [YouTube](https://www.youtube.com/watch?v=J9KDQvYBoe0)",
+		"description": "🦅 [PixelController.com](https://www.pixelcontroller.com/store/index.php) - Home of the Falcon controllers that can drive 1024 lights per port can drive many different types of pixels \n\n🦅 [Falcon Controller Support Page](https://www.pixelcontroller.com/store/index.php?id_cms_category=5&controller=cms) \n\n🦅 VCS 2020 Falcon Controllers - Scott Hanson- [YouTube](https://www.youtube.com/watch?v=J9KDQvYBoe0)",
 		"category": [
 			"led"
 		],
@@ -574,7 +574,7 @@
 		],
 		"title": "💫 Kulp LED Controllers",
 		"minRank": 0,
-		"description": "🌈 kulplights.com (https://kulplights.com/) - Home of FPP based pixel controllers that can each drive 800 Pixels at 40FPS or 1500 Pixels at 20fps per port and work with ws281x only \n\n🌈 [Wifi Adatpter](https://kulplights.com/product/1200mbs-antenna-wifi/) - Guaranteed to work, not all options available other places will work \n\n🌈 [USB Hub](https://kulplights.com/product/usb-gigabit-ethernet-adapter/) - Need if plugging multiple USB items into the controller (ie. Soundblaster, Wifi Adapter, Ethernet Adapter) \n\n🌈 [Kulp User Manual](https://kulplights.com/manuals/F8-B-Manual.pdf) - listed as f8-b but works for all boards \n\n🌈 VCS 2020 Kulp Boards - [Daniel Kulp YouTube](https://www.youtube.com/watch?v=sceGQMZ0dHw&t=2720s",
+		"description": "🌈 [kulplights.com](https://kulplights.com/) - Home of FPP based pixel controllers that can each drive 800 Pixels at 40FPS or 1500 Pixels at 20fps per port and work with ws281x only \n\n🌈 [Wifi Adatpter](https://kulplights.com/product/1200mbs-antenna-wifi/) - Guaranteed to work, not all options available other places will work \n\n🌈 [USB Hub](https://kulplights.com/product/usb-gigabit-ethernet-adapter/) - Need if plugging multiple USB items into the controller (ie. Soundblaster, Wifi Adapter, Ethernet Adapter) \n\n🌈 [Kulp User Manual](https://kulplights.com/manuals/F8-B-Manual.pdf) - listed as f8-b but works for all boards \n\n🌈 VCS 2020 Kulp Boards - [Daniel Kulp YouTube](https://www.youtube.com/watch?v=sceGQMZ0dHw&t=2720s)",
 		"category": [
 			"led"
 		],
