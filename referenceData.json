@@ -412,7 +412,7 @@
 		],
 		"title": "💫 LED Controllers",
 		"minRank": 0,
-		"description": "🎮 [USA-Dig-Uno](https://drzzs.com/shop/dig-uno-diy-rgb-led-controller-w-wled-preassembled/) \n🎮 [USA-Dig-Quad](https://drzzs.com/shop/digquad/) \n🎮 [Kulplights controllers](https://kulplights.com/) \n🎮 [Falcon Pixel controller](https://www.pixelcontroller.com/store/index.php) \n🎮 [Pixel2Things- Ac to pixel controller](https://www.pixel2things.com/)",
+		"description": "🎮 [QuinLED-Dig-Uno](https://www.pixel2things.com)\n🎮 [QuinLED-Dig-Quad](https://quinled.info/quinled-dig-quad/)\n🎮 [Kulplights Controllers](https://kulplights.com/)\n🎮 [Falcon Pixel Controller](https://www.pixelcontroller.com/store/index.php)\n🎮 [Pixel2Things - Pixel to AC Controller](https://www.pixel2things.com/)",
 		"category": [
 			"led"
 		],
@@ -468,7 +468,7 @@
 		],
 		"title": "💫 LED Falcon Controllers",
 		"minRank": 0,
-		"description": "🦅 [pixelcontroller.com](https://www.pixelcontroller.com/store/index.php) -Home of the Falcon controllers that can drive 1024 lights per port can drive many different types of pixels ie.WS,TM,SM,INK,TL,CY,LPD,D705,ETC. \n🦅 [Falcon controller support page](https://www.pixelcontroller.com/store/index.php?id_cms_category=5&controller=cms) *you will run these from fpp or your computer through xSchedule* *new firmware might change this*. \n🦅 F16V3- 16 port Pixel Controller- 1024 pixels per output pixel controller [link](https://www.pixelcontroller.com/store/index.php?id_product=48&controller=product) \n🦅 F48 Differential Controller- Can drive up to 16384 pixels. 48 Differential Outputs no local ports-Can connect up to 12 Falcon Differential Receivers. [Link](https://www.pixelcontroller.com/store/index.php?id_product=52&controller=product) \n🦅 Falcon PiCap for a pi3 or pi4 Can control two strings 800+ WS2811 pixels with fused and buffered outputs. Dedicated RS-485 DMX Output (Renard, DMX, LOR selectable). Input voltage 5, or 12V selectable. [Link](https://www.pixelcontroller.com/store/index.php?id_product=47&controller=product) \n🦅 FPP releases can be found here newest is at top.[Github](https://github.com/FalconChristmas/fpp/releases) \n🦅 FPP Installing and Configuring Your Controller Step by Step - Rick Harris [YouTube](https://www.youtube.com/watch?v=ZV4o11XiaU0) \n🦅 VCS 2020 Falcon Controllers - Scott Hanson- [YouTube](https://www.youtube.com/watch?v=J9KDQvYBoe0)",
+		"description": "🦅 [PixelController.com](https://www.pixelcontroller.com/store/index.php) - Home of the Falcon controllers that can drive 1024 lights per port can drive many different types of pixels \n\n🦅 [Falcon Controller Support Page](https://www.pixelcontroller.com/store/index.php?id_cms_category=5&controller=cms) \n🦅 VCS 2020 Falcon Controllers - Scott Hanson- [YouTube](https://www.youtube.com/watch?v=J9KDQvYBoe0)",
 		"category": [
 			"led"
 		],
@@ -572,9 +572,9 @@
 			"LED kulp","ledkulp",
 			"led-kulp"
 		],
-		"title": "💫 LED Kulp Controllers",
+		"title": "💫 Kulp LED Controllers",
 		"minRank": 0,
-		"description": "🌈 kulplights.com -Home of FPP based pixel controllers that can each drive 800 Pixels at 40FPS 1500 Pixels at 20fps per port ws281x ONLY [Link](https://kulplights.com/) \n🌈 FPP releases can be found [here](https://github.com/FalconChristmas/fpp/releases) newest is at top \n🌈 Kulp k16- A 16 port controller that runs FPP Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE,fm-transmitter* [Link](https://kulplights.com/product/k16a-b/) \n🌈 Kulp 32 port controller Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE,fm-transmitter* [Link](https://kulplights.com/product/k32a-b/) \n🌈 Kulp k8-8 port controller Input voltage 5, or 12V selectable. *ADD-ONS NEEDED SCREEN,SDCARD,BEAGLEBONE* [Link](https://kulplights.com/product/k8-b/) \n🌈 IF RUNNING WIFI YOU WILL NEED THIS ADAPTER. [Link](https://kulplights.com/product/1200mbs-antenna-wifi/) \n🌈 You might also need this usb hub. [Link](https://kulplights.com/product/usb-gigabit-ethernet-adapter/) \n🌈 The 4-String Differential Smart Receiver Board can be connected to many different controller options allowing 4 strings to be placed up to 300+ feet from the controllers . Input voltage 5, or 12V . The Smart Receiver can be daisy-chained together up to three. [Link](https://kulplights.com/product/smart-receiver/) \n🌈 Kulp's user manual *listed as f8-b but works for all boards*. [Link](https://kulplights.com/manuals/F8-B-Manual.pdf) \n🌈 FPP Installing and Configuring Your Controller Step by Step - [Rick Harris YouTube](https://www.youtube.com/watch?v=ZV4o11XiaU0) \n🌈 VCS 2020 Kulp Boards - [Daniel Kulp YouTube](https://www.youtube.com/watch?v=sceGQMZ0dHw&t=2720s) \n🌈 FPP Plugins & Scripts - [Daniel Kulp YouTube](https://www.youtube.com/watch?v=pE4I5igbAuE&t=2s)",
+		"description": "🌈 kulplights.com (https://kulplights.com/) - Home of FPP based pixel controllers that can each drive 800 Pixels at 40FPS or 1500 Pixels at 20fps per port and work with ws281x only \n\n🌈 [Wifi Adatpter](https://kulplights.com/product/1200mbs-antenna-wifi/) - Guaranteed to work, not all options available other places will work \n\n🌈 [USB Hub](https://kulplights.com/product/usb-gigabit-ethernet-adapter/) - Need if plugging multiple USB items into the controller (ie. Soundblaster, Wifi Adapter, Ethernet Adapter) \n\n🌈 [Kulp User Manual](https://kulplights.com/manuals/F8-B-Manual.pdf) - listed as f8-b but works for all boards \n\n🌈 VCS 2020 Kulp Boards - [Daniel Kulp YouTube](https://www.youtube.com/watch?v=sceGQMZ0dHw&t=2720s",
 		"category": [
 			"led"
 		],
@@ -616,7 +616,6 @@
 			"led references","led-references","ledreferences","led_references",
 			"led ref","led_ref","led-ref","ledref",
 			"led guide","led_guide","led-guide","ledguide",
-			"led list","led_list","led-list","ledlist",
 			"led help","led_help","led-help","ledhelp"
 		],
 		"title": "💫 LED Related References",
@@ -641,7 +640,7 @@
 		],
 		"title": "💫 LED Display Sequences",
 		"minRank": 0,
-		"description": "Free Sequences and How to: \n☄️ [xLights Free Sequences (Google Drive)](http://share.xlights.org/) \n☄️ [xlights Around the World](http://xlightsaroundtheworld.com/) \n☄️ [VCS 2020 xLights: Basic Sequencing Michael Stoffregen - VIDEO](https://www.youtube.com/watch?v=EvK7AUJ1Nrk) \n\n Paid and Subscription Vendors: \n☄️ [Animated Lumination Sequences](http://animatedillumination.com/) \n☄️ [Bostick Family Light Shows](https://bostickfamilylightshow.com/collections/sequences) \n☄️ [Fairy Pixel Dust](https://www.fairypixeldust.com/) \n☄️ [Magical Light Shows](https://magicallightshows.com/) \n☄️ [Pixel Pro Displays](https://www.pixelprodisplays.com/) \n☄️ [Pixel Sequence Pros](https://pixelsequencepros.com/) \n☄️ [RGB Sequences](https://rgbsequences.net/) \n☄️ [Sequence Armory](https://holidaylightingthinktank.net/sequence-armory/) \n☄️ [Showstopper Sequences](https://showstoppersequences-com.3dcartstores.com/) \n☄️ [Syracuse Lights](https://www.syracuselights.org/sequences) \n☄️ [Xtreme Sequences](https://www.xtremesequences.com/) \n☄️ [Lightshow 101](https://www.lightshow101.com/sequences) \n\n Lyric Tracks: \n☄️ Sequences missing lyric tracks and want some help, try [this](https://autolyrics.lightingfanatics.com/) tool",
+		"description": "Free Sequences and How to: \n☄️ [xLights Free Sequences (Google Drive)](http://share.xlights.org/) \n☄️ [xlights Around the World](http://xlightsaroundtheworld.com/) \n☄️ [VCS 2020 xLights: Basic Sequencing Michael Stoffregen - VIDEO](https://www.youtube.com/watch?v=EvK7AUJ1Nrk) \n\n Paid and Subscription Vendors: \n☄️ [Animated Lumination Sequences](http://animatedillumination.com/) \n☄️ [Bostick Family Light Shows](https://bostickfamilylightshow.com/collections/sequences) \n☄️ [Fairy Pixel Dust](https://www.fairypixeldust.com/) \n☄️ [Magical Light Shows](https://magicallightshows.com/) \n☄️ [Pixel Pro Displays](https://www.pixelprodisplays.com/) \n☄️ [Pixel Sequence Pros](https://pixelsequencepros.com/) \n☄️ [RGB Sequences](https://rgbsequences.net/) \n☄️ [Sequence Armory](https://holidaylightingthinktank.net/sequence-armory/) \n☄️ [Showstopper Sequences](https://showstoppersequences-com.3dcartstores.com/) \n☄️ [Syracuse Lights](https://www.syracuselights.org/sequences) \n☄️ [Xtreme Sequences](https://www.xtremesequences.com/) \n☄️ [Lightshow 101](https://www.lightshow101.com/sequences)",
 		"category": [
 			"led"
 		],
@@ -657,7 +656,7 @@
 		],
 		"title": "🛠️ LED Tools",
 		"minrank": 0,
-		"description": "Here are some helpful links to some of our favorite tools to assist in creating your LED light show:\n\n🛠️ Creating Lyric tracks for use in xLights:\n [AutoLyrics at LightingFanatics](https://autolyrics.lightingfanatics.com/)\n [Auto Lyrics Align](https://autolyrixalign.hltnus.org/)\n\n🛠️ Normalize your MP3 audio volume across songs:\n [MP3 Gain](http://mp3gain.sourceforge.net/)\n\n🛠️ Calculate needs for building a MegaTree:\n [Mega Tree Calculator by LightShowHub](https://www.lightshowhub.com/tools/mega-tree-calculator)",
+		"description": "Here are some helpful links to some of our favorite tools to assist in creating your LED light show:\n\n🛠️ Creating Lyric tracks for use in xLights:\n [AutoLyrics at LightingFanatics](https://autolyrics.lightingfanatics.com/)\n [Auto Lyrics Align](https://autolyrixalign.hltnus.org/)\n\n🛠️ Normalize your MP3 audio volume across songs:\n [MP3 Gain](http://mp3gain.sourceforge.net/)\n\n🛠️ Calculate needs for building a MegaTree:\n [Mega Tree Calculator by LightShowHub](https://www.lightshowhub.com/tools/mega-tree-calculator)\n\n🛠️ Calculate needs for building a Panel Matrix:\n [Build a Custom Panel Matrix by Wired Watts](https://www.wiredwatts.com/build-a-matrix-kit)\n\n🛠️ Custom Mounting Solution Design:\n [jdeation Mounting Kit Designs](https://www.jdeation.com/)",
 		"category": [
 			"led"
 		],
@@ -700,7 +699,7 @@
 		],
 		"title": "💫 LED xLights",
 		"minRank": 0,
-		"description": "🔹 [xLights](https://xlights.org/) is a free and open source program that enables you to design, create and play amazing lighting displays through the use of DMX controllers, E1.31 Ethernet controllers and more. \n\n🔹 [xLights download page](https://xlights.org/releases/) \n\n🔹 Need assistance with xLights? Join the xLights Zoom room and put your hand up, someone will assist you. [xLights Zoom Room](https://xlights.org/download/1944/)",
+		"description": "🔹 [xLights](https://xlights.org/) is a free and open source program that enables you to design, create and play amazing lighting displays through the use of DMX controllers, E1.31 Ethernet controllers and more. \n\n🔹 [xLights Download Page](https://xlights.org/releases/) \n\n🔹 Need assistance with xLights? Join the xLights Zoom room and put your hand up, someone will assist you. [xLights Zoom Room](https://xlights.org/download/1944/)",
 		"category": [
 			"led"
 		],
@@ -801,7 +800,7 @@
 		],
 		"title": "NEOPixels 🚦 LED Lights etal...",
 		"minRank": 0,
-		"description": "Individually Addressable LEDs come in many varieties; you may find them referred to as NeoPixels, or by their part numbers, which include WS2811, WS2812b, WS2813, WS2815, SK9822, SK9812, or APA106.\nYou will need a microcontroller of some kind to run them; popular examples are an ESP8266 and ESP32 based board running WLED, like the Dig-Uno and Dig-Quad, or a BeagleBone based board running FPP like a Kulp Controller. \n\nDrZzs has a lot of great videos!  Check out his LED Playlist to get started: 🚦 [DrZzs LED YouTube Playlist](https://www.youtube.com/watch?v=ZDQGDmtZ3zY&list=PLL02pNmOcO9kOgJYkwcv4c1ApVffxIN8d)  \n\nHave an LED related question? Be sure to ask your question in the <#511947803115913217> Channel here on discord! Our LED masterminds, the PixelHeads, generally hang out there and can answer your question(s) swiftly. \n\nSee also: \n {prefix}WLED\n {prefix}LED_Controller",
+		"description": "Individually Addressable LEDs come in many varieties; you may find them referred to as NeoPixels, or by their part numbers, which include WS2811, WS2812b, WS2813, WS2815, SK9822, SK9812, or APA106.\n\nYou will need a microcontroller of some kind to run them; popular examples are an ESP8266 and ESP32 based board running WLED, like the Dig-Uno and Dig-Quad, or a BeagleBone based board running FPP like a Kulp Controller. \n\nDrZzs has a lot of great videos!  Check out his LED Playlist to get started:\n🚦 [DrZzs LED YouTube Playlist](https://www.youtube.com/watch?v=ZDQGDmtZ3zY&list=PLL02pNmOcO9kOgJYkwcv4c1ApVffxIN8d)  \n\nSee also: \n {prefix}WLED\n {prefix}LED_Controller",
 		"category": [
 			"microcontroller",
 			"led"
