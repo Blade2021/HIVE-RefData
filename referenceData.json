@@ -912,7 +912,17 @@
 		"alias": [],
 		"title": "Who Are You Responding To? ⟹",
 		"minRank": 0,
-		"description": "If there are multiple conversations going at once, try using the reply feature in discord.  This helps everyone know who they are replying to and from.  PLUS, if a package shows up when you reply, give it a click to show you're appreciation.",
+		"description": "If there are multiple conversations going at once, try using the reply feature or start a Thread in discord.  This helps everyone know who they are replying to and from.  PLUS, if a package shows up when you reply, give it a click to show you're appreciation.",
+		"category": [
+			"general"
+		],
+		"keywords": []
+	},
+	"Thread It": {
+		"alias": ["thread"],
+		"title": "WE SUPPORT THREADS!",
+		"minRank": 0,
+		"description": "Channels can get messy when multiple people are discussing different topics at once.  If this happens, please consider starting a thread in the channel so that each conversation can go uninterrupted.",
 		"category": [
 			"general"
 		],
