@@ -21,7 +21,7 @@
 		],
 		"title": "🗃 How do I test my Automation? 🧰",
 		"minRank": 0,
-		"description":"To test an automation there's three stages you can follow. Testing the action, the condition and action, and the whole automation:\n\n1) Use _Configuration_ -> _Automations_ to find the automationand then push _Run Actions_. If this fails your problem is in the `action:` section, and details should be found in your log file\n2) Use _Developer tools_ -> _Services_ and call `automation.trigger` on the automation with `skip_condition: false`. If the first passes but this fails then the problem is in your `condition:` block\n3) Use _Developer tools_ -> _States_ to find the trigger entity, click the name, then change the state (at the top) to something that'll trigger the automation before pushing _Set State_. If this fails then the problem is with your `trigger:` section, or the automation is turned off (you can check that in _Developer tools -> States_).\n\nYou can also see [this section in the docs](https://www.home-assistant.io/docs/automation/troubleshooting/) and with HA 2021.4 onwards [debug automations](https://www.home-assistant.io/blog/2021/04/07/release-20214/#automation-debugging).",
+		"description":"To test an automation there's three stages you can follow. Testing the action, the condition and action, and the whole automation:\n\n1) Use _Configuration_ -> _Automations_ to find the automation and then push _Run Actions_. If this fails your problem is in the `action:` section, and details should be found in your log file\n2) Use _Developer tools_ -> _Services_ and call `automation.trigger` on the automation with `skip_condition: false`. If the first passes but this fails then the problem is in your `condition:` block\n3) Use _Developer tools_ -> _States_ to find the trigger entity, click the name, then change the state (at the top) to something that'll trigger the automation before pushing _Set State_. If this fails then the problem is with your `trigger:` section, or the automation is turned off (you can check that in _Developer tools -> States_).\n\nYou can also see [this section in the docs](https://www.home-assistant.io/docs/automation/troubleshooting/) and with HA 2021.4 onwards [debug automations](https://www.home-assistant.io/blog/2021/04/07/release-20214/#automation-debugging).",
 		"category": [
 			"automation"
 		],
@@ -555,7 +555,7 @@
 			"power_injection",
 			"powerinjection",
 			"power-injection",
-			"power injeciton"
+			"power injection"
 		],
 		"title": "💫 LED Inject Help",
 		"minRank": 0,
@@ -728,7 +728,7 @@
 		"light project",
 		"lighting"
 		],
-		"title": "💫 Need assistance with a lighting proejct?!",
+		"title": "💫 Need assistance with a lighting project?!",
 		"minRank": 0,
 		"description": "Have an LED or light related question?  Head over to the proper lighting channel and ask your question: \n\n <#511947803115913217> \n Having trouble with LEDs or a question? post it here.  We cover wLED, Kulp boards, Falcon, xLights and everything needed to make your life brighter.\n\n <#691043294397857843> \n TV and monitor ambient lighting that match the screen image.  \n\n <#838500659938197546> \n Whole House DC Lighting Solution. \n\n <#885593663344898139> \n This channel is set aside specifically for collecting pictures of your PermaTrack from DrZzs! Show off the beautiful LED installation and display!",
 		"category": [
@@ -836,7 +836,7 @@
 		"alias": [],
 		"title": "PACKAGE!",
 		"minRank": 0,
-		"description":"\uD83D\uDCE6\uD83D\uDCE6\uD83D\uDCE6 Did someone recently help you?  If you Thank them using a reply or mention them HIVE will put a package emoji on the message.  If YOU click this reaction.  It will send them positive karma, increasing their \"helpfullness\" rating.  So be a good sport.  CLICK THE PACKAGE! \uD83D\uDCE6",
+		"description":"\uD83D\uDCE6\uD83D\uDCE6\uD83D\uDCE6 Did someone recently help you?  If you Thank them using a reply or mention them HIVE will put a package emoji on the message.  If YOU click this reaction.  It will send them positive karma, increasing their \"helpfulness\" rating.  So be a good sport.  CLICK THE PACKAGE! \uD83D\uDCE6",
 		"category": [
 			"general"
 		],
@@ -910,7 +910,7 @@
 	},
 	"reply": {
 		"alias": [],
-		"title": "Who Are You Respoding To? ⟹",
+		"title": "Who Are You Responding To? ⟹",
 		"minRank": 0,
 		"description": "If there are multiple conversations going at once, try using the reply feature in discord.  This helps everyone know who they are replying to and from.  PLUS, if a package shows up when you reply, give it a click to show you're appreciation.",
 		"category": [
@@ -990,7 +990,7 @@
 		],
 		"title": "Sorting out the Sonoff DIY Firmware",
 		"minRank": 0,
-		"description": "Sonoff has come up with a version of firmware that does not require soldering or an FTDI adapter.  This is nice, but the process is a bit complicated and involved.  There are articles and videos attached here to help you be sucessful in your attempt.  \n🏷️ [WhatAreWeFixing.Today Video](https://whatarewefixing.today/?p=589)  \n🏷️ [DrZzs Video](https://www.youtube.com/watch?v=fsrT5o1C1w0)  \n🏷️ [Flash Tasmota on a Sonoff in DIY mode in Linux](https://sigmdel.ca/michel/ha/sonoff/sonoff_mini_en.html)  \n🏷️ [Sonoff-ITead GIT](https://github.com/itead/Sonoff_Devices_DIY_Tools/blob/master/other/SONOFF%20DIY%20MODE%20Protocol%20Doc%20v1.4.md)  \n🏷️ [Tasmota Documentation](https://tasmota.github.io/docs/Sonoff-DIY/)",
+		"description": "Sonoff has come up with a version of firmware that does not require soldering or an FTDI adapter.  This is nice, but the process is a bit complicated and involved.  There are articles and videos attached here to help you be successful in your attempt.  \n🏷️ [WhatAreWeFixing.Today Video](https://whatarewefixing.today/?p=589)  \n🏷️ [DrZzs Video](https://www.youtube.com/watch?v=fsrT5o1C1w0)  \n🏷️ [Flash Tasmota on a Sonoff in DIY mode in Linux](https://sigmdel.ca/michel/ha/sonoff/sonoff_mini_en.html)  \n🏷️ [Sonoff-ITead GIT](https://github.com/itead/Sonoff_Devices_DIY_Tools/blob/master/other/SONOFF%20DIY%20MODE%20Protocol%20Doc%20v1.4.md)  \n🏷️ [Tasmota Documentation](https://tasmota.github.io/docs/Sonoff-DIY/)",
 		"category": [
 			"switching-applications"
 		],
@@ -1222,7 +1222,7 @@
 	},
 	"wled": {
 		"alias": [],
-		"title": "WLED - LED light contoller firmware.",
+		"title": "WLED - LED light controller firmware.",
 		"minRank": 0,
 		"description": "Check out this link to get started: \n\n🚥 [WLED FAQ](https://kno.wled.ge/basics/faq/)  \n\nWLED is a firmware that can be loaded onto ESP8266 and ESP32 microcontrollers, such as the Dig-Uno and Dig-Quad, and is used to control addressable LEDs. \nWLED has many built-in features, has an app for convenient conrol, is compatible with Home Assistant via an integration, DMX-based Light Controller protocols, and can be used with xLights for advanced lighting effects.\n\n[WLED Discord](https://discord.gg/hyAzVMASsu)\n[WLED App on Google Play Store](https://play.google.com/store/apps/details?id=com.aircoookie.WLED)\n[WLED App on Apple App Store](https://apps.apple.com/us/app/wled/id1475695033)\n\nSee also: \n {prefix}NeoPixel\n {prefix}wled_update \n\n[Sound Reactive WLED WIKI](https://github.com/atuline/WLED/wiki) \n[WLED Latest Release](https://github.com/Aircoookie/WLED/releases/latest)",
 		"category": [

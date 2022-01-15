@@ -2,24 +2,24 @@
 ![Deploy](https://github.com/Blade2021/HIVE-RefData/workflows/Deploy/badge.svg)
 
 # How to contribute?
-Wanna help contribute to a short database of useful commands for HIVE?  Check out the example.json included with this repo.  This will give you the json object template that will be used for each definition.  Now its time to "fill in the blanks", setup your definition using the data structure below.  Then submit a PR (pull request) for review.  Please remember that all submissions **MUST** to conform to the data structure to be accepted.
+Want to help contribute to a short database of useful commands for HIVE?  Check out the example.json included with this repo.  This will give you the json object template that will be used for each definition.  Now its time to "fill in the blanks", setup your definition using the data structure below.  Then submit a PR (pull request) for review.  Please remember that all submissions **MUST** to conform to the data structure to be accepted.
 
 ## Data Structure
 #### Alias (Optional)
-Does your definition fit more then just one reference?  No problem, just add any aliases here.
+Does your definition fit more than just one reference?  No problem, just add any aliases here.
 #### Title
 The Title on the top of the reply box from Hive
 #### minRank
 Future
 #### Description
-This is the meat of the defintion.  What is the defintion?  What does it do?  How does it help?  Details are key.  (Just remember we do have a 1950 character limit so no 10 page essays please.)
+This is the meat of the defintion.  What is the defintion?  What does it do?  How does it help?  Details are key.  (Just remember we do have a 1950 character limit, so no 10 page essays please.)
 #### Category
-Pick a category from below or suggest a new one.  We are trying to generalize everything for easy access so try to be generic.  The category is also an array object so you can use more then one!
+Pick a category from below or suggest a new one.  We are trying to generalize everything for easy access so try to be generic.  The category is also an array object, so you can use more than one!
 #### keywords
-List key words that would help in a future search engine function.
+List keywords that would help in a future search engine function.
 
 ## Acceptable Categories
-- infastructure
+- infrastructure
 - switching-applications
 - lights
 - applications
