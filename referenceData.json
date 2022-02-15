@@ -1354,7 +1354,7 @@
 		],
 		"title": "Dig-Quad Default Pinout",
 		"minRank": 0,
-		"description": "The Default Pinout for a Dig-Quad with an ESP32. \n\n LED 1 Output = Pin 16 \n LED 2 Output = Pin 3 \n LED 3 Output = Pin 1 \n LED 4 Output = Pin 4 \n LED 5 Output = Pin 19 \n\n Additional detail is available here: [QuinLed Dig-Quad Pinout Guide](https://quinled.info/quinled-dig-quad-pinout-guide/)",
+		"description": "The Default Pinout for a Dig-Quad with an ESP32. \n\n LED 1 Output = Pin 16 \n LED 2 Output = Pin 3 \n LED 3 Output = Pin 1 \n LED 4 Output = Pin 4 \n LED 5 Output = Pin 15 \n\n Additional detail is available here: [QuinLed Dig-Quad Pinout Guide](https://quinled.info/quinled-dig-quad-pinout-guide/)",
 		"category": [
 			"lights",
 			"led"
