@@ -302,7 +302,7 @@
 		],
 		"title": "Help Desk",
 		"minRank": 0,
-		"description": "Need help with an order from [DrZzs.com](https://drzzs.com)?  Submit a ticket to the HelpDesk. [https://helpdesk.drzzs.com](https://helpdesk.drzzs.com)",
+		"description": "Need help with an order from [DrZzs.com](https://drzzs.com/shop/)? \n\n🛟 - Submit a ticket to the Product Issue Resolution Form HERE: [https://drzzs.com/contact/](https://drzzs.com/contact/) \n\n🛟 - If you have an order question or Product issue for PermaTrack, Email [sales@permatrack.us](mailto:sales@permatrack.us)  \n\n🛟 - If you just have questions about if or how your device is working, PLEASE check first on the Discord #led-lighting-diy-🚥-🚥 channel. [led-lighting-diy-🚥-🚥](https://discord.gg/AxhpqH3jRr)",
 		"category": [
 			"information",
 			"led",
@@ -311,8 +311,8 @@
 		"keywords": [
 			"Helpdesk", 
 			"Support", 
-			"QuinDuo", 
-			"QuinQuad"
+			"DigUno", 
+			"DigQuad"
 		]
 	},
 	"input_boolean": {
