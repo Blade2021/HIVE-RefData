@@ -930,8 +930,8 @@
 		],
 		"keywords": []
 	},
-	"Thread It": {
-		"alias": ["thread"],
+	"thread": {
+		"alias": ["threads"],
 		"title": "WE SUPPORT THREADS!",
 		"minRank": 0,
 		"description": "Channels can get messy when multiple people are discussing different topics at once.  If this happens, please consider starting a thread in the channel so that each conversation can go uninterrupted.",
