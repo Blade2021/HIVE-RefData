@@ -388,7 +388,7 @@
 		],
 		"title": "💫 LED Data Boosters",
 		"minRank": 0,
-		"description": "⚡QuinLED Data Booster: [DrZzs](https://drzzs.com/shop/3-wire-data-booster/) | [ALLNET](https://shop.allnetchina.cn/collections/quinled/products/quinled-data-booster) \n⚡xConnect Ends: [WiredWatts](https://www.wiredwatts.com/pixaboost3-pixel-data-booster-xconnect) | [Wallys](https://www.wallyslights.com/collections/data-boosters/products/data-booster-with-xconnect-pigtails) | [RGBMan](https://www.rgb-man.com/online-store/Xconnect-FAMP-p248004445) | [PixelController](https://www.pixelcontroller.com/store/controllers/54-falcon-picap.html) | [Your Pixel Store](https://www.yourpixelstore.com/all-products?store-page=F-Amp-with-xConnect-Pigtails-Pack-of-5-p403550735) \n⚡RayWu Ends: [WiredWatts](https://www.wiredwatts.com/pixaboost1-pixel-data-boosters-ray) | [Wallys](https://www.wallyslights.com/collections/data-boosters/products/data-boosters-with-ray-wu-pigtails-1) | [RGBMan](https://www.rgb-man.com/online-store/FAMP-with-13-5-Ends-Ray-Wu-p254604858) | [PixelController](https://www.pixelcontroller.com/store/controllers/55-falcon-picap.html) \n⚡Open Wire Ends: [PixelController](https://www.pixelcontroller.com/store/controllers/53-falcon-picap.html) \n⚡Long Range Data: [DrZzz](https://drzzs.com/shop/d3datamax/)",
+		"description": "⚡QuinLED Data Booster: [DrZzs](https://drzzs.com/shop/3-wire-data-booster/) | [ALLNET](https://shop.allnetchina.cn/collections/quinled/products/quinled-data-booster) \n⚡xConnect Ends: [WiredWatts](https://www.wiredwatts.com/pixaboost3-pixel-data-booster-xconnect) | [Wallys](https://www.wallyslights.com/collections/data-boosters/products/data-booster-with-xconnect-pigtails) | [RGBMan](https://www.rgb-man.com/online-store/Xconnect-FAMP-p248004445) | [PixelController](https://pixelcontroller.com/store/products/54-falcon-picap.html) | [Your Pixel Store](https://www.yourpixelstore.com/all-products?store-page=F-Amp-with-xConnect-Pigtails-Pack-of-5-p403550735) \n⚡RayWu Ends: [WiredWatts](https://www.wiredwatts.com/pixaboost1-pixel-data-boosters-ray) | [Wallys](https://www.wallyslights.com/collections/data-boosters/products/data-boosters-with-ray-wu-pigtails-1) | [RGBMan](https://www.rgb-man.com/online-store/FAMP-with-13-5-Ends-Ray-Wu-p254604858) | [PixelController](https://pixelcontroller.com/store/products/55-falcon-picap.html) \n⚡Open Wire Ends: [PixelController](https://pixelcontroller.com/store/products/53-falcon-picap.html)",
 		"category": [
 			"led"
 		],
@@ -525,7 +525,7 @@
 		],
 		"title": "💫 LED FPP",
 		"minRank": 0,
-		"description": "✈️ FPP Manual can be found [here](https://falconchristmas.github.io/FPP_Manual.pdf) \n✈️ FPP releases can be found [here](https://github.com/FalconChristmas/fpp/releases) \n✈️ The Falcon [Christmas Forum](http://falconchristmas.com/forum/) - support for fpp, kulp and falcon \n\n✈️ FPP Installing and Configuring Your Controller Step by Step - Rick Harris [YouTube](https://www.youtube.com/watch?v=ZV4o11XiaU0) \n✈️ FPP In Detail Master / Remote / Schedule / Playlist - Rick Harris - [YouTube](https://www.youtube.com/watch?v=y27EarxYW6Y) \n✈️ FPP Plugins & Scripts - Daniel Kulp [YouTube](https://www.youtube.com/watch?v=pE4I5igbAuE&t=2s)",
+		"description": "✈️ FPP Manual can be found [here](https://falconchristmas.github.io/FPP_Manual(6.0).pdf) \n✈️ FPP releases can be found [here](https://github.com/FalconChristmas/fpp/releases) \n✈️ The Falcon [Christmas Forum](http://falconchristmas.com/forum/) - support for fpp, kulp and falcon \n\n✈️ FPP Installing and Configuring Your Controller Step by Step - Rick Harris [YouTube](https://www.youtube.com/watch?v=ZV4o11XiaU0) \n✈️ FPP In Detail Master / Remote / Schedule / Playlist - Rick Harris - [YouTube](https://www.youtube.com/watch?v=y27EarxYW6Y) \n✈️ FPP Plugins & Scripts - Daniel Kulp [YouTube](https://www.youtube.com/watch?v=pE4I5igbAuE&t=2s)",
 		"category": [
 			"led"
 		],
@@ -1354,7 +1354,7 @@
 		],
 		"title": "Dig-Quad Default Pinout",
 		"minRank": 0,
-		"description": "The Default Pinout for a Dig-Quad with an ESP32. \n\n LED 1 Output = Pin 16 \n LED 2 Output = Pin 3 \n LED 3 Output = Pin 1 \n LED 4 Output = Pin 4 \n LED 5 Output = Pin 15 \n\n Additional detail is available here: [QuinLed Dig-Quad Pinout Guide](https://quinled.info/quinled-dig-quad-pinout-guide/)",
+		"description": "The Default Pinout for a Dig-Quad with an ESP32. \n\n LED 1 Output = Pin 16 \n LED 2 Output = Pin 3 \n LED 3 Output = Pin 1 \n LED 4 Output = Pin 4 \n LED 5 Output = Pin 15 \n\nAdditional Outputs with AE+ \n\n LED 6 Output = Pin 21 \n LED 7 Output = Pin 17 \n LED 8 Output = Pin 22 \n\n Additional detail is available here: \n [QuinLed Dig-Quad Pinout Guide](https://quinled.info/quinled-dig-quad-pinout-guide/) \n [QuinLED-ESP32-AE+ Pinout Guide](https://quinled.info/quinled-esp32-ae-pinout-guide/)",
 		"category": [
 			"lights",
 			"led"
@@ -1371,7 +1371,7 @@
 		],
 		"title": "Dig-Uno Default Pinout",
 		"minrank": 0,
-		"description": "The Default Pinout for a Dig-Uno with an ESP32. \n\n LED 1 Output = Pin 16 \n LED 2 Output = Pin 3 \n\n Additional detail is available here: [QuinLed Dig-Uno Pinout Guide](https://quinled.info/quinled-dig-uno-pinout-guide/)",
+		"description": "The Default Pinout for a Dig-Uno with an ESP32. \n\n LED 1 Output = Pin 16 \n LED 2 Output = Pin 3 \n\nAdditional Outputs with AE+ \n\n LED 6 Output = Pin 21 \n LED 7 Output = Pin 17 \n LED 8 Output = Pin 22 \n\n Additional detail is available here: \n [QuinLed Dig-Uno Pinout Guide](https://quinled.info/quinled-dig-uno-pinout-guide/) \n [QuinLED-ESP32-AE+ Pinout Guide](https://quinled.info/quinled-esp32-ae-pinout-guide/)",
 		"category": [
 			"lights",
 			"led"
