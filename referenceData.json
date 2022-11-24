@@ -361,7 +361,7 @@
 		]
 	},
 	"karma": {
-		"alias": [],
+		"alias": ["ks"],
 		"title": "What is Karma?",
 		"minRank": 0,
 		"description": "If someone has helped you, be sure to thank them by sending them positive karma using the <:KU:717177145717424180> reaction on their message or by clicking the 📦 after replying thanks to their message.",
@@ -446,7 +446,7 @@
 		],
 		"title": "ESP Drivers",
 		"minRank": 0,
-		"description": "When flashing an ESP chip your computer needs the proper driver to recognize the device. There are two versions that could be needed: \n🏎️ [CP210x Driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) \n🏎️ [CH340 Driver](https://www.wemos.cc/en/latest/ch340_driver.html) \n🏎️ [CH9102 Driver](https://github.com/WCHSoftGroup/ch343ser_linux)",
+		"description": "When flashing an ESP chip your computer needs the proper driver to recognize the device. There are these versions that could be needed: \n🏎️ [CP210x Driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) \n🏎️ [CH340 Driver](https://www.wemos.cc/en/latest/ch340_driver.html) \n🏎️ [CH9102 Driver](https://github.com/WCHSoftGroup/ch343ser_linux)",
 		"category": [
 			"led"
 		],
@@ -652,7 +652,7 @@
 		],
 		"title": "💫 LED Display Sequences",
 		"minRank": 0,
-		"description": "Sequence Search: \n☄️ [xLights Sequence Search](https://xlights.info/) \n\n Free Sequences: \n☄️ [xLights Free Sequences (Google Drive)](http://share.xlights.org/) \n☄️ [xLights Around the World](http://xlightsaroundtheworld.com/) \n\n Paid and Subscription Vendors: \n☄️ [Animated Lumination Sequences](http://animatedillumination.com/) \n☄️ [Bostick Family Light Shows](https://bostickfamilylightshow.com/collections/sequences) \n☄️ [Fairy Pixel Dust](https://www.fairypixeldust.com/) \n☄️ [Lightshow 101](https://www.lightshow101.com/sequences) \n☄️ [Magical Light Shows](https://magicallightshows.com/) \n☄️ [Pixel Perfect Sequences](https://pixelperfectsequences.com/) \n☄️ [Pixel Pro Displays](https://www.pixelprodisplays.com/) \n☄️ [Pixel Sequence Pros](https://pixelsequencepros.com/) \n☄️ [RGB Sequences](https://rgbsequences.net/) \n☄️ [Sequence Armory](https://holidaylightingthinktank.net/sequence-armory/) \n☄️ [Showstopper Sequences](https://showstoppersequences-com.3dcartstores.com/) \n☄️ [Syracuse Lights](https://www.syracuselights.org/sequences) \n☄️ [Xtreme Sequences](https://www.xtremesequences.com/)",
+		"description": "Sequence Search: \n☄️ [xLights Sequence Search](https://xlights.info/) \n\n Free Sequences: \n☄️ [xLights Free Sequences (Google Drive)](http://share.xlights.org/) \n☄️ [xLights Around the World](http://xlightsaroundtheworld.com/) \n\n Paid and Subscription Vendors: \n☄️ [Animated Lumination Sequences](http://animatedillumination.com/) \n☄️ [Sequence Armory](https://holidaylightingthinktank.net/sequence-armory/) \n☄️ [Bostick Family Light Shows](https://bostickfamilylightshow.com/collections/sequences) \n☄️ [Fairy Pixel Dust](https://www.fairypixeldust.com/) \n☄️ [Lightshow 101](https://www.lightshow101.com/sequences) \n☄️ [Magical Light Shows](https://magicallightshows.com/) \n☄️ [Pixel Perfect Sequences](https://pixelperfectsequences.com/) \n☄️ [Pixel Pro Displays](https://www.pixelprodisplays.com/) \n☄️ [Pixel Sequence Pros](https://pixelsequencepros.com/) \n☄️ [RGB Sequences](https://rgbsequences.net/) \n☄️ [Showstopper Sequences](https://showstoppersequences-com.3dcartstores.com/) \n☄️ [Syracuse Lights](https://www.syracuselights.org/sequences) \n☄️ [Xtreme Sequences](https://www.xtremesequences.com/) \n☄️ [EFL Sequences](https://eflsequences.com/)",
 		"category": [
 			"led"
 		],
@@ -1398,9 +1398,9 @@
 	},
 	"eta": {
 		"alias":[],
-		"title": "When can I order a DigUno or DigQuad!",
+		"title": "When can I order!",
 		"minRank": 0,
-		"description": "Have you subscribed to the notification roles on discord?🤔\nIf not check this link: [Discord Post](https://discord.com/channels/469330414121517056/603029526141861907/911052700228157460)",
+		"description": "Have you subscribed to the notification roles on discord?🤔\nIf not check this link: [Discord Post](https://discord.com/channels/469330414121517056/469332542433132574/1038897173045190656)",
 		"category": [
 			"lights"
 		],
