@@ -1427,7 +1427,7 @@
 	},
 	"cashews": {
 		"alias":["sp","streampoints","nuts"],
-		"title": "What are cashews???",
+		"title": "What are cashews???🌰",
 		"minRank": 0,
 		"description": "Cashews are our way of rewarding everyone who attends during a livestream.  You can collect points which we call cashews then spend them to trigger sounds and animations on the stream.\n\nSo get nutty and start collecting those cashews by typing `/Here` DURING a livestream.",
 		"category": [
@@ -1435,6 +1435,18 @@
 		],
 		"keywords": [
 			"stream","points"
+		]
+	},
+	"led_connectors": {
+		"alias":["connectors","connector"],
+		"title": "How do you connect these LED connectors??",
+		"minRank": 0,
+		"description": "While these connectors can seem very complicated.😤  Its actually quite simple.😁  \n\nJust follow the helpful tips over at [Wired Watts](https://www.wiredwatts.com/learn-connectors)",
+		"category": [
+			"led"
+		],
+		"keywords": [
+			"led","connector"
 		]
 	}
 }
