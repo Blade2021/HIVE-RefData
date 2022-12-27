@@ -1429,7 +1429,7 @@
 		"alias":["sp","streampoints","nuts"],
 		"title": "What are cashews???🌰",
 		"minRank": 0,
-		"description": "Cashews are our way of rewarding everyone who attends during a livestream.  You can collect points which we call cashews then spend them to trigger sounds and animations on the stream.\n\nSo get nutty and start collecting those cashews by typing `/Here` DURING a livestream.",
+		"description": "Cashews are our way of rewarding everyone who attends during a livestream.  You can collect points which we call cashews then spend them to trigger sounds and animations on the stream.\n\nSo get nutty and start collecting those cashews by typing /Here DURING a livestream.\n\nAlso check out [THIS POST](https://discord.com/channels/469330414121517056/469332542433132574/1057128373337477161) for more information.",
 		"category": [
 			"stream"
 		],
