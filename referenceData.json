@@ -83,16 +83,6 @@
 			"check"
 		]
 	},
-	"code": {
-		"alias": ["share"],
-		"title": "Formatting code in Discord",
-		"minRank": 0,
-		"description": "Paste your code in the following format Replacing `json` with your desired language:\n \\`\\`\\``json` \nCode Here\n\\`\\`\\`\n`Before:`\n{\"greeting\":\"Hello World\"}\n\n`After:` ```json\n{\"greeting\":\"Hello World\"}```[More information](https://github.com/Blade2021/HIVE/wiki/Code-Formatting-&-Validation)",
-		"category": [
-			"general"
-		],
-		"keywords": []
-	},
 	"codeshare": {
 		"alias": [],
 		"title": "Code Share",
@@ -105,16 +95,6 @@
 			"code",
 			"code share"
 		]
-	},
-	"config": {
-		"alias": [],
-		"title": "Where's My Configuration?",
-		"minRank": 0,
-		"description": "Enable the \"Configuration\" section of the UI by adding `config:` to your configuration.yaml file, docs: <https://home-assistant.io/integrations/config/>",
-		"category": [
-			"home-assistant"
-		],
-		"keywords": []
 	},
 	"deconz": {
 		"alias": [],
@@ -848,7 +828,7 @@
 		"alias": [],
 		"title": "PACKAGE!",
 		"minRank": 0,
-		"description":"\uD83D\uDCE6\uD83D\uDCE6\uD83D\uDCE6 Did someone recently help you?  If you Thank them using a reply or mention them HIVE will put a package emoji on the message.  If YOU click this reaction.  It will send them positive karma, increasing their \"helpfulness\" rating.  So be a good sport.  CLICK THE PACKAGE! \uD83D\uDCE6",
+		"description":"\uD83D\uDCE6\uD83D\uDCE6\uD83D\uDCE6 Did someone recently help you?  If you Thank them using a reply or mention them HIVE will put a package emoji on the message.  If YOU click this reaction.  It will send them positive karma, increasing their helpfulness rating.  So be a good sport.  CLICK THE PACKAGE! \uD83D\uDCE6",
 		"category": [
 			"general"
 		],
