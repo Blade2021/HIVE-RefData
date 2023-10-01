@@ -1095,8 +1095,7 @@
 			"tasmota upgrade",
 			"tasmota-upgrade",
 			"Upgrade_Flow",
-			"UpgradeFlow",
-			"tasmota-upgrade"
+			"UpgradeFlow"
 		],
 		"title": "Tasmota Upgrade Path",
 		"minRank": 0,
