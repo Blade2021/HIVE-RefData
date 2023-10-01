@@ -708,7 +708,7 @@
 		],
 		"title": "Let's Encrypt SSL Certificates",
 		"minRank": 0,
-		"description":"💯 The best *How-to* for setting up Encryption and Home Assistant: \n[Juan M. Tech Video](<https://youtu.be/XdiGdC7K4sI>)",
+		"description":"The best *How-to* for setting up Encryption and Home Assistant: \n[Juan M. Tech Video](<https://youtu.be/XdiGdC7K4sI>)",
 		"category": [
 			"integrations"
 		],
